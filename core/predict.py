@@ -13,7 +13,10 @@ GAMES = os.path.join(ROOT, "games")
 def _load(code):
     d = os.path.join(GAMES, str(code))
     cfg = json.load(open(os.path.join(d, "config.json"), encoding="utf-8"))
-    snap = json.load(open(os.path.join(d, "ratings.json"), encoding="utf-8"))
+    # 杯赛/洲际赛(池 B/C)不建自己的评级,而是引用统一俱乐部池
+    ref = cfg.get("pool_ref")
+    snap_dir = os.path.join(GAMES, str(ref)) if ref else d
+    snap = json.load(open(os.path.join(snap_dir, "ratings.json"), encoding="utf-8"))
     return cfg, snap
 
 

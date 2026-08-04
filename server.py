@@ -29,7 +29,9 @@ def competitions():
         cf = os.path.join(GAMES, code, "config.json")
         if os.path.isfile(cf):
             c = json.load(open(cf, encoding="utf-8"))
-            has = os.path.isfile(os.path.join(GAMES, code, "ratings.json"))
+            ref = c.get("pool_ref")
+            snap_dir = os.path.join(GAMES, str(ref)) if ref else os.path.join(GAMES, code)
+            has = os.path.isfile(os.path.join(snap_dir, "ratings.json"))
             out[code] = {"name": c.get("name"), "country": c.get("country"), "pool": c.get("pool"),
                          "category_id": c.get("category_id"), "poly_ids": c.get("poly_ids", []),
                          "ready": has}
