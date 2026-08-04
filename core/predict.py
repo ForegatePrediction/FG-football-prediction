@@ -3,7 +3,7 @@
 支持:模型概率 + (可选)盘口去水隐含概率 + 分歧 的混合口径;三语理由;队名模糊匹配。"""
 import json, os
 from .ratings import PoissonRatings
-from .markets import markets
+from .markets import markets, markets_ht
 from .odds import devig_shin, divergence
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -67,6 +67,7 @@ def predict(code, A, B, hcap=0.0, total=2.5, lang="zh", odds_1x2=None):
     rho = cfg.get("rho", -0.06)
     lh, la = PoissonRatings.rates_from_snapshot(snap, a, b)
     mk = markets(lh, la, rho)
+    mk.update(markets_ht(lh, la, rho, fh_share=cfg.get("fh_share", 0.458)))  # 半场类玩法
     out = {"code": str(code), "competition": cfg.get("name"), "category_id": cfg.get("category_id"),
            "pool": cfg.get("pool"), "A": a, "B": b, "lang": lang,
            "matched_exact": (A == a and B == b), "markets": mk,

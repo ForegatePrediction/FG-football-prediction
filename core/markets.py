@@ -148,6 +148,55 @@ def markets(lh, la, rho=-0.06, ou_lines=(0.5, 1.5, 2.5, 3.5, 4.5),
     }
 
 
+def _half_block(lh, la, rho, ou_lines):
+    """给定该半场的期望进球,产出该半场的 胜平负 / 大小球 / BTTS。"""
+    P = score_matrix(lh, la, rho, N=8)
+    N = len(P); home = draw = away = btts = 0.0
+    for i in range(N):
+        for j in range(N):
+            p = P[i][j]
+            if i > j: home += p
+            elif i == j: draw += p
+            else: away += p
+            if i > 0 and j > 0: btts += p
+    return {"result": {"home": home, "draw": draw, "away": away},
+            "over_under": {str(l): _ou(P, l) for l in ou_lines},
+            "btts": {"yes": btts, "no": 1 - btts}}, P
+
+
+def markets_ht(lh, la, rho=-0.06, fh_share=0.458, ou_lines=(0.5, 1.5, 2.5)):
+    """半场类玩法:上/下半场 胜平负、大小球、BTTS;半场平;最高进球半场;谁都不先进球。
+    近似:每半场为独立泊松,球队期望进球按 fh_share 拆分(上半场占比,联赛实测 ~0.458)。"""
+    lh1, la1 = lh * fh_share, la * fh_share
+    lh2, la2 = lh * (1 - fh_share), la * (1 - fh_share)
+    fh, P1 = _half_block(lh1, la1, rho, ou_lines)
+    sh, P2 = _half_block(lh2, la2, rho, ou_lines)
+    # 最高进球半场(两半场独立近似)
+    import math as _m
+    def tot_dist(l1, l2):
+        d = {}
+        for k in range(9):
+            d[k] = _m.exp(-(l1 + l2)) * (l1 + l2) ** k / _FACT[k]
+        return d
+    d1, d2 = tot_dist(lh1, la1), tot_dist(lh2, la2)
+    first = equal = second = 0.0
+    for a in range(9):
+        for b in range(9):
+            p = d1[a] * d2[b]
+            if a > b: first += p
+            elif a == b: equal += p
+            else: second += p
+    # 谁都不先进球 = 全场 0-0
+    p00 = _pois(0, lh) * _pois(0, la)
+    return {
+        "first_half": fh,
+        "second_half": sh,
+        "ht_result": fh["result"],
+        "highest_scoring_half": {"first": first, "equal": equal, "second": second},
+        "neither_score_first": {"yes": p00, "no": 1 - p00},
+    }
+
+
 def mg2(dist, lo, hi):
     return sum(v for k, v in dist.items() if lo <= k <= hi)
 
