@@ -1,0 +1,16 @@
+{
+ "af_id": 45,
+ "name": "FA Cup",
+ "country": "England",
+ "type": "Cup",
+ "pool": "B",
+ "category_id": "101807",
+ "poly_ids": [
+  "101807"
+ ],
+ "lg_goal": 1.35,
+ "hfa": 0.25,
+ "lr": 0.03,
+ "rho": -0.06,
+ "season_reset": 1.0
+}

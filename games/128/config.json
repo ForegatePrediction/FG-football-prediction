@@ -1,0 +1,16 @@
+{
+ "af_id": 128,
+ "name": "Liga Profesional Argentina",
+ "country": "Argentina",
+ "type": "League",
+ "pool": "A",
+ "category_id": "102561",
+ "poly_ids": [
+  "102561"
+ ],
+ "lg_goal": 1.35,
+ "hfa": 0.25,
+ "lr": 0.03,
+ "rho": -0.06,
+ "season_reset": 1.0
+}

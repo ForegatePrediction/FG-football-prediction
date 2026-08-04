@@ -1,0 +1,16 @@
+{
+ "af_id": 262,
+ "name": "Liga MX",
+ "country": "Mexico",
+ "type": "League",
+ "pool": "A",
+ "category_id": "102448",
+ "poly_ids": [
+  "102448"
+ ],
+ "lg_goal": 1.35,
+ "hfa": 0.25,
+ "lr": 0.03,
+ "rho": -0.06,
+ "season_reset": 1.0
+}

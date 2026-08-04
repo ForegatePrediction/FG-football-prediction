@@ -1,0 +1,893 @@
+[
+ {
+  "pool": "A",
+  "poly_label": "A Lyga",
+  "poly_id": "105254",
+  "af_id": 362,
+  "af_name": "A Lyga",
+  "af_country": "Lithuania",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Argentina Primera División",
+  "poly_id": "102561",
+  "af_id": 128,
+  "af_name": "Liga Profesional Argentina",
+  "af_country": "Argentina",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Australian A-League",
+  "poly_id": "102765",
+  "af_id": 188,
+  "af_name": "A-League",
+  "af_country": "Australia",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Austria Bundesliga",
+  "poly_id": "104929",
+  "af_id": 218,
+  "af_name": "Bundesliga",
+  "af_country": "Austria",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Besta deild",
+  "poly_id": "105244",
+  "af_id": 164,
+  "af_name": "Úrvalsdeild",
+  "af_country": "Iceland",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Brazil Serie A",
+  "poly_id": "102648",
+  "af_id": 71,
+  "af_name": "Serie A",
+  "af_country": "Brazil",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Bulgaria Parva Liga",
+  "poly_id": "104936",
+  "af_id": 172,
+  "af_name": "First League",
+  "af_country": "Bulgaria",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "bundesliga",
+  "poly_id": "1494",
+  "af_id": 78,
+  "af_name": "Bundesliga",
+  "af_country": "Germany",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Bundesliga 2",
+  "poly_id": "102864",
+  "af_id": 79,
+  "af_name": "2. Bundesliga",
+  "af_country": "Germany",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "China League 1",
+  "poly_id": "105259",
+  "af_id": 170,
+  "af_name": "League One",
+  "af_country": "China",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Chinese Super League",
+  "poly_id": "102764",
+  "af_id": 169,
+  "af_name": "Super League",
+  "af_country": "China",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Denmark Superliga",
+  "poly_id": "102652",
+  "af_id": 119,
+  "af_name": "Superliga",
+  "af_country": "Denmark",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "EFL Championship",
+  "poly_id": "102643",
+  "af_id": 40,
+  "af_name": "Championship",
+  "af_country": "England",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Eredivisie",
+  "poly_id": "101735",
+  "af_id": 88,
+  "af_name": "Eredivisie",
+  "af_country": "Netherlands",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Hungary NB I",
+  "poly_id": "104933",
+  "af_id": 271,
+  "af_name": "NB I",
+  "af_country": "Hungary",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Indian Super League",
+  "poly_id": "103986",
+  "af_id": 323,
+  "af_name": "Indian Super League",
+  "af_country": "India",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Japan J League",
+  "poly_id": "102649",
+  "af_id": 98,
+  "af_name": "J1 League",
+  "af_country": "Japan",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Japan J2 League",
+  "poly_id": "102770",
+  "af_id": 99,
+  "af_name": "J2 League",
+  "af_country": "Japan",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "K League 2",
+  "poly_id": "105258",
+  "af_id": 293,
+  "af_name": "K League 2",
+  "af_country": "South-Korea",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "K-league",
+  "poly_id": "102771",
+  "af_id": 292,
+  "af_name": "K League 1",
+  "af_country": "South-Korea",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "La Liga",
+  "poly_id": "780",
+  "af_id": 140,
+  "af_name": "La Liga",
+  "af_country": "Spain",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "La Liga 2",
+  "poly_id": "102866",
+  "af_id": 141,
+  "af_name": "Segunda División",
+  "af_country": "Spain",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "League One",
+  "poly_id": "104319",
+  "af_id": 41,
+  "af_name": "League One",
+  "af_country": "England",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Liga MX",
+  "poly_id": "102448",
+  "af_id": 262,
+  "af_name": "Liga MX",
+  "af_country": "Mexico",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Liga Nacional Guatemala",
+  "poly_id": "104322",
+  "af_id": 339,
+  "af_name": "Liga Nacional",
+  "af_country": "Guatemala",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Liga Portugal",
+  "poly_id": "102122",
+  "af_id": 94,
+  "af_name": "Primeira Liga",
+  "af_country": "Portugal",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Liga Promerica",
+  "poly_id": "104318",
+  "af_id": 162,
+  "af_name": "Primera División",
+  "af_country": "Costa-Rica",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "LigaPro Primera A",
+  "poly_id": "105242",
+  "af_id": 242,
+  "af_name": "Liga Pro",
+  "af_country": "Ecuador",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Ligue 1",
+  "poly_id": "102070",
+  "af_id": 61,
+  "af_name": "Ligue 1",
+  "af_country": "France",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "MLS",
+  "poly_id": "100100",
+  "af_id": 253,
+  "af_name": "Major League Soccer",
+  "af_country": "USA",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Nike Liga",
+  "poly_id": "104332",
+  "af_id": 162,
+  "af_name": "Primera División",
+  "af_country": "Costa-Rica",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Norway Eliteserien",
+  "poly_id": "102651",
+  "af_id": 103,
+  "af_name": "Eliteserien",
+  "af_country": "Norway",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "OBOS-ligaen",
+  "poly_id": "105250",
+  "af_id": 104,
+  "af_name": "1. Division",
+  "af_country": "Norway",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Poland Ekstraklasa",
+  "poly_id": "105705",
+  "af_id": 106,
+  "af_name": "Ekstraklasa",
+  "af_country": "Poland",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Premier Division (Ireland)",
+  "poly_id": "105245",
+  "af_id": 357,
+  "af_name": "Premier Division",
+  "af_country": "Ireland",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Premier League",
+  "poly_id": "82",
+  "af_id": 39,
+  "af_name": "Premier League",
+  "af_country": "England",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Premier League (Kazakhstan)",
+  "poly_id": "105246",
+  "af_id": 389,
+  "af_name": "Premier League",
+  "af_country": "Kazakhstan",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Primeira Liga",
+  "poly_id": "101772",
+  "af_id": 94,
+  "af_name": "Primeira Liga",
+  "af_country": "Portugal",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Primera B (Chile)",
+  "poly_id": "105261",
+  "af_id": 266,
+  "af_name": "Primera B",
+  "af_country": "Chile",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Primera B (Colombia)",
+  "poly_id": "105260",
+  "af_id": 240,
+  "af_name": "Primera B",
+  "af_country": "Colombia",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Primera División (Uruguay)",
+  "poly_id": "105241",
+  "af_id": 268,
+  "af_name": "Primera División - Apertura",
+  "af_country": "Uruguay",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Primera División (Venezuela)",
+  "poly_id": "105249",
+  "af_id": 299,
+  "af_name": "Primera División",
+  "af_country": "Venezuela",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Primera Nacional",
+  "poly_id": "105240",
+  "af_id": 129,
+  "af_name": "Primera Nacional",
+  "af_country": "Argentina",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Russian Premier League",
+  "poly_id": "102593",
+  "af_id": 235,
+  "af_name": "Premier League",
+  "af_country": "Russia",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Saudi Professional League",
+  "poly_id": "102650",
+  "af_id": 307,
+  "af_name": "Pro League",
+  "af_country": "Saudi-Arabia",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Scottish Premiership",
+  "poly_id": "102872",
+  "af_id": 179,
+  "af_name": "Premiership",
+  "af_country": "Scotland",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Serbian SuperLiga",
+  "poly_id": "104932",
+  "af_id": 286,
+  "af_name": "Super Liga",
+  "af_country": "Serbia",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Serie A",
+  "poly_id": "100618",
+  "af_id": 135,
+  "af_name": "Serie A",
+  "af_country": "Italy",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Slovenia PrvaLiga",
+  "poly_id": "104934",
+  "af_id": 373,
+  "af_name": "1. SNL",
+  "af_country": "Slovenia",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "South Africa Premiership",
+  "poly_id": "105734",
+  "af_id": 288,
+  "af_name": "Premier Soccer League",
+  "af_country": "South-Africa",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Superettan",
+  "poly_id": "105251",
+  "af_id": 114,
+  "af_name": "Superettan",
+  "af_country": "Sweden",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Superliga (Uzbekistan)",
+  "poly_id": "105247",
+  "af_id": 369,
+  "af_name": "Super League",
+  "af_country": "Uzbekistan",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Sweden Allsvenskan",
+  "poly_id": "104930",
+  "af_id": 113,
+  "af_name": "Allsvenskan",
+  "af_country": "Sweden",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Switzerland Super League",
+  "poly_id": "105704",
+  "af_id": 207,
+  "af_name": "Super League",
+  "af_country": "Switzerland",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Ukraine Premier Liha",
+  "poly_id": "103886",
+  "af_id": 333,
+  "af_name": "Premier League",
+  "af_country": "Ukraine",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Veikkausliiga",
+  "poly_id": "105243",
+  "af_id": 244,
+  "af_name": "Veikkausliiga",
+  "af_country": "Finland",
+  "af_type": "League"
+ },
+ {
+  "pool": "A",
+  "poly_label": "Virslīga",
+  "poly_id": "105253",
+  "af_id": 365,
+  "af_name": "Virsliga",
+  "af_country": "Latvia",
+  "af_type": "League"
+ },
+ {
+  "pool": "B",
+  "poly_label": "Australia Cup",
+  "poly_id": "104336",
+  "af_id": 874,
+  "af_name": "Australia Cup",
+  "af_country": "Australia",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "B",
+  "poly_label": "Carabao Cup",
+  "poly_id": "101102",
+  "af_id": 48,
+  "af_name": "League Cup",
+  "af_country": "England",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "B",
+  "poly_label": "Copa Del Rey",
+  "poly_id": "101783",
+  "af_id": 143,
+  "af_name": "Copa del Rey",
+  "af_country": "Spain",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "B",
+  "poly_label": "Coupe de France",
+  "poly_id": "102604",
+  "af_id": 66,
+  "af_name": "Coupe de France",
+  "af_country": "France",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "B",
+  "poly_label": "DFB-Pokal",
+  "poly_id": "102154",
+  "af_id": 81,
+  "af_name": "DFB Pokal",
+  "af_country": "Germany",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "B",
+  "poly_label": "EFL Cup",
+  "poly_id": "102525",
+  "af_id": 48,
+  "af_name": "League Cup",
+  "af_country": "England",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "B",
+  "poly_label": "FA Cup",
+  "poly_id": "101807",
+  "af_id": 45,
+  "af_name": "FA Cup",
+  "af_country": "England",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "B",
+  "poly_label": "French Cup",
+  "poly_id": "102155",
+  "af_id": 66,
+  "af_name": "Coupe de France",
+  "af_country": "France",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "B",
+  "poly_label": "OFB Cup",
+  "poly_id": "104335",
+  "af_id": 220,
+  "af_name": "Cup",
+  "af_country": "Austria",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "B",
+  "poly_label": "Scotland League Cup",
+  "poly_id": "105706",
+  "af_id": 185,
+  "af_name": "League Cup",
+  "af_country": "Scotland",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "B",
+  "poly_label": "Taca de Portugal",
+  "poly_id": "104334",
+  "af_id": 96,
+  "af_name": "Taça de Portugal",
+  "af_country": "Portugal",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "B",
+  "poly_label": "Taça de Portugal",
+  "poly_id": "102157",
+  "af_id": 96,
+  "af_name": "Taça de Portugal",
+  "af_country": "Portugal",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "C",
+  "poly_label": "Champions League",
+  "poly_id": "1234",
+  "af_id": 2,
+  "af_name": "UEFA Champions League",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "C",
+  "poly_label": "Champions League Final",
+  "poly_id": "102178",
+  "af_id": 2,
+  "af_name": "UEFA Champions League",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "C",
+  "poly_label": "Copa Libertadores",
+  "poly_id": "102562",
+  "af_id": 13,
+  "af_name": "CONMEBOL Libertadores",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "C",
+  "poly_label": "Copa Sudamericana",
+  "poly_id": "102563",
+  "af_id": 11,
+  "af_name": "CONMEBOL Sudamericana",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "C",
+  "poly_label": "Europa Conference League",
+  "poly_id": "102763",
+  "af_id": 848,
+  "af_name": "UEFA Europa Conference League",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "C",
+  "poly_label": "Europa League",
+  "poly_id": "100626",
+  "af_id": 3,
+  "af_name": "UEFA Europa League",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "C",
+  "poly_label": "FIFA Club World Cup",
+  "poly_id": "102192",
+  "af_id": 15,
+  "af_name": "FIFA Club World Cup",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "C",
+  "poly_label": "Leagues Cup",
+  "poly_id": "102449",
+  "af_id": 772,
+  "af_name": "Leagues Cup",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "C",
+  "poly_label": "UEFA Europa League",
+  "poly_id": "102506",
+  "af_id": 3,
+  "af_name": "UEFA Europa League",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "C",
+  "poly_label": "Women's Champions League",
+  "poly_id": "103885",
+  "af_id": 525,
+  "af_name": "UEFA Champions League Women",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "D",
+  "poly_label": "2026 FIFA World Cup",
+  "poly_id": "102350",
+  "af_id": 1,
+  "af_name": "World Cup",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "D",
+  "poly_label": "Club Friendlies",
+  "poly_id": "105795",
+  "af_id": 667,
+  "af_name": "Friendlies Clubs",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "D",
+  "poly_label": "Concacaf Gold Cup",
+  "poly_id": "102263",
+  "af_id": 22,
+  "af_name": "CONCACAF Gold Cup",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "D",
+  "poly_label": "Euro",
+  "poly_id": "100817",
+  "af_id": 4,
+  "af_name": "Euro Championship",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "D",
+  "poly_label": "Fifa Friendly",
+  "poly_id": "102539",
+  "af_id": 10,
+  "af_name": "Friendlies",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "D",
+  "poly_label": "FIFA World Cup",
+  "poly_id": "102232",
+  "af_id": 1,
+  "af_name": "World Cup",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "D",
+  "poly_label": "FIFA World Cup Qualifier",
+  "poly_id": "101982",
+  "af_id": 37,
+  "af_name": "World Cup - Qualification Intercontinental Play-offs",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "D",
+  "poly_label": "Fifa World Cup Qualifiers",
+  "poly_id": "101965",
+  "af_id": 37,
+  "af_name": "World Cup - Qualification Intercontinental Play-offs",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "D",
+  "poly_label": "Intl. Soccer",
+  "poly_id": "100834",
+  "af_id": 10,
+  "af_name": "Friendlies",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "D",
+  "poly_label": "Nations League",
+  "poly_id": "100782",
+  "af_id": 5,
+  "af_name": "UEFA Nations League",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "D",
+  "poly_label": "UEF Qualifiers",
+  "poly_id": "102544",
+  "af_id": 32,
+  "af_name": "World Cup - Qualification Europe",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "D",
+  "poly_label": "UEFA European U21",
+  "poly_id": "102267",
+  "af_id": 38,
+  "af_name": "UEFA U21 Championship",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "D",
+  "poly_label": "UEFA European Under-21",
+  "poly_id": "102259",
+  "af_id": 38,
+  "af_name": "UEFA U21 Championship",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "D",
+  "poly_label": "UEFA Nations League",
+  "poly_id": "100816",
+  "af_id": 5,
+  "af_name": "UEFA Nations League",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "D",
+  "poly_label": "UEFA U21",
+  "poly_id": "102339",
+  "af_id": 38,
+  "af_name": "UEFA U21 Championship",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "D",
+  "poly_label": "UEFA Women's Euro",
+  "poly_id": "102356",
+  "af_id": 743,
+  "af_name": "UEFA Championship - Women",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "D",
+  "poly_label": "UEFA Women’s World Cup Qualification",
+  "poly_id": "105215",
+  "af_id": 927,
+  "af_name": "World Cup - Women - Qualification Concacaf",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "D",
+  "poly_label": "world cup",
+  "poly_id": "519",
+  "af_id": 1,
+  "af_name": "World Cup",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "D",
+  "poly_label": "World Cup Qualifier",
+  "poly_id": "102208",
+  "af_id": 37,
+  "af_name": "World Cup - Qualification Intercontinental Play-offs",
+  "af_country": "World",
+  "af_type": "Cup"
+ },
+ {
+  "pool": "D",
+  "poly_label": "World Cup Qualifiers",
+  "poly_id": "101964",
+  "af_id": 37,
+  "af_name": "World Cup - Qualification Intercontinental Play-offs",
+  "af_country": "World",
+  "af_type": "Cup"
+ }
+]

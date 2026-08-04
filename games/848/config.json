@@ -1,0 +1,16 @@
+{
+ "af_id": 848,
+ "name": "UEFA Europa Conference League",
+ "country": "World",
+ "type": "Cup",
+ "pool": "C",
+ "category_id": "102763",
+ "poly_ids": [
+  "102763"
+ ],
+ "lg_goal": 1.35,
+ "hfa": 0.25,
+ "lr": 0.03,
+ "rho": -0.06,
+ "season_reset": 1.0
+}
