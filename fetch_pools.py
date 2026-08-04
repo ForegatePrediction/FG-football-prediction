@@ -5,7 +5,7 @@ ROOT=os.path.dirname(os.path.abspath(__file__))
 POOLS=set(sys.argv[1:]) or {"B","C"}
 rows=json.load(open("master_mapping.json"))
 afids=list(dict.fromkeys([r["af_id"] for r in rows if r["pool"] in POOLS]))
-SEASONS=[2022,2023,2024,2025]
+SEASONS=[2021,2022,2023,2024,2025]
 def get(af,s):
     try:
         req=urllib.request.Request(B+f"/fixtures?league={af}&season={s}",headers={"x-apisports-key":KEY})

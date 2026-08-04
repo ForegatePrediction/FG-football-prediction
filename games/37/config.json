@@ -15,5 +15,6 @@
  "hfa": 0.25,
  "lr": 0.03,
  "rho": -0.06,
- "season_reset": 1.0
+ "season_reset": 1.0,
+ "pool_ref": "_natpool"
 }
