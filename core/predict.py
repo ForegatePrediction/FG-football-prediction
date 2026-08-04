@@ -29,7 +29,7 @@ def _find(teams, name):
 
 
 def _reasons(A, B, mk, lang):
-    o = mk["one_x_two"]; eg = mk["expected_goals"]; ou = mk["over_under"]
+    o = mk["one_x_two"]; eg = mk["expected_goals"]; ou = mk["over_under"]["2.5"]
     pc = lambda x: f"{round(x*100)}%"
     picks = [("home", A, o["home"]), ("draw", None, o["draw"]), ("away", B, o["away"])]
     top = max(picks, key=lambda x: x[2])
@@ -66,7 +66,7 @@ def predict(code, A, B, hcap=0.0, total=2.5, lang="zh", odds_1x2=None):
         return {"error": f"未找到:{A if not a else B}", "missing": A if not a else B}
     rho = cfg.get("rho", -0.06)
     lh, la = PoissonRatings.rates_from_snapshot(snap, a, b)
-    mk = markets(lh, la, rho, total_line=total, hcap_line=hcap)
+    mk = markets(lh, la, rho)
     out = {"code": str(code), "competition": cfg.get("name"), "category_id": cfg.get("category_id"),
            "pool": cfg.get("pool"), "A": a, "B": b, "lang": lang,
            "matched_exact": (A == a and B == b), "markets": mk,

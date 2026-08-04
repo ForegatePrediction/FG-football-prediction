@@ -22,7 +22,7 @@ def walk_forward(matches, burn_season, rho=-0.06, lg_goal=1.35, lr=0.03, season_
             for k in range(3):
                 brier += (probs[k] - (1 if out == k else 0)) ** 2
             ll += -math.log(max(probs[out], 1e-9))
-            ouhit += ((mk["over_under"]["over"] >= 0.5) == (1 if hg + ag > 2.5 else 0))
+            ouhit += ((mk["over_under"]["2.5"]["over"] >= 0.5) == (1 if hg + ag > 2.5 else 0))
         R.update(h, a, hg, ag, s)
     if not n:
         return {"N": 0}

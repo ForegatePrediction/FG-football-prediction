@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-"""由期望进球 (λ_home, λ_away) 生成比分矩阵,再推出全部足球玩法。
-含 Dixon-Coles 低比分修正 rho。一套矩阵产出:1X2 / 双胜 / 单外(DNB) / 让球(亚盘) / 大小球 / BTTS / 正确比分。"""
+"""由期望进球 (λ_home, λ_away) 生成比分矩阵,再推出**全部进球类玩法**。
+含 Dixon-Coles 低比分修正 rho。覆盖 API-Football 盘口目录中所有"全场进球可推导"的玩法(约 30+ 种)。
+半场类玩法见 markets_ht(需半场进球模型);角球/牌数等需独立统计模型。"""
 import math
 
 _FACT = [math.factorial(i) for i in range(13)]
@@ -16,7 +17,7 @@ def score_matrix(lh, la, rho=-0.06, N=11):
     ph[-1] += max(0.0, 1 - sum(ph))
     pa[-1] += max(0.0, 1 - sum(pa))
     P = [[ph[i] * pa[j] for j in range(N)] for i in range(N)]
-    if rho:  # Dixon-Coles 低比分相关性修正
+    if rho:
         tau = {(0, 0): 1 - lh * la * rho, (0, 1): 1 + lh * rho,
                (1, 0): 1 + la * rho, (1, 1): 1 - rho}
         for (i, j), f in tau.items():
@@ -26,10 +27,46 @@ def score_matrix(lh, la, rho=-0.06, N=11):
     return P
 
 
-def markets(lh, la, rho=-0.06, total_line=2.5, hcap_line=0.0):
+def _ou(P, line):
+    over = sum(P[i][j] for i in range(len(P)) for j in range(len(P)) if i + j > line)
+    return {"line": line, "over": over, "under": 1 - over}
+
+
+def _team_ou(P, line, home=True):
+    N = len(P)
+    over = 0.0
+    for i in range(N):
+        for j in range(N):
+            g = i if home else j
+            if g > line:
+                over += P[i][j]
+    return {"line": line, "over": over, "under": 1 - over}
+
+
+def _handicap(P, line, asian=True):
+    """让球:line 为主队盘口(负=主队让).asian 时走盘平局按比例(此处整/半线通用给 home/away/push)。"""
+    N = len(P)
+    home = away = push = 0.0
+    for i in range(N):
+        for j in range(N):
+            m = (i - j) + line
+            if m > 1e-9: home += P[i][j]
+            elif m < -1e-9: away += P[i][j]
+            else: push += P[i][j]
+    return {"line": line, "home": home, "away": away, "push": push}
+
+
+def markets(lh, la, rho=-0.06, ou_lines=(0.5, 1.5, 2.5, 3.5, 4.5),
+            hcap_lines=(-2, -1, 0, 1, 2), team_ou_lines=(0.5, 1.5, 2.5)):
     P = score_matrix(lh, la, rho)
     N = len(P)
-    home = draw = away = over = ah_home = ah_away = btts = 0.0
+    home = draw = away = btts = 0.0
+    odd = even = h_odd = a_odd = 0.0
+    cs_home = cs_away = wtn_home = wtn_away = 0.0
+    hs = a_s = 0.0  # 主/客 至少进 1 球
+    h2 = a2 = 0.0   # 主/客 两球+
+    margin = {}     # 净胜球分布(home 视角:+2,+1,0,-1,...)
+    exact_total = {}  # 总进球数分布
     scores = []
     for i in range(N):
         for j in range(N):
@@ -37,21 +74,101 @@ def markets(lh, la, rho=-0.06, total_line=2.5, hcap_line=0.0):
             if i > j: home += p
             elif i == j: draw += p
             else: away += p
-            if i + j > total_line: over += p
-            m = (i - j) + hcap_line
-            if m > 0: ah_home += p
-            elif m < 0: ah_away += p
             if i > 0 and j > 0: btts += p
+            t = i + j
+            if t % 2: odd += p
+            else: even += p
+            if i % 2: h_odd += p
+            if j % 2: a_odd += p
+            if j == 0: cs_home += p
+            if i == 0: cs_away += p
+            if i > j and j == 0: wtn_home += p
+            if j > i and i == 0: wtn_away += p
+            if i >= 1: hs += p
+            if j >= 1: a_s += p
+            if i >= 2: h2 += p
+            if j >= 2: a2 += p
+            margin[i - j] = margin.get(i - j, 0.0) + p
+            exact_total[t] = exact_total.get(t, 0.0) + p
             scores.append((i, j, p))
     scores.sort(key=lambda x: -x[2])
     denom = home + away or 1e-9
+
+    # 净胜球(winning margin)归并
+    def mg(cond):
+        return sum(v for k, v in margin.items() if cond(k))
+    winning_margin = {
+        "home_by_1": margin.get(1, 0.0), "home_by_2": margin.get(2, 0.0),
+        "home_by_3+": mg(lambda k: k >= 3), "draw": margin.get(0, 0.0),
+        "away_by_1": margin.get(-1, 0.0), "away_by_2": margin.get(-2, 0.0),
+        "away_by_3+": mg(lambda k: k <= -3),
+    }
+    exact_goals = {str(g): exact_total.get(g, 0.0) for g in range(0, 6)}
+    exact_goals["6+"] = sum(v for k, v in exact_total.items() if k >= 6)
+    multigoals = {"0-1": mg2(exact_total, 0, 1), "2-3": mg2(exact_total, 2, 3),
+                  "4-6": mg2(exact_total, 4, 6), "7+": sum(v for k, v in exact_total.items() if k >= 7)}
+
     return {
         "expected_goals": {"home": round(lh, 3), "away": round(la, 3)},
+        # —— 主流胜负/让分/大小 ——
         "one_x_two": {"home": home, "draw": draw, "away": away},
         "double_chance": {"1X": home + draw, "12": home + away, "X2": draw + away},
         "dnb": {"home": home / denom, "away": away / denom},
-        "over_under": {"line": total_line, "over": over, "under": 1 - over},
-        "handicap": {"line": hcap_line, "home": ah_home, "away": ah_away},
+        "over_under": {str(l): _ou(P, l) for l in ou_lines},
+        "handicap": {str(l): _handicap(P, l) for l in hcap_lines},
         "btts": {"yes": btts, "no": 1 - btts},
-        "correct_score": [(f"{i}-{j}", round(p, 4)) for i, j, p in scores[:6]],
+        # —— 比分/进球数 ——
+        "correct_score": [(f"{i}-{j}", round(p, 4)) for i, j, p in scores[:8]],
+        "exact_goals": exact_goals,
+        "multigoals": multigoals,
+        "winning_margin": winning_margin,
+        "odd_even": {"odd": odd, "even": even},
+        "home_odd_even": {"odd": h_odd, "even": 1 - h_odd},
+        "away_odd_even": {"odd": a_odd, "even": 1 - a_odd},
+        # —— 球队维度 ——
+        "team_total_home": {str(l): _team_ou(P, l, True) for l in team_ou_lines},
+        "team_total_away": {str(l): _team_ou(P, l, False) for l in team_ou_lines},
+        "team_score_home": {"yes": hs, "no": 1 - hs},
+        "team_score_away": {"yes": a_s, "no": 1 - a_s},
+        "team_2plus_home": {"yes": h2, "no": 1 - h2},
+        "team_2plus_away": {"yes": a2, "no": 1 - a2},
+        "clean_sheet_home": {"yes": cs_home, "no": 1 - cs_home},
+        "clean_sheet_away": {"yes": cs_away, "no": 1 - cs_away},
+        "win_to_nil_home": {"yes": wtn_home, "no": 1 - wtn_home},
+        "win_to_nil_away": {"yes": wtn_away, "no": 1 - wtn_away},
+        # —— 组合盘 ——
+        "result_btts": {
+            "home_yes": _combo(P, "home", True), "home_no": _combo(P, "home", False),
+            "draw_yes": _combo(P, "draw", True), "draw_no": _combo(P, "draw", False),
+            "away_yes": _combo(P, "away", True), "away_no": _combo(P, "away", False)},
+        "result_ou25": {
+            "home_over": _combo_ou(P, "home", 2.5, True), "home_under": _combo_ou(P, "home", 2.5, False),
+            "draw_over": _combo_ou(P, "draw", 2.5, True), "draw_under": _combo_ou(P, "draw", 2.5, False),
+            "away_over": _combo_ou(P, "away", 2.5, True), "away_under": _combo_ou(P, "away", 2.5, False)},
     }
+
+
+def mg2(dist, lo, hi):
+    return sum(v for k, v in dist.items() if lo <= k <= hi)
+
+
+def _res(i, j):
+    return "home" if i > j else ("draw" if i == j else "away")
+
+
+def _combo(P, res, btts_yes):
+    s = 0.0
+    for i in range(len(P)):
+        for j in range(len(P)):
+            if _res(i, j) == res and ((i > 0 and j > 0) == btts_yes):
+                s += P[i][j]
+    return s
+
+
+def _combo_ou(P, res, line, over):
+    s = 0.0
+    for i in range(len(P)):
+        for j in range(len(P)):
+            if _res(i, j) == res and ((i + j > line) == over):
+                s += P[i][j]
+    return s
