@@ -95,6 +95,47 @@ def _reasons(A, B, mk, lang):
     }
 
 
+def _platform_markets(mk, lh, la, is_cup):
+    """把内部字段映射成平台玩法 key,供前端直接按平台 key 取用。
+    平台足球玩法:moneyline / spreads / totals / both_teams_to_score / soccer_exact_score /
+                 soccer_team_totals / total_corners / soccer_first_to_score /
+                 soccer_team_to_advance / soccer_penalty_shootout。"""
+    o = mk["one_x_two"]
+    p = {
+        "moneyline": {"home": o["home"], "draw": o["draw"], "away": o["away"]},
+        "spreads": mk["handicap"],                       # 多条让分线 {line,home,away,push}
+        "totals": mk["over_under"],                      # 多条大小线 {line,over,under}
+        "both_teams_to_score": mk["btts"],               # {yes,no}
+        "soccer_exact_score": mk["correct_score"],       # [[比分,概率],...]
+        "soccer_team_totals": {"home": mk["team_total_home"], "away": mk["team_total_away"]},
+    }
+    # 角球(仅角球快照覆盖的联赛有)
+    if "corners_total" in mk:
+        p["total_corners"] = mk["corners_total"]
+    # 首先进球:home 先 / away 先 / 无进球(全场0-0)
+    none = mk.get("neither_score_first", {}).get("yes")
+    if none is None:
+        import math
+        none = math.exp(-(lh + la))
+    s = lh + la
+    p["soccer_first_to_score"] = {
+        "home": (lh / s) * (1 - none) if s > 0 else 0.0,
+        "away": (la / s) * (1 - none) if s > 0 else 0.0,
+        "none": none,
+    }
+    # 淘汰赛专属:晋级 / 点球大战(联赛不适用,置 null)
+    if is_cup:
+        adv_h = o["home"] + 0.5 * o["draw"]
+        p["soccer_team_to_advance"] = {"home": adv_h, "away": 1 - adv_h}
+        # 单场平局约一半在加时分出、一半进点球
+        pen = o["draw"] * 0.5
+        p["soccer_penalty_shootout"] = {"yes": pen, "no": 1 - pen}
+    else:
+        p["soccer_team_to_advance"] = None
+        p["soccer_penalty_shootout"] = None
+    return p
+
+
 def predict(code, A, B, hcap=0.0, total=2.5, lang="zh", odds_1x2=None):
     cfg, snap = _load(code)
     teams = snap["teams"]
@@ -113,9 +154,11 @@ def predict(code, A, B, hcap=0.0, total=2.5, lang="zh", odds_1x2=None):
         if ca and cb:
             lch, lca = PoissonRatings.rates_from_snapshot(csnap, ca, cb)
             mk.update(markets_corners(lch, lca))
+    is_cup = (cfg.get("type") == "Cup") or (cfg.get("pool") in ("B", "C", "D"))
     out = {"code": str(code), "competition": cfg.get("name"), "category_id": cfg.get("category_id"),
-           "pool": cfg.get("pool"), "A": a, "B": b, "lang": lang,
+           "platform_id": cfg.get("platform_id"), "pool": cfg.get("pool"), "A": a, "B": b, "lang": lang,
            "matched_exact": (A == a and B == b), "markets": mk,
+           "platform_markets": _platform_markets(mk, lh, la, is_cup),
            "reasons": _reasons(a, b, mk, lang)}
     # 混合口径:若给了盘口 1X2 赔率,附市场隐含概率 + 分歧(不融合成单值)
     if odds_1x2:

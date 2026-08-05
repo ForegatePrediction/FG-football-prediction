@@ -1,8 +1,8 @@
 # FG-football-prediction
 
-**中文** · ForeGate 足球赛事预测框架。一套 **Dixon-Coles 进球分布引擎** 覆盖单场足球全部主流玩法,覆盖全球 83 项赛事(联赛/杯赛/洲际赛/国家队)。零依赖、秒级响应。
+**中文** · ForeGate 足球赛事预测框架。一套 **Dixon-Coles 进球分布引擎** 覆盖单场足球全部主流玩法,覆盖平台全部 55 个足球联赛(另含更多杯赛/洲际赛/国家队,共 100+ 赛事)。零依赖、秒级响应。
 
-**English** · ForeGate football match-prediction framework — one **Dixon-Coles goal-distribution engine** producing all major single-match markets across 83 competitions. Zero-dependency, millisecond responses.
+**English** · ForeGate football match-prediction framework — one **Dixon-Coles goal-distribution engine** producing all major single-match markets across the platform's 55 football leagues (100+ competitions in total). Zero-dependency, millisecond responses.
 
 > **免责声明 / Disclaimer** — 盘前统计估计,不构成投注或投资建议。Pre-match statistical estimate; not betting or investment advice.
 
@@ -70,114 +70,96 @@ GET /predict?categoryId=82&a=Arsenal&b=Chelsea[&lang=zh|en|vi][&oh=&od=&oa=]
 
 **做不了(数据缺口)**:半场角球、球员盘(射手/进球数)、牌数盘、低级别联赛角球。
 
+-
 ---
 
-## 覆盖的赛事 / Competitions(83)
+## 平台玩法字段对齐 / Platform market keys(`platform_markets`)
 
-> `categoryId`=内部分类 id(前端传参键);`code`=API-Football league_id;`角球`✅ 表示支持角球玩法。
+预测返回额外含 `platform_markets`,直接用**平台玩法 key** 暴露,前端可按 key 直取:
 
-### 联赛 / Leagues(55)
+| 平台 key | 值 | 内部来源 |
+|---|---|---|
+| `moneyline` | home, draw, away | one_x_two |
+| `spreads` | 多条 {line, home, away, push} | handicap |
+| `totals` | 多条 {line, over, under} | over_under |
+| `both_teams_to_score` | yes, no | btts |
+| `soccer_exact_score` | [[比分, 概率], ...] | correct_score |
+| `soccer_team_totals` | home / away → {line, over, under} | team_total_* |
+| `total_corners` | 多条 {line, over, under}(仅角球覆盖联赛) | corners_total |
+| `soccer_first_to_score` | home, away, none(谁先进球 / 无进球) | 由 λ 推导 |
+| `soccer_team_to_advance` | home, away(**仅淘汰赛**,联赛为 null) | 由胜平负单场晋级近似 |
+| `soccer_penalty_shootout` | yes, no(**仅淘汰赛**,联赛为 null) | 由平局概率近似 |
 
-| categoryId | 名称 Name | 国家/地区 | code | 角球 |
-|---|---|---|---|:--:|
-| 102561 | Liga Profesional Argentina | Argentina | 128 | ✅ |
-| 105240 | Primera Nacional | Argentina | 129 | — |
-| 102765 | A-League | Australia | 188 | ✅ |
-| 104929 | Bundesliga | Austria | 218 | — |
-| 102648 | Serie A | Brazil | 71 | ✅ |
-| 104936 | First League | Bulgaria | 172 | — |
-| 105261 | Primera B | Chile | 266 | — |
-| 105259 | League One | China | 170 | — |
-| 102764 | Super League | China | 169 | ✅ |
-| 105260 | Primera B | Colombia | 240 | — |
-| 104318 | Primera División | Costa-Rica | 162 | — |
-| 102652 | Superliga | Denmark | 119 | — |
-| 105242 | Liga Pro | Ecuador | 242 | — |
-| 102643 | Championship | England | 40 | ✅ |
-| 104319 | League One | England | 41 | — |
-| 82 | Premier League | England | 39 | ✅ |
-| 105243 | Veikkausliiga | Finland | 244 | — |
-| 102070 | Ligue 1 | France | 61 | ✅ |
-| 102864 | 2. Bundesliga | Germany | 79 | ✅ |
-| 1494 | Bundesliga | Germany | 78 | ✅ |
-| 104322 | Liga Nacional | Guatemala | 339 | — |
-| 104933 | NB I | Hungary | 271 | — |
-| 105244 | Úrvalsdeild | Iceland | 164 | — |
-| 103986 | Indian Super League | India | 323 | — |
-| 105245 | Premier Division | Ireland | 357 | — |
-| 100618 | Serie A | Italy | 135 | ✅ |
-| 102649 | J1 League | Japan | 98 | ✅ |
-| 102770 | J2 League | Japan | 99 | — |
-| 105246 | Premier League | Kazakhstan | 389 | — |
-| 105253 | Virsliga | Latvia | 365 | — |
-| 105254 | A Lyga | Lithuania | 362 | — |
-| 102448 | Liga MX | Mexico | 262 | ✅ |
-| 101735 | Eredivisie | Netherlands | 88 | ✅ |
-| 105250 | 1. Division | Norway | 104 | — |
-| 102651 | Eliteserien | Norway | 103 | — |
-| 105705 | Ekstraklasa | Poland | 106 | — |
-| 102122 | Primeira Liga | Portugal | 94 | ✅ |
-| 102593 | Premier League | Russia | 235 | — |
-| 102650 | Pro League | Saudi-Arabia | 307 | ✅ |
-| 102872 | Premiership | Scotland | 179 | ✅ |
-| 104932 | Super Liga | Serbia | 286 | — |
-| 104934 | 1. SNL | Slovenia | 373 | — |
-| 105734 | Premier Soccer League | South-Africa | 288 | — |
-| 102771 | K League 1 | South-Korea | 292 | ✅ |
-| 105258 | K League 2 | South-Korea | 293 | — |
-| 780 | La Liga | Spain | 140 | ✅ |
-| 102866 | Segunda División | Spain | 141 | ✅ |
-| 104930 | Allsvenskan | Sweden | 113 | — |
-| 105251 | Superettan | Sweden | 114 | — |
-| 105704 | Super League | Switzerland | 207 | — |
-| 100100 | Major League Soccer | USA | 253 | ✅ |
-| 103886 | Premier League | Ukraine | 333 | — |
-| 105241 | Primera División - Apertura | Uruguay | 268 | — |
-| 105247 | Super League | Uzbekistan | 369 | — |
-| 105249 | Primera División | Venezuela | 299 | — |
+> `soccer_team_to_advance` / `soccer_penalty_shootout` 只对杯赛/淘汰赛输出概率,联赛比赛该两项为 `null`(不适用)。
+> These two are populated only for knockout competitions; for league matches they are `null`.
 
-### 国内杯 / Domestic Cups(9)
 
-| categoryId | 名称 Name | 国家/地区 | code | 角球 |
-|---|---|---|---|:--:|
-| 104336 | Australia Cup | Australia | 874 | — |
-| 104335 | Cup | Austria | 220 | — |
-| 101807 | FA Cup | England | 45 | — |
-| 101102 | League Cup | England | 48 | — |
-| 102604 | Coupe de France | France | 66 | — |
-| 102154 | DFB Pokal | Germany | 81 | — |
-| 104334 | Taça de Portugal | Portugal | 96 | — |
-| 105706 | League Cup | Scotland | 185 | — |
-| 101783 | Copa del Rey | Spain | 143 | — |
+---
 
-### 洲际俱乐部 / Continental Club(8)
+## 覆盖的赛事 / Competitions
 
-| categoryId | 名称 Name | 国家/地区 | code | 角球 |
-|---|---|---|---|:--:|
-| 102562 | CONMEBOL Libertadores | World | 13 | — |
-| 102563 | CONMEBOL Sudamericana | World | 11 | — |
-| 102192 | FIFA Club World Cup | World | 15 | — |
-| 102449 | Leagues Cup | World | 772 | — |
-| 1234 | UEFA Champions League | World | 2 | — |
-| 103885 | UEFA Champions League Women | World | 525 | — |
-| 102763 | UEFA Europa Conference League | World | 848 | — |
-| 100626 | UEFA Europa League | World | 3 | — |
+仓库共建有 100+ 赛事评级快照。其中**平台足球 55 个联赛全部覆盖**,均可用 `platform_id`(前端内部联赛 id)直接解析调用。下表 `code` = 内部目录名(games/&lt;code&gt;),`角球` ✅ 表示额外支持角球玩法。
 
-### 国家队 / National Teams(11)
+The repo holds 100+ competition snapshots. **All 55 platform football leagues are covered** and resolvable by `platform_id`. Below, `code` = internal directory (games/&lt;code&gt;); `角球` ✅ = corner markets also available.
 
-| categoryId | 名称 Name | 国家/地区 | code | 角球 |
-|---|---|---|---|:--:|
-| 102263 | CONCACAF Gold Cup | World | 22 | — |
-| 100817 | Euro Championship | World | 4 | — |
-| 102539 | Friendlies | World | 10 | — |
-| 105795 | Friendlies Clubs | World | 667 | — |
-| 102356 | UEFA Championship - Women | World | 743 | — |
-| 100782 | UEFA Nations League | World | 5 | — |
-| 102267 | UEFA U21 Championship | World | 38 | — |
-| 102350 | World Cup | World | 1 | — |
-| 102544 | World Cup - Qualification Europe | World | 32 | — |
-| 101982 | World Cup - Qualification Intercontinental Play-offs | World | 37 | — |
-| 105215 | World Cup - Women - Qualification Concacaf | World | 927 | — |
+| platform_id | 联赛 | code(af_id) | 角球 |
+|---|---|---|:--:|
+| 30113 | UCL | 2 | — |
+| 30114 | Copa Sudamericana | 11 | — |
+| 30115 | Copa Libertadores | 13 | — |
+| 30116 | EFL Championship | 40 | ✅ |
+| 30117 | MLS | 253 | ✅ |
+| 30118 | EPL | 39 | ✅ |
+| 30119 | Liga MX | 262 | ✅ |
+| 30120 | Brazil Serie B | 72 | — |
+| 30121 | Super Lig (Turkey) | 203 | — |
+| 30122 | Colombia Primera A | 239 | — |
+| 30123 | Chinese Super League | 169 | ✅ |
+| 30124 | J2 League | 99 | — |
+| 30125 | Saudi Professional League | 307 | ✅ |
+| 30126 | La Liga | 140 | ✅ |
+| 30127 | Czechia Fortuna Liga | 345 | — |
+| 30128 | Japan J League | 98 | ✅ |
+| 30129 | A League Soccer | 188 | ✅ |
+| 30130 | Bundesliga | 78 | ✅ |
+| 30131 | Norway Eliteserien | 103 | — |
+| 30132 | Eredivisie | 88 | ✅ |
+| 30133 | Denmark Superliga | 119 | — |
+| 30134 | K League | 292 | ✅ |
+| 30135 | Serie A | 135 | ✅ |
+| 30136 | Ligue 1 | 61 | ✅ |
+| 30137 | La Liga 2 | 141 | ✅ |
+| 30138 | UEL | 3 | — |
+| 30139 | Ligue 2 | 62 | — |
+| 30140 | Serie B (Italy) | 136 | — |
+| 30141 | Primeira Liga | 94 | ✅ |
+| 30142 | UEFA Europa Conference League | 848 | — |
+| 30143 | 2. Bundesliga | 79 | ✅ |
+| 30144 | Morocco Botola Pro | 200 | — |
+| 30145 | Egypt Premier League | 233 | — |
+| 30146 | Brazil Serie A | 71 | ✅ |
+| 30147 | Romania Superliga | 283 | — |
+| 30148 | Copa Del Rey | 143 | — |
+| 30149 | CoppaItalia | 137 | — |
+| 30151 | Chile Primera | 265 | — |
+| 30152 | Coupe De France | 66 | — |
+| 30153 | FIFA World Cup | 1 | — |
+| 30154 | Peru Liga 1 | 281 | — |
+| 30155 | Bolivia LFPB | 344 | — |
+| 30156 | EFL Cup | 48 | — |
+| 30194 | Taça de Portugal | 96 | — |
+| 30195 | Copa do Brasil | 73 | — |
+| 30196 | DFB-Pokal | 81 | — |
+| 30197 | Women's Champions League | 525 | — |
+| 30198 | FA Cup | 45 | — |
+| 30199 | CONCACAF Champions Cup | 16 | — |
+| 30200 | Primera División Argentina | 128 | ✅ |
+| 30202 | FIFA Friendly | 10 | — |
+| 30208 | UEFA Women's WC Qualifiers | 880 | — |
+| 30222 | Allsvenskan | 113 | — |
+| 30223 | Liga de Primera (Nicaragua) | 396 | — |
+| 30224 | Australia Cup | 874 | — |
+
 
 ---
 
