@@ -20,12 +20,49 @@ def _load(code):
     return cfg, snap
 
 
+import unicodedata as _ud, re as _re
+
+_ABBR = {"man": "manchester", "utd": "united", "fc": "", "cf": "", "afc": "", "sc": "", "cd": "",
+         "la": "losangeles", "ny": "newyork", "nyc": "newyork", "psg": "parissaintgermain",
+         "spurs": "tottenham", "wolves": "wolverhampton", "inter": "internazionale", "atleti": "atletico",
+         "st": "saint", "utd.": "united", "w": ""}
+
+
+def _toks(s):
+    s = _ud.normalize("NFKD", str(s)).encode("ascii", "ignore").decode().lower()
+    s = _re.sub(r"[^a-z0-9 ]", " ", s)
+    out = []
+    for t in s.split():
+        t = _ABBR.get(t, t)
+        if t:
+            out.append(t)
+    return out
+
+
 def _find(teams, name):
     if name in teams:
         return name
-    nl = name.lower()
+    nl = name.lower().strip()
+    # 1) 子串包含(双向),选出场最多
     c = [t for t in teams if nl in t.lower() or t.lower() in nl]
-    return max(c, key=lambda t: teams[t].get("gp", 0)) if c else None
+    if c:
+        return max(c, key=lambda t: teams[t].get("gp", 0))
+    # 2) 词级模糊:token 重叠 + 缩写扩展,阈值命中
+    q = set(_toks(name))
+    if not q:
+        return None
+    best, bs = None, 0.0
+    for t in teams:
+        tt = set(_toks(t))
+        if not tt:
+            continue
+        inter = len(q & tt)
+        # 子串型 token 补偿(manchester 含 man)
+        sub = sum(1 for a in q for b in tt if len(a) > 3 and (a in b or b in a))
+        score = (inter + 0.5 * sub) / max(len(q), len(tt))
+        if score > bs:
+            best, bs = t, score
+    return best if bs >= 0.5 else None
 
 
 def _reasons(A, B, mk, lang):
