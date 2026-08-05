@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """由期望进球 (λ_home, λ_away) 生成比分矩阵,再推出**全部进球类玩法**。
-含 Dixon-Coles 低比分修正 rho。覆盖所有"全场进球可推导"的玩法(约 30+ 种)。
+含 Dixon-Coles 低比分修正 rho。覆盖 API-Football 盘口目录中所有"全场进球可推导"的玩法(约 30+ 种)。
 半场类玩法见 markets_ht(需半场进球模型);角球/牌数等需独立统计模型。"""
 import math
 

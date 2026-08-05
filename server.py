@@ -7,7 +7,7 @@
   GET /competitions                         所有赛事 + categoryId + 池
   GET /teams?categoryId=82&q=Arsenal         查队伍(快照内)
   GET /predict?categoryId=82&a=Arsenal&b=Chelsea[&hcap=0&total=2.5&lang=zh&oh=&od=&oa=]
-      赛事解析三选一:categoryId(内部分类 id) / code(内部联赛编号) / name
+      赛事解析三选一:categoryId(内部分类 id) / code(API-Football league_id) / name
       传 oh/od/oa(1X2 欧赔)则附盘口去水隐含概率 + 分歧(混合展示)
 """
 import json, os, sys

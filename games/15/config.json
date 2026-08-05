@@ -1,0 +1,17 @@
+{
+ "af_id": 15,
+ "name": "FIFA Club World Cup",
+ "country": "World",
+ "type": "Cup",
+ "pool": "C",
+ "category_id": "102192",
+ "lg_goal": 1.35,
+ "hfa": 0.25,
+ "lr": 0.03,
+ "rho": -0.06,
+ "season_reset": 1.0,
+ "pool_ref": "_clubpool",
+ "category_ids": [
+  "102192"
+ ]
+}

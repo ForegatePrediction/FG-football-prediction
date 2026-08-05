@@ -1,0 +1,18 @@
+{
+ "af_id": 48,
+ "name": "League Cup",
+ "country": "England",
+ "type": "Cup",
+ "pool": "B",
+ "category_id": "101102",
+ "lg_goal": 1.35,
+ "hfa": 0.25,
+ "lr": 0.03,
+ "rho": -0.06,
+ "season_reset": 1.0,
+ "pool_ref": "_clubpool",
+ "category_ids": [
+  "101102",
+  "102525"
+ ]
+}

@@ -5,7 +5,7 @@
   python3 cli.py predict  <code> "A" "B"       # 预测全玩法
   python3 cli.py backtest <code>               # 走查回测
   python3 cli.py list     <code> <关键词>       # 查队伍
-code = 内部联赛编号(即 games/ 下的目录名)。"""
+code = API-Football league_id(即 games/ 下的目录名)。"""
 import sys, os, json
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from core.ratings import PoissonRatings
