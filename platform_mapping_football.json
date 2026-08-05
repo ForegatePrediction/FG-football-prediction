@@ -1,192 +1,267 @@
 {
- "94": {
-  "platform_id": "30141",
-  "platform_name": "Primeira Liga",
-  "category_id": "101772"
- },
- "848": {
-  "platform_id": "30142",
-  "platform_name": "UEFA Europa Conference League",
-  "category_id": "102763"
- },
- "79": {
-  "platform_id": "30143",
-  "platform_name": "2. Bundesliga",
-  "category_id": "102864"
- },
- "71": {
-  "platform_id": "30146",
-  "platform_name": "Brazil Serie A",
-  "category_id": "102648"
- },
- "143": {
-  "platform_id": "30148",
-  "platform_name": "Copa Del Rey",
-  "category_id": "101783"
- },
- "66": {
-  "platform_id": "30152",
-  "platform_name": "Coupe De France",
-  "category_id": "102155"
- },
- "1": {
-  "platform_id": "30153",
-  "platform_name": "FIFA World Cup",
-  "category_id": "519"
- },
- "2": {
-  "platform_id": "30113",
-  "platform_name": "UCL",
-  "category_id": "102178"
- },
- "48": {
-  "platform_id": "30156",
-  "platform_name": "EFL Cup",
-  "category_id": "102525"
- },
- "96": {
-  "platform_id": "30194",
-  "platform_name": "Taça de Portugal",
-  "category_id": "102157"
- },
- "81": {
-  "platform_id": "30196",
-  "platform_name": "DFB-Pokal",
-  "category_id": "102154"
- },
- "525": {
-  "platform_id": "30197",
-  "platform_name": "Women's Champions League",
-  "category_id": "103885"
- },
- "45": {
-  "platform_id": "30198",
-  "platform_name": "FA Cup",
-  "category_id": "101807"
- },
- "128": {
-  "platform_id": "30200",
-  "platform_name": "Primera División Argentina",
-  "category_id": "102561"
- },
- "10": {
-  "platform_id": "30202",
-  "platform_name": "FIFA Friendly",
-  "category_id": "100834"
- },
- "113": {
-  "platform_id": "30222",
-  "platform_name": "Allsvenskan",
-  "category_id": "104930"
- },
- "874": {
-  "platform_id": "30224",
-  "platform_name": "Australia Cup",
-  "category_id": "104336"
- },
- "11": {
-  "platform_id": "30114",
-  "platform_name": "Copa Sudamericana",
-  "category_id": "102563"
- },
- "13": {
-  "platform_id": "30115",
-  "platform_name": "Copa Libertadores",
-  "category_id": "102562"
- },
- "40": {
-  "platform_id": "30116",
-  "platform_name": "EFL Championship",
-  "category_id": "102643"
- },
- "253": {
-  "platform_id": "30117",
-  "platform_name": "MLS",
-  "category_id": "100100"
- },
- "39": {
-  "platform_id": "30118",
-  "platform_name": "EPL",
-  "category_id": "82"
- },
- "262": {
-  "platform_id": "30119",
-  "platform_name": "Liga MX",
-  "category_id": "102448"
- },
- "169": {
-  "platform_id": "30123",
-  "platform_name": "Chinese Super League",
-  "category_id": "102764"
- },
- "99": {
-  "platform_id": "30124",
-  "platform_name": "J2 League",
-  "category_id": "102770"
+ "135": {
+  "platform_id": "30135",
+  "platform_name": "Serie A",
+  "category_id": "100618"
  },
  "307": {
   "platform_id": "30125",
   "platform_name": "Saudi Professional League",
   "category_id": "102650"
  },
- "140": {
-  "platform_id": "30126",
-  "platform_name": "La Liga",
-  "category_id": "780"
- },
- "98": {
-  "platform_id": "30128",
-  "platform_name": "Japan J League",
-  "category_id": "102649"
- },
- "3": {
-  "platform_id": "30138",
-  "platform_name": "UEL",
-  "category_id": "102506"
- },
- "141": {
-  "platform_id": "30137",
-  "platform_name": "La Liga 2",
-  "category_id": "102866"
- },
  "61": {
   "platform_id": "30136",
   "platform_name": "Ligue 1",
   "category_id": "102070"
  },
- "135": {
-  "platform_id": "30135",
-  "platform_name": "Serie A",
-  "category_id": "100618"
- },
- "292": {
-  "platform_id": "30134",
-  "platform_name": "K League",
-  "category_id": "102771"
- },
- "119": {
-  "platform_id": "30133",
-  "platform_name": "Denmark Superliga",
-  "category_id": "102652"
- },
- "88": {
-  "platform_id": "30132",
-  "platform_name": "Eredivisie",
-  "category_id": "101735"
+ "66": {
+  "platform_id": "30152",
+  "platform_name": "Coupe De France",
+  "category_id": "102604"
  },
  "103": {
   "platform_id": "30131",
   "platform_name": "Norway Eliteserien",
   "category_id": "102651"
  },
- "78": {
-  "platform_id": "30130",
-  "platform_name": "Bundesliga",
-  "category_id": "1494"
+ "94": {
+  "platform_id": "30141",
+  "platform_name": "Primeira Liga",
+  "category_id": "102122"
+ },
+ "169": {
+  "platform_id": "30123",
+  "platform_name": "Chinese Super League",
+  "category_id": "102764"
+ },
+ "874": {
+  "platform_id": "30224",
+  "platform_name": "Australia Cup",
+  "category_id": "104336"
+ },
+ "281": {
+  "platform_id": "30154",
+  "platform_name": "Peru Liga 1",
+  "category_id": "30154"
+ },
+ "292": {
+  "platform_id": "30134",
+  "platform_name": "K League",
+  "category_id": "102771"
+ },
+ "203": {
+  "platform_id": "30121",
+  "platform_name": "Super Lig (Turkey)",
+  "category_id": "30121"
+ },
+ "233": {
+  "platform_id": "30145",
+  "platform_name": "Egypt Premier League",
+  "category_id": "30145"
+ },
+ "11": {
+  "platform_id": "30114",
+  "platform_name": "Copa Sudamericana",
+  "category_id": "102563"
+ },
+ "16": {
+  "platform_id": "30199",
+  "platform_name": "CONCACAF Champions Cup",
+  "category_id": "30199"
+ },
+ "45": {
+  "platform_id": "30198",
+  "platform_name": "FA Cup",
+  "category_id": "101807"
+ },
+ "73": {
+  "platform_id": "30195",
+  "platform_name": "Copa do Brasil",
+  "category_id": "30195"
+ },
+ "143": {
+  "platform_id": "30148",
+  "platform_name": "Copa Del Rey",
+  "category_id": "101783"
  },
  "188": {
   "platform_id": "30129",
   "platform_name": "A League Soccer",
   "category_id": "102765"
+ },
+ "1": {
+  "platform_id": "30153",
+  "platform_name": "FIFA World Cup",
+  "category_id": "102350"
+ },
+ "10": {
+  "platform_id": "30202",
+  "platform_name": "FIFA Friendly",
+  "category_id": "102539"
+ },
+ "81": {
+  "platform_id": "30196",
+  "platform_name": "DFB-Pokal",
+  "category_id": "102154"
+ },
+ "119": {
+  "platform_id": "30133",
+  "platform_name": "Denmark Superliga",
+  "category_id": "102652"
+ },
+ "72": {
+  "platform_id": "30120",
+  "platform_name": "Brazil Serie B",
+  "category_id": "30120"
+ },
+ "128": {
+  "platform_id": "30200",
+  "platform_name": "Primera División Argentina",
+  "category_id": "102561"
+ },
+ "88": {
+  "platform_id": "30132",
+  "platform_name": "Eredivisie",
+  "category_id": "101735"
+ },
+ "136": {
+  "platform_id": "30140",
+  "platform_name": "Serie B (Italy)",
+  "category_id": "30140"
+ },
+ "62": {
+  "platform_id": "30139",
+  "platform_name": "Ligue 2",
+  "category_id": "30139"
+ },
+ "96": {
+  "platform_id": "30194",
+  "platform_name": "Taça de Portugal",
+  "category_id": "104334"
+ },
+ "98": {
+  "platform_id": "30128",
+  "platform_name": "Japan J League",
+  "category_id": "102649"
+ },
+ "39": {
+  "platform_id": "30118",
+  "platform_name": "EPL",
+  "category_id": "82"
+ },
+ "99": {
+  "platform_id": "30124",
+  "platform_name": "J2 League",
+  "category_id": "102770"
+ },
+ "137": {
+  "platform_id": "30149",
+  "platform_name": "CoppaItalia",
+  "category_id": "30149"
+ },
+ "283": {
+  "platform_id": "30147",
+  "platform_name": "Romania Superliga",
+  "category_id": "30147"
+ },
+ "848": {
+  "platform_id": "30142",
+  "platform_name": "UEFA Europa Conference League",
+  "category_id": "102763"
+ },
+ "200": {
+  "platform_id": "30144",
+  "platform_name": "Morocco Botola Pro",
+  "category_id": "30144"
+ },
+ "253": {
+  "platform_id": "30117",
+  "platform_name": "MLS",
+  "category_id": "100100"
+ },
+ "262": {
+  "platform_id": "30119",
+  "platform_name": "Liga MX",
+  "category_id": "102448"
+ },
+ "265": {
+  "platform_id": "30151",
+  "platform_name": "Chile Primera",
+  "category_id": "30151"
+ },
+ "239": {
+  "platform_id": "30122",
+  "platform_name": "Colombia Primera A",
+  "category_id": "30122"
+ },
+ "79": {
+  "platform_id": "30143",
+  "platform_name": "2. Bundesliga",
+  "category_id": "102864"
+ },
+ "48": {
+  "platform_id": "30156",
+  "platform_name": "EFL Cup",
+  "category_id": "101102"
+ },
+ "345": {
+  "platform_id": "30127",
+  "platform_name": "Czechia Fortuna Liga",
+  "category_id": "30127"
+ },
+ "525": {
+  "platform_id": "30197",
+  "platform_name": "Women's Champions League",
+  "category_id": "103885"
+ },
+ "141": {
+  "platform_id": "30137",
+  "platform_name": "La Liga 2",
+  "category_id": "102866"
+ },
+ "3": {
+  "platform_id": "30138",
+  "platform_name": "UEL",
+  "category_id": "100626"
+ },
+ "71": {
+  "platform_id": "30146",
+  "platform_name": "Brazil Serie A",
+  "category_id": "102648"
+ },
+ "40": {
+  "platform_id": "30116",
+  "platform_name": "EFL Championship",
+  "category_id": "102643"
+ },
+ "113": {
+  "platform_id": "30222",
+  "platform_name": "Allsvenskan",
+  "category_id": "104930"
+ },
+ "78": {
+  "platform_id": "30130",
+  "platform_name": "Bundesliga",
+  "category_id": "1494"
+ },
+ "2": {
+  "platform_id": "30113",
+  "platform_name": "UCL",
+  "category_id": "1234"
+ },
+ "13": {
+  "platform_id": "30115",
+  "platform_name": "Copa Libertadores",
+  "category_id": "102562"
+ },
+ "140": {
+  "platform_id": "30126",
+  "platform_name": "La Liga",
+  "category_id": "780"
+ },
+ "344": {
+  "platform_id": "30155",
+  "platform_name": "Bolivia LFPB",
+  "category_id": "30155"
  }
 }

@@ -889,5 +889,155 @@
   "af_type": "Cup",
   "category_id": "101964",
   "category_name": "World Cup Qualifiers"
+ },
+ {
+  "pool": "A",
+  "af_id": 137,
+  "af_name": "CoppaItalia",
+  "af_country": "Italy",
+  "af_type": "Cup",
+  "category_id": "30149",
+  "category_name": "CoppaItalia",
+  "platform_id": "30149"
+ },
+ {
+  "pool": "A",
+  "af_id": 136,
+  "af_name": "Serie B",
+  "af_country": "Italy",
+  "af_type": "League",
+  "category_id": "30140",
+  "category_name": "Serie B",
+  "platform_id": "30140"
+ },
+ {
+  "pool": "A",
+  "af_id": 62,
+  "af_name": "Ligue 2",
+  "af_country": "France",
+  "af_type": "League",
+  "category_id": "30139",
+  "category_name": "Ligue 2",
+  "platform_id": "30139"
+ },
+ {
+  "pool": "A",
+  "af_id": 203,
+  "af_name": "Super Lig",
+  "af_country": "Turkey",
+  "af_type": "League",
+  "category_id": "30121",
+  "category_name": "Super Lig",
+  "platform_id": "30121"
+ },
+ {
+  "pool": "A",
+  "af_id": 72,
+  "af_name": "Brazil Serie B",
+  "af_country": "Brazil",
+  "af_type": "League",
+  "category_id": "30120",
+  "category_name": "Brazil Serie B",
+  "platform_id": "30120"
+ },
+ {
+  "pool": "A",
+  "af_id": 73,
+  "af_name": "Copa do Brasil",
+  "af_country": "Brazil",
+  "af_type": "Cup",
+  "category_id": "30195",
+  "category_name": "Copa do Brasil",
+  "platform_id": "30195"
+ },
+ {
+  "pool": "A",
+  "af_id": 239,
+  "af_name": "Colombia Primera A",
+  "af_country": "Colombia",
+  "af_type": "League",
+  "category_id": "30122",
+  "category_name": "Colombia Primera A",
+  "platform_id": "30122"
+ },
+ {
+  "pool": "A",
+  "af_id": 265,
+  "af_name": "Chile Primera",
+  "af_country": "Chile",
+  "af_type": "League",
+  "category_id": "30151",
+  "category_name": "Chile Primera",
+  "platform_id": "30151"
+ },
+ {
+  "pool": "A",
+  "af_id": 281,
+  "af_name": "Peru Liga 1",
+  "af_country": "Peru",
+  "af_type": "League",
+  "category_id": "30154",
+  "category_name": "Peru Liga 1",
+  "platform_id": "30154"
+ },
+ {
+  "pool": "A",
+  "af_id": 344,
+  "af_name": "Bolivia LFPB",
+  "af_country": "Bolivia",
+  "af_type": "League",
+  "category_id": "30155",
+  "category_name": "Bolivia LFPB",
+  "platform_id": "30155"
+ },
+ {
+  "pool": "A",
+  "af_id": 200,
+  "af_name": "Morocco Botola Pro",
+  "af_country": "Morocco",
+  "af_type": "League",
+  "category_id": "30144",
+  "category_name": "Morocco Botola Pro",
+  "platform_id": "30144"
+ },
+ {
+  "pool": "A",
+  "af_id": 233,
+  "af_name": "Egypt Premier League",
+  "af_country": "Egypt",
+  "af_type": "League",
+  "category_id": "30145",
+  "category_name": "Egypt Premier League",
+  "platform_id": "30145"
+ },
+ {
+  "pool": "A",
+  "af_id": 283,
+  "af_name": "Romania Superliga",
+  "af_country": "Romania",
+  "af_type": "League",
+  "category_id": "30147",
+  "category_name": "Romania Superliga",
+  "platform_id": "30147"
+ },
+ {
+  "pool": "A",
+  "af_id": 345,
+  "af_name": "Czechia Fortuna Liga",
+  "af_country": "Czech-Republic",
+  "af_type": "League",
+  "category_id": "30127",
+  "category_name": "Czechia Fortuna Liga",
+  "platform_id": "30127"
+ },
+ {
+  "pool": "A",
+  "af_id": 16,
+  "af_name": "CONCACAF Champions Cup",
+  "af_country": "World",
+  "af_type": "Cup",
+  "category_id": "30199",
+  "category_name": "CONCACAF Champions Cup",
+  "platform_id": "30199"
  }
 ]

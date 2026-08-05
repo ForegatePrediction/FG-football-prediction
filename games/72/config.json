@@ -1,0 +1,17 @@
+{
+ "af_id": 72,
+ "name": "Brazil Serie B",
+ "type": "League",
+ "pool": "A",
+ "category_id": "30120",
+ "platform_id": "30120",
+ "platform_name": "Brazil Serie B",
+ "category_ids": [
+  "30120"
+ ],
+ "lg_goal": 1.067,
+ "hfa": 0.25,
+ "lr": 0.03,
+ "rho": -0.06,
+ "season_reset": 1.0
+}

@@ -1,0 +1,17 @@
+{
+ "af_id": 203,
+ "name": "Super Lig (Turkey)",
+ "type": "League",
+ "pool": "A",
+ "category_id": "30121",
+ "platform_id": "30121",
+ "platform_name": "Super Lig (Turkey)",
+ "category_ids": [
+  "30121"
+ ],
+ "lg_goal": 1.413,
+ "hfa": 0.25,
+ "lr": 0.03,
+ "rho": -0.06,
+ "season_reset": 1.0
+}

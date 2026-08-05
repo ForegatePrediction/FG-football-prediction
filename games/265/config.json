@@ -1,0 +1,17 @@
+{
+ "af_id": 265,
+ "name": "Chile Primera",
+ "type": "League",
+ "pool": "A",
+ "category_id": "30151",
+ "platform_id": "30151",
+ "platform_name": "Chile Primera",
+ "category_ids": [
+  "30151"
+ ],
+ "lg_goal": 1.315,
+ "hfa": 0.25,
+ "lr": 0.03,
+ "rho": -0.06,
+ "season_reset": 1.0
+}

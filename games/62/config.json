@@ -1,0 +1,17 @@
+{
+ "af_id": 62,
+ "name": "Ligue 2",
+ "type": "League",
+ "pool": "A",
+ "category_id": "30139",
+ "platform_id": "30139",
+ "platform_name": "Ligue 2",
+ "category_ids": [
+  "30139"
+ ],
+ "lg_goal": 1.206,
+ "hfa": 0.25,
+ "lr": 0.03,
+ "rho": -0.06,
+ "season_reset": 1.0
+}

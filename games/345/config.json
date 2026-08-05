@@ -1,0 +1,17 @@
+{
+ "af_id": 345,
+ "name": "Czechia Fortuna Liga",
+ "type": "League",
+ "pool": "A",
+ "category_id": "30127",
+ "platform_id": "30127",
+ "platform_name": "Czechia Fortuna Liga",
+ "category_ids": [
+  "30127"
+ ],
+ "lg_goal": 1.367,
+ "hfa": 0.25,
+ "lr": 0.03,
+ "rho": -0.06,
+ "season_reset": 1.0
+}

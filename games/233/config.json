@@ -1,0 +1,17 @@
+{
+ "af_id": 233,
+ "name": "Egypt Premier League",
+ "type": "League",
+ "pool": "A",
+ "category_id": "30145",
+ "platform_id": "30145",
+ "platform_name": "Egypt Premier League",
+ "category_ids": [
+  "30145"
+ ],
+ "lg_goal": 1.119,
+ "hfa": 0.25,
+ "lr": 0.03,
+ "rho": -0.06,
+ "season_reset": 1.0
+}

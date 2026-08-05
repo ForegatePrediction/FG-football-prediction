@@ -1,0 +1,17 @@
+{
+ "af_id": 136,
+ "name": "Serie B (Italy)",
+ "type": "League",
+ "pool": "A",
+ "category_id": "30140",
+ "platform_id": "30140",
+ "platform_name": "Serie B (Italy)",
+ "category_ids": [
+  "30140"
+ ],
+ "lg_goal": 1.229,
+ "hfa": 0.25,
+ "lr": 0.03,
+ "rho": -0.06,
+ "season_reset": 1.0
+}

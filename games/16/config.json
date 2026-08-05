@@ -1,0 +1,17 @@
+{
+ "af_id": 16,
+ "name": "CONCACAF Champions Cup",
+ "type": "Cup",
+ "pool": "A",
+ "category_id": "30199",
+ "platform_id": "30199",
+ "platform_name": "CONCACAF Champions Cup",
+ "category_ids": [
+  "30199"
+ ],
+ "lg_goal": 1.426,
+ "hfa": 0.25,
+ "lr": 0.03,
+ "rho": -0.06,
+ "season_reset": 1.0
+}

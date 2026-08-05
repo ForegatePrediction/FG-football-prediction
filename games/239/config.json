@@ -1,0 +1,17 @@
+{
+ "af_id": 239,
+ "name": "Colombia Primera A",
+ "type": "League",
+ "pool": "A",
+ "category_id": "30122",
+ "platform_id": "30122",
+ "platform_name": "Colombia Primera A",
+ "category_ids": [
+  "30122"
+ ],
+ "lg_goal": 1.131,
+ "hfa": 0.25,
+ "lr": 0.03,
+ "rho": -0.06,
+ "season_reset": 1.0
+}
