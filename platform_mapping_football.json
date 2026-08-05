@@ -24,6 +24,11 @@
   "platform_name": "Norway Eliteserien",
   "category_id": "102651"
  },
+ "396": {
+  "platform_id": "30223",
+  "platform_name": "Liga de Primera (Nicaragua)",
+  "category_id": "30223"
+ },
  "94": {
   "platform_id": "30141",
   "platform_name": "Primeira Liga",
@@ -38,6 +43,11 @@
   "platform_id": "30224",
   "platform_name": "Australia Cup",
   "category_id": "104336"
+ },
+ "880": {
+  "platform_id": "30208",
+  "platform_name": "UEFA Women's WC Qualifiers",
+  "category_id": "30208"
  },
  "281": {
   "platform_id": "30154",

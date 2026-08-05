@@ -1039,5 +1039,25 @@
   "category_id": "30199",
   "category_name": "CONCACAF Champions Cup",
   "platform_id": "30199"
+ },
+ {
+  "pool": "A",
+  "af_id": 396,
+  "af_name": "Liga de Primera",
+  "af_country": "Nicaragua",
+  "af_type": "League",
+  "category_id": "30223",
+  "category_name": "Liga de Primera",
+  "platform_id": "30223"
+ },
+ {
+  "pool": "A",
+  "af_id": 880,
+  "af_name": "UEFA Women's WC Qualifiers",
+  "af_country": "World",
+  "af_type": "League",
+  "category_id": "30208",
+  "category_name": "UEFA Women's WC Qualifiers",
+  "platform_id": "30208"
  }
 ]

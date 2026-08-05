@@ -1,0 +1,17 @@
+{
+ "af_id": 396,
+ "name": "Liga de Primera (Nicaragua)",
+ "type": "League",
+ "pool": "A",
+ "category_id": "30223",
+ "platform_id": "30223",
+ "platform_name": "Liga de Primera (Nicaragua)",
+ "category_ids": [
+  "30223"
+ ],
+ "lg_goal": 1.378,
+ "hfa": 0.25,
+ "lr": 0.03,
+ "rho": -0.06,
+ "season_reset": 1.0
+}
