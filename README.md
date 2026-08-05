@@ -1,61 +1,72 @@
 # FG-football-prediction
 
-ForeGate 足球赛事预测框架。一套 **Dixon-Coles 进球分布引擎** 产出全部玩法(1X2 / 双胜 / 单外 / 让球 / 大小球 / BTTS / 正确比分),覆盖 Polymarket 足球全量赛事(~83 个),按三类评级池组织:联赛 / 跨联赛俱乐部 / 国家队。
+**中文** ·
+ForeGate 足球赛事预测框架。一套 **Dixon-Coles 进球分布引擎** 覆盖单场足球的全部主流玩法(胜平负 / 大小球 / 让球 / 双方进球 / 正确比分 / 半场类 / 角球…),覆盖全球 80+ 项赛事(联赛 / 杯赛 / 洲际赛 / 国家队)。零依赖、秒级响应。
 
-> 盘前统计估计,不构成投注建议。
+**English** ·
+ForeGate football match-prediction framework. A single **Dixon-Coles goal-distribution engine** produces all major single-match markets (1X2 / totals / handicap / BTTS / correct score / half-time markets / corners…) across 80+ competitions worldwide (leagues / domestic cups / continental cups / national teams). Zero-dependency, millisecond responses.
 
-## 核心思路
+> **免责声明 / Disclaimer** — 盘前统计估计,不构成投注或投资建议。 Pre-match statistical estimates; not betting or investment advice.
 
-`评级(攻防) → 期望进球 (λ_home, λ_away) → 比分矩阵 → 全部玩法`。
-足球盘口高效,回测显示收盘赔率(~56%)优于纯模型(~53%),故**不融合成单值**,而是对外**混合展示:模型概率 + 盘口去水隐含概率 + 分歧**(见 `core/odds.py`)。
+---
 
-## 数据源
+## 核心思路 / Core idea
 
-- 赛果:**API-Football**(需 `APIFOOTBALL_KEY` 环境变量)。
-- 赔率(线上混合展示用):API-Football 赛前赔率。历史赔率回测用 football-data.co.uk。
+`评级(攻防) → 期望进球 (λ_home, λ_away) → 比分概率矩阵 → 全部玩法`
 
-## 目录
+每支球队有 **攻击力 / 防守力** 评级 + **主场优势**,算出双方期望进球,再展开成泊松比分矩阵(含 Dixon-Coles 低比分修正);所有进球类玩法都在该矩阵上求和得到。半场玩法按实测占比拆分两个半场泊松;角球玩法用独立的角球攻防评级。
+
+Each team carries **attack / defense** ratings plus **home advantage** → expected goals → a Poisson score matrix (with Dixon-Coles low-score correction). All goal markets are sums over that matrix. Half-time markets split each side's rate into two half Poissons; corner markets use a separate corner attack/defense model.
+
+## 覆盖 / Coverage
+
+- **80+ 赛事 / 80+ competitions**:55 联赛 + 9 国内杯 + 8 洲际赛 + 11 国家队/国际赛,按三种评级池组织(联赛 / 跨联赛俱乐部 / 国家队)。
+- **进球历史 / goals history**:主流联赛 2012–2025;数据源 API-Football。
+- **角球 / corners**:20 个主流联赛(欧洲 + 美洲/亚太头部)。
+
+## 目录 / Layout
 
 ```
-core/ratings.py    在线泊松攻防评级(可服务联赛/俱乐部/国家队三种池)
-core/markets.py    比分矩阵 -> 全玩法(含 Dixon-Coles 低比分修正)
-core/odds.py       Shin 去水 + 分歧(混合展示)
+core/ratings.py    在线泊松攻防评级(联赛/俱乐部/国家队通用)
+core/markets.py    比分矩阵 -> 全场/半场/角球玩法
+core/odds.py       赔率去水 + 分歧(混合展示:模型概率 vs 盘口隐含)
 core/backtest.py   走查式回测
-core/predict.py    读快照零训练预测(模型 + 可选盘口双口径 + 三语理由)
-games/<af_id>/     每个赛事:config.json / ratings.json / data/(gitignore)
-cli.py  server.py
+core/predict.py    读快照零训练预测(三语理由 + 可选盘口双口径)
+games/<code>/      每赛事:config.json / ratings.json / (corners_ratings.json)
+cli.py  server.py  refresh.py
 ```
 
-## 用法
+## HTTP API
 
 ```bash
-python3 cli.py snapshot 39            # 由 games/39/data/matches.json 重建英超快照
-python3 cli.py backtest 39            # 走查回测
-python3 cli.py predict  39 "Arsenal" "Chelsea"
-python3 server.py                     # HTTP API(PORT 默认 8000)
+python3 server.py            # PORT 默认 8000
 ```
 
-`code` = API-Football league_id;API 也支持 `categoryId`(Polymarket 标签 id)/ `name` 解析。
+| Endpoint | 说明 / Description |
+|---|---|
+| `GET /health` | 健康检查 |
+| `GET /competitions` | 所有赛事 + categoryId |
+| `GET /teams?categoryId=82&q=Arsenal` | 查队伍 / find teams |
+| `GET /predict?categoryId=82&a=Arsenal&b=Chelsea` | 全部玩法 + 三语理由 |
 
-## 建模池
+`/predict` 赛事解析三选一:`categoryId`(内部分类 id)/ `code`(API-Football league_id)/ `name`。可选 `lang=zh|en|vi`;传 `oh/od/oa`(1X2 欧赔)则附盘口去水隐含概率 + 分歧。CORS 全开,前端直连。
 
-- **A 联赛(~55)**:每联赛独立评级。
-- **B 国内杯 / C 洲际俱乐部赛(~17)**:跨联赛统一俱乐部评级池。
-- **D 国家队 / 国际赛(~11)**:国家队评级池。
+Match resolution accepts one of `categoryId` / `code` / `name`. Optional `lang=zh|en|vi`; pass `oh/od/oa` (1X2 decimal odds) to attach market-implied probabilities and divergence.
 
-赛事↔league_id↔池 见 `足球赛事-映射表.md`。
+## 用法 / Usage
 
-## 部署(Render 免费档)
+```bash
+python3 cli.py snapshot 39                  # 由数据重建英超快照
+python3 cli.py backtest 39                  # 走查回测
+python3 cli.py predict  39 "Arsenal" "Chelsea"
+```
 
-1. 新建 GitHub 仓库,推送本项目。
-2. Render → New → Blueprint,连接本仓库(读取 `render.yaml`)→ 一键部署 Web 服务(免费档;闲置会休眠,首个请求冷启动约 30–50 秒)。
-3. API 即为 `https://<service>.onrender.com`,前端用 `categoryId` 直连。
+## 部署 / Deploy (Render free plan)
 
-## 每日刷新(评级增量续训)
+1. 推送到 GitHub;Render → New → Blueprint 连接本仓库(读 `render.yaml`)→ 一键部署。免费档闲置休眠,首个请求冷启动约 30–50 秒。
+2. 每日刷新:`.github/workflows/daily-refresh.yml` 每日增量续训评级,需在仓库 Secrets 配置 `APIFOOTBALL_KEY`。
 
-- `.github/workflows/daily-refresh.yml`:每日跑 `refresh.py`,**增量续训**各池 A 联赛评级(载入现有快照 → 只拉当前赛季新赛果 → 更新 → 提交 `ratings.json`)。
-- 需在 GitHub 仓库 Secrets 配置 **`APIFOOTBALL_KEY`**。
-- 跨联赛俱乐部池 / 国家队池 / 角球快照默认不在每日刷新内(变动慢),按需扩展。
+Push to GitHub, deploy on Render via `render.yaml`. Daily incremental refresh runs via GitHub Actions (set `APIFOOTBALL_KEY` secret).
 
 ## License
 

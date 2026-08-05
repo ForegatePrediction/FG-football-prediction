@@ -7,7 +7,7 @@
   GET /competitions                         所有赛事 + categoryId + 池
   GET /teams?categoryId=82&q=Arsenal         查队伍(快照内)
   GET /predict?categoryId=82&a=Arsenal&b=Chelsea[&hcap=0&total=2.5&lang=zh&oh=&od=&oa=]
-      赛事解析三选一:categoryId(Poly 标签 id) / code(API-Football league_id) / name
+      赛事解析三选一:categoryId(内部分类 id) / code(API-Football league_id) / name
       传 oh/od/oa(1X2 欧赔)则附盘口去水隐含概率 + 分歧(混合展示)
 """
 import json, os, sys
@@ -33,18 +33,18 @@ def competitions():
             snap_dir = os.path.join(GAMES, str(ref)) if ref else os.path.join(GAMES, code)
             has = os.path.isfile(os.path.join(snap_dir, "ratings.json"))
             out[code] = {"name": c.get("name"), "country": c.get("country"), "pool": c.get("pool"),
-                         "category_id": c.get("category_id"), "poly_ids": c.get("poly_ids", []),
+                         "category_id": c.get("category_id"), "category_ids": c.get("category_ids", []),
                          "ready": has}
     return out
 
 
 def resolve(q):
-    """categoryId(Poly) / code(af_id) / name 三选一 -> 赛事目录 code。"""
+    """categoryId / code(af_id) / name 三选一 -> 赛事目录 code。"""
     comps = competitions()
     cid = q.get("categoryId") or q.get("category_id")
     if cid:
         for code, c in comps.items():
-            if str(cid) in [str(x) for x in c.get("poly_ids", [])] or str(cid) == str(c.get("category_id")):
+            if str(cid) in [str(x) for x in c.get("category_ids", [])] or str(cid) == str(c.get("category_id")):
                 return code, None
         return None, {"error": f"未知 categoryId: {cid}", "categoryId": cid}
     code = q.get("code") or q.get("league")
