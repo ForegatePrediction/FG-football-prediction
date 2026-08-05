@@ -13,15 +13,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: pip install requests
-      - name: Incremental refresh ratings
-        env:
-          APIFOOTBALL_KEY: ${{ secrets.APIFOOTBALL_KEY }}
+      - name: Incremental refresh ratings (free source, no key)
         run: python3 refresh.py
       - name: Commit updated snapshots
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add games/*/ratings.json
+          git add games/*/ratings.json games/*/corners_ratings.json
           git diff --cached --quiet || git commit -m "chore: daily ratings refresh"
           git push

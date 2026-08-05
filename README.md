@@ -1,8 +1,8 @@
 # FG-football-prediction
 
-**中文** · ForeGate 足球赛事预测框架。一套 **Dixon-Coles 进球分布引擎** 覆盖单场足球全部主流玩法,覆盖全球 83 项赛事(联赛/杯赛/洲际赛/国家队)。零依赖、秒级响应。
+**中文** · ForeGate 足球赛事预测框架。一套 **Dixon-Coles 进球分布引擎**,覆盖欧洲五大联赛(英超 / 西甲 / 意甲 / 德甲 / 法甲)单场全部主流玩法。数据全部来自免费公开源、**无需任何 API key**,零依赖、秒级响应。
 
-**English** · ForeGate football match-prediction framework — one **Dixon-Coles goal-distribution engine** producing all major single-match markets across 83 competitions. Zero-dependency, millisecond responses.
+**English** · ForeGate football match-prediction framework — one **Dixon-Coles goal-distribution engine** producing all major single-match markets for Europe's big five (Premier League / La Liga / Serie A / Bundesliga / Ligue 1). Data is entirely from a free public source, **no API key required**, zero-dependency, millisecond responses.
 
 > **免责声明 / Disclaimer** — 盘前统计估计,不构成投注或投资建议。Pre-match statistical estimate; not betting or investment advice.
 
@@ -12,23 +12,44 @@
 
 `评级(攻防) → 期望进球 (λ_home, λ_away) → 比分概率矩阵 → 全部玩法`
 
-每队有**攻击力/防守力**评级 + **主场优势**,算出双方期望进球,展开为泊松比分矩阵(含 Dixon-Coles 低比分修正),所有进球类玩法在矩阵上求和;半场玩法按实测占比(≈0.458)拆两个半场泊松;角球玩法用独立角球攻防评级。
+每队有**攻击力/防守力**评级 + **主场优势**,算出双方期望进球,展开为泊松比分矩阵(含 Dixon-Coles 低比分修正),所有进球类玩法在矩阵上求和;半场玩法按实测占比(≈0.458)拆两个半场泊松;角球玩法用一套独立的角球攻防评级(同一引擎,喂角球数)。
+
+Each team has attack/defense ratings plus home advantage → expected goals → a Poisson score matrix (with the Dixon-Coles low-score correction); every goal market is summed off that matrix. Half-time markets split into two half-Poissons by an empirical share (≈0.458); corners use a separate corner attack/defense rating (same engine, fed corner counts).
+
+---
+
+## 覆盖联赛 / Leagues (5)
+
+`categoryId` = 平台分类 id(前端传参键);`code` = 内部联赛目录名;命中率 = 走查式样本外回测(burn-in 到 2019 赛季)。所有联赛均支持角球玩法。
+
+| 联赛 League | 国家 | categoryId | code | 样本 Games | 1X2 | 大小球 O/U | 角球 |
+|---|---|---|---|---|---|---|:--:|
+| Premier League | England | 82 | 39 | 5,320 | 53.2% | 55.4% | ✅ |
+| La Liga | Spain | 780 | 140 | 5,325 | 52.3% | 55.9% | ✅ |
+| Serie A | Italy | 100618 | 135 | 5,320 | 53.5% | 55.3% | ✅ |
+| Bundesliga | Germany | 1494 | 78 | 4,284 | 51.9% | 60.8% | ✅ |
+| Ligue 1 | France | 102070 | 61 | 4,997 | 51.3% | 55.3% | ✅ |
+
+> 历史深度:每个联赛覆盖近 14 个赛季(2012/13–2025/26),比分 / 半场 / 角球 / 赔率字段齐全。每日增量任务持续把新赛果并入评级。
+> History: each league covers ~14 seasons (2012/13–2025/26) with full score / half-time / corner / odds fields. A daily incremental job keeps merging new results.
+
+---
 
 ## HTTP API
 
 ```
 GET /predict?categoryId=82&a=Arsenal&b=Chelsea[&lang=zh|en|vi][&oh=&od=&oa=]
 ```
-赛事解析三选一:`categoryId`(内部分类 id)/ `code`(league_id)/ `name`。队名支持**模糊匹配**(精确→子串→词级+缩写扩展)。传 `oh/od/oa`(1X2 欧赔)则附盘口去水隐含概率 `market` + 分歧 `divergence`。
+赛事解析三选一:`categoryId`(内部分类 id)/ `code`(联赛目录名)/ `name`。队名支持**模糊匹配**(精确→子串→词级+缩写扩展)。传 `oh/od/oa`(1X2 欧赔)则附盘口去水隐含概率 `market` + 分歧 `divergence`(模型与市场分开展示,不融合)。
 其它:`GET /health`、`GET /competitions`、`GET /teams?categoryId=..&q=..`。
 
-**返回顶层字段**:`code, competition, category_id, pool, A, B, lang, matched_exact, markets, reasons`(传赔率另有 `market, divergence`)。
+**返回顶层字段**:`code, competition, category_id, A, B, lang, matched_exact, markets, reasons`(传赔率另有 `market, divergence`)。
 
 ---
 
 ## 支持的玩法字段 / Market fields(`markets` 内,概率均 0–1)
 
-### 全场进球类 / Full-time goals(所有赛事)
+### 全场进球类 / Full-time goals
 | 字段 | 含义 | 值 |
 |---|---|---|
 | `expected_goals` | 双方期望进球 | home, away |
@@ -51,7 +72,7 @@ GET /predict?categoryId=82&a=Arsenal&b=Chelsea[&lang=zh|en|vi][&oh=&od=&oa=]
 | `result_btts` | 赛果+双方进球 | home_yes/no, draw_yes/no, away_yes/no |
 | `result_ou25` | 赛果+大小2.5 | home_over/under, draw_..., away_... |
 
-### 半场类 / Half-time(所有赛事)
+### 半场类 / Half-time
 | 字段 | 含义 | 值 |
 |---|---|---|
 | `first_half` / `second_half` | 上/下半场 | result{home,draw,away} + over_under{0.5/1.5/2.5} + btts{yes,no} |
@@ -59,7 +80,7 @@ GET /predict?categoryId=82&a=Arsenal&b=Chelsea[&lang=zh|en|vi][&oh=&od=&oa=]
 | `highest_scoring_half` | 最高进球半场 | first, equal, second |
 | `neither_score_first` | 谁都不先进球(全场0-0) | yes, no |
 
-### 角球类 / Corners(20 联赛,见下表 ✅)
+### 角球类 / Corners
 | 字段 | 含义 | 值 |
 |---|---|---|
 | `expected_corners` | 期望角球 | home, away, total |
@@ -68,132 +89,27 @@ GET /predict?categoryId=82&a=Arsenal&b=Chelsea[&lang=zh|en|vi][&oh=&od=&oa=]
 | `corners_team_home` / `corners_team_away` | 球队角球大小 | 3.5/4.5/5.5 → line, over, under |
 | `first_corner` | 首角球队 | home, away |
 
-**做不了(数据缺口)**:半场角球、球员盘(射手/进球数)、牌数盘、低级别联赛角球。
-
----
-
-## 覆盖的赛事 / Competitions(83)
-
-> `categoryId`=内部分类 id(前端传参键);`code`=API-Football league_id;`角球`✅ 表示支持角球玩法。
-
-### 联赛 / Leagues(55)
-
-| categoryId | 名称 Name | 国家/地区 | code | 角球 |
-|---|---|---|---|:--:|
-| 102561 | Liga Profesional Argentina | Argentina | 128 | ✅ |
-| 105240 | Primera Nacional | Argentina | 129 | — |
-| 102765 | A-League | Australia | 188 | ✅ |
-| 104929 | Bundesliga | Austria | 218 | — |
-| 102648 | Serie A | Brazil | 71 | ✅ |
-| 104936 | First League | Bulgaria | 172 | — |
-| 105261 | Primera B | Chile | 266 | — |
-| 105259 | League One | China | 170 | — |
-| 102764 | Super League | China | 169 | ✅ |
-| 105260 | Primera B | Colombia | 240 | — |
-| 104318 | Primera División | Costa-Rica | 162 | — |
-| 102652 | Superliga | Denmark | 119 | — |
-| 105242 | Liga Pro | Ecuador | 242 | — |
-| 102643 | Championship | England | 40 | ✅ |
-| 104319 | League One | England | 41 | — |
-| 82 | Premier League | England | 39 | ✅ |
-| 105243 | Veikkausliiga | Finland | 244 | — |
-| 102070 | Ligue 1 | France | 61 | ✅ |
-| 102864 | 2. Bundesliga | Germany | 79 | ✅ |
-| 1494 | Bundesliga | Germany | 78 | ✅ |
-| 104322 | Liga Nacional | Guatemala | 339 | — |
-| 104933 | NB I | Hungary | 271 | — |
-| 105244 | Úrvalsdeild | Iceland | 164 | — |
-| 103986 | Indian Super League | India | 323 | — |
-| 105245 | Premier Division | Ireland | 357 | — |
-| 100618 | Serie A | Italy | 135 | ✅ |
-| 102649 | J1 League | Japan | 98 | ✅ |
-| 102770 | J2 League | Japan | 99 | — |
-| 105246 | Premier League | Kazakhstan | 389 | — |
-| 105253 | Virsliga | Latvia | 365 | — |
-| 105254 | A Lyga | Lithuania | 362 | — |
-| 102448 | Liga MX | Mexico | 262 | ✅ |
-| 101735 | Eredivisie | Netherlands | 88 | ✅ |
-| 105250 | 1. Division | Norway | 104 | — |
-| 102651 | Eliteserien | Norway | 103 | — |
-| 105705 | Ekstraklasa | Poland | 106 | — |
-| 102122 | Primeira Liga | Portugal | 94 | ✅ |
-| 102593 | Premier League | Russia | 235 | — |
-| 102650 | Pro League | Saudi-Arabia | 307 | ✅ |
-| 102872 | Premiership | Scotland | 179 | ✅ |
-| 104932 | Super Liga | Serbia | 286 | — |
-| 104934 | 1. SNL | Slovenia | 373 | — |
-| 105734 | Premier Soccer League | South-Africa | 288 | — |
-| 102771 | K League 1 | South-Korea | 292 | ✅ |
-| 105258 | K League 2 | South-Korea | 293 | — |
-| 780 | La Liga | Spain | 140 | ✅ |
-| 102866 | Segunda División | Spain | 141 | ✅ |
-| 104930 | Allsvenskan | Sweden | 113 | — |
-| 105251 | Superettan | Sweden | 114 | — |
-| 105704 | Super League | Switzerland | 207 | — |
-| 100100 | Major League Soccer | USA | 253 | ✅ |
-| 103886 | Premier League | Ukraine | 333 | — |
-| 105241 | Primera División - Apertura | Uruguay | 268 | — |
-| 105247 | Super League | Uzbekistan | 369 | — |
-| 105249 | Primera División | Venezuela | 299 | — |
-
-### 国内杯 / Domestic Cups(9)
-
-| categoryId | 名称 Name | 国家/地区 | code | 角球 |
-|---|---|---|---|:--:|
-| 104336 | Australia Cup | Australia | 874 | — |
-| 104335 | Cup | Austria | 220 | — |
-| 101807 | FA Cup | England | 45 | — |
-| 101102 | League Cup | England | 48 | — |
-| 102604 | Coupe de France | France | 66 | — |
-| 102154 | DFB Pokal | Germany | 81 | — |
-| 104334 | Taça de Portugal | Portugal | 96 | — |
-| 105706 | League Cup | Scotland | 185 | — |
-| 101783 | Copa del Rey | Spain | 143 | — |
-
-### 洲际俱乐部 / Continental Club(8)
-
-| categoryId | 名称 Name | 国家/地区 | code | 角球 |
-|---|---|---|---|:--:|
-| 102562 | CONMEBOL Libertadores | World | 13 | — |
-| 102563 | CONMEBOL Sudamericana | World | 11 | — |
-| 102192 | FIFA Club World Cup | World | 15 | — |
-| 102449 | Leagues Cup | World | 772 | — |
-| 1234 | UEFA Champions League | World | 2 | — |
-| 103885 | UEFA Champions League Women | World | 525 | — |
-| 102763 | UEFA Europa Conference League | World | 848 | — |
-| 100626 | UEFA Europa League | World | 3 | — |
-
-### 国家队 / National Teams(11)
-
-| categoryId | 名称 Name | 国家/地区 | code | 角球 |
-|---|---|---|---|:--:|
-| 102263 | CONCACAF Gold Cup | World | 22 | — |
-| 100817 | Euro Championship | World | 4 | — |
-| 102539 | Friendlies | World | 10 | — |
-| 105795 | Friendlies Clubs | World | 667 | — |
-| 102356 | UEFA Championship - Women | World | 743 | — |
-| 100782 | UEFA Nations League | World | 5 | — |
-| 102267 | UEFA U21 Championship | World | 38 | — |
-| 102350 | World Cup | World | 1 | — |
-| 102544 | World Cup - Qualification Europe | World | 32 | — |
-| 101982 | World Cup - Qualification Intercontinental Play-offs | World | 37 | — |
-| 105215 | World Cup - Women - Qualification Concacaf | World | 927 | — |
+**做不了(数据缺口)**:半场角球、球员盘(射手/进球数)、牌数盘。
 
 ---
 
 ## 数据 / Data
-- 进球:API-Football,主流联赛 2012–2025(平均每联赛 6.7 季)。
-- 角球:欧洲 11 联赛(football-data.co.uk,2018–2025)+ 非欧 9 联赛(API-Football,2024–2025)。
+
+全部来自 **football-data.co.uk** 免费公开 CSV(比分 + 半场比分 + 角球 + 赔率),近 14 个赛季,**无需任何 API key、零成本**。
+All data from **football-data.co.uk** free public CSVs (scores + half-time + corners + odds), ~14 seasons, **no API key, zero cost**.
+
+一次性全量重建:`python3 build.py`。 Full rebuild from scratch: `python3 build.py`.
 
 ## 目录 / Layout
 ```
-core/ratings.py  markets.py  odds.py  backtest.py  predict.py
-games/<code>/config.json  ratings.json  (corners_ratings.json)
-cli.py  server.py  refresh.py  render.yaml
+core/    ratings.py  markets.py  odds.py  backtest.py  predict.py
+games/<code>/  config.json  ratings.json  corners_ratings.json  data/{matches,corners}.json
+cli.py  server.py  build.py  refresh.py  render.yaml
 ```
 
 ## 部署 / Deploy
-Render → New → Blueprint 连接本仓库(读 render.yaml,免费档)。每日刷新 .github/workflows/daily-refresh.yml 增量续训,需配置 Secret `APIFOOTBALL_KEY`。
+Render → New → Blueprint 连接本仓库(读 `render.yaml`,免费档)。每日刷新 `.github/workflows/daily-refresh.yml` 从免费源增量续训——**无需配置任何 Secret**。
+Render → New → Blueprint on this repo (reads `render.yaml`, free plan). The daily workflow refreshes from the free source — **no secrets to configure**.
 
 ## License
 MIT

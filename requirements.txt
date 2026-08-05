@@ -1,3 +1,2 @@
-# server.py 与 core 预测全部使用 Python 标准库,运行时零依赖。
-# 以下仅供数据脚本(refresh.py / fetch_*.py)在 CI 中使用:
-requests>=2.28
+# server.py、core 预测、refresh.py 全部使用 Python 标准库,运行时零依赖、无需任何 API key。
+# server.py / core prediction / refresh.py all use the Python standard library only — zero runtime dependencies, no API key.
