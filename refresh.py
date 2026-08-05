@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""每日刷新:增量续训各赛事评级快照。
-- 载入现有 ratings.json -> 只拉当前赛季新赛果 -> 续训 -> 覆盖快照(仅提交 *.json 快照)。
-- 池A 各联赛独立;跨联赛俱乐部池(_clubpool)/国家队池(_natpool)用相关赛事新赛果续训。
+"""每日刷新(按日期增量,极省 API 额度)。
+思路:用 /fixtures?date=YYYY-MM-DD 一次拿当天全球所有已结束比赛,再筛出本项目的联赛,
+增量续训对应评级快照。每天只拉"上次~今天"的几个日期 ≈ 1–7 次调用/天(免费档 100/天足够)。
 需环境变量 APIFOOTBALL_KEY。用法:python3 refresh.py
 """
 import os, json, sys, datetime
@@ -15,7 +15,7 @@ from core.ratings import PoissonRatings
 ROOT = os.path.dirname(os.path.abspath(__file__))
 KEY = os.environ.get("APIFOOTBALL_KEY", "")
 B = "https://v3.football.api-sports.io"
-CUR = [datetime.date.today().year, datetime.date.today().year - 1]  # 当前+上一年,覆盖跨年赛季
+MAX_LOOKBACK = 90  # 最多回看天数,避免长期未跑时范围过大
 
 
 def _get(path):
@@ -23,60 +23,63 @@ def _get(path):
     return r.json()
 
 
-def new_matches(af, after_date):
-    out = []
-    for s in CUR:
-        try:
-            resp = _get(f"/fixtures?league={af}&season={s}").get("response", [])
-        except Exception:
+def pool_a_leagues():
+    """本项目建了独立评级快照的联赛(池 A):league_id -> 快照路径。"""
+    rows = json.load(open(os.path.join(ROOT, "master_mapping.json"), encoding="utf-8"))
+    out = {}
+    for r in rows:
+        if r.get("pool") != "A":
             continue
-        for m in resp:
-            if m["fixture"]["status"]["short"] != "FT":
-                continue
-            g = m["goals"]
-            if g["home"] is None or g["away"] is None:
-                continue
-            d = m["fixture"]["date"][:10]
-            if after_date and d <= after_date:
-                continue
-            out.append({"date": d, "home": m["teams"]["home"]["name"],
-                        "away": m["teams"]["away"]["name"], "hg": g["home"], "ag": g["away"]})
-    return sorted(out, key=lambda m: (m["date"], m["home"]))
-
-
-def refresh_league(af):
-    p = os.path.join(ROOT, "games", str(af), "ratings.json")
-    if not os.path.isfile(p):
-        return
-    snap = json.load(open(p, encoding="utf-8"))
-    cfg = json.load(open(os.path.join(ROOT, "games", str(af), "config.json"), encoding="utf-8"))
-    R = PoissonRatings.from_snapshot(snap, lg_goal=cfg.get("lg_goal", 1.35), lr=cfg.get("lr", 0.03))
-    ms = new_matches(af, snap.get("last_date"))
-    if not ms:
-        return 0
-    for m in ms:
-        R.update(m["home"], m["away"], m["hg"], m["ag"])
-    ns = R.snapshot()
-    ns["last_date"] = max(m["date"] for m in ms)
-    json.dump(ns, open(p, "w", encoding="utf-8"), ensure_ascii=False)
-    return len(ms)
+        p = os.path.join(ROOT, "games", str(r["af_id"]), "ratings.json")
+        if os.path.isfile(p):
+            out[r["af_id"]] = p
+    return out
 
 
 def main():
     if not KEY or requests is None:
         print("缺少 APIFOOTBALL_KEY 或 requests,退出"); sys.exit(1)
-    rows = json.load(open(os.path.join(ROOT, "master_mapping.json"), encoding="utf-8"))
-    afids = sorted({r["af_id"] for r in rows})
-    total = 0
-    for af in afids:
+    leagues = pool_a_leagues()
+    snaps = {af: json.load(open(p, encoding="utf-8")) for af, p in leagues.items()}
+    # 起始日期 = 各快照 last_date 的最小值(即最久没更新的那个),回看上限 MAX_LOOKBACK 天
+    today = datetime.date.today()
+    lds = [s.get("last_date") for s in snaps.values() if s.get("last_date")]
+    start = max((datetime.date.fromisoformat(min(lds)) + datetime.timedelta(days=1)) if lds
+                else today - datetime.timedelta(days=1), today - datetime.timedelta(days=MAX_LOOKBACK))
+    # 按日期拉当天已结束比赛,归集到各联赛
+    by_league = {af: [] for af in leagues}
+    d = start; days = 0
+    while d <= today:
         try:
-            n = refresh_league(af) or 0
-            total += n
-            if n:
-                print(f"[{af}] +{n} 场")
+            resp = _get(f"/fixtures?date={d.isoformat()}").get("response", [])
         except Exception as e:
-            print(f"[{af}] 失败 {str(e)[:60]}")
-    print(f"刷新完成,新增合计 {total} 场")
+            print(f"[{d}] 拉取失败 {str(e)[:50]}"); d += datetime.timedelta(days=1); continue
+        for m in resp:
+            lid = m["league"]["id"]
+            if lid not in leagues or m["fixture"]["status"]["short"] != "FT":
+                continue
+            g = m["goals"]
+            if g["home"] is None or g["away"] is None:
+                continue
+            by_league[lid].append({"date": m["fixture"]["date"][:10],
+                                   "home": m["teams"]["home"]["name"], "away": m["teams"]["away"]["name"],
+                                   "hg": g["home"], "ag": g["away"]})
+        d += datetime.timedelta(days=1); days += 1
+    # 增量续训
+    total = 0
+    for af, snap in snaps.items():
+        ms = [x for x in by_league[af] if not snap.get("last_date") or x["date"] > snap["last_date"]]
+        if not ms:
+            continue
+        ms.sort(key=lambda x: (x["date"], x["home"]))
+        cfg = json.load(open(os.path.join(ROOT, "games", str(af), "config.json"), encoding="utf-8"))
+        R = PoissonRatings.from_snapshot(snap, lg_goal=cfg.get("lg_goal", 1.35), lr=cfg.get("lr", 0.03))
+        for m in ms:
+            R.update(m["home"], m["away"], m["hg"], m["ag"])
+        ns = R.snapshot(); ns["last_date"] = max(m["date"] for m in ms)
+        json.dump(ns, open(leagues[af], "w", encoding="utf-8"), ensure_ascii=False)
+        total += len(ms); print(f"[{af}] +{len(ms)} 场")
+    print(f"刷新完成:拉取 {days} 个日期,新增合计 {total} 场,更新 {sum(1 for af in snaps if by_league[af])} 个联赛")
 
 
 if __name__ == "__main__":
