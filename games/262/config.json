@@ -11,6 +11,9 @@
  "rho": -0.06,
  "season_reset": 1.0,
  "category_ids": [
-  "102448"
- ]
+  "102448",
+  "30119"
+ ],
+ "platform_id": "30119",
+ "platform_name": "Liga MX"
 }

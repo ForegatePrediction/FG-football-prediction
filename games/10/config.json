@@ -12,7 +12,10 @@
  "season_reset": 1.0,
  "pool_ref": "_natpool",
  "category_ids": [
+  "100834",
   "102539",
-  "100834"
- ]
+  "30202"
+ ],
+ "platform_id": "30202",
+ "platform_name": "FIFA Friendly"
 }

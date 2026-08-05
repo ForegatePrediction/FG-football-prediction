@@ -13,6 +13,9 @@
  "pool_ref": "_clubpool",
  "category_ids": [
   "101102",
-  "102525"
- ]
+  "102525",
+  "30156"
+ ],
+ "platform_id": "30156",
+ "platform_name": "EFL Cup"
 }

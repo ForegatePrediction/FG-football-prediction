@@ -11,6 +11,9 @@
  "rho": -0.06,
  "season_reset": 1.0,
  "category_ids": [
+  "30118",
   "82"
- ]
+ ],
+ "platform_id": "30118",
+ "platform_name": "EPL"
 }

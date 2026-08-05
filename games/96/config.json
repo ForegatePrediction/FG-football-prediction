@@ -12,7 +12,10 @@
  "season_reset": 1.0,
  "pool_ref": "_clubpool",
  "category_ids": [
+  "102157",
   "104334",
-  "102157"
- ]
+  "30194"
+ ],
+ "platform_id": "30194",
+ "platform_name": "Taça de Portugal"
 }

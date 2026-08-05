@@ -11,6 +11,9 @@
  "rho": -0.06,
  "season_reset": 1.0,
  "category_ids": [
-  "100618"
- ]
+  "100618",
+  "30135"
+ ],
+ "platform_id": "30135",
+ "platform_name": "Serie A"
 }

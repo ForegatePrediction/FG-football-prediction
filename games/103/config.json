@@ -11,6 +11,9 @@
  "rho": -0.06,
  "season_reset": 1.0,
  "category_ids": [
-  "102651"
- ]
+  "102651",
+  "30131"
+ ],
+ "platform_id": "30131",
+ "platform_name": "Norway Eliteserien"
 }

@@ -13,6 +13,9 @@
  "pool_ref": "_clubpool",
  "category_ids": [
   "100626",
-  "102506"
- ]
+  "102506",
+  "30138"
+ ],
+ "platform_id": "30138",
+ "platform_name": "UEL"
 }

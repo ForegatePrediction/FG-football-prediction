@@ -12,6 +12,9 @@
  "season_reset": 1.0,
  "pool_ref": "_clubpool",
  "category_ids": [
-  "101783"
- ]
+  "101783",
+  "30148"
+ ],
+ "platform_id": "30148",
+ "platform_name": "Copa Del Rey"
 }

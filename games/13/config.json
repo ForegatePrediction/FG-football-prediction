@@ -12,6 +12,9 @@
  "season_reset": 1.0,
  "pool_ref": "_clubpool",
  "category_ids": [
-  "102562"
- ]
+  "102562",
+  "30115"
+ ],
+ "platform_id": "30115",
+ "platform_name": "Copa Libertadores"
 }

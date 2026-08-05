@@ -11,6 +11,9 @@
  "rho": -0.06,
  "season_reset": 1.0,
  "category_ids": [
-  "102652"
- ]
+  "102652",
+  "30133"
+ ],
+ "platform_id": "30133",
+ "platform_name": "Denmark Superliga"
 }

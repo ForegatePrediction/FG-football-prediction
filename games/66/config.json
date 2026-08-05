@@ -12,7 +12,10 @@
  "season_reset": 1.0,
  "pool_ref": "_clubpool",
  "category_ids": [
+  "102155",
   "102604",
-  "102155"
- ]
+  "30152"
+ ],
+ "platform_id": "30152",
+ "platform_name": "Coupe De France"
 }

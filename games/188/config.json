@@ -11,6 +11,9 @@
  "rho": -0.06,
  "season_reset": 1.0,
  "category_ids": [
-  "102765"
- ]
+  "102765",
+  "30129"
+ ],
+ "platform_id": "30129",
+ "platform_name": "A League Soccer"
 }

@@ -12,6 +12,9 @@
  "season_reset": 1.0,
  "pool_ref": "_clubpool",
  "category_ids": [
-  "104336"
- ]
+  "104336",
+  "30224"
+ ],
+ "platform_id": "30224",
+ "platform_name": "Australia Cup"
 }

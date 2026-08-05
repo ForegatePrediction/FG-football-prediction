@@ -11,6 +11,9 @@
  "rho": -0.06,
  "season_reset": 1.0,
  "category_ids": [
-  "100100"
- ]
+  "100100",
+  "30117"
+ ],
+ "platform_id": "30117",
+ "platform_name": "MLS"
 }

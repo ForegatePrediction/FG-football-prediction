@@ -12,8 +12,11 @@
  "season_reset": 1.0,
  "pool_ref": "_natpool",
  "category_ids": [
-  "102350",
   "102232",
+  "102350",
+  "30153",
   "519"
- ]
+ ],
+ "platform_id": "30153",
+ "platform_name": "FIFA World Cup"
 }

@@ -11,6 +11,9 @@
  "rho": -0.06,
  "season_reset": 1.0,
  "category_ids": [
-  "102866"
- ]
+  "102866",
+  "30137"
+ ],
+ "platform_id": "30137",
+ "platform_name": "La Liga 2"
 }

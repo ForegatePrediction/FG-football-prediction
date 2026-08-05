@@ -11,6 +11,9 @@
  "rho": -0.06,
  "season_reset": 1.0,
  "category_ids": [
-  "102864"
- ]
+  "102864",
+  "30143"
+ ],
+ "platform_id": "30143",
+ "platform_name": "2. Bundesliga"
 }

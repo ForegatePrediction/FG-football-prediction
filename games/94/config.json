@@ -11,7 +11,10 @@
  "rho": -0.06,
  "season_reset": 1.0,
  "category_ids": [
+  "101772",
   "102122",
-  "101772"
- ]
+  "30141"
+ ],
+ "platform_id": "30141",
+ "platform_name": "Primeira Liga"
 }

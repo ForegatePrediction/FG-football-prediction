@@ -12,7 +12,10 @@
  "season_reset": 1.0,
  "pool_ref": "_clubpool",
  "category_ids": [
+  "102178",
   "1234",
-  "102178"
- ]
+  "30113"
+ ],
+ "platform_id": "30113",
+ "platform_name": "UCL"
 }

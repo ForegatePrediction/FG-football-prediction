@@ -11,6 +11,9 @@
  "rho": -0.06,
  "season_reset": 1.0,
  "category_ids": [
-  "102643"
- ]
+  "102643",
+  "30116"
+ ],
+ "platform_id": "30116",
+ "platform_name": "EFL Championship"
 }

@@ -11,6 +11,9 @@
  "rho": -0.06,
  "season_reset": 1.0,
  "category_ids": [
-  "102561"
- ]
+  "102561",
+  "30200"
+ ],
+ "platform_id": "30200",
+ "platform_name": "Primera División Argentina"
 }

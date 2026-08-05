@@ -11,6 +11,9 @@
  "rho": -0.06,
  "season_reset": 1.0,
  "category_ids": [
-  "102648"
- ]
+  "102648",
+  "30146"
+ ],
+ "platform_id": "30146",
+ "platform_name": "Brazil Serie A"
 }

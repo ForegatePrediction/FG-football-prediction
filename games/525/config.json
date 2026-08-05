@@ -12,6 +12,9 @@
  "season_reset": 1.0,
  "pool_ref": "_clubpool",
  "category_ids": [
-  "103885"
- ]
+  "103885",
+  "30197"
+ ],
+ "platform_id": "30197",
+ "platform_name": "Women's Champions League"
 }

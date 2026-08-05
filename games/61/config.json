@@ -11,6 +11,9 @@
  "rho": -0.06,
  "season_reset": 1.0,
  "category_ids": [
-  "102070"
- ]
+  "102070",
+  "30136"
+ ],
+ "platform_id": "30136",
+ "platform_name": "Ligue 1"
 }

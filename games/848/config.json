@@ -12,6 +12,9 @@
  "season_reset": 1.0,
  "pool_ref": "_clubpool",
  "category_ids": [
-  "102763"
- ]
+  "102763",
+  "30142"
+ ],
+ "platform_id": "30142",
+ "platform_name": "UEFA Europa Conference League"
 }

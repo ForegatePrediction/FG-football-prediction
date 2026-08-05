@@ -12,6 +12,9 @@
  "season_reset": 1.0,
  "pool_ref": "_clubpool",
  "category_ids": [
-  "102563"
- ]
+  "102563",
+  "30114"
+ ],
+ "platform_id": "30114",
+ "platform_name": "Copa Sudamericana"
 }
