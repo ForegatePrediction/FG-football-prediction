@@ -197,6 +197,31 @@ def markets_ht(lh, la, rho=-0.06, fh_share=0.458, ou_lines=(0.5, 1.5, 2.5)):
     }
 
 
+def _pois_big(k, lam):
+    return math.exp(-lam + k * math.log(lam) - math.lgamma(k + 1)) if lam > 0 else (1.0 if k == 0 else 0.0)
+
+
+def markets_corners(lc_home, lc_away, total_lines=(8.5, 9.5, 10.5, 11.5, 12.5),
+                    team_lines=(3.5, 4.5, 5.5), N=30):
+    """角球玩法:总角球 O/U、球队角球 O/U、角球单双、首角球队。
+    近似:总角球 ~ Poisson(lc_home+lc_away),各队 ~ Poisson(lc_team)。半场角球无数据,不出。"""
+    L = lc_home + lc_away
+    ptot = [_pois_big(k, L) for k in range(N)]
+    def over(line): return sum(ptot[k] for k in range(N) if k > line)
+    odd = sum(ptot[k] for k in range(N) if k % 2)
+    ph = [_pois_big(k, lc_home) for k in range(N)]
+    pa = [_pois_big(k, lc_away) for k in range(N)]
+    def team_over(pl, line): return sum(pl[k] for k in range(N) if k > line)
+    return {
+        "expected_corners": {"home": round(lc_home, 2), "away": round(lc_away, 2), "total": round(L, 2)},
+        "corners_total": {str(l): {"line": l, "over": over(l), "under": 1 - over(l)} for l in total_lines},
+        "corners_odd_even": {"odd": odd, "even": 1 - odd},
+        "corners_team_home": {str(l): {"line": l, "over": team_over(ph, l), "under": 1 - team_over(ph, l)} for l in team_lines},
+        "corners_team_away": {str(l): {"line": l, "over": team_over(pa, l), "under": 1 - team_over(pa, l)} for l in team_lines},
+        "first_corner": {"home": lc_home / L, "away": lc_away / L} if L > 0 else {"home": 0.5, "away": 0.5},
+    }
+
+
 def mg2(dist, lo, hi):
     return sum(v for k, v in dist.items() if lo <= k <= hi)
 

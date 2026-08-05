@@ -3,7 +3,7 @@
 支持:模型概率 + (可选)盘口去水隐含概率 + 分歧 的混合口径;三语理由;队名模糊匹配。"""
 import json, os
 from .ratings import PoissonRatings
-from .markets import markets, markets_ht
+from .markets import markets, markets_ht, markets_corners
 from .odds import devig_shin, divergence
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -68,6 +68,14 @@ def predict(code, A, B, hcap=0.0, total=2.5, lang="zh", odds_1x2=None):
     lh, la = PoissonRatings.rates_from_snapshot(snap, a, b)
     mk = markets(lh, la, rho)
     mk.update(markets_ht(lh, la, rho, fh_share=cfg.get("fh_share", 0.458)))  # 半场类玩法
+    # 角球玩法(仅有角球快照的联赛;football-data 覆盖的主流联赛)
+    cpath = os.path.join(GAMES, str(code), "corners_ratings.json")
+    if os.path.isfile(cpath):
+        csnap = json.load(open(cpath, encoding="utf-8"))
+        ca, cb = _find(csnap["teams"], a), _find(csnap["teams"], b)
+        if ca and cb:
+            lch, lca = PoissonRatings.rates_from_snapshot(csnap, ca, cb)
+            mk.update(markets_corners(lch, lca))
     out = {"code": str(code), "competition": cfg.get("name"), "category_id": cfg.get("category_id"),
            "pool": cfg.get("pool"), "A": a, "B": b, "lang": lang,
            "matched_exact": (A == a and B == b), "markets": mk,
