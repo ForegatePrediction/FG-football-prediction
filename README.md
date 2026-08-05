@@ -45,6 +45,18 @@ python3 server.py                     # HTTP API(PORT 默认 8000)
 
 赛事↔league_id↔池 见 `足球赛事-映射表.md`。
 
+## 部署(Render 免费档)
+
+1. 新建 GitHub 仓库,推送本项目。
+2. Render → New → Blueprint,连接本仓库(读取 `render.yaml`)→ 一键部署 Web 服务(免费档;闲置会休眠,首个请求冷启动约 30–50 秒)。
+3. API 即为 `https://<service>.onrender.com`,前端用 `categoryId` 直连。
+
+## 每日刷新(评级增量续训)
+
+- `.github/workflows/daily-refresh.yml`:每日跑 `refresh.py`,**增量续训**各池 A 联赛评级(载入现有快照 → 只拉当前赛季新赛果 → 更新 → 提交 `ratings.json`)。
+- 需在 GitHub 仓库 Secrets 配置 **`APIFOOTBALL_KEY`**。
+- 跨联赛俱乐部池 / 国家队池 / 角球快照默认不在每日刷新内(变动慢),按需扩展。
+
 ## License
 
 MIT

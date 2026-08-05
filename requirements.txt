@@ -1,0 +1,3 @@
+# server.py 与 core 预测全部使用 Python 标准库,运行时零依赖。
+# 以下仅供数据脚本(refresh.py / fetch_*.py)在 CI 中使用:
+requests>=2.28

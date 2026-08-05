@@ -56,6 +56,16 @@ class PoissonRatings:
                         "w": self.w[t], "d": self.d[t], "l": self.l[t], "gp": self.gp[t]}
         return {"mu": round(self.mu, 5), "hfa": round(self.hfa, 5), "teams": teams}
 
+    @classmethod
+    def from_snapshot(cls, snap, lg_goal=1.35, hfa=None, lr=0.03):
+        """从已有快照恢复评级状态,便于增量续训(每日刷新只喂新赛果)。"""
+        r = cls(lg_goal=lg_goal, hfa=hfa if hfa is not None else snap.get("hfa", 0.25), lr=lr)
+        r.mu = snap.get("mu", r.mu)
+        for t, v in snap.get("teams", {}).items():
+            r.atk[t] = v.get("atk", 0.0); r.dfn[t] = v.get("dfn", 0.0)
+            r.w[t] = v.get("w", 0); r.d[t] = v.get("d", 0); r.l[t] = v.get("l", 0); r.gp[t] = v.get("gp", 0)
+        return r
+
     @staticmethod
     def rates_from_snapshot(snap, h, a):
         mu, hfa, T = snap["mu"], snap["hfa"], snap["teams"]
