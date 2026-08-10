@@ -44,7 +44,10 @@ def _team_ou(P, line, home=True):
 
 
 def _handicap(P, line, asian=True):
-    """让球:line 为主队盘口(负=主队让).asian 时走盘平局按比例(此处整/半线通用给 home/away/push)。"""
+    """让球:line 为主队盘口(负=主队让)。
+    0.5 步长线(亚洲让球)走盘概率恒为 0,因 (i-j) 为整数、(i-j)+0.5 永不为 0;
+    整数线(欧式让球,推 push≈0)按 m>0/m<0 划 home/away,落在 ±1e-9 内算走盘。
+    返回字段统一带 push,0.5 步长线 push=0 是预期行为(对应亚洲盘无走盘)。"""
     N = len(P)
     home = away = push = 0.0
     for i in range(N):
@@ -57,7 +60,8 @@ def _handicap(P, line, asian=True):
 
 
 def markets(lh, la, rho=-0.06, ou_lines=(0.5, 1.5, 2.5, 3.5, 4.5),
-            hcap_lines=(-2, -1, 0, 1, 2), team_ou_lines=(0.5, 1.5, 2.5)):
+            hcap_lines=(-3.5, -2.5, -1.5, -0.5, 0.5, 1.5, 2.5, 3.5),
+            team_ou_lines=(0.5, 1.5, 2.5)):
     P = score_matrix(lh, la, rho)
     N = len(P)
     home = draw = away = btts = 0.0
