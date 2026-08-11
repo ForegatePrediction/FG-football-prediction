@@ -117,7 +117,7 @@ def _reasons(A, B, mk, p, lang, is_cup):
             "soccer_first_to_score": [f"First to score: {A} {pc(fs.get('home'))} · {B} {pc(fs.get('away'))} · none {pc(fs.get('none'))}"],
         }
         if cs: r["soccer_exact_score"] = [f"Most likely scores: {cs_str}"]
-        if sp: r["spreads"] = [f"Handicap {sp.get('line')} (for {A}): cover {pc(sp.get('home'))} · push {pc(sp.get('push'))} · lose {pc(sp.get('away'))}"]
+        if sp: r["spreads"] = [f"Handicap {sp.get('line')} (for {A}): cover {pc(sp.get('home'))} · lose {pc(sp.get('away'))}"]
         if cl: r["total_corners"] = [f"Expected corners {ect}; over {cl.get('line')} {pc(cl.get('over'))}"]
     elif lang == "vi":
         pk = "Hòa" if top[0] == "draw" else top[1]
@@ -130,7 +130,7 @@ def _reasons(A, B, mk, p, lang, is_cup):
             "soccer_first_to_score": [f"Ghi bàn trước: {A} {pc(fs.get('home'))} · {B} {pc(fs.get('away'))} · không {pc(fs.get('none'))}"],
         }
         if cs: r["soccer_exact_score"] = [f"Tỉ số khả dĩ nhất: {cs_str}"]
-        if sp: r["spreads"] = [f"Chấp {sp.get('line')} (cho {A}): thắng kèo {pc(sp.get('home'))} · hòa vốn {pc(sp.get('push'))} · thua {pc(sp.get('away'))}"]
+        if sp: r["spreads"] = [f"Chấp {sp.get('line')} (cho {A}): thắng kèo {pc(sp.get('home'))} · thua {pc(sp.get('away'))}"]
         if cl: r["total_corners"] = [f"Phạt góc kỳ vọng {ect}; Tài {cl.get('line')} {pc(cl.get('over'))}"]
     else:  # zh — 繁體中文
         pk = "和局" if top[0] == "draw" else top[1]
@@ -143,7 +143,7 @@ def _reasons(A, B, mk, p, lang, is_cup):
             "soccer_first_to_score": [f"先進球:{A} {pc(fs.get('home'))} · {B} {pc(fs.get('away'))} · 無進球 {pc(fs.get('none'))}"],
         }
         if cs: r["soccer_exact_score"] = [f"最可能比分:{cs_str}"]
-        if sp: r["spreads"] = [f"讓球 {sp.get('line')}(以 {A} 計):贏盤 {pc(sp.get('home'))} · 走盤 {pc(sp.get('push'))} · 輸盤 {pc(sp.get('away'))}"]
+        if sp: r["spreads"] = [f"讓球 {sp.get('line')}(以 {A} 計):贏盤 {pc(sp.get('home'))} · 輸盤 {pc(sp.get('away'))}"]
         if cl: r["total_corners"] = [f"期望角球 {ect};大 {cl.get('line')} 機率 {pc(cl.get('over'))}"]
 
     if is_cup:
@@ -168,7 +168,7 @@ def _platform_markets(mk, lh, la, is_cup):
     o = mk["one_x_two"]
     p = {
         "moneyline": {"home": o["home"], "draw": o["draw"], "away": o["away"]},
-        "spreads": mk["handicap"],                       # 多条让分线 {line,home,away,push}
+        "spreads": mk["handicap"],                       # 多条让分线 {line,home,away}
         "totals": mk["over_under"],                      # 多条大小线 {line,over,under}
         "both_teams_to_score": mk["btts"],               # {yes,no}
         "soccer_exact_score": mk["correct_score"],       # [[比分,概率],...]

@@ -36,7 +36,7 @@ GET /predict?categoryId=82&a=Arsenal&b=Chelsea[&lang=zh|en|vi][&oh=&od=&oa=]
 | `double_chance` | 双胜 | 1X, 12, X2 |
 | `dnb` | 单外(平局退款) | home, away |
 | `over_under` | 大小球(多线) | 0.5/1.5/2.5/3.5/4.5 → line, over, under |
-| `handicap` | 让球(亚洲让球,0.5 步长) | -3.5/-2.5/-1.5/-0.5/+0.5/+1.5/+2.5/+3.5 → line, home, away (push 恒为 0,亚洲盘无走盘) |
+| `handicap` | 让球(亚洲让球,0.5 步长,无走盘) | -3.5/-2.5/-1.5/-0.5/+0.5/+1.5/+2.5/+3.5 → line, home, away |
 | `btts` | 双方进球 | yes, no |
 | `correct_score` | 正确比分(前8) | [["2-1",0.10],...] |
 | `exact_goals` | 精确总进球数 | 0..5, 6+ |
@@ -80,7 +80,7 @@ GET /predict?categoryId=82&a=Arsenal&b=Chelsea[&lang=zh|en|vi][&oh=&od=&oa=]
 | 平台 key | 值 | 内部来源 |
 |---|---|---|
 | `moneyline` | home, draw, away | one_x_two |
-| `spreads` | 多条 {line, home, away} (push 恒为 0) | handicap |
+| `spreads` | 多条 {line, home, away} | handicap |
 | `totals` | 多条 {line, over, under} | over_under |
 | `both_teams_to_score` | yes, no | btts |
 | `soccer_exact_score` | [[比分, 概率], ...] | correct_score |
