@@ -1,6 +1,6 @@
 {
- "mu": 0.32235,
- "hfa": 0.29206,
+ "mu": 0.32348,
+ "hfa": 0.29463,
  "teams": {
   "Deportivo Saprissa": {
    "atk": -0.16374,
@@ -11,8 +11,8 @@
    "gp": 11
   },
   "Tigres UANL": {
-   "atk": 0.14133,
-   "dfn": 0.46832,
+   "atk": 0.15541,
+   "dfn": 0.4782,
    "w": 22,
    "d": 10,
    "l": 9,
@@ -59,8 +59,8 @@
    "gp": 6
   },
   "Monterrey": {
-   "atk": 0.22075,
-   "dfn": 0.40976,
+   "atk": 0.2207,
+   "dfn": 0.40991,
    "w": 20,
    "d": 7,
    "l": 4,
@@ -123,8 +123,8 @@
    "gp": 8
   },
   "Toluca": {
-   "atk": 0.19898,
-   "dfn": 0.04447,
+   "atk": 0.21573,
+   "dfn": 0.05014,
    "w": 5,
    "d": 0,
    "l": 5,
@@ -147,12 +147,12 @@
    "gp": 16
   },
   "Los Angeles FC": {
-   "atk": 0.04603,
-   "dfn": 0.23366,
-   "w": 9,
-   "d": 1,
-   "l": 8,
-   "gp": 18
+   "atk": 0.10739,
+   "dfn": 0.2905,
+   "w": 14,
+   "d": 3,
+   "l": 9,
+   "gp": 26
   },
   "Portmore United": {
    "atk": -0.06618,
@@ -163,8 +163,8 @@
    "gp": 2
   },
   "Cruz Azul": {
-   "atk": 0.28265,
-   "dfn": 0.47918,
+   "atk": 0.30299,
+   "dfn": 0.4816,
    "w": 17,
    "d": 8,
    "l": 4,
@@ -203,12 +203,12 @@
    "gp": 8
   },
   "Seattle Sounders": {
-   "atk": 0.15821,
-   "dfn": 0.17653,
-   "w": 6,
+   "atk": 0.21322,
+   "dfn": 0.22846,
+   "w": 9,
    "d": 6,
-   "l": 1,
-   "gp": 13
+   "l": 2,
+   "gp": 17
   },
   "San Carlos": {
    "atk": -0.01122,
@@ -251,8 +251,8 @@
    "gp": 8
   },
   "Philadelphia Union": {
-   "atk": 0.09856,
-   "dfn": 0.15644,
+   "atk": 0.09843,
+   "dfn": 0.15662,
    "w": 8,
    "d": 6,
    "l": 5,
@@ -355,16 +355,16 @@
    "gp": 4
   },
   "Vancouver Whitecaps": {
-   "atk": -0.07302,
-   "dfn": 0.02036,
+   "atk": -0.05885,
+   "dfn": 0.03604,
    "w": 5,
    "d": 6,
    "l": 8,
    "gp": 19
   },
   "Real Espana": {
-   "atk": -0.06718,
-   "dfn": -0.1889,
+   "atk": -0.04823,
+   "dfn": -0.18325,
    "w": 1,
    "d": 0,
    "l": 3,
@@ -411,8 +411,8 @@
    "gp": 4
   },
   "FC Cincinnati": {
-   "atk": 0.37281,
-   "dfn": 0.12518,
+   "atk": 0.37267,
+   "dfn": 0.12534,
    "w": 6,
    "d": 2,
    "l": 4,
@@ -427,8 +427,8 @@
    "gp": 2
   },
   "Nashville SC": {
-   "atk": -0.01501,
-   "dfn": 0.27812,
+   "atk": -0.0059,
+   "dfn": 0.28092,
    "w": 5,
    "d": 4,
    "l": 3,
@@ -443,12 +443,12 @@
    "gp": 2
   },
   "Inter Miami": {
-   "atk": 0.01516,
-   "dfn": 0.10308,
+   "atk": -0.03829,
+   "dfn": 0.17412,
    "w": 6,
-   "d": 1,
+   "d": 3,
    "l": 5,
-   "gp": 12
+   "gp": 14
   },
   "Real du Cap": {
    "atk": -0.0729,
@@ -483,12 +483,12 @@
    "gp": 2
   },
   "Los Angeles Galaxy": {
-   "atk": 0.02066,
-   "dfn": 0.04307,
-   "w": 1,
-   "d": 1,
-   "l": 2,
-   "gp": 4
+   "atk": -0.01056,
+   "dfn": 0.06515,
+   "w": 3,
+   "d": 3,
+   "l": 4,
+   "gp": 10
   },
   "Forge FC": {
    "atk": -0.03141,
@@ -507,16 +507,16 @@
    "gp": 2
   },
   "América": {
-   "atk": -0.13393,
-   "dfn": 0.19818,
+   "atk": -0.13412,
+   "dfn": 0.19927,
    "w": 2,
    "d": 3,
    "l": 1,
    "gp": 6
   },
-  "San Diego FC": {
-   "atk": -0.00096,
-   "dfn": -0.05518,
+  "San Diego": {
+   "atk": -0.00105,
+   "dfn": -0.05507,
    "w": 2,
    "d": 0,
    "l": 2,
@@ -547,92 +547,60 @@
    "gp": 2
   },
   "Atlético Ottawa": {
-   "atk": -0.08963,
-   "dfn": -0.10325,
+   "atk": -0.08964,
+   "dfn": -0.10318,
    "w": 0,
    "d": 0,
    "l": 2,
    "gp": 2
   },
-  "LAFC": {
-   "atk": 0.07709,
-   "dfn": 0.1269,
-   "w": 5,
-   "d": 2,
-   "l": 1,
-   "gp": 8
-  },
   "Defense Force FC": {
-   "atk": -0.08828,
-   "dfn": -0.25863,
+   "atk": -0.08834,
+   "dfn": -0.25857,
    "w": 0,
    "d": 0,
    "l": 2,
    "gp": 2
   },
   "Universidad O&M": {
-   "atk": -0.08342,
-   "dfn": -0.27791,
+   "atk": -0.08347,
+   "dfn": -0.27784,
    "w": 0,
    "d": 0,
    "l": 2,
    "gp": 2
   },
   "Cartaginés": {
-   "atk": -0.09383,
-   "dfn": 0.03476,
+   "atk": -0.09389,
+   "dfn": 0.03482,
    "w": 0,
    "d": 1,
    "l": 1,
    "gp": 2
   },
   "Sporting San Miguelito": {
-   "atk": -0.06419,
-   "dfn": 0.06576,
+   "atk": -0.06045,
+   "dfn": 0.06772,
    "w": 0,
    "d": 2,
    "l": 0,
    "gp": 2
   },
-  "LA Galaxy": {
-   "atk": -0.02552,
-   "dfn": 0.03188,
-   "w": 2,
-   "d": 2,
-   "l": 2,
-   "gp": 6
-  },
   "Alajuelense": {
-   "atk": -0.03006,
-   "dfn": 0.01311,
+   "atk": -0.01337,
+   "dfn": 0.0172,
    "w": 0,
    "d": 1,
    "l": 1,
    "gp": 2
   },
-  "Inter Miami CF": {
-   "atk": -0.05212,
-   "dfn": 0.08137,
-   "w": 0,
-   "d": 2,
-   "l": 0,
-   "gp": 2
-  },
   "Mount Pleasant FA": {
-   "atk": -0.08695,
-   "dfn": -0.08637,
+   "atk": -0.08383,
+   "dfn": -0.0846,
    "w": 0,
    "d": 0,
    "l": 2,
    "gp": 2
-  },
-  "Seattle Sounders FC": {
-   "atk": 0.08032,
-   "dfn": 0.08175,
-   "w": 3,
-   "d": 0,
-   "l": 1,
-   "gp": 4
   }
  },
  "updated_from": 287,
@@ -642,7 +610,7 @@
   "232": "Tigres UANL",
   "884": "Club Deportivo Olimpia",
   "227": "América",
-  "22529": "San Diego FC",
+  "22529": "San Diego",
   "233": "Pumas UNAM",
   "7259": "Xelajú MC",
   "220": "Monterrey",
@@ -651,7 +619,7 @@
   "131584": "Atlético Ottawa",
   "18986": "Nashville SC",
   "7245": "Real Espana",
-  "18966": "LAFC",
+  "18966": "Los Angeles FC",
   "131585": "Defense Force FC",
   "10739": "Philadelphia Union",
   "131586": "Universidad O&M",
@@ -659,12 +627,12 @@
   "7239": "Cartaginés",
   "9727": "Vancouver Whitecaps",
   "21522": "Sporting San Miguelito",
-  "187": "LA Galaxy",
+  "187": "Los Angeles Galaxy",
   "2057": "Alajuelense",
-  "20232": "Inter Miami CF",
+  "20232": "Inter Miami",
   "131587": "Mount Pleasant FA",
   "223": "Toluca",
-  "9726": "Seattle Sounders FC"
+  "9726": "Seattle Sounders"
  },
  "applied_on_last_date": [
   "401869810"

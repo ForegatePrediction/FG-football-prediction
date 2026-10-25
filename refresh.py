@@ -20,6 +20,7 @@ from core.ratings import PoissonRatings
 ROOT = Path(__file__).resolve().parent
 GAMES = ROOT / 'games'
 BASE = 'https://site.api.espn.com/apis/site/v2/sports/soccer'
+TEAM_ALIASES = json.loads((ROOT/'team-aliases.json').read_text())
 # Explicit name equivalents only; never use fuzzy prediction matching for training.
 ALIASES = {
     'Tottenham Hotspur': 'Tottenham', 'Newcastle United': 'Newcastle',
@@ -131,6 +132,9 @@ def normalize(name):
 
 
 def team_name(name, identifier, teams, identity, index):
+    if identifier in TEAM_ALIASES:
+        identity[identifier] = TEAM_ALIASES[identifier]
+        return identity[identifier]
     if identifier in identity:
         return identity[identifier]
     preferred = (ALIASES.get(name[:-2], name[:-2]) + ' W') if name.endswith(' W') else ALIASES.get(name, name)

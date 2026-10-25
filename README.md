@@ -181,3 +181,11 @@ Render → New → Blueprint 连接本仓库(读 render.yaml,免费档)。每日
 
 ## License
 MIT
+
+## 换源时的球队身份
+
+`team-aliases.json` 将 64 个已核对的 ESPN 球队 ID 对齐已有模型名称，覆盖 MLS、沙特、中超、日职、巴西、阿根廷、葡超、荷甲、土超和苏超的命名差异。训练不使用预测接口的宽松模糊匹配。女足使用独立身份前缀。
+
+命名修复以换源前模型为起点，在临时副本按相同比赛顺序重新计算换源增量。`source-migration-validation.json` 记录 74 个快照的验证：比赛总数、最新日期、累计更新数、最后一天已应用的比赛 ID 均不变，修复不丢弃赛果。
+
+部分中超更名核对来源：[辽宁沈阳城市→辽宁铁人](https://www.thecfa.cn/lstz/20240206/33697.html)、[大连智行→大连英博](https://www.thecfa.cn/lstz/20240129/33637.html)、[青岛青春岛→青岛西海岸](https://www.thecfa.cn/qttz/20230308/32363.html)、[四川九牛→深圳新鹏城](https://www.thecfa.cn/lstz/20240206/33699.html)。

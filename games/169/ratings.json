@@ -1,6 +1,6 @@
 {
- "mu": 0.29507,
- "hfa": 0.25066,
+ "mu": 0.29565,
+ "hfa": 0.25365,
  "teams": {
   "Guangzhou R&F": {
    "atk": -0.22649,
@@ -19,20 +19,20 @@
    "gp": 195
   },
   "Henan Jianye": {
-   "atk": 0.14323,
-   "dfn": 0.31943,
+   "atk": 0.17698,
+   "dfn": 0.22766,
    "w": 101,
-   "d": 81,
-   "l": 127,
-   "gp": 309
+   "d": 82,
+   "l": 129,
+   "gp": 312
   },
   "SHANGHAI SIPG": {
-   "atk": 0.29665,
-   "dfn": 0.39957,
-   "w": 169,
+   "atk": 0.46383,
+   "dfn": 0.43332,
+   "w": 172,
    "d": 61,
    "l": 50,
-   "gp": 280
+   "gp": 283
   },
   "Jiangsu Suning": {
    "atk": 0.13674,
@@ -43,20 +43,20 @@
    "gp": 139
   },
   "Shandong Luneng": {
-   "atk": 0.4229,
-   "dfn": 0.18039,
-   "w": 158,
-   "d": 75,
+   "atk": 0.56601,
+   "dfn": 0.19123,
+   "w": 160,
+   "d": 76,
    "l": 77,
-   "gp": 310
+   "gp": 313
   },
   "Shanghai Shenhua": {
-   "atk": 0.51688,
-   "dfn": 0.157,
-   "w": 141,
+   "atk": 0.6251,
+   "dfn": 0.187,
+   "w": 143,
    "d": 83,
-   "l": 86,
-   "gp": 310
+   "l": 87,
+   "gp": 313
   },
   "Yanbian Tigers FC": {
    "atk": -0.15975,
@@ -83,12 +83,12 @@
    "gp": 196
   },
   "Hangzhou Greentown": {
-   "atk": 0.32168,
-   "dfn": 0.0399,
-   "w": 71,
+   "atk": 0.40658,
+   "dfn": -0.08341,
+   "w": 73,
    "d": 51,
-   "l": 59,
-   "gp": 181
+   "l": 61,
+   "gp": 185
   },
   "Changchun Yatai": {
    "atk": -0.14428,
@@ -115,16 +115,16 @@
    "gp": 60
   },
   "Tianjin Teda": {
-   "atk": 0.07479,
-   "dfn": 0.42591,
-   "w": 102,
+   "atk": 0.06976,
+   "dfn": 0.45818,
+   "w": 104,
    "d": 83,
-   "l": 124,
-   "gp": 309
+   "l": 125,
+   "gp": 312
   },
   "Beijing Guoan": {
-   "atk": 0.5175,
-   "dfn": 0.36623,
+   "atk": 0.55984,
+   "dfn": 0.37319,
    "w": 157,
    "d": 79,
    "l": 79,
@@ -195,16 +195,16 @@
    "gp": 43
   },
   "Chengdu Better City": {
-   "atk": 0.35562,
-   "dfn": 0.49305,
+   "atk": 0.22017,
+   "dfn": 0.44512,
    "w": 83,
    "d": 41,
-   "l": 27,
-   "gp": 151
+   "l": 30,
+   "gp": 154
   },
   "Wuhan Three Towns": {
-   "atk": 0.11357,
-   "dfn": -0.08555,
+   "atk": 0.13088,
+   "dfn": -0.02259,
    "w": 58,
    "d": 38,
    "l": 57,
@@ -227,177 +227,81 @@
    "gp": 60
   },
   "Qingdao Jonoon": {
-   "atk": 0.02286,
-   "dfn": -0.08137,
+   "atk": -0.09215,
+   "dfn": -0.18052,
    "w": 26,
    "d": 25,
-   "l": 65,
-   "gp": 116
+   "l": 68,
+   "gp": 119
   },
   "Qingdao Youth Island": {
-   "atk": 0.01019,
-   "dfn": 0.43453,
+   "atk": -0.07742,
+   "dfn": 0.38798,
    "w": 26,
-   "d": 31,
-   "l": 28,
-   "gp": 85
+   "d": 32,
+   "l": 30,
+   "gp": 88
   },
   "Sichuan Jiuniu": {
-   "atk": -0.00348,
-   "dfn": 0.14327,
-   "w": 23,
-   "d": 15,
-   "l": 48,
-   "gp": 86
+   "atk": 0.03604,
+   "dfn": 0.12653,
+   "w": 24,
+   "d": 16,
+   "l": 49,
+   "gp": 89
   },
   "Yunnan Yukun": {
-   "atk": 0.44096,
-   "dfn": -0.05283,
+   "atk": 0.47212,
+   "dfn": -0.02199,
    "w": 22,
    "d": 16,
    "l": 20,
    "gp": 58
   },
   "Dalian Zhixing": {
-   "atk": 0.02539,
-   "dfn": 0.25893,
-   "w": 21,
+   "atk": 0.15719,
+   "dfn": 0.35015,
+   "w": 24,
    "d": 13,
    "l": 22,
-   "gp": 56
+   "gp": 59
   },
   "Shenyang Urban": {
-   "atk": 0.06127,
-   "dfn": 0.00321,
-   "w": 7,
-   "d": 4,
-   "l": 14,
-   "gp": 25
+   "atk": 0.10997,
+   "dfn": 0.00124,
+   "w": 8,
+   "d": 5,
+   "l": 15,
+   "gp": 28
   },
   "Chongqing Tongliang Long": {
-   "atk": -0.1549,
-   "dfn": 0.30875,
+   "atk": -0.15072,
+   "dfn": 0.32514,
    "w": 8,
    "d": 11,
    "l": 9,
    "gp": 28
-  },
-  "Zhejiang Professional FC": {
-   "atk": 0.11706,
-   "dfn": -0.15565,
-   "w": 2,
-   "d": 0,
-   "l": 2,
-   "gp": 4
-  },
-  "Shenzhen Xinpengcheng": {
-   "atk": 0.01179,
-   "dfn": -0.03087,
-   "w": 1,
-   "d": 1,
-   "l": 1,
-   "gp": 3
-  },
-  "Henan": {
-   "atk": 0.0271,
-   "dfn": -0.05463,
-   "w": 0,
-   "d": 1,
-   "l": 2,
-   "gp": 3
-  },
-  "Qingdao Hainiu": {
-   "atk": -0.11305,
-   "dfn": -0.11478,
-   "w": 0,
-   "d": 0,
-   "l": 3,
-   "gp": 3
-  },
-  "Shanghai Port FC": {
-   "atk": 0.16475,
-   "dfn": 0.05253,
-   "w": 3,
-   "d": 0,
-   "l": 0,
-   "gp": 3
-  },
-  "Chengdu Rongcheng": {
-   "atk": -0.13435,
-   "dfn": -0.00857,
-   "w": 0,
-   "d": 0,
-   "l": 3,
-   "gp": 3
-  },
-  "Tianjin Jinmen Tiger": {
-   "atk": -0.03898,
-   "dfn": 0.05244,
-   "w": 2,
-   "d": 0,
-   "l": 1,
-   "gp": 3
-  },
-  "SHANGHAI SHENHUA FC": {
-   "atk": 0.18628,
-   "dfn": 0.05296,
-   "w": 2,
-   "d": 0,
-   "l": 1,
-   "gp": 3
-  },
-  "Qingdao West Coast": {
-   "atk": -0.09902,
-   "dfn": 0.02053,
-   "w": 0,
-   "d": 1,
-   "l": 2,
-   "gp": 3
-  },
-  "Dalian Yingbo": {
-   "atk": 0.0967,
-   "dfn": 0.10492,
-   "w": 3,
-   "d": 0,
-   "l": 0,
-   "gp": 3
-  },
-  "Liaoning Tieren": {
-   "atk": 0.05571,
-   "dfn": -0.01658,
-   "w": 1,
-   "d": 1,
-   "l": 1,
-   "gp": 3
-  },
-  "Shandong Taishan": {
-   "atk": 0.20057,
-   "dfn": 0.01999,
-   "w": 2,
-   "d": 1,
-   "l": 0,
-   "gp": 3
   }
  },
  "last_date": "2026-10-24",
  "updated_from": 25,
  "espn_team_names": {
-  "18203": "Zhejiang Professional FC",
+  "18203": "Hangzhou Greentown",
   "21506": "Wuhan Three Towns",
-  "22199": "Shenzhen Xinpengcheng",
-  "8240": "Henan",
-  "21910": "Qingdao Hainiu",
+  "22199": "Sichuan Jiuniu",
+  "8240": "Henan Jianye",
+  "21910": "Qingdao Jonoon",
   "2052": "Beijing Guoan",
-  "15515": "Shanghai Port FC",
-  "21355": "Chengdu Rongcheng",
-  "8239": "Tianjin Jinmen Tiger",
-  "977": "SHANGHAI SHENHUA FC",
+  "15515": "SHANGHAI SIPG",
+  "21355": "Chengdu Better City",
+  "8239": "Tianjin Teda",
+  "977": "Shanghai Shenhua",
   "22536": "Yunnan Yukun",
-  "22198": "Qingdao West Coast",
-  "22537": "Dalian Yingbo",
-  "131705": "Liaoning Tieren",
+  "22198": "Qingdao Youth Island",
+  "22537": "Dalian Zhixing",
+  "131705": "Shenyang Urban",
   "131704": "Chongqing Tongliang Long",
-  "7521": "Shandong Taishan"
+  "7521": "Shandong Luneng"
  },
  "applied_on_last_date": [
   "401861483",

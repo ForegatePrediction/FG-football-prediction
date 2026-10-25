@@ -1,0 +1,453 @@
+{
+  "baseline": "ac90b22",
+  "checked_source_through": "2026-10-24",
+  "distinct_source_ft_matches": 22463,
+  "pool_league_updates": 7757,
+  "provider_id_aliases": 64,
+  "checks": [
+    {
+      "pool": "135",
+      "played_before": 8512,
+      "played_after": 8512,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "307",
+      "played_before": 2024,
+      "played_after": 2024,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "61",
+      "played_before": 7858,
+      "played_after": 7858,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "104",
+      "played_before": 1808,
+      "played_after": 1808,
+      "latest": "2026-09-13"
+    },
+    {
+      "pool": "103",
+      "played_before": 1820,
+      "played_after": 1820,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "365",
+      "played_before": 1386,
+      "played_after": 1386,
+      "latest": "2026-09-16"
+    },
+    {
+      "pool": "362",
+      "played_before": 3224,
+      "played_after": 3224,
+      "latest": "2026-09-16"
+    },
+    {
+      "pool": "396",
+      "played_before": 2802,
+      "played_after": 2802,
+      "latest": "2026-09-11"
+    },
+    {
+      "pool": "94",
+      "played_before": 2612,
+      "played_after": 2612,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "339",
+      "played_before": 5334,
+      "played_after": 5334,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "169",
+      "played_before": 5094,
+      "played_after": 5094,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "218",
+      "played_before": 3958,
+      "played_after": 3958,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "880",
+      "played_before": 626,
+      "played_after": 626,
+      "latest": "2026-10-13"
+    },
+    {
+      "pool": "242",
+      "played_before": 2072,
+      "played_after": 2072,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "_clubpool",
+      "played_before": 250184,
+      "played_after": 250184,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "288",
+      "played_before": 1568,
+      "played_after": 1568,
+      "latest": "2026-10-18"
+    },
+    {
+      "pool": "244",
+      "played_before": 1314,
+      "played_after": 1314,
+      "latest": "2026-09-14"
+    },
+    {
+      "pool": "286",
+      "played_before": 1912,
+      "played_after": 1912,
+      "latest": "2026-09-14"
+    },
+    {
+      "pool": "281",
+      "played_before": 4566,
+      "played_after": 4566,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "268",
+      "played_before": 1598,
+      "played_after": 1598,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "292",
+      "played_before": 4380,
+      "played_after": 4380,
+      "latest": "2026-09-13"
+    },
+    {
+      "pool": "266",
+      "played_before": 1860,
+      "played_after": 1860,
+      "latest": "2026-09-15"
+    },
+    {
+      "pool": "235",
+      "played_before": 1650,
+      "played_after": 1650,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "203",
+      "played_before": 5102,
+      "played_after": 5102,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "293",
+      "played_before": 4524,
+      "played_after": 4524,
+      "latest": "2026-09-13"
+    },
+    {
+      "pool": "233",
+      "played_before": 4240,
+      "played_after": 4240,
+      "latest": "2026-09-16"
+    },
+    {
+      "pool": "_natpool",
+      "played_before": 6142,
+      "played_after": 6142,
+      "latest": "2026-10-07"
+    },
+    {
+      "pool": "16",
+      "played_before": 574,
+      "played_after": 574,
+      "latest": "2026-05-07"
+    },
+    {
+      "pool": "129",
+      "played_before": 5292,
+      "played_after": 5292,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "323",
+      "played_before": 1870,
+      "played_after": 1870,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "73",
+      "played_before": 1664,
+      "played_after": 1664,
+      "latest": "2026-09-03"
+    },
+    {
+      "pool": "188",
+      "played_before": 3116,
+      "played_after": 3116,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "172",
+      "played_before": 4244,
+      "played_after": 4244,
+      "latest": "2026-09-16"
+    },
+    {
+      "pool": "119",
+      "played_before": 4388,
+      "played_after": 4388,
+      "latest": "2026-10-23"
+    },
+    {
+      "pool": "72",
+      "played_before": 5838,
+      "played_after": 5838,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "128",
+      "played_before": 8618,
+      "played_after": 8618,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "88",
+      "played_before": 6306,
+      "played_after": 6306,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "162",
+      "played_before": 1590,
+      "played_after": 1590,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "357",
+      "played_before": 1390,
+      "played_after": 1390,
+      "latest": "2026-09-14"
+    },
+    {
+      "pool": "136",
+      "played_before": 5596,
+      "played_after": 5596,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "62",
+      "played_before": 5024,
+      "played_after": 5024,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "98",
+      "played_before": 7082,
+      "played_after": 7082,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "369",
+      "played_before": 1552,
+      "played_after": 1552,
+      "latest": "2026-09-11"
+    },
+    {
+      "pool": "164",
+      "played_before": 3106,
+      "played_after": 3106,
+      "latest": "2026-09-15"
+    },
+    {
+      "pool": "39",
+      "played_before": 10790,
+      "played_after": 10790,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "106",
+      "played_before": 1974,
+      "played_after": 1974,
+      "latest": "2026-09-15"
+    },
+    {
+      "pool": "99",
+      "played_before": 9054,
+      "played_after": 9054,
+      "latest": "2026-09-13"
+    },
+    {
+      "pool": "333",
+      "played_before": 1546,
+      "played_after": 1546,
+      "latest": "2026-09-14"
+    },
+    {
+      "pool": "137",
+      "played_before": 652,
+      "played_after": 652,
+      "latest": "2026-09-15"
+    },
+    {
+      "pool": "283",
+      "played_before": 4492,
+      "played_after": 4492,
+      "latest": "2026-09-14"
+    },
+    {
+      "pool": "240",
+      "played_before": 2246,
+      "played_after": 2246,
+      "latest": "2026-09-15"
+    },
+    {
+      "pool": "271",
+      "played_before": 4042,
+      "played_after": 4042,
+      "latest": "2026-09-06"
+    },
+    {
+      "pool": "200",
+      "played_before": 3376,
+      "played_after": 3376,
+      "latest": "2026-07-21"
+    },
+    {
+      "pool": "207",
+      "played_before": 1474,
+      "played_after": 1474,
+      "latest": "2026-09-16"
+    },
+    {
+      "pool": "253",
+      "played_before": 4022,
+      "played_after": 4022,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "262",
+      "played_before": 6822,
+      "played_after": 6822,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "265",
+      "played_before": 3644,
+      "played_after": 3644,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "239",
+      "played_before": 6016,
+      "played_after": 6016,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "299",
+      "played_before": 1792,
+      "played_after": 1792,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "79",
+      "played_before": 6302,
+      "played_after": 6302,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "41",
+      "played_before": 11102,
+      "played_after": 11102,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "170",
+      "played_before": 5226,
+      "played_after": 5226,
+      "latest": "2026-09-13"
+    },
+    {
+      "pool": "389",
+      "played_before": 1516,
+      "played_after": 1516,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "345",
+      "played_before": 4074,
+      "played_after": 4074,
+      "latest": "2026-09-13"
+    },
+    {
+      "pool": "141",
+      "played_before": 9584,
+      "played_after": 9584,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "373",
+      "played_before": 1138,
+      "played_after": 1138,
+      "latest": "2026-09-13"
+    },
+    {
+      "pool": "179",
+      "played_before": 1518,
+      "played_after": 1518,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "71",
+      "played_before": 8168,
+      "played_after": 8168,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "40",
+      "played_before": 11412,
+      "played_after": 11412,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "114",
+      "played_before": 1844,
+      "played_after": 1844,
+      "latest": "2026-09-15"
+    },
+    {
+      "pool": "113",
+      "played_before": 1848,
+      "played_after": 1848,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "78",
+      "played_before": 6882,
+      "played_after": 6882,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "140",
+      "played_before": 8548,
+      "played_after": 8548,
+      "latest": "2026-10-24"
+    },
+    {
+      "pool": "344",
+      "played_before": 4152,
+      "played_after": 4152,
+      "latest": "2026-10-24"
+    }
+  ]
+}

@@ -1,369 +1,281 @@
 {
- "mu": 0.30346,
- "hfa": 0.26247,
+ "mu": 0.30455,
+ "hfa": 0.26731,
  "teams": {
   "Nashville SC": {
-   "atk": 0.22171,
-   "dfn": 0.47295,
+   "atk": 0.21418,
+   "dfn": 0.47254,
    "w": 60,
    "d": 32,
    "l": 46,
    "gp": 138
   },
   "New York City FC": {
-   "atk": -0.10672,
-   "dfn": 0.18485,
+   "atk": -0.10512,
+   "dfn": 0.20769,
    "w": 52,
    "d": 37,
    "l": 49,
    "gp": 138
   },
   "Atlanta United FC": {
-   "atk": -0.22186,
-   "dfn": -0.13101,
+   "atk": -0.22851,
+   "dfn": -0.10524,
    "w": 38,
    "d": 41,
    "l": 60,
    "gp": 139
   },
   "San Jose Earthquakes": {
-   "atk": 0.04717,
-   "dfn": -0.01528,
+   "atk": 0.05791,
+   "dfn": -0.01477,
    "w": 40,
    "d": 34,
    "l": 58,
    "gp": 132
   },
   "Austin": {
-   "atk": -0.24031,
-   "dfn": -0.08471,
+   "atk": -0.21511,
+   "dfn": -0.1591,
    "w": 40,
-   "d": 34,
-   "l": 54,
-   "gp": 128
+   "d": 36,
+   "l": 57,
+   "gp": 133
   },
   "St. Louis City": {
-   "atk": 0.12564,
-   "dfn": 0.0944,
-   "w": 44,
-   "d": 33,
-   "l": 51,
-   "gp": 128
+   "atk": 0.24939,
+   "dfn": 0.12021,
+   "w": 47,
+   "d": 34,
+   "l": 52,
+   "gp": 133
   },
   "Charlotte": {
-   "atk": 0.09471,
-   "dfn": 0.08222,
-   "w": 54,
-   "d": 31,
-   "l": 46,
-   "gp": 131
+   "atk": 0.0883,
+   "dfn": 0.0514,
+   "w": 56,
+   "d": 32,
+   "l": 48,
+   "gp": 136
   },
   "New England Revolution": {
-   "atk": -0.03897,
-   "dfn": 0.02641,
+   "atk": -0.03636,
+   "dfn": 0.02891,
    "w": 48,
    "d": 26,
    "l": 58,
    "gp": 132
   },
   "DC United": {
-   "atk": -0.33376,
-   "dfn": -0.18866,
+   "atk": -0.33835,
+   "dfn": -0.16599,
    "w": 32,
    "d": 43,
    "l": 58,
    "gp": 133
   },
   "Toronto FC": {
-   "atk": -0.0624,
-   "dfn": -0.10805,
+   "atk": -0.0614,
+   "dfn": -0.11054,
    "w": 29,
    "d": 40,
    "l": 64,
    "gp": 133
   },
   "FC Cincinnati": {
-   "atk": 0.14699,
-   "dfn": -0.28174,
+   "atk": 0.15909,
+   "dfn": -0.29183,
    "w": 74,
    "d": 28,
    "l": 39,
    "gp": 141
   },
   "Houston Dynamo": {
-   "atk": -0.22785,
-   "dfn": 0.31437,
+   "atk": -0.19225,
+   "dfn": 0.17446,
    "w": 53,
-   "d": 32,
-   "l": 45,
-   "gp": 130
+   "d": 36,
+   "l": 46,
+   "gp": 135
   },
   "FC Dallas": {
-   "atk": 0.09554,
-   "dfn": 0.04816,
+   "atk": 0.12419,
+   "dfn": 0.03023,
    "w": 48,
    "d": 40,
    "l": 47,
    "gp": 135
   },
   "Minnesota United FC": {
-   "atk": 0.0998,
-   "dfn": -0.16958,
+   "atk": 0.11889,
+   "dfn": -0.18464,
    "w": 49,
    "d": 38,
    "l": 48,
    "gp": 135
   },
   "Inter Miami": {
-   "atk": 0.47,
-   "dfn": -0.12944,
-   "w": 68,
-   "d": 32,
-   "l": 36,
-   "gp": 136
+   "atk": 0.3859,
+   "dfn": -0.06181,
+   "w": 71,
+   "d": 33,
+   "l": 38,
+   "gp": 142
   },
   "CF Montreal": {
-   "atk": -0.35566,
-   "dfn": -0.20556,
+   "atk": -0.35379,
+   "dfn": -0.21464,
    "w": 35,
    "d": 32,
    "l": 66,
    "gp": 133
   },
   "Orlando City SC": {
-   "atk": 0.30635,
-   "dfn": -0.27765,
+   "atk": 0.31046,
+   "dfn": -0.27762,
    "w": 63,
    "d": 33,
    "l": 44,
    "gp": 140
   },
   "New York Red Bulls": {
-   "atk": -0.20509,
-   "dfn": -0.07344,
-   "w": 46,
+   "atk": -0.20966,
+   "dfn": -0.01066,
+   "w": 49,
    "d": 37,
-   "l": 50,
-   "gp": 133
+   "l": 53,
+   "gp": 139
   },
   "Philadelphia Union": {
-   "atk": 0.25418,
-   "dfn": 0.07958,
+   "atk": 0.25697,
+   "dfn": 0.09031,
    "w": 59,
    "d": 33,
    "l": 45,
    "gp": 137
   },
   "Columbus Crew": {
-   "atk": 0.08956,
-   "dfn": 0.03564,
+   "atk": 0.08624,
+   "dfn": 0.05808,
    "w": 65,
    "d": 35,
    "l": 41,
    "gp": 141
   },
   "Vancouver Whitecaps": {
-   "atk": 0.25372,
-   "dfn": 0.36286,
+   "atk": 0.26378,
+   "dfn": 0.36772,
    "w": 63,
    "d": 36,
    "l": 41,
    "gp": 140
   },
   "Real Salt Lake": {
-   "atk": -0.08811,
-   "dfn": 0.00488,
+   "atk": -0.08582,
+   "dfn": -0.00259,
    "w": 52,
    "d": 30,
    "l": 52,
    "gp": 134
   },
   "Seattle Sounders": {
-   "atk": -0.21274,
-   "dfn": 0.13479,
-   "w": 55,
-   "d": 37,
-   "l": 39,
-   "gp": 131
+   "atk": -0.12917,
+   "dfn": 0.18567,
+   "w": 59,
+   "d": 39,
+   "l": 40,
+   "gp": 138
   },
   "Colorado Rapids": {
-   "atk": -0.21959,
-   "dfn": 0.08837,
+   "atk": -0.21776,
+   "dfn": 0.07828,
    "w": 42,
    "d": 31,
    "l": 61,
    "gp": 134
   },
   "Portland Timbers": {
-   "atk": -0.01158,
-   "dfn": -0.09873,
+   "atk": -0.0149,
+   "dfn": -0.10515,
    "w": 44,
    "d": 39,
    "l": 52,
    "gp": 135
   },
   "Sporting Kansas City": {
-   "atk": -0.13066,
-   "dfn": -0.42182,
+   "atk": -0.12026,
+   "dfn": -0.44401,
    "w": 35,
    "d": 26,
    "l": 73,
    "gp": 134
   },
   "Los Angeles FC": {
-   "atk": 0.0055,
-   "dfn": 0.31518,
-   "w": 69,
-   "d": 33,
-   "l": 36,
-   "gp": 138
+   "atk": -0.00178,
+   "dfn": 0.31978,
+   "w": 70,
+   "d": 36,
+   "l": 37,
+   "gp": 143
   },
   "Chicago Fire": {
-   "atk": 0.17517,
-   "dfn": -0.03814,
-   "w": 43,
+   "atk": 0.14757,
+   "dfn": -0.00309,
+   "w": 47,
    "d": 33,
-   "l": 50,
-   "gp": 126
-  },
-  "Los Angeles Galaxy": {
-   "atk": -0.15639,
-   "dfn": -0.02339,
-   "w": 46,
-   "d": 37,
-   "l": 50,
+   "l": 53,
    "gp": 133
   },
+  "Los Angeles Galaxy": {
+   "atk": -0.03444,
+   "dfn": -0.11879,
+   "w": 49,
+   "d": 38,
+   "l": 51,
+   "gp": 138
+  },
   "San Diego": {
-   "atk": 0.05876,
-   "dfn": -0.02999,
+   "atk": 0.14829,
+   "dfn": -0.18129,
    "w": 30,
-   "d": 12,
-   "l": 21,
-   "gp": 63
-  },
-  "Red Bull New York": {
-   "atk": -0.05337,
-   "dfn": 0.0185,
-   "w": 3,
-   "d": 0,
-   "l": 3,
-   "gp": 6
-  },
-  "LAFC": {
-   "atk": -0.00275,
-   "dfn": 0.07431,
-   "w": 1,
-   "d": 3,
-   "l": 1,
-   "gp": 5
-  },
-  "Charlotte FC": {
-   "atk": 0.01509,
-   "dfn": -0.01854,
-   "w": 2,
-   "d": 1,
-   "l": 2,
-   "gp": 5
-  },
-  "Houston Dynamo FC": {
-   "atk": -0.0158,
-   "dfn": -0.08004,
-   "w": 0,
-   "d": 4,
-   "l": 1,
-   "gp": 5
-  },
-  "LA Galaxy": {
-   "atk": 0.0855,
-   "dfn": -0.11043,
-   "w": 3,
-   "d": 1,
-   "l": 1,
-   "gp": 5
-  },
-  "Austin FC": {
-   "atk": -0.02289,
-   "dfn": -0.09836,
-   "w": 0,
-   "d": 2,
-   "l": 3,
-   "gp": 5
-  },
-  "St. Louis CITY SC": {
-   "atk": 0.16027,
-   "dfn": 0.05575,
-   "w": 3,
-   "d": 1,
-   "l": 1,
-   "gp": 5
-  },
-  "Seattle Sounders FC": {
-   "atk": 0.01848,
-   "dfn": 0.08289,
-   "w": 4,
-   "d": 2,
-   "l": 1,
-   "gp": 7
-  },
-  "Chicago Fire FC": {
-   "atk": 0.01689,
-   "dfn": 0.0187,
-   "w": 4,
-   "d": 0,
-   "l": 3,
-   "gp": 7
-  },
-  "Inter Miami CF": {
-   "atk": 0.06752,
-   "dfn": 0.04152,
-   "w": 3,
-   "d": 1,
-   "l": 2,
-   "gp": 6
-  },
-  "San Diego FC": {
-   "atk": 0.09912,
-   "dfn": -0.15297,
-   "w": 0,
-   "d": 4,
-   "l": 1,
-   "gp": 5
+   "d": 16,
+   "l": 22,
+   "gp": 68
   }
  },
  "last_date": "2026-10-24",
  "updated_from": 86,
  "espn_team_names": {
   "17606": "New York City FC",
-  "190": "Red Bull New York",
+  "190": "New York Red Bulls",
   "189": "New England Revolution",
   "12011": "Orlando City SC",
   "191": "San Jose Earthquakes",
-  "18966": "LAFC",
+  "18966": "Los Angeles FC",
   "9720": "CF Montreal",
   "183": "Columbus Crew",
   "193": "DC United",
-  "21300": "Charlotte FC",
-  "6077": "Houston Dynamo FC",
+  "21300": "Charlotte",
+  "6077": "Houston Dynamo",
   "18267": "FC Cincinnati",
   "17362": "Minnesota United FC",
-  "187": "LA Galaxy",
+  "187": "Los Angeles Galaxy",
   "185": "FC Dallas",
-  "20906": "Austin FC",
+  "20906": "Austin",
   "186": "Sporting Kansas City",
   "10739": "Philadelphia Union",
-  "21812": "St. Louis CITY SC",
+  "21812": "St. Louis City",
   "7318": "Toronto FC",
   "4771": "Real Salt Lake",
   "9727": "Vancouver Whitecaps",
   "184": "Colorado Rapids",
-  "9726": "Seattle Sounders FC",
+  "9726": "Seattle Sounders",
   "18986": "Nashville SC",
-  "182": "Chicago Fire FC",
+  "182": "Chicago Fire",
   "9723": "Portland Timbers",
   "18418": "Atlanta United FC",
-  "20232": "Inter Miami CF",
-  "22529": "San Diego FC"
+  "20232": "Inter Miami",
+  "22529": "San Diego"
  },
  "applied_on_last_date": [
   "761890",

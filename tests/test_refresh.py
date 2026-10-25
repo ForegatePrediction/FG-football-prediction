@@ -39,6 +39,11 @@ class RefreshTests(unittest.TestCase):
         identity={}
         self.assertEqual(r.team_name('Tottenham Hotspur','1',teams,identity,{}),'Tottenham')
         self.assertEqual(r.team_name('Manchester','2',teams,identity,{}),'Manchester')
+    def test_provider_id_alias_preserves_existing_club_history(self):
+        with patch.dict(r.TEAM_ALIASES,{'club-1':'Los Angeles FC'}):
+            identity={'club-1':'LAFC'}
+            self.assertEqual(r.team_name('LAFC','club-1',{'Los Angeles FC':{'gp':200}},identity,{}),'Los Angeles FC')
+            self.assertEqual(identity['club-1'],'Los Angeles FC')
     def test_incremental_replay_and_same_day_late_game(self):
         with tempfile.TemporaryDirectory() as tmp,patch.object(r,'GAMES',Path(tmp)):
             snap={'teams':{'Tottenham':{},'Arsenal':{}},'last_date':'2026-10-23'}
