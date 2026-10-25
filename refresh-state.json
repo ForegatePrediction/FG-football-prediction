@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-25T04:50:39.439248+00:00",
+ "checked_at": "2026-10-25T04:57:41.360399+00:00",
  "checked_through": "2026-10-24",
  "competitions": {
   "242": {
@@ -9,7 +9,7 @@
    "slug": "ecu.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 461
+   "source_matches_in_batch": 3
   },
   "72": {
    "latest_source_match": "2026-10-24",
@@ -18,7 +18,7 @@
    "slug": "bra.2",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 628
+   "source_matches_in_batch": 6
   },
   "10": {
    "latest_source_match": "2026-10-07",
@@ -27,7 +27,7 @@
    "slug": "fifa.friendly",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-07",
-   "source_matches_in_batch": 545
+   "source_matches_in_batch": 0
   },
   "265": {
    "latest_source_match": "2026-10-24",
@@ -36,7 +36,7 @@
    "slug": "chi.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 335
+   "source_matches_in_batch": 2
   },
   "5": {
    "latest_source_match": "2026-10-06",
@@ -45,7 +45,7 @@
    "slug": "uefa.nations",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-07",
-   "source_matches_in_batch": 111
+   "source_matches_in_batch": 0
   },
   "71": {
    "latest_source_match": "2026-10-24",
@@ -54,7 +54,7 @@
    "slug": "bra.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 587
+   "source_matches_in_batch": 6
   },
   "239": {
    "latest_source_match": "2026-10-24",
@@ -63,7 +63,7 @@
    "slug": "col.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 597
+   "source_matches_in_batch": 2
   },
   "129": {
    "latest_source_match": "2026-10-24",
@@ -72,7 +72,7 @@
    "slug": "arg.2",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 949
+   "source_matches_in_batch": 5
   },
   "32": {
    "latest_source_match": "2026-03-31",
@@ -81,7 +81,7 @@
    "slug": "fifa.worldq.uefa",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-07",
-   "source_matches_in_batch": 176
+   "source_matches_in_batch": 0
   },
   "268": {
    "latest_source_match": "2026-10-24",
@@ -90,7 +90,7 @@
    "slug": "uru.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 430
+   "source_matches_in_batch": 3
   },
   "299": {
    "latest_source_match": "2026-10-24",
@@ -99,7 +99,7 @@
    "slug": "ven.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 330
+   "source_matches_in_batch": 2
   },
   "141": {
    "latest_source_match": "2026-10-24",
@@ -108,7 +108,7 @@
    "slug": "esp.2",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 589
+   "source_matches_in_batch": 5
   },
   "253": {
    "latest_source_match": "2026-10-24",
@@ -117,7 +117,7 @@
    "slug": "usa.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 745
+   "source_matches_in_batch": 7
   },
   "344": {
    "latest_source_match": "2026-10-24",
@@ -126,7 +126,7 @@
    "slug": "bol.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 349
+   "source_matches_in_batch": 3
   },
   "38": {
    "latest_source_match": "2025-06-25",
@@ -135,7 +135,7 @@
    "slug": "uefa.euro_u21",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-07",
-   "source_matches_in_batch": 29
+   "source_matches_in_batch": 0
   },
   "281": {
    "latest_source_match": "2026-10-24",
@@ -144,7 +144,7 @@
    "slug": "per.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 473
+   "source_matches_in_batch": 2
   },
   "169": {
    "latest_source_match": "2026-10-24",
@@ -153,7 +153,7 @@
    "slug": "chn.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 371
+   "source_matches_in_batch": 8
   },
   "98": {
    "latest_source_match": "2026-10-24",
@@ -162,7 +162,7 @@
    "slug": "jpn.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 454
+   "source_matches_in_batch": 5
   },
   "15": {
    "latest_source_match": "2025-07-13",
@@ -171,7 +171,7 @@
    "slug": "fifa.cwc",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 60
+   "source_matches_in_batch": 0
   },
   "22": {
    "latest_source_match": "2025-07-06",
@@ -180,7 +180,7 @@
    "slug": "concacaf.gold",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-07",
-   "source_matches_in_batch": 28
+   "source_matches_in_batch": 0
   },
   "136": {
    "latest_source_match": "2026-10-24",
@@ -189,7 +189,7 @@
    "slug": "ita.2",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 470
+   "source_matches_in_batch": 7
   },
   "103": {
    "latest_source_match": "2026-10-24",
@@ -198,7 +198,7 @@
    "slug": "nor.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 348
+   "source_matches_in_batch": 2
   },
   "113": {
    "latest_source_match": "2026-10-24",
@@ -207,7 +207,7 @@
    "slug": "swe.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 340
+   "source_matches_in_batch": 4
   },
   "667": {
    "latest_source_match": "2026-10-16",
@@ -216,7 +216,7 @@
    "slug": "club.friendly",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 864
+   "source_matches_in_batch": 0
   },
   "128": {
    "latest_source_match": "2026-10-24",
@@ -225,7 +225,7 @@
    "slug": "arg.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 703
+   "source_matches_in_batch": 4
   },
   "185": {
    "latest_source_match": "2026-09-13",
@@ -234,7 +234,7 @@
    "slug": "sco.cis",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 161
+   "source_matches_in_batch": 0
   },
   "262": {
    "latest_source_match": "2026-10-24",
@@ -243,7 +243,7 @@
    "slug": "mex.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 454
+   "source_matches_in_batch": 3
   },
   "11": {
    "latest_source_match": "2026-10-21",
@@ -252,7 +252,7 @@
    "slug": "conmebol.sudamericana",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 186
+   "source_matches_in_batch": 0
   },
   "119": {
    "latest_source_match": "2026-10-23",
@@ -261,7 +261,7 @@
    "slug": "den.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-23",
-   "source_matches_in_batch": 259
+   "source_matches_in_batch": 0
   },
   "235": {
    "latest_source_match": "2026-10-24",
@@ -270,7 +270,7 @@
    "slug": "rus.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 333
+   "source_matches_in_batch": 4
   },
   "389": {
    "latest_source_match": "2026-10-24",
@@ -279,7 +279,7 @@
    "slug": "gua.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 383
+   "source_matches_in_batch": 1
   },
   "339": {
    "latest_source_match": "2026-10-24",
@@ -288,7 +288,7 @@
    "slug": "hon.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 310
+   "source_matches_in_batch": 3
   },
   "162": {
    "latest_source_match": "2026-10-24",
@@ -297,7 +297,7 @@
    "slug": "crc.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 253
+   "source_matches_in_batch": 1
   },
   "73": {
    "latest_source_match": "2026-09-03",
@@ -306,7 +306,7 @@
    "slug": "bra.copa_do_brazil",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-09-03",
-   "source_matches_in_batch": 142
+   "source_matches_in_batch": 0
   },
   "772": {
    "latest_source_match": "2026-09-07",
@@ -315,7 +315,7 @@
    "slug": "concacaf.leagues.cup",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 97
+   "source_matches_in_batch": 0
   },
   "79": {
    "latest_source_match": "2026-10-24",
@@ -324,7 +324,7 @@
    "slug": "ger.2",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 384
+   "source_matches_in_batch": 4
   },
   "218": {
    "latest_source_match": "2026-10-24",
@@ -333,7 +333,7 @@
    "slug": "aut.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 253
+   "source_matches_in_batch": 3
   },
   "41": {
    "latest_source_match": "2026-10-24",
@@ -342,7 +342,7 @@
    "slug": "eng.3",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 695
+   "source_matches_in_batch": 12
   },
   "179": {
    "latest_source_match": "2026-10-24",
@@ -351,7 +351,7 @@
    "slug": "sco.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 286
+   "source_matches_in_batch": 4
   },
   "48": {
    "latest_source_match": "2026-09-17",
@@ -360,7 +360,7 @@
    "slug": "eng.league_cup",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 136
+   "source_matches_in_batch": 0
   },
   "88": {
    "latest_source_match": "2026-10-24",
@@ -369,7 +369,7 @@
    "slug": "ned.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 393
+   "source_matches_in_batch": 3
   },
   "203": {
    "latest_source_match": "2026-10-24",
@@ -378,7 +378,7 @@
    "slug": "tur.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 382
+   "source_matches_in_batch": 3
   },
   "40": {
    "latest_source_match": "2026-10-24",
@@ -387,7 +387,7 @@
    "slug": "eng.2",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 700
+   "source_matches_in_batch": 11
   },
   "94": {
    "latest_source_match": "2026-10-24",
@@ -396,7 +396,7 @@
    "slug": "por.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 382
+   "source_matches_in_batch": 3
   },
   "62": {
    "latest_source_match": "2026-10-24",
@@ -405,7 +405,7 @@
    "slug": "fra.2",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 394
+   "source_matches_in_batch": 2
   },
   "288": {
    "latest_source_match": "2026-10-18",
@@ -414,7 +414,7 @@
    "slug": "rsa.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-18",
-   "source_matches_in_batch": 305
+   "source_matches_in_batch": 0
   },
   "137": {
    "latest_source_match": "2026-09-15",
@@ -423,7 +423,7 @@
    "slug": "ita.coppa_italia",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-09-15",
-   "source_matches_in_batch": 56
+   "source_matches_in_batch": 0
   },
   "13": {
    "latest_source_match": "2026-10-16",
@@ -432,7 +432,7 @@
    "slug": "conmebol.libertadores",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 167
+   "source_matches_in_batch": 0
   },
   "81": {
    "latest_source_match": "2026-09-02",
@@ -441,7 +441,7 @@
    "slug": "ger.dfb_pokal",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 75
+   "source_matches_in_batch": 0
   },
   "140": {
    "latest_source_match": "2026-10-24",
@@ -450,7 +450,7 @@
    "slug": "esp.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 474
+   "source_matches_in_batch": 4
   },
   "61": {
    "latest_source_match": "2026-10-24",
@@ -459,7 +459,7 @@
    "slug": "fra.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 370
+   "source_matches_in_batch": 1
   },
   "39": {
    "latest_source_match": "2026-10-24",
@@ -468,7 +468,7 @@
    "slug": "eng.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 455
+   "source_matches_in_batch": 4
   },
   "78": {
    "latest_source_match": "2026-10-24",
@@ -477,7 +477,7 @@
    "slug": "ger.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 367
+   "source_matches_in_batch": 6
   },
   "135": {
    "latest_source_match": "2026-10-24",
@@ -486,7 +486,7 @@
    "slug": "ita.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 455
+   "source_matches_in_batch": 4
   },
   "307": {
    "latest_source_match": "2026-10-24",
@@ -495,7 +495,7 @@
    "slug": "ksa.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 400
+   "source_matches_in_batch": 3
   },
   "2": {
    "latest_source_match": "2026-10-21",
@@ -504,7 +504,7 @@
    "slug": "uefa.champions",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 240
+   "source_matches_in_batch": 0
   },
   "3": {
    "latest_source_match": "2026-10-22",
@@ -513,7 +513,7 @@
    "slug": "uefa.europa",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 238
+   "source_matches_in_batch": 0
   },
   "143": {
    "latest_source_match": "2026-10-11",
@@ -522,7 +522,7 @@
    "slug": "esp.copa_del_rey",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 127
+   "source_matches_in_batch": 0
   },
   "848": {
    "latest_source_match": "2026-10-22",
@@ -531,7 +531,7 @@
    "slug": "uefa.europa.conf",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 187
+   "source_matches_in_batch": 0
   },
   "525": {
    "latest_source_match": "2026-10-01",
@@ -540,7 +540,7 @@
    "slug": "uefa.wchampions",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 92
+   "source_matches_in_batch": 0
   },
   "188": {
    "latest_source_match": "2026-10-24",
@@ -549,7 +549,7 @@
    "slug": "aus.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 170
+   "source_matches_in_batch": 3
   },
   "96": {
    "latest_source_match": "2026-10-18",
@@ -558,7 +558,7 @@
    "slug": "por.taca.portugal",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 150
+   "source_matches_in_batch": 0
   },
   "45": {
    "latest_source_match": "2026-05-16",
@@ -567,7 +567,7 @@
    "slug": "eng.fa",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 94
+   "source_matches_in_batch": 0
   },
   "66": {
    "latest_source_match": "2026-05-22",
@@ -576,7 +576,7 @@
    "slug": "fra.coupe_de_france",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 52
+   "source_matches_in_batch": 0
   },
   "16": {
    "latest_source_match": "2026-05-07",
@@ -585,7 +585,7 @@
    "slug": "concacaf.champions",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-05-07",
-   "source_matches_in_batch": 50
+   "source_matches_in_batch": 0
   },
   "323": {
    "latest_source_match": "2026-10-24",
@@ -594,7 +594,7 @@
    "slug": "ind.1",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 105
+   "source_matches_in_batch": 1
   },
   "880": {
    "latest_source_match": "2026-10-13",
@@ -603,7 +603,7 @@
    "slug": "fifa.wworldq.uefa",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-13",
-   "source_matches_in_batch": 181
+   "source_matches_in_batch": 0
   },
   "37": {
    "latest_source_match": "2026-04-01",
@@ -612,7 +612,7 @@
    "slug": "fifa.wcq.ply",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-07",
-   "source_matches_in_batch": 3
+   "source_matches_in_batch": 0
   },
   "1": {
    "latest_source_match": "2026-07-18",
@@ -621,7 +621,7 @@
    "slug": "fifa.world",
    "checked_through": "2026-10-24",
    "last_rating_match": "2026-10-07",
-   "source_matches_in_batch": 95
+   "source_matches_in_batch": 0
   },
   "4": {
    "name": "Euro Championship",
