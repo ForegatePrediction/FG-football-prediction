@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""每日刷新(按日期增量,极省 API 额度)。
-思路:用 /fixtures?date=YYYY-MM-DD 一次拿当天全球所有已结束比赛,再筛出本项目的联赛,
-增量续训对应评级快照。每天只拉"上次~今天"的几个日期 ≈ 1–7 次调用/天(免费档 100/天足够)。
-需环境变量 APIFOOTBALL_KEY。用法:python3 refresh.py
+"""Incremental football refresh; paid API-Sports subscription is currently paused.
+Run only after renewal: python3 refresh.py --enable-paid-api
+All HTTP/API errors abort before writing any snapshots. Historical gaps are not
+silently truncated; renewal/backfill must have sufficient provider quota.
 """
 import os, json, sys, datetime
 try:
@@ -15,7 +15,6 @@ from core.ratings import PoissonRatings
 ROOT = os.path.dirname(os.path.abspath(__file__))
 KEY = os.environ.get("APIFOOTBALL_KEY", "")
 B = "https://v3.football.api-sports.io"
-MAX_LOOKBACK = 90  # 最多回看天数,避免长期未跑时范围过大
 
 
 def _get(path):
