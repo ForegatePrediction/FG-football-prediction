@@ -1,1 +1,236 @@
-{"mu": 0.27328, "hfa": 0.23046, "teams": {"Caracas FC": {"atk": -0.18504, "dfn": 0.1527, "w": 38, "d": 49, "l": 34, "gp": 121}, "Carabobo FC": {"atk": 0.10599, "dfn": 0.55772, "w": 63, "d": 53, "l": 24, "gp": 140}, "Zamora FC": {"atk": -0.27338, "dfn": 0.05465, "w": 31, "d": 27, "l": 56, "gp": 114}, "CD Hermanos Colmenarez": {"atk": -0.39635, "dfn": -0.18511, "w": 12, "d": 14, "l": 34, "gp": 60}, "Angostura FC": {"atk": -0.20407, "dfn": -0.104, "w": 17, "d": 15, "l": 28, "gp": 60}, "Mineros de Guyana": {"atk": -0.27599, "dfn": -0.28946, "w": 4, "d": 8, "l": 16, "gp": 28}, "Deportivo La Guaira": {"atk": 0.07888, "dfn": 0.47687, "w": 61, "d": 43, "l": 29, "gp": 133}, "Monagas SC": {"atk": -0.04994, "dfn": 0.03331, "w": 38, "d": 25, "l": 52, "gp": 115}, "Deportivo Tachira FC": {"atk": 0.17858, "dfn": 0.37984, "w": 75, "d": 40, "l": 20, "gp": 135}, "Estudiantes de Merida FC": {"atk": -0.11416, "dfn": 0.14367, "w": 38, "d": 19, "l": 58, "gp": 115}, "Metropolitanos FC": {"atk": 0.20816, "dfn": 0.31399, "w": 52, "d": 35, "l": 41, "gp": 128}, "UCV": {"atk": 0.08748, "dfn": 0.13402, "w": 48, "d": 39, "l": 37, "gp": 124}, "Puerto Cabello": {"atk": -0.03439, "dfn": 0.42705, "w": 52, "d": 43, "l": 39, "gp": 134}, "Rayo Zuliano": {"atk": -0.04638, "dfn": -0.25807, "w": 33, "d": 25, "l": 51, "gp": 109}, "Portuguesa FC": {"atk": -0.04193, "dfn": 0.21837, "w": 44, "d": 37, "l": 46, "gp": 127}, "Anzoátegui FC": {"atk": -0.26451, "dfn": -0.14095, "w": 11, "d": 15, "l": 28, "gp": 54}, "Yaracuyanos FC": {"atk": -0.18656, "dfn": -0.11629, "w": 4, "d": 6, "l": 16, "gp": 26}, "Trujillanos FC": {"atk": -0.19605, "dfn": -0.18862, "w": 3, "d": 5, "l": 15, "gp": 23}}, "last_date": "2026-09-16"}
+{
+ "mu": 0.27546,
+ "hfa": 0.22977,
+ "teams": {
+  "Caracas FC": {
+   "atk": -0.11619,
+   "dfn": 0.13993,
+   "w": 40,
+   "d": 50,
+   "l": 35,
+   "gp": 125
+  },
+  "Carabobo FC": {
+   "atk": 0.10599,
+   "dfn": 0.55772,
+   "w": 63,
+   "d": 53,
+   "l": 24,
+   "gp": 140
+  },
+  "Zamora FC": {
+   "atk": -0.28912,
+   "dfn": -0.10588,
+   "w": 31,
+   "d": 27,
+   "l": 59,
+   "gp": 117
+  },
+  "CD Hermanos Colmenarez": {
+   "atk": -0.39635,
+   "dfn": -0.18511,
+   "w": 12,
+   "d": 14,
+   "l": 34,
+   "gp": 60
+  },
+  "Angostura FC": {
+   "atk": -0.20407,
+   "dfn": -0.104,
+   "w": 17,
+   "d": 15,
+   "l": 28,
+   "gp": 60
+  },
+  "Mineros de Guyana": {
+   "atk": -0.27599,
+   "dfn": -0.28946,
+   "w": 4,
+   "d": 8,
+   "l": 16,
+   "gp": 28
+  },
+  "Deportivo La Guaira": {
+   "atk": 0.02143,
+   "dfn": 0.37941,
+   "w": 61,
+   "d": 44,
+   "l": 31,
+   "gp": 136
+  },
+  "Monagas SC": {
+   "atk": -0.01943,
+   "dfn": -0.00625,
+   "w": 39,
+   "d": 27,
+   "l": 53,
+   "gp": 119
+  },
+  "Deportivo Tachira FC": {
+   "atk": 0.17858,
+   "dfn": 0.37984,
+   "w": 75,
+   "d": 40,
+   "l": 20,
+   "gp": 135
+  },
+  "Estudiantes de Merida FC": {
+   "atk": -0.11416,
+   "dfn": 0.14367,
+   "w": 38,
+   "d": 19,
+   "l": 58,
+   "gp": 115
+  },
+  "Metropolitanos FC": {
+   "atk": 0.20816,
+   "dfn": 0.31399,
+   "w": 52,
+   "d": 35,
+   "l": 41,
+   "gp": 128
+  },
+  "UCV": {
+   "atk": 0.08748,
+   "dfn": 0.13402,
+   "w": 48,
+   "d": 39,
+   "l": 37,
+   "gp": 124
+  },
+  "Puerto Cabello": {
+   "atk": -0.03439,
+   "dfn": 0.42705,
+   "w": 52,
+   "d": 43,
+   "l": 39,
+   "gp": 134
+  },
+  "Rayo Zuliano": {
+   "atk": -0.10784,
+   "dfn": -0.30579,
+   "w": 33,
+   "d": 26,
+   "l": 53,
+   "gp": 112
+  },
+  "Portuguesa FC": {
+   "atk": -0.04193,
+   "dfn": 0.21837,
+   "w": 44,
+   "d": 37,
+   "l": 46,
+   "gp": 127
+  },
+  "Anzoátegui FC": {
+   "atk": -0.27587,
+   "dfn": -0.10602,
+   "w": 12,
+   "d": 16,
+   "l": 29,
+   "gp": 57
+  },
+  "Yaracuyanos FC": {
+   "atk": -0.18656,
+   "dfn": -0.11629,
+   "w": 4,
+   "d": 6,
+   "l": 16,
+   "gp": 26
+  },
+  "Trujillanos FC": {
+   "atk": -0.19605,
+   "dfn": -0.18862,
+   "w": 3,
+   "d": 5,
+   "l": 15,
+   "gp": 23
+  },
+  "UCV FC": {
+   "atk": -0.07529,
+   "dfn": -0.01677,
+   "w": 0,
+   "d": 2,
+   "l": 1,
+   "gp": 3
+  },
+  "Carabobo": {
+   "atk": -0.01245,
+   "dfn": 0.04063,
+   "w": 1,
+   "d": 2,
+   "l": 0,
+   "gp": 3
+  },
+  "Academia Puerto Cabello": {
+   "atk": 0.06365,
+   "dfn": 0.02317,
+   "w": 3,
+   "d": 1,
+   "l": 0,
+   "gp": 4
+  },
+  "Portuguesa": {
+   "atk": -0.08293,
+   "dfn": 0.07973,
+   "w": 0,
+   "d": 2,
+   "l": 1,
+   "gp": 3
+  },
+  "Deportivo Táchira": {
+   "atk": 0.19769,
+   "dfn": 0.00631,
+   "w": 3,
+   "d": 1,
+   "l": 0,
+   "gp": 4
+  },
+  "Metropolitanos": {
+   "atk": 0.12215,
+   "dfn": 0.0307,
+   "w": 2,
+   "d": 1,
+   "l": 0,
+   "gp": 3
+  },
+  "Estudiantes de Mérida": {
+   "atk": -0.0126,
+   "dfn": -0.02045,
+   "w": 0,
+   "d": 2,
+   "l": 1,
+   "gp": 3
+  },
+  "Trujillanos": {
+   "atk": -0.02293,
+   "dfn": 0.04916,
+   "w": 1,
+   "d": 1,
+   "l": 1,
+   "gp": 3
+  }
+ },
+ "last_date": "2026-10-24",
+ "updated_from": 23,
+ "espn_team_names": {
+  "21850": "Rayo Zuliano",
+  "6041": "Monagas SC",
+  "10094": "UCV FC",
+  "6037": "Carabobo",
+  "18995": "Academia Puerto Cabello",
+  "6762": "Portuguesa",
+  "17090": "Deportivo La Guaira",
+  "4818": "Deportivo Táchira",
+  "6763": "Zamora FC",
+  "13481": "Metropolitanos",
+  "13783": "Anzoátegui FC",
+  "4811": "Caracas FC",
+  "6038": "Estudiantes de Mérida",
+  "5268": "Trujillanos"
+ },
+ "applied_on_last_date": [
+  "401930957",
+  "401930958"
+ ]
+}

@@ -1,1 +1,336 @@
-{"mu": 0.24122, "hfa": 0.38591, "teams": {"Alianza Lima": {"atk": 0.16417, "dfn": 0.60426, "w": 135, "d": 58, "l": 56, "gp": 249}, "Sport Boys": {"atk": -0.25026, "dfn": 0.27786, "w": 72, "d": 57, "l": 109, "gp": 238}, "Carlos A. Mannucci": {"atk": -0.19675, "dfn": -0.01208, "w": 60, "d": 54, "l": 80, "gp": 194}, "Ayacucho FC": {"atk": -0.23548, "dfn": 0.04107, "w": 49, "d": 40, "l": 72, "gp": 161}, "Deportivo Binacional": {"atk": -0.11884, "dfn": -0.03182, "w": 70, "d": 33, "l": 83, "gp": 186}, "Cesar Vallejo": {"atk": -0.19365, "dfn": 0.02742, "w": 75, "d": 60, "l": 60, "gp": 195}, "U. San Martin": {"atk": -0.29623, "dfn": -0.47327, "w": 30, "d": 32, "l": 62, "gp": 124}, "UTC Cajamarca": {"atk": -0.2817, "dfn": -0.19784, "w": 63, "d": 78, "l": 100, "gp": 241}, "FBC Melgar": {"atk": 0.25685, "dfn": 0.55585, "w": 119, "d": 64, "l": 60, "gp": 243}, "Deportivo Municipal": {"atk": -0.18422, "dfn": -0.09266, "w": 48, "d": 41, "l": 71, "gp": 160}, "Sport Huancayo": {"atk": 0.12275, "dfn": 0.05642, "w": 95, "d": 62, "l": 82, "gp": 239}, "Sporting Cristal": {"atk": 0.27278, "dfn": 0.34853, "w": 144, "d": 62, "l": 46, "gp": 252}, "Union Comercio": {"atk": -0.29194, "dfn": -0.59157, "w": 21, "d": 27, "l": 56, "gp": 104}, "Universitario": {"atk": 0.24682, "dfn": 0.71613, "w": 136, "d": 63, "l": 45, "gp": 244}, "Molinos El Pirata": {"atk": -0.3326, "dfn": -0.23459, "w": 6, "d": 9, "l": 19, "gp": 34}, "Real Garcilaso": {"atk": -0.1477, "dfn": 0.30905, "w": 13, "d": 8, "l": 13, "gp": 34}, "Alianza Universidad": {"atk": -0.09479, "dfn": -0.17301, "w": 33, "d": 31, "l": 59, "gp": 123}, "Academia Cantolao": {"atk": -0.53622, "dfn": -0.01968, "w": 39, "d": 39, "l": 81, "gp": 159}, "Atletico Grau": {"atk": -0.09328, "dfn": 0.35607, "w": 57, "d": 59, "l": 64, "gp": 180}, "Cienciano": {"atk": 0.26752, "dfn": 0.1419, "w": 82, "d": 55, "l": 68, "gp": 205}, "Carlos Stein": {"atk": -0.23238, "dfn": -0.46543, "w": 13, "d": 15, "l": 38, "gp": 66}, "Deportivo Llacuabamba": {"atk": 0.12317, "dfn": -0.46936, "w": 5, "d": 6, "l": 17, "gp": 28}, "Cusco": {"atk": 0.26395, "dfn": 0.37217, "w": 76, "d": 40, "l": 59, "gp": 175}, "Alianza Atletico": {"atk": -0.03215, "dfn": 0.34054, "w": 67, "d": 38, "l": 74, "gp": 179}, "ADT": {"atk": -0.10541, "dfn": 0.05001, "w": 51, "d": 47, "l": 52, "gp": 150}, "Deportivo Garcilaso": {"atk": 0.10682, "dfn": 0.42564, "w": 44, "d": 31, "l": 39, "gp": 114}, "Comerciantes Unidos": {"atk": -0.05282, "dfn": 0.04522, "w": 19, "d": 23, "l": 38, "gp": 80}, "Club Deportivo Los Chankas": {"atk": 0.00945, "dfn": -0.04931, "w": 27, "d": 20, "l": 32, "gp": 79}, "Juan Pablo II College": {"atk": -0.04591, "dfn": 0.04996, "w": 12, "d": 12, "l": 23, "gp": 47}, "FC Cajamarca": {"atk": 0.0768, "dfn": -0.16005, "w": 3, "d": 3, "l": 4, "gp": 10}, "UCV Moquegua": {"atk": -0.11833, "dfn": 0.18213, "w": 1, "d": 5, "l": 3, "gp": 9}}, "last_date": "2026-09-13"}
+{
+ "mu": 0.24296,
+ "hfa": 0.38894,
+ "teams": {
+  "Alianza Lima": {
+   "atk": 0.22044,
+   "dfn": 0.61107,
+   "w": 138,
+   "d": 58,
+   "l": 56,
+   "gp": 252
+  },
+  "Sport Boys": {
+   "atk": -0.2788,
+   "dfn": 0.21516,
+   "w": 72,
+   "d": 58,
+   "l": 111,
+   "gp": 241
+  },
+  "Carlos A. Mannucci": {
+   "atk": -0.19675,
+   "dfn": -0.01208,
+   "w": 60,
+   "d": 54,
+   "l": 80,
+   "gp": 194
+  },
+  "Ayacucho FC": {
+   "atk": -0.23548,
+   "dfn": 0.04107,
+   "w": 49,
+   "d": 40,
+   "l": 72,
+   "gp": 161
+  },
+  "Deportivo Binacional": {
+   "atk": -0.11884,
+   "dfn": -0.03182,
+   "w": 70,
+   "d": 33,
+   "l": 83,
+   "gp": 186
+  },
+  "Cesar Vallejo": {
+   "atk": -0.19365,
+   "dfn": 0.02742,
+   "w": 75,
+   "d": 60,
+   "l": 60,
+   "gp": 195
+  },
+  "U. San Martin": {
+   "atk": -0.29623,
+   "dfn": -0.47327,
+   "w": 30,
+   "d": 32,
+   "l": 62,
+   "gp": 124
+  },
+  "UTC Cajamarca": {
+   "atk": -0.2817,
+   "dfn": -0.19784,
+   "w": 63,
+   "d": 78,
+   "l": 100,
+   "gp": 241
+  },
+  "FBC Melgar": {
+   "atk": 0.25685,
+   "dfn": 0.55585,
+   "w": 119,
+   "d": 64,
+   "l": 60,
+   "gp": 243
+  },
+  "Deportivo Municipal": {
+   "atk": -0.18422,
+   "dfn": -0.09266,
+   "w": 48,
+   "d": 41,
+   "l": 71,
+   "gp": 160
+  },
+  "Sport Huancayo": {
+   "atk": 0.21673,
+   "dfn": 0.10964,
+   "w": 99,
+   "d": 62,
+   "l": 82,
+   "gp": 243
+  },
+  "Sporting Cristal": {
+   "atk": 0.31374,
+   "dfn": 0.29787,
+   "w": 147,
+   "d": 62,
+   "l": 47,
+   "gp": 256
+  },
+  "Union Comercio": {
+   "atk": -0.29194,
+   "dfn": -0.59157,
+   "w": 21,
+   "d": 27,
+   "l": 56,
+   "gp": 104
+  },
+  "Universitario": {
+   "atk": 0.29239,
+   "dfn": 0.58922,
+   "w": 137,
+   "d": 64,
+   "l": 46,
+   "gp": 247
+  },
+  "Molinos El Pirata": {
+   "atk": -0.3326,
+   "dfn": -0.23459,
+   "w": 6,
+   "d": 9,
+   "l": 19,
+   "gp": 34
+  },
+  "Real Garcilaso": {
+   "atk": -0.1477,
+   "dfn": 0.30905,
+   "w": 13,
+   "d": 8,
+   "l": 13,
+   "gp": 34
+  },
+  "Alianza Universidad": {
+   "atk": -0.09479,
+   "dfn": -0.17301,
+   "w": 33,
+   "d": 31,
+   "l": 59,
+   "gp": 123
+  },
+  "Academia Cantolao": {
+   "atk": -0.53622,
+   "dfn": -0.01968,
+   "w": 39,
+   "d": 39,
+   "l": 81,
+   "gp": 159
+  },
+  "Atletico Grau": {
+   "atk": -0.14143,
+   "dfn": 0.29629,
+   "w": 57,
+   "d": 61,
+   "l": 66,
+   "gp": 184
+  },
+  "Cienciano": {
+   "atk": 0.26752,
+   "dfn": 0.1419,
+   "w": 82,
+   "d": 55,
+   "l": 68,
+   "gp": 205
+  },
+  "Carlos Stein": {
+   "atk": -0.23238,
+   "dfn": -0.46543,
+   "w": 13,
+   "d": 15,
+   "l": 38,
+   "gp": 66
+  },
+  "Deportivo Llacuabamba": {
+   "atk": 0.12317,
+   "dfn": -0.46936,
+   "w": 5,
+   "d": 6,
+   "l": 17,
+   "gp": 28
+  },
+  "Cusco": {
+   "atk": 0.26395,
+   "dfn": 0.37217,
+   "w": 76,
+   "d": 40,
+   "l": 59,
+   "gp": 175
+  },
+  "Alianza Atletico": {
+   "atk": 0.03,
+   "dfn": 0.18104,
+   "w": 69,
+   "d": 38,
+   "l": 76,
+   "gp": 183
+  },
+  "ADT": {
+   "atk": -0.16743,
+   "dfn": 0.1008,
+   "w": 52,
+   "d": 49,
+   "l": 54,
+   "gp": 155
+  },
+  "Deportivo Garcilaso": {
+   "atk": 0.14686,
+   "dfn": 0.37182,
+   "w": 45,
+   "d": 31,
+   "l": 41,
+   "gp": 117
+  },
+  "Comerciantes Unidos": {
+   "atk": -0.03397,
+   "dfn": -0.00218,
+   "w": 19,
+   "d": 24,
+   "l": 40,
+   "gp": 83
+  },
+  "Club Deportivo Los Chankas": {
+   "atk": 0.00945,
+   "dfn": -0.04931,
+   "w": 27,
+   "d": 20,
+   "l": 32,
+   "gp": 79
+  },
+  "Juan Pablo II College": {
+   "atk": -0.04591,
+   "dfn": 0.04996,
+   "w": 12,
+   "d": 12,
+   "l": 23,
+   "gp": 47
+  },
+  "FC Cajamarca": {
+   "atk": -0.05341,
+   "dfn": -0.10656,
+   "w": 3,
+   "d": 4,
+   "l": 6,
+   "gp": 13
+  },
+  "UCV Moquegua": {
+   "atk": -0.11833,
+   "dfn": 0.18213,
+   "w": 1,
+   "d": 5,
+   "l": 3,
+   "gp": 9
+  },
+  "Cusco FC": {
+   "atk": 0.05986,
+   "dfn": 0.04026,
+   "w": 2,
+   "d": 0,
+   "l": 2,
+   "gp": 4
+  },
+  "Melgar": {
+   "atk": 0.12913,
+   "dfn": 0.0154,
+   "w": 2,
+   "d": 2,
+   "l": 0,
+   "gp": 4
+  },
+  "UTC": {
+   "atk": -0.07586,
+   "dfn": 0.00468,
+   "w": 0,
+   "d": 0,
+   "l": 4,
+   "gp": 4
+  },
+  "Juan Pablo II": {
+   "atk": 0.06756,
+   "dfn": 0.0873,
+   "w": 2,
+   "d": 1,
+   "l": 0,
+   "gp": 3
+  },
+  "Deportivo Moquegua": {
+   "atk": -0.10216,
+   "dfn": -0.02196,
+   "w": 1,
+   "d": 0,
+   "l": 2,
+   "gp": 3
+  },
+  "Cienciano del Cusco": {
+   "atk": -0.03805,
+   "dfn": 0.08941,
+   "w": 2,
+   "d": 1,
+   "l": 1,
+   "gp": 4
+  },
+  "Los Chankas": {
+   "atk": -0.02479,
+   "dfn": 0.07679,
+   "w": 1,
+   "d": 2,
+   "l": 0,
+   "gp": 3
+  }
+ },
+ "last_date": "2026-10-24",
+ "updated_from": 32,
+ "espn_team_names": {
+  "5267": "Alianza Atletico",
+  "18153": "Comerciantes Unidos",
+  "2680": "Alianza Lima",
+  "21314": "ADT",
+  "131655": "FC Cajamarca",
+  "11995": "Cusco FC",
+  "2673": "Sporting Cristal",
+  "20293": "Atletico Grau",
+  "21819": "Deportivo Garcilaso",
+  "2685": "Universitario",
+  "7312": "Melgar",
+  "5570": "Sport Boys",
+  "10318": "Sport Huancayo",
+  "10122": "UTC",
+  "22534": "Juan Pablo II",
+  "131654": "Deportivo Moquegua",
+  "3372": "Cienciano del Cusco",
+  "22168": "Los Chankas"
+ },
+ "applied_on_last_date": [
+  "401886132",
+  "401886133"
+ ]
+}
