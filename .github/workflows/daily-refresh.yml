@@ -22,16 +22,30 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Restore independent GitHub data checkpoint
+        if: ${{ vars.DUAL_CHANNEL_DATA == 'true' }}
+        run: bash deploy/github-backup.sh prepare football
       - name: Regression tests
         run: python3 -m unittest discover -s tests -v
       - name: Refresh free ESPN results and shared pools
         env:
           MAX_DAYS: ${{ inputs.max_days || '31' }}
         run: python3 refresh.py --max-days "$MAX_DAYS"
-      - name: Commit updated snapshots and source evidence
+      - name: Legacy snapshot commits until VPS migration is verified
+        if: ${{ vars.DUAL_CHANNEL_DATA != 'true' && github.ref == 'refs/heads/main' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add games/*/ratings.json refresh-state.json
           git diff --cached --quiet || git commit -m "chore: refresh free football results and coverage"
           git push
+      - name: Publish verified daily backup to data branch
+        if: ${{ success() && github.ref == 'refs/heads/main' }}
+        run: bash deploy/github-backup.sh publish football
+      - name: Preserve collection diagnostics
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: football-refresh-status
+          path: refresh-state.json
+          retention-days: 14

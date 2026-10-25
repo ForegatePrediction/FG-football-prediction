@@ -5,6 +5,7 @@ import json, os
 from .ratings import PoissonRatings
 from .markets import markets, markets_ht, markets_corners
 from .odds import devig_shin, divergence
+from . import storage
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GAMES = os.path.join(ROOT, "games")
@@ -29,12 +30,12 @@ def _source_name(code, name, teams):
     return next(iter(candidates)) if len(candidates) == 1 else name
 
 
-def _load(code):
+def _load(code, snapshots=None):
     d = os.path.join(GAMES, str(code))
     cfg = json.load(open(os.path.join(d, "config.json"), encoding="utf-8"))
     # 杯赛/洲际赛(池 B/C)不建自己的评级,而是引用统一俱乐部池
     ref = cfg.get("pool_ref")
-    snap_dir = os.path.join(GAMES, str(ref)) if ref else d
+    snap_dir = (storage.games(GAMES) if snapshots is None else snapshots) / str(ref or code)
     snap = json.load(open(os.path.join(snap_dir, "ratings.json"), encoding="utf-8"))
     return cfg, snap
 
@@ -221,7 +222,9 @@ def _platform_markets(mk, lh, la, is_cup):
 
 
 def predict(code, A, B, hcap=0.0, total=2.5, lang="zh", odds_1x2=None):
-    cfg, snap = _load(code)
+    # Pin ratings and corners to the same immutable generation for this request.
+    snapshots = storage.games(GAMES)
+    cfg, snap = _load(code, snapshots)
     teams = snap["teams"]
     a, b = _find(teams, _source_name(code, A, teams)), _find(teams, _source_name(code, B, teams))
     if not a or not b:
@@ -231,7 +234,7 @@ def predict(code, A, B, hcap=0.0, total=2.5, lang="zh", odds_1x2=None):
     mk = markets(lh, la, rho)
     mk.update(markets_ht(lh, la, rho, fh_share=cfg.get("fh_share", 0.458)))  # 半场类玩法
     # 角球玩法(仅有角球快照的联赛;football-data 覆盖的主流联赛)
-    cpath = os.path.join(GAMES, str(code), "corners_ratings.json")
+    cpath = snapshots / str(code) / 'corners_ratings.json'
     if os.path.isfile(cpath):
         csnap = json.load(open(cpath, encoding="utf-8"))
         ca, cb = _find(csnap["teams"], a), _find(csnap["teams"], b)

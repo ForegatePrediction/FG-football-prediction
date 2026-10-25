@@ -189,3 +189,11 @@ MIT
 命名修复以换源前模型为起点，在临时副本按相同比赛顺序重新计算换源增量。`source-migration-validation.json` 记录 74 个快照的验证：比赛总数、最新日期、累计更新数、最后一天已应用的比赛 ID 均不变，修复不丢弃赛果。
 
 部分中超更名核对来源：[辽宁沈阳城市→辽宁铁人](https://www.thecfa.cn/lstz/20240206/33697.html)、[大连智行→大连英博](https://www.thecfa.cn/lstz/20240129/33637.html)、[青岛青春岛→青岛西海岸](https://www.thecfa.cn/qttz/20230308/32363.html)、[四川九牛→深圳新鹏城](https://www.thecfa.cn/lstz/20240206/33699.html)。
+
+## VPS 与 GitHub 双通道更新
+
+新增可选持久数据模式：设置 `FG_DATA_DIR` 后，预测从该目录的版本快照读取评分，赛事配置仍使用代码版本。数据目录缺失或不兼容时明确报错；通过原子切换 `current` 可更新评分，无需重启服务。未设置时保留仓库快照模式。
+
+GitHub 每日任务将通过校验的数据包写入独立 `data-snapshots` 分支，包含评分、采集状态和文件哈希，不包含原始缓存、Token 或源代码。只有 VPS 迁移通过后才设置仓库变量 `DUAL_CHANNEL_DATA=true`：启用后 GitHub 使用自己的数据检查点续抓，并停止每日向主分支提交数据。未启用时保留原有主分支更新，避免迁移中断。
+
+VPS 和 GitHub 独立采集、保存各自缓存与游标，生产只由 VPS 发布；GitHub 备份不会自动覆盖生产。安装、时间表、验证和人工恢复见[网关部署说明](https://github.com/ForegatePrediction/FG-prediction-gateway-v2/blob/main/deploy/DUAL_CHANNEL.md)。
