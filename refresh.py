@@ -20,7 +20,11 @@ MAX_LOOKBACK = 90  # 最多回看天数,避免长期未跑时范围过大
 
 def _get(path):
     r = requests.get(B + path, headers={"x-apisports-key": KEY}, timeout=30)
-    return r.json()
+    r.raise_for_status()
+    data = r.json()
+    if not isinstance(data, dict) or data.get("errors") or not isinstance(data.get("response"), list):
+        raise RuntimeError("API-Sports 响应错误或订阅失效，拒绝将失败当成无比赛")
+    return data
 
 
 def pool_a_leagues():
@@ -37,6 +41,8 @@ def pool_a_leagues():
 
 
 def main():
+    if "--enable-paid-api" not in sys.argv:
+        sys.exit("付费 API 已暂停；续费后显式传入 --enable-paid-api")
     if not KEY or requests is None:
         print("缺少 APIFOOTBALL_KEY 或 requests,退出"); sys.exit(1)
     leagues = pool_a_leagues()
@@ -44,16 +50,12 @@ def main():
     # 起始日期 = 各快照 last_date 的最小值(即最久没更新的那个),回看上限 MAX_LOOKBACK 天
     today = datetime.date.today()
     lds = [s.get("last_date") for s in snaps.values() if s.get("last_date")]
-    start = max((datetime.date.fromisoformat(min(lds)) + datetime.timedelta(days=1)) if lds
-                else today - datetime.timedelta(days=1), today - datetime.timedelta(days=MAX_LOOKBACK))
+    start = (datetime.date.fromisoformat(min(lds)) + datetime.timedelta(days=1)) if lds else today - datetime.timedelta(days=1)
     # 按日期拉当天已结束比赛,归集到各联赛
     by_league = {af: [] for af in leagues}
     d = start; days = 0
     while d <= today:
-        try:
-            resp = _get(f"/fixtures?date={d.isoformat()}").get("response", [])
-        except Exception as e:
-            print(f"[{d}] 拉取失败 {str(e)[:50]}"); d += datetime.timedelta(days=1); continue
+        resp = _get(f"/fixtures?date={d.isoformat()}")["response"]
         for m in resp:
             lid = m["league"]["id"]
             if lid not in leagues or m["fixture"]["status"]["short"] != "FT":

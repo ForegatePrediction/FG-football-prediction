@@ -1,12 +1,20 @@
 name: daily-refresh
 on:
-  schedule:
-    - cron: "0 5 * * *"   # 每日 UTC 05:00
-  workflow_dispatch: {}
+  # Subscription expired: deliberately manual-only, with explicit opt-in.
+  workflow_dispatch:
+    inputs:
+      enable_paid_api:
+        description: "Confirm API-Sports subscription has been renewed"
+        type: boolean
+        default: false
+concurrency:
+  group: daily-refresh
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
   refresh:
+    if: ${{ inputs.enable_paid_api }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -14,10 +22,12 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install requests
+      - name: Regression tests
+        run: python3 -m unittest discover -s tests -v
       - name: Incremental refresh ratings
         env:
           APIFOOTBALL_KEY: ${{ secrets.APIFOOTBALL_KEY }}
-        run: python3 refresh.py
+        run: python3 refresh.py --enable-paid-api
       - name: Commit updated snapshots
         run: |
           git config user.name "github-actions"
