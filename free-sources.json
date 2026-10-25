@@ -1,0 +1,354 @@
+{
+  "39": {
+    "slug": "eng.1",
+    "id": "700",
+    "name": "English Premier League"
+  },
+  "140": {
+    "slug": "esp.1",
+    "id": "740",
+    "name": "Spanish LALIGA"
+  },
+  "135": {
+    "slug": "ita.1",
+    "id": "730",
+    "name": "Italian Serie A"
+  },
+  "78": {
+    "slug": "ger.1",
+    "id": "720",
+    "name": "German Bundesliga"
+  },
+  "61": {
+    "slug": "fra.1",
+    "id": "710",
+    "name": "French Ligue 1"
+  },
+  "2": {
+    "slug": "uefa.champions",
+    "id": "775",
+    "name": "UEFA Champions League"
+  },
+  "3": {
+    "slug": "uefa.europa",
+    "id": "776",
+    "name": "UEFA Europa League"
+  },
+  "848": {
+    "slug": "uefa.europa.conf",
+    "id": "20296",
+    "name": "UEFA Conference League"
+  },
+  "1": {
+    "slug": "fifa.world",
+    "id": "606",
+    "name": "FIFA World Cup"
+  },
+  "4": {
+    "slug": "uefa.euro",
+    "id": "781",
+    "name": "UEFA European Championship"
+  },
+  "5": {
+    "slug": "uefa.nations",
+    "id": "2395",
+    "name": "UEFA Nations League"
+  },
+  "32": {
+    "slug": "fifa.worldq.uefa",
+    "id": "786",
+    "name": "FIFA World Cup Qualifying - UEFA"
+  },
+  "37": {
+    "slug": "fifa.wcq.ply",
+    "id": "23449",
+    "name": "FIFA World Cup Qualifying - Playoff Tournament"
+  },
+  "38": {
+    "slug": "uefa.euro_u21",
+    "id": "5693",
+    "name": "UEFA European Under-21 Championship"
+  },
+  "15": {
+    "slug": "fifa.cwc",
+    "id": "5501",
+    "name": "FIFA Club World Cup"
+  },
+  "22": {
+    "slug": "concacaf.gold",
+    "id": "4004",
+    "name": "Concacaf Gold Cup"
+  },
+  "16": {
+    "slug": "concacaf.champions",
+    "id": "5699",
+    "name": "Concacaf Champions Cup"
+  },
+  "45": {
+    "slug": "eng.fa",
+    "id": "3918",
+    "name": "English FA Cup"
+  },
+  "48": {
+    "slug": "eng.league_cup",
+    "id": "3920",
+    "name": "English Carabao Cup"
+  },
+  "137": {
+    "slug": "ita.coppa_italia",
+    "id": "3956",
+    "name": "Coppa Italia"
+  },
+  "143": {
+    "slug": "esp.copa_del_rey",
+    "id": "3951",
+    "name": "Spanish Copa del Rey"
+  },
+  "66": {
+    "slug": "fra.coupe_de_france",
+    "id": "3952",
+    "name": "Coupe de France"
+  },
+  "81": {
+    "slug": "ger.dfb_pokal",
+    "id": "3954",
+    "name": "German Cup"
+  },
+  "94": {
+    "slug": "por.1",
+    "id": "715",
+    "name": "Portuguese Primeira Liga"
+  },
+  "88": {
+    "slug": "ned.1",
+    "id": "725",
+    "name": "Dutch Eredivisie"
+  },
+  "203": {
+    "slug": "tur.1",
+    "id": "3946",
+    "name": "Turkish Super Lig"
+  },
+  "179": {
+    "slug": "sco.1",
+    "id": "735",
+    "name": "Scottish Premiership"
+  },
+  "185": {
+    "slug": "sco.cis",
+    "id": "5330",
+    "name": "Scottish League Cup"
+  },
+  "307": {
+    "slug": "ksa.1",
+    "id": "21231",
+    "name": "Saudi Pro League"
+  },
+  "169": {
+    "slug": "chn.1",
+    "id": "8376",
+    "name": "Chinese Super League"
+  },
+  "98": {
+    "slug": "jpn.1",
+    "id": "750",
+    "name": "Japanese J.League"
+  },
+  "253": {
+    "slug": "usa.1",
+    "id": "770",
+    "name": "MLS"
+  },
+  "262": {
+    "slug": "mex.1",
+    "id": "760",
+    "name": "Mexican Liga BBVA MX"
+  },
+  "71": {
+    "slug": "bra.1",
+    "id": "630",
+    "name": "Brazilian Serie A"
+  },
+  "72": {
+    "slug": "bra.2",
+    "id": "4007",
+    "name": "Brazilian Serie B"
+  },
+  "73": {
+    "slug": "bra.copa_do_brazil",
+    "id": "8306",
+    "name": "Copa do Brasil"
+  },
+  "128": {
+    "slug": "arg.1",
+    "id": "745",
+    "name": "Argentine Liga Profesional de Fútbol"
+  },
+  "129": {
+    "slug": "arg.2",
+    "id": "3903",
+    "name": "Argentine Nacional B"
+  },
+  "11": {
+    "slug": "conmebol.sudamericana",
+    "id": "5454",
+    "name": "CONMEBOL Sudamericana"
+  },
+  "13": {
+    "slug": "conmebol.libertadores",
+    "id": "783",
+    "name": "CONMEBOL Libertadores"
+  },
+  "772": {
+    "slug": "concacaf.leagues.cup",
+    "id": "19425",
+    "name": "Leagues Cup"
+  },
+  "525": {
+    "slug": "uefa.wchampions",
+    "id": "19483",
+    "name": "UEFA Women's Champions League",
+    "women": true
+  },
+  "880": {
+    "slug": "fifa.wworldq.uefa",
+    "id": "20649",
+    "name": "FIFA Women's World Cup Qualifying - UEFA",
+    "women": true
+  },
+  "40": {
+    "slug": "eng.2",
+    "id": "3914",
+    "name": "English League Championship"
+  },
+  "41": {
+    "slug": "eng.3",
+    "id": "3915",
+    "name": "English League One"
+  },
+  "141": {
+    "slug": "esp.2",
+    "id": "3921",
+    "name": "Spanish LALIGA 2"
+  },
+  "136": {
+    "slug": "ita.2",
+    "id": "3931",
+    "name": "Italian Serie B"
+  },
+  "79": {
+    "slug": "ger.2",
+    "id": "3927",
+    "name": "German 2. Bundesliga"
+  },
+  "62": {
+    "slug": "fra.2",
+    "id": "3926",
+    "name": "French Ligue 2"
+  },
+  "218": {
+    "slug": "aut.1",
+    "id": "3907",
+    "name": "Austrian Bundesliga"
+  },
+  "235": {
+    "slug": "rus.1",
+    "id": "3939",
+    "name": "Russian Premier League"
+  },
+  "113": {
+    "slug": "swe.1",
+    "id": "3945",
+    "name": "Swedish Allsvenskan"
+  },
+  "119": {
+    "slug": "den.1",
+    "id": "3913",
+    "name": "Danish Superliga"
+  },
+  "103": {
+    "slug": "nor.1",
+    "id": "3960",
+    "name": "Norwegian Eliteserien"
+  },
+  "162": {
+    "slug": "crc.1",
+    "id": "4005",
+    "name": "Costa Rican Primera Division"
+  },
+  "239": {
+    "slug": "col.1",
+    "id": "650",
+    "name": "Colombian Primera A"
+  },
+  "242": {
+    "slug": "ecu.1",
+    "id": "660",
+    "name": "LigaPro Ecuador"
+  },
+  "265": {
+    "slug": "chi.1",
+    "id": "640",
+    "name": "Chilean Primera División"
+  },
+  "268": {
+    "slug": "uru.1",
+    "id": "680",
+    "name": "Liga AUF Uruguaya"
+  },
+  "281": {
+    "slug": "per.1",
+    "id": "670",
+    "name": "Peruvian Liga 1"
+  },
+  "288": {
+    "slug": "rsa.1",
+    "id": "3937",
+    "name": "South African Premiership"
+  },
+  "299": {
+    "slug": "ven.1",
+    "id": "3949",
+    "name": "Venezuelan Primera División"
+  },
+  "339": {
+    "slug": "hon.1",
+    "id": "3929",
+    "name": "Honduran Liga Nacional"
+  },
+  "344": {
+    "slug": "bol.1",
+    "id": "620",
+    "name": "Bolivian Liga Profesional"
+  },
+  "389": {
+    "slug": "gua.1",
+    "id": "3928",
+    "name": "Guatemalan Liga Nacional"
+  },
+  "323": {
+    "slug": "ind.1",
+    "id": "8316",
+    "name": "Indian Super League"
+  },
+  "96": {
+    "slug": "por.taca.portugal",
+    "id": "20922",
+    "name": "Taca de Portugal"
+  },
+  "10": {
+    "slug": "fifa.friendly",
+    "id": "3922",
+    "name": "International Friendly"
+  },
+  "667": {
+    "slug": "club.friendly",
+    "id": "19834",
+    "name": "Club Friendly"
+  },
+  "188": {
+    "slug": "aus.1",
+    "id": "3906",
+    "name": "Australian A-League Men"
+  }
+}

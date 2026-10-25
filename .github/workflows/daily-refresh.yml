@@ -1,12 +1,13 @@
 name: daily-refresh
 on:
-  # Subscription expired: deliberately manual-only, with explicit opt-in.
+  schedule:
+    - cron: "20 7 * * *"
   workflow_dispatch:
     inputs:
-      enable_paid_api:
-        description: "Confirm API-Sports subscription has been renewed"
-        type: boolean
-        default: false
+      max_days:
+        description: "Historical days per batch (0 = complete backfill)"
+        type: string
+        default: "31"
 concurrency:
   group: daily-refresh
   cancel-in-progress: false
@@ -14,24 +15,23 @@ permissions:
   contents: write
 jobs:
   refresh:
-    if: ${{ inputs.enable_paid_api }}
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: pip install requests
       - name: Regression tests
         run: python3 -m unittest discover -s tests -v
-      - name: Incremental refresh ratings
+      - name: Refresh free ESPN results and shared pools
         env:
-          APIFOOTBALL_KEY: ${{ secrets.APIFOOTBALL_KEY }}
-        run: python3 refresh.py --enable-paid-api
-      - name: Commit updated snapshots
+          MAX_DAYS: ${{ inputs.max_days || '31' }}
+        run: python3 refresh.py --max-days "$MAX_DAYS"
+      - name: Commit updated snapshots and source evidence
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add games/*/ratings.json
-          git diff --cached --quiet || git commit -m "chore: daily ratings refresh"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add games/*/ratings.json refresh-state.json
+          git diff --cached --quiet || git commit -m "chore: refresh free football results and coverage"
           git push

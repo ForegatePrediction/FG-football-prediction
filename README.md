@@ -1,6 +1,6 @@
 # FG-football-prediction
 
-**中文** · ForeGate 足球赛事预测框架。一套 **Dixon-Coles 进球分布引擎** 覆盖单场足球全部主流玩法,覆盖平台全部 55 个足球联赛(另含更多杯赛/洲际赛/国家队,共 100+ 赛事)。零依赖、秒级响应。
+**中文** · ForeGate 足球赛事预测框架。一套 **Dixon-Coles 进球分布引擎** 覆盖单场足球全部主流玩法,保存 100 个赛事的历史模型;实时可更新覆盖以 `free-sources.json` 和 `refresh-state.json` 为准。零依赖、秒级响应。
 
 **English** · ForeGate football match-prediction framework — one **Dixon-Coles goal-distribution engine** producing all major single-match markets across the platform's 55 football leagues (100+ competitions in total). Zero-dependency, millisecond responses.
 
@@ -98,9 +98,9 @@ GET /predict?categoryId=82&a=Arsenal&b=Chelsea[&lang=zh|en|vi][&oh=&od=&oa=]
 
 ## 覆盖的赛事 / Competitions
 
-仓库共建有 100+ 赛事评级快照。其中**平台足球 55 个联赛全部覆盖**,均可用 `platform_id`(前端内部联赛 id)直接解析调用。下表 `code` = 内部目录名(games/&lt;code&gt;),`角球` ✅ 表示额外支持角球玩法。
+仓库保留 100 个赛事配置及历史模型。下表是接口映射，不代表全部仍在更新；免费源接入范围见 `free-sources.json`，实际源赛事日期见 `refresh-state.json`。均可用 `platform_id`(前端内部联赛 id)直接解析调用。下表 `code` = 内部目录名(games/&lt;code&gt;),`角球` ✅ 表示额外支持角球玩法。
 
-The repo holds 100+ competition snapshots. **All 55 platform football leagues are covered** and resolvable by `platform_id`. Below, `code` = internal directory (games/&lt;code&gt;); `角球` ✅ = corner markets also available.
+Historical models remain available; live update coverage is recorded in `free-sources.json` and `refresh-state.json`. Competitions resolve by `platform_id`. Below, `code` = internal directory (games/&lt;code&gt;); `角球` ✅ = corner markets also available.
 
 | platform_id | 联赛 | code(af_id) | 角球 |
 |---|---|---|:--:|
@@ -175,7 +175,9 @@ cli.py  server.py  refresh.py  render.yaml
 ```
 
 ## 部署 / Deploy
-Render → New → Blueprint 连接本仓库(读 render.yaml,免费档)。每日刷新 .github/workflows/daily-refresh.yml 增量续训,需配置 Secret `APIFOOTBALL_KEY`。
+Render → New → Blueprint 连接本仓库(读 render.yaml,免费档)。每日北京时间 15:20（07:20 UTC）由 `.github/workflows/daily-refresh.yml` 从免费 ESPN 完赛赛果增量续训，无需密钥。
+
+`python3 refresh.py --max-days 0` 补齐全部历史缺口；默认每批 31 天。独立联赛和杯赛引用的 `_clubpool` / `_natpool` 同时更新。仅采纳 90 分钟 FT，排除含加时/点球的最终比分。HTTP 失败、缺失比赛列表、达到分页上限均报错，成功前不推进日期游标。`refresh-state.json` 区分实际赛事日期与检查日期；未接入免费源的原联赛保留历史，不宣称持续更新。角球快照仍是历史数据，本次免费赛果更新不刷新角球模型。
 
 ## License
 MIT
