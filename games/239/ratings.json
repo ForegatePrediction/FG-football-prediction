@@ -1,0 +1,314 @@
+{
+ "mu": 0.09074,
+ "hfa": 0.33494,
+ "teams": {
+  "Atletico Nacional": {
+   "atk": 0.50883,
+   "dfn": 0.3045,
+   "w": 157,
+   "d": 101,
+   "l": 78,
+   "gp": 336
+  },
+  "Once Caldas": {
+   "atk": -0.02655,
+   "dfn": 0.20331,
+   "w": 94,
+   "d": 99,
+   "l": 97,
+   "gp": 290
+  },
+  "Cucuta": {
+   "atk": -0.1445,
+   "dfn": -0.2508,
+   "w": 23,
+   "d": 17,
+   "l": 35,
+   "gp": 75
+  },
+  "Águilas Doradas": {
+   "atk": 0.06116,
+   "dfn": 0.09859,
+   "w": 95,
+   "d": 98,
+   "l": 95,
+   "gp": 288
+  },
+  "Internacional de Bogota": {
+   "atk": -0.29001,
+   "dfn": -0.19027,
+   "w": 80,
+   "d": 108,
+   "l": 101,
+   "gp": 289
+  },
+  "Huila": {
+   "atk": -0.29694,
+   "dfn": -0.08528,
+   "w": 17,
+   "d": 31,
+   "l": 52,
+   "gp": 100
+  },
+  "Patriotas": {
+   "atk": -0.17151,
+   "dfn": -0.13531,
+   "w": 42,
+   "d": 50,
+   "l": 87,
+   "gp": 179
+  },
+  "Independiente Medellin": {
+   "atk": 0.26812,
+   "dfn": 0.14951,
+   "w": 127,
+   "d": 98,
+   "l": 86,
+   "gp": 311
+  },
+  "Union Magdalena": {
+   "atk": -0.14846,
+   "dfn": -0.16985,
+   "w": 36,
+   "d": 51,
+   "l": 78,
+   "gp": 165
+  },
+  "Jaguares": {
+   "atk": -0.50605,
+   "dfn": -0.03697,
+   "w": 53,
+   "d": 72,
+   "l": 99,
+   "gp": 224
+  },
+  "Alianza Valledupar": {
+   "atk": -0.10739,
+   "dfn": 0.06653,
+   "w": 84,
+   "d": 82,
+   "l": 117,
+   "gp": 283
+  },
+  "America de Cali": {
+   "atk": 0.21049,
+   "dfn": 0.34621,
+   "w": 142,
+   "d": 93,
+   "l": 99,
+   "gp": 334
+  },
+  "Deportivo Cali": {
+   "atk": -0.03701,
+   "dfn": 0.32675,
+   "w": 97,
+   "d": 99,
+   "l": 103,
+   "gp": 299
+  },
+  "Bucaramanga": {
+   "atk": -0.03224,
+   "dfn": 0.40615,
+   "w": 103,
+   "d": 79,
+   "l": 98,
+   "gp": 280
+  },
+  "Santa Fe": {
+   "atk": 0.1477,
+   "dfn": 0.32358,
+   "w": 126,
+   "d": 97,
+   "l": 90,
+   "gp": 313
+  },
+  "Deportivo Pasto": {
+   "atk": -0.21,
+   "dfn": 0.02947,
+   "w": 96,
+   "d": 90,
+   "l": 111,
+   "gp": 297
+  },
+  "Envigado": {
+   "atk": -0.34785,
+   "dfn": 0.0577,
+   "w": 61,
+   "d": 90,
+   "l": 114,
+   "gp": 265
+  },
+  "Millonarios": {
+   "atk": 0.20312,
+   "dfn": 0.30779,
+   "w": 159,
+   "d": 92,
+   "l": 82,
+   "gp": 333
+  },
+  "Junior": {
+   "atk": 0.21018,
+   "dfn": 0.26163,
+   "w": 137,
+   "d": 112,
+   "l": 92,
+   "gp": 341
+  },
+  "Deportes Tolima": {
+   "atk": 0.08207,
+   "dfn": 0.31401,
+   "w": 162,
+   "d": 98,
+   "l": 83,
+   "gp": 343
+  },
+  "Chico": {
+   "atk": -0.39959,
+   "dfn": -0.28511,
+   "w": 38,
+   "d": 49,
+   "l": 83,
+   "gp": 170
+  },
+  "Deportivo Pereira": {
+   "atk": -0.26859,
+   "dfn": -0.09071,
+   "w": 80,
+   "d": 75,
+   "l": 95,
+   "gp": 250
+  },
+  "Quindio": {
+   "atk": -0.13465,
+   "dfn": -0.00513,
+   "w": 6,
+   "d": 4,
+   "l": 10,
+   "gp": 20
+  },
+  "Cortulua": {
+   "atk": -0.25933,
+   "dfn": -0.0716,
+   "w": 7,
+   "d": 10,
+   "l": 23,
+   "gp": 40
+  },
+  "Fortaleza FC": {
+   "atk": -0.155,
+   "dfn": 0.08123,
+   "w": 29,
+   "d": 28,
+   "l": 33,
+   "gp": 90
+  },
+  "Llaneros": {
+   "atk": -0.12024,
+   "dfn": 0.00396,
+   "w": 15,
+   "d": 8,
+   "l": 22,
+   "gp": 45
+  },
+  "Atlético Bucaramanga": {
+   "atk": 0.06005,
+   "dfn": 0.05666,
+   "w": 3,
+   "d": 3,
+   "l": 1,
+   "gp": 7
+  },
+  "Boyacá Chicó FC": {
+   "atk": -0.09859,
+   "dfn": -0.00527,
+   "w": 2,
+   "d": 1,
+   "l": 4,
+   "gp": 7
+  },
+  "Alianza FC": {
+   "atk": 0.02876,
+   "dfn": -0.08449,
+   "w": 2,
+   "d": 1,
+   "l": 2,
+   "gp": 5
+  },
+  "Independiente Santa Fe": {
+   "atk": 0.03847,
+   "dfn": 0.10105,
+   "w": 4,
+   "d": 0,
+   "l": 2,
+   "gp": 6
+  },
+  "Cúcuta Deportivo": {
+   "atk": 0.05225,
+   "dfn": 0.04587,
+   "w": 4,
+   "d": 0,
+   "l": 2,
+   "gp": 6
+  },
+  "Fortaleza CEIF": {
+   "atk": -0.03456,
+   "dfn": -0.07237,
+   "w": 0,
+   "d": 3,
+   "l": 2,
+   "gp": 5
+  },
+  "Atlético Junior": {
+   "atk": 0.02809,
+   "dfn": 0.04633,
+   "w": 3,
+   "d": 3,
+   "l": 2,
+   "gp": 8
+  },
+  "Llaneros FC": {
+   "atk": -0.05969,
+   "dfn": 0.00578,
+   "w": 2,
+   "d": 0,
+   "l": 4,
+   "gp": 6
+  },
+  "Jaguares de Córdoba": {
+   "atk": 0.01733,
+   "dfn": -0.12133,
+   "w": 1,
+   "d": 0,
+   "l": 5,
+   "gp": 6
+  }
+ },
+ "last_date": "2026-10-24",
+ "updated_from": 63,
+ "espn_team_names": {
+  "6137": "Atlético Bucaramanga",
+  "2690": "Independiente Medellin",
+  "9762": "Águilas Doradas",
+  "5486": "Deportivo Pereira",
+  "5484": "Millonarios",
+  "5480": "Boyacá Chicó FC",
+  "9761": "Alianza FC",
+  "5488": "Independiente Santa Fe",
+  "2672": "Deportivo Cali",
+  "6101": "Cúcuta Deportivo",
+  "5485": "Deportivo Pasto",
+  "2919": "Once Caldas",
+  "4928": "Fortaleza CEIF",
+  "4815": "Atlético Junior",
+  "7445": "Internacional de Bogota",
+  "5489": "Deportes Tolima",
+  "8109": "America de Cali",
+  "7915": "Llaneros FC",
+  "5264": "Atletico Nacional",
+  "10309": "Jaguares de Córdoba"
+ },
+ "applied_on_last_date": [
+  "401877773",
+  "401878057"
+ ]
+}

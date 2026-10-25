@@ -1,0 +1,274 @@
+{
+ "mu": 0.28034,
+ "hfa": 0.12047,
+ "teams": {
+  "ATK": {
+   "atk": 0.11401,
+   "dfn": 0.26834,
+   "w": 18,
+   "d": 10,
+   "l": 11,
+   "gp": 39
+  },
+  "Kerala Blasters": {
+   "atk": -0.08538,
+   "dfn": 0.01908,
+   "w": 52,
+   "d": 43,
+   "l": 62,
+   "gp": 157
+  },
+  "Bengaluru": {
+   "atk": 0.06128,
+   "dfn": 0.23476,
+   "w": 69,
+   "d": 40,
+   "l": 54,
+   "gp": 163
+  },
+  "Chennaiyin": {
+   "atk": -0.22679,
+   "dfn": -0.15817,
+   "w": 43,
+   "d": 42,
+   "l": 74,
+   "gp": 159
+  },
+  "NorthEast United": {
+   "atk": 0.02872,
+   "dfn": -0.04568,
+   "w": 42,
+   "d": 53,
+   "l": 65,
+   "gp": 160
+  },
+  "Goa": {
+   "atk": 0.02984,
+   "dfn": 0.271,
+   "w": 77,
+   "d": 45,
+   "l": 43,
+   "gp": 165
+  },
+  "Mumbai City": {
+   "atk": -0.03361,
+   "dfn": 0.34368,
+   "w": 85,
+   "d": 40,
+   "l": 39,
+   "gp": 164
+  },
+  "Jamshedpur": {
+   "atk": -0.05492,
+   "dfn": 0.13571,
+   "w": 60,
+   "d": 43,
+   "l": 57,
+   "gp": 160
+  },
+  "Delhi Dynamos": {
+   "atk": -0.03307,
+   "dfn": 0.01026,
+   "w": 4,
+   "d": 6,
+   "l": 8,
+   "gp": 18
+  },
+  "Pune City": {
+   "atk": -0.00269,
+   "dfn": -0.04032,
+   "w": 6,
+   "d": 4,
+   "l": 8,
+   "gp": 18
+  },
+  "Odisha": {
+   "atk": 0.00753,
+   "dfn": -0.07394,
+   "w": 46,
+   "d": 38,
+   "l": 56,
+   "gp": 140
+  },
+  "Hyderabad": {
+   "atk": -0.41211,
+   "dfn": -0.25281,
+   "w": 38,
+   "d": 35,
+   "l": 54,
+   "gp": 127
+  },
+  "ATK Mohun Bagan": {
+   "atk": 0.19538,
+   "dfn": 0.54689,
+   "w": 76,
+   "d": 30,
+   "l": 25,
+   "gp": 131
+  },
+  "East Bengal": {
+   "atk": -0.22353,
+   "dfn": 0.00369,
+   "w": 24,
+   "d": 27,
+   "l": 55,
+   "gp": 106
+  },
+  "Minerva Punjab": {
+   "atk": -0.02653,
+   "dfn": 0.08092,
+   "w": 20,
+   "d": 14,
+   "l": 25,
+   "gp": 59
+  },
+  "Mohammedan": {
+   "atk": -0.55389,
+   "dfn": -0.36249,
+   "w": 2,
+   "d": 10,
+   "l": 25,
+   "gp": 37
+  },
+  "Inter Kashi": {
+   "atk": -0.20841,
+   "dfn": -0.07548,
+   "w": 3,
+   "d": 5,
+   "l": 8,
+   "gp": 16
+  },
+  "SC Delhi": {
+   "atk": -0.12216,
+   "dfn": 0.04408,
+   "w": 2,
+   "d": 5,
+   "l": 6,
+   "gp": 13
+  },
+  "East Bengal II": {
+   "atk": 0.26878,
+   "dfn": 0.15504,
+   "w": 7,
+   "d": 5,
+   "l": 1,
+   "gp": 13
+  },
+  "Bengaluru FC": {
+   "atk": 0.05898,
+   "dfn": 0.01976,
+   "w": 2,
+   "d": 0,
+   "l": 0,
+   "gp": 2
+  },
+  "Sporting Club Delhi": {
+   "atk": 0.00521,
+   "dfn": -0.06526,
+   "w": 0,
+   "d": 0,
+   "l": 2,
+   "gp": 2
+  },
+  "FC GOA": {
+   "atk": -0.01504,
+   "dfn": 0.00972,
+   "w": 0,
+   "d": 1,
+   "l": 0,
+   "gp": 1
+  },
+  "Chennaiyin FC": {
+   "atk": -0.04981,
+   "dfn": 0.0012,
+   "w": 0,
+   "d": 1,
+   "l": 1,
+   "gp": 2
+  },
+  "Kerala Blasters FC": {
+   "atk": 0.01313,
+   "dfn": -0.0392,
+   "w": 1,
+   "d": 0,
+   "l": 1,
+   "gp": 2
+  },
+  "Churchill Brothers": {
+   "atk": -0.03035,
+   "dfn": -0.07104,
+   "w": 1,
+   "d": 0,
+   "l": 1,
+   "gp": 2
+  },
+  "Mumbai City FC": {
+   "atk": -0.01865,
+   "dfn": 0.00122,
+   "w": 0,
+   "d": 1,
+   "l": 1,
+   "gp": 2
+  },
+  "NorthEast United FC": {
+   "atk": 0.02005,
+   "dfn": 0.09075,
+   "w": 2,
+   "d": 1,
+   "l": 0,
+   "gp": 3
+  },
+  "Mohun Bagan Super Giant": {
+   "atk": -0.01958,
+   "dfn": 0.03001,
+   "w": 1,
+   "d": 0,
+   "l": 1,
+   "gp": 2
+  },
+  "Punjab FC": {
+   "atk": -0.00119,
+   "dfn": 0.01861,
+   "w": 1,
+   "d": 1,
+   "l": 0,
+   "gp": 2
+  },
+  "Odisha FC": {
+   "atk": -0.06008,
+   "dfn": 0.03489,
+   "w": 0,
+   "d": 2,
+   "l": 1,
+   "gp": 3
+  },
+  "East Bengal FC": {
+   "atk": 0.1891,
+   "dfn": 0.05052,
+   "w": 2,
+   "d": 0,
+   "l": 0,
+   "gp": 2
+  }
+ },
+ "updated_from": 935,
+ "last_date": "2026-10-24",
+ "espn_team_names": {
+  "18851": "Bengaluru FC",
+  "131703": "Sporting Club Delhi",
+  "18003": "FC GOA",
+  "18000": "Chennaiyin FC",
+  "22069": "Inter Kashi",
+  "17997": "Kerala Blasters FC",
+  "8896": "Churchill Brothers",
+  "18002": "Mumbai City FC",
+  "18004": "NorthEast United FC",
+  "20774": "Mohun Bagan Super Giant",
+  "18894": "Punjab FC",
+  "17998": "Odisha FC",
+  "8897": "East Bengal FC"
+ },
+ "applied_on_last_date": [
+  "401925427"
+ ]
+}

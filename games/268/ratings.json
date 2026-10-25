@@ -1,0 +1,247 @@
+{
+ "mu": 0.2638,
+ "hfa": 0.15946,
+ "teams": {
+  "Cerro Largo": {
+   "atk": -0.33214,
+   "dfn": 0.15027,
+   "w": 30,
+   "d": 33,
+   "l": 36,
+   "gp": 99
+  },
+  "CA River Plate": {
+   "atk": -0.29486,
+   "dfn": -0.00195,
+   "w": 15,
+   "d": 21,
+   "l": 30,
+   "gp": 66
+  },
+  "Penarol": {
+   "atk": 0.20173,
+   "dfn": 0.48001,
+   "w": 63,
+   "d": 22,
+   "l": 17,
+   "gp": 102
+  },
+  "Cerro": {
+   "atk": -0.28025,
+   "dfn": -0.00445,
+   "w": 28,
+   "d": 31,
+   "l": 40,
+   "gp": 99
+  },
+  "Racing Montevideo": {
+   "atk": -0.07426,
+   "dfn": 0.35887,
+   "w": 37,
+   "d": 32,
+   "l": 31,
+   "gp": 100
+  },
+  "Boston River": {
+   "atk": -0.16494,
+   "dfn": 0.08557,
+   "w": 33,
+   "d": 22,
+   "l": 44,
+   "gp": 99
+  },
+  "Atletico Torque": {
+   "atk": 0.28057,
+   "dfn": 0.08721,
+   "w": 25,
+   "d": 19,
+   "l": 27,
+   "gp": 71
+  },
+  "Danubio": {
+   "atk": -0.37496,
+   "dfn": 0.11319,
+   "w": 23,
+   "d": 39,
+   "l": 38,
+   "gp": 100
+  },
+  "La Luz": {
+   "atk": -0.05848,
+   "dfn": -0.27225,
+   "w": 6,
+   "d": 5,
+   "l": 11,
+   "gp": 22
+  },
+  "Wanderers": {
+   "atk": -0.07428,
+   "dfn": 0.12374,
+   "w": 35,
+   "d": 28,
+   "l": 32,
+   "gp": 95
+  },
+  "Plaza Colonia": {
+   "atk": -0.2285,
+   "dfn": 0.09261,
+   "w": 10,
+   "d": 17,
+   "l": 17,
+   "gp": 44
+  },
+  "Deportivo Maldonado": {
+   "atk": 0.08516,
+   "dfn": 0.28327,
+   "w": 29,
+   "d": 21,
+   "l": 28,
+   "gp": 78
+  },
+  "Club Nacional": {
+   "atk": 0.18193,
+   "dfn": 0.14724,
+   "w": 55,
+   "d": 21,
+   "l": 19,
+   "gp": 95
+  },
+  "Liverpool Montevideo": {
+   "atk": 0.07805,
+   "dfn": 0.26935,
+   "w": 39,
+   "d": 28,
+   "l": 28,
+   "gp": 95
+  },
+  "Defensor Sporting": {
+   "atk": -0.09755,
+   "dfn": -0.0041,
+   "w": 40,
+   "d": 32,
+   "l": 29,
+   "gp": 101
+  },
+  "Fenix": {
+   "atk": -0.27646,
+   "dfn": 0.17628,
+   "w": 11,
+   "d": 11,
+   "l": 22,
+   "gp": 44
+  },
+  "Miramar": {
+   "atk": -0.28267,
+   "dfn": -0.03872,
+   "w": 9,
+   "d": 10,
+   "l": 25,
+   "gp": 44
+  },
+  "Progreso": {
+   "atk": -0.20235,
+   "dfn": 0.01499,
+   "w": 23,
+   "d": 16,
+   "l": 38,
+   "gp": 77
+  },
+  "Rampla Juniors": {
+   "atk": -0.09424,
+   "dfn": -0.12958,
+   "w": 6,
+   "d": 5,
+   "l": 11,
+   "gp": 22
+  },
+  "Juventud": {
+   "atk": -0.06639,
+   "dfn": 0.19845,
+   "w": 24,
+   "d": 14,
+   "l": 18,
+   "gp": 56
+  },
+  "Albion FC": {
+   "atk": 0.05907,
+   "dfn": -0.00689,
+   "w": 13,
+   "d": 7,
+   "l": 14,
+   "gp": 34
+  },
+  "Central Espanol": {
+   "atk": -0.15285,
+   "dfn": 0.11085,
+   "w": 10,
+   "d": 8,
+   "l": 10,
+   "gp": 28
+  },
+  "Montevideo Wanderers": {
+   "atk": -0.01161,
+   "dfn": -0.0695,
+   "w": 2,
+   "d": 1,
+   "l": 2,
+   "gp": 5
+  },
+  "Nacional": {
+   "atk": 0.12736,
+   "dfn": 0.06652,
+   "w": 5,
+   "d": 0,
+   "l": 0,
+   "gp": 5
+  },
+  "Liverpool": {
+   "atk": 0.03531,
+   "dfn": 0.0853,
+   "w": 3,
+   "d": 2,
+   "l": 0,
+   "gp": 5
+  },
+  "Central Español Fútbol Club": {
+   "atk": -0.13983,
+   "dfn": -0.15987,
+   "w": 0,
+   "d": 0,
+   "l": 6,
+   "gp": 6
+  },
+  "Montevideo City Torque": {
+   "atk": -0.01874,
+   "dfn": 0.01977,
+   "w": 2,
+   "d": 1,
+   "l": 3,
+   "gp": 6
+  }
+ },
+ "last_date": "2026-10-24",
+ "updated_from": 45,
+ "espn_team_names": {
+  "9999": "Boston River",
+  "6866": "Progreso",
+  "5490": "Cerro",
+  "2683": "Penarol",
+  "10000": "Deportivo Maldonado",
+  "9902": "Cerro Largo",
+  "21403": "Albion FC",
+  "8416": "Juventud",
+  "4817": "Danubio",
+  "5501": "Montevideo Wanderers",
+  "2684": "Nacional",
+  "1007": "Defensor Sporting",
+  "5492": "Liverpool",
+  "9903": "Racing Montevideo",
+  "131688": "Central Español Fútbol Club",
+  "19002": "Montevideo City Torque"
+ },
+ "applied_on_last_date": [
+  "401930316",
+  "401930318",
+  "401930319"
+ ]
+}

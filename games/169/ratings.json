@@ -1,0 +1,316 @@
+{
+ "mu": 0.29565,
+ "hfa": 0.25365,
+ "teams": {
+  "Guangzhou R&F": {
+   "atk": -0.22649,
+   "dfn": -0.12802,
+   "w": 63,
+   "d": 42,
+   "l": 91,
+   "gp": 196
+  },
+  "Hebei Zhongji": {
+   "atk": -0.56148,
+   "dfn": -0.87898,
+   "w": 60,
+   "d": 40,
+   "l": 95,
+   "gp": 195
+  },
+  "Henan Jianye": {
+   "atk": 0.17698,
+   "dfn": 0.22766,
+   "w": 101,
+   "d": 82,
+   "l": 129,
+   "gp": 312
+  },
+  "SHANGHAI SIPG": {
+   "atk": 0.46383,
+   "dfn": 0.43332,
+   "w": 172,
+   "d": 61,
+   "l": 50,
+   "gp": 283
+  },
+  "Jiangsu Suning": {
+   "atk": 0.13674,
+   "dfn": 0.43603,
+   "w": 61,
+   "d": 42,
+   "l": 36,
+   "gp": 139
+  },
+  "Shandong Luneng": {
+   "atk": 0.56601,
+   "dfn": 0.19123,
+   "w": 160,
+   "d": 76,
+   "l": 77,
+   "gp": 313
+  },
+  "Shanghai Shenhua": {
+   "atk": 0.6251,
+   "dfn": 0.187,
+   "w": 143,
+   "d": 83,
+   "l": 87,
+   "gp": 313
+  },
+  "Yanbian Tigers FC": {
+   "atk": -0.15975,
+   "dfn": -0.3205,
+   "w": 15,
+   "d": 14,
+   "l": 31,
+   "gp": 60
+  },
+  "Chongqing Lifan": {
+   "atk": -0.23304,
+   "dfn": -0.03962,
+   "w": 48,
+   "d": 45,
+   "l": 67,
+   "gp": 160
+  },
+  "Guangzhou Evergrande FC": {
+   "atk": -0.21738,
+   "dfn": -0.08742,
+   "w": 112,
+   "d": 33,
+   "l": 51,
+   "gp": 196
+  },
+  "Hangzhou Greentown": {
+   "atk": 0.40658,
+   "dfn": -0.08341,
+   "w": 73,
+   "d": 51,
+   "l": 61,
+   "gp": 185
+  },
+  "Changchun Yatai": {
+   "atk": -0.14428,
+   "dfn": 0.08017,
+   "w": 74,
+   "d": 62,
+   "l": 100,
+   "gp": 236
+  },
+  "Shijiazhuang Y. J.": {
+   "atk": -0.18414,
+   "dfn": 0.05324,
+   "w": 44,
+   "d": 48,
+   "l": 74,
+   "gp": 166
+  },
+  "liaoning hongyun FC": {
+   "atk": -0.29883,
+   "dfn": -0.46563,
+   "w": 13,
+   "d": 15,
+   "l": 32,
+   "gp": 60
+  },
+  "Tianjin Teda": {
+   "atk": 0.06976,
+   "dfn": 0.45818,
+   "w": 104,
+   "d": 83,
+   "l": 125,
+   "gp": 312
+  },
+  "Beijing Guoan": {
+   "atk": 0.55984,
+   "dfn": 0.37319,
+   "w": 157,
+   "d": 79,
+   "l": 79,
+   "gp": 315
+  },
+  "Guizhou Zhicheng": {
+   "atk": -0.22264,
+   "dfn": -0.1858,
+   "w": 19,
+   "d": 9,
+   "l": 32,
+   "gp": 60
+  },
+  "Tianjin Songjiang": {
+   "atk": -0.0405,
+   "dfn": -0.01464,
+   "w": 28,
+   "d": 31,
+   "l": 31,
+   "gp": 90
+  },
+  "Beijing Renhe": {
+   "atk": -0.38438,
+   "dfn": -0.25078,
+   "w": 12,
+   "d": 15,
+   "l": 33,
+   "gp": 60
+  },
+  "Dalian Aerbin": {
+   "atk": -0.20616,
+   "dfn": -0.0023,
+   "w": 47,
+   "d": 40,
+   "l": 81,
+   "gp": 168
+  },
+  "Shanghai SIPG": {
+   "atk": 0.29783,
+   "dfn": 0.38703,
+   "w": 20,
+   "d": 6,
+   "l": 4,
+   "gp": 30
+  },
+  "Wuhan Zall": {
+   "atk": -0.2737,
+   "dfn": -0.28054,
+   "w": 31,
+   "d": 28,
+   "l": 48,
+   "gp": 107
+  },
+  "Shenzhen Ruby FC": {
+   "atk": -0.45841,
+   "dfn": -0.43888,
+   "w": 33,
+   "d": 24,
+   "l": 78,
+   "gp": 135
+  },
+  "Qingdao Huanghai": {
+   "atk": -0.51671,
+   "dfn": -0.39564,
+   "w": 5,
+   "d": 8,
+   "l": 30,
+   "gp": 43
+  },
+  "Chengdu Better City": {
+   "atk": 0.22017,
+   "dfn": 0.44512,
+   "w": 83,
+   "d": 41,
+   "l": 30,
+   "gp": 154
+  },
+  "Wuhan Three Towns": {
+   "atk": 0.13088,
+   "dfn": -0.02259,
+   "w": 58,
+   "d": 38,
+   "l": 57,
+   "gp": 153
+  },
+  "Meizhou Kejia": {
+   "atk": -0.09508,
+   "dfn": -0.2526,
+   "w": 34,
+   "d": 29,
+   "l": 61,
+   "gp": 124
+  },
+  "Nantong Zhiyun": {
+   "atk": -0.15267,
+   "dfn": -0.14642,
+   "w": 9,
+   "d": 17,
+   "l": 34,
+   "gp": 60
+  },
+  "Qingdao Jonoon": {
+   "atk": -0.09215,
+   "dfn": -0.18052,
+   "w": 26,
+   "d": 25,
+   "l": 68,
+   "gp": 119
+  },
+  "Qingdao Youth Island": {
+   "atk": -0.07742,
+   "dfn": 0.38798,
+   "w": 26,
+   "d": 32,
+   "l": 30,
+   "gp": 88
+  },
+  "Sichuan Jiuniu": {
+   "atk": 0.03604,
+   "dfn": 0.12653,
+   "w": 24,
+   "d": 16,
+   "l": 49,
+   "gp": 89
+  },
+  "Yunnan Yukun": {
+   "atk": 0.47212,
+   "dfn": -0.02199,
+   "w": 22,
+   "d": 16,
+   "l": 20,
+   "gp": 58
+  },
+  "Dalian Zhixing": {
+   "atk": 0.15719,
+   "dfn": 0.35015,
+   "w": 24,
+   "d": 13,
+   "l": 22,
+   "gp": 59
+  },
+  "Shenyang Urban": {
+   "atk": 0.10997,
+   "dfn": 0.00124,
+   "w": 8,
+   "d": 5,
+   "l": 15,
+   "gp": 28
+  },
+  "Chongqing Tongliang Long": {
+   "atk": -0.15072,
+   "dfn": 0.32514,
+   "w": 8,
+   "d": 11,
+   "l": 9,
+   "gp": 28
+  }
+ },
+ "last_date": "2026-10-24",
+ "updated_from": 25,
+ "espn_team_names": {
+  "18203": "Hangzhou Greentown",
+  "21506": "Wuhan Three Towns",
+  "22199": "Sichuan Jiuniu",
+  "8240": "Henan Jianye",
+  "21910": "Qingdao Jonoon",
+  "2052": "Beijing Guoan",
+  "15515": "SHANGHAI SIPG",
+  "21355": "Chengdu Better City",
+  "8239": "Tianjin Teda",
+  "977": "Shanghai Shenhua",
+  "22536": "Yunnan Yukun",
+  "22198": "Qingdao Youth Island",
+  "22537": "Dalian Zhixing",
+  "131705": "Shenyang Urban",
+  "131704": "Chongqing Tongliang Long",
+  "7521": "Shandong Luneng"
+ },
+ "applied_on_last_date": [
+  "401861483",
+  "401861484",
+  "401861485",
+  "401861486",
+  "401861487",
+  "401861488",
+  "401861512",
+  "401861513"
+ ]
+}

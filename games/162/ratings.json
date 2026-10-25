@@ -1,0 +1,199 @@
+{
+ "mu": 0.27807,
+ "hfa": 0.25818,
+ "teams": {
+  "Municipal Liberia": {
+   "atk": -0.02579,
+   "dfn": 0.29556,
+   "w": 47,
+   "d": 30,
+   "l": 51,
+   "gp": 128
+  },
+  "CS Herediano": {
+   "atk": -0.06531,
+   "dfn": 0.47226,
+   "w": 77,
+   "d": 33,
+   "l": 39,
+   "gp": 149
+  },
+  "Perez Zeledon": {
+   "atk": -0.31297,
+   "dfn": -0.19006,
+   "w": 29,
+   "d": 41,
+   "l": 64,
+   "gp": 134
+  },
+  "Puntarenas FC": {
+   "atk": -0.12748,
+   "dfn": 0.08538,
+   "w": 35,
+   "d": 41,
+   "l": 57,
+   "gp": 133
+  },
+  "Deportivo Saprissa": {
+   "atk": 0.48725,
+   "dfn": 0.33048,
+   "w": 95,
+   "d": 30,
+   "l": 29,
+   "gp": 154
+  },
+  "Sporting San Jose": {
+   "atk": 0.0026,
+   "dfn": 0.11936,
+   "w": 48,
+   "d": 31,
+   "l": 57,
+   "gp": 136
+  },
+  "Santos DE Guapiles": {
+   "atk": -0.10922,
+   "dfn": -0.12226,
+   "w": 20,
+   "d": 23,
+   "l": 45,
+   "gp": 88
+  },
+  "LD Alajuelense": {
+   "atk": 0.16046,
+   "dfn": 0.4426,
+   "w": 76,
+   "d": 48,
+   "l": 25,
+   "gp": 149
+  },
+  "CS Cartagines": {
+   "atk": 0.10689,
+   "dfn": 0.3328,
+   "w": 56,
+   "d": 31,
+   "l": 48,
+   "gp": 135
+  },
+  "AD Guanacasteca": {
+   "atk": -0.4443,
+   "dfn": -0.07689,
+   "w": 32,
+   "d": 22,
+   "l": 34,
+   "gp": 88
+  },
+  "San Carlos": {
+   "atk": -0.12983,
+   "dfn": 0.20041,
+   "w": 44,
+   "d": 36,
+   "l": 53,
+   "gp": 133
+  },
+  "Municipal Grecia": {
+   "atk": -0.38544,
+   "dfn": -0.03139,
+   "w": 6,
+   "d": 12,
+   "l": 26,
+   "gp": 44
+  },
+  "Santa Ana": {
+   "atk": -0.2102,
+   "dfn": -0.30177,
+   "w": 7,
+   "d": 13,
+   "l": 24,
+   "gp": 44
+  },
+  "Guadalupe FC": {
+   "atk": -0.2771,
+   "dfn": -0.30802,
+   "w": 5,
+   "d": 12,
+   "l": 19,
+   "gp": 36
+  },
+  "Inter San Carlos": {
+   "atk": -0.0018,
+   "dfn": 0.00766,
+   "w": 1,
+   "d": 1,
+   "l": 2,
+   "gp": 4
+  },
+  "Escorpiones Belén": {
+   "atk": -0.10372,
+   "dfn": -0.05991,
+   "w": 2,
+   "d": 1,
+   "l": 8,
+   "gp": 11
+  },
+  "Saprissa": {
+   "atk": 0.07013,
+   "dfn": 0.10124,
+   "w": 2,
+   "d": 0,
+   "l": 2,
+   "gp": 4
+  },
+  "Herediano": {
+   "atk": -0.04211,
+   "dfn": 0.06254,
+   "w": 1,
+   "d": 1,
+   "l": 2,
+   "gp": 4
+  },
+  "Alajuelense": {
+   "atk": 0.10997,
+   "dfn": 0.04275,
+   "w": 2,
+   "d": 2,
+   "l": 0,
+   "gp": 4
+  },
+  "Inter de San Carlos": {
+   "atk": -0.02274,
+   "dfn": -0.11684,
+   "w": 1,
+   "d": 1,
+   "l": 2,
+   "gp": 4
+  },
+  "AD San Carlos": {
+   "atk": 0.00556,
+   "dfn": 0.0123,
+   "w": 2,
+   "d": 1,
+   "l": 1,
+   "gp": 4
+  },
+  "Cartaginés": {
+   "atk": -0.00684,
+   "dfn": 0.02381,
+   "w": 2,
+   "d": 0,
+   "l": 2,
+   "gp": 4
+  }
+ },
+ "last_date": "2026-10-24",
+ "updated_from": 21,
+ "espn_team_names": {
+  "7234": "Perez Zeledon",
+  "20705": "Sporting San Jose",
+  "7237": "Puntarenas FC",
+  "132447": "Escorpiones Belén",
+  "858": "Saprissa",
+  "862": "Herediano",
+  "2057": "Alajuelense",
+  "131790": "Inter de San Carlos",
+  "859": "AD San Carlos",
+  "7239": "Cartaginés"
+ },
+ "applied_on_last_date": [
+  "401876832"
+ ]
+}
