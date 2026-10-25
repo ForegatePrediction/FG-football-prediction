@@ -3,8 +3,8 @@
   "engine": "football",
   "channel": "github",
   "kind": "refresh",
-  "generation": "20261025T172322Z-fad04af62876",
-  "created_at": "2026-10-25T17:23:22.629829+00:00",
+  "generation": "20261025T173708Z-ae523fa6850f",
+  "created_at": "2026-10-25T17:37:08.135200+00:00",
   "code_revision": "3844199f12c5cb6a04416b64d1b030ff47dc93bf",
   "files": {
     "games/103/ratings.json": {
@@ -680,7 +680,7 @@
       "semantic_sha256": "0d202397c51189bb8917447300fefa754f88f2c7914b204a68a0bc979cd63e9b"
     },
     "refresh-state.json": {
-      "sha256": "200103325c215cae43f52c59e6e681722fe5ef725ea22f4b48837234ade8d735",
+      "sha256": "a6949185efe836cee35513ea78335e1458a96dc341cf2194d63e41be821af9e9",
       "bytes": 16610
     }
   }
