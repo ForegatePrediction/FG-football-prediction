@@ -10,6 +10,25 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GAMES = os.path.join(ROOT, "games")
 
 
+with open(os.path.join(ROOT, "team-name-aliases.json"), encoding="utf-8") as _aliases_file:
+    _SOURCE_NAMES = {code: {name.casefold(): target for name, target in aliases.items()}
+                     for code, aliases in json.load(_aliases_file).items()}
+
+
+def _source_name(code, name, teams):
+    """Resolve verified current provider names before the legacy fuzzy search."""
+    query = name.strip().casefold()
+    target = _SOURCE_NAMES.get(str(code), {}).get(query)
+    if target in teams:
+        return target
+    if name in teams:
+        return name
+    # Shared cup pools can resolve exact, unambiguous verified aliases too.
+    candidates = {aliases[query] for aliases in _SOURCE_NAMES.values()
+                  if query in aliases and aliases[query] in teams}
+    return next(iter(candidates)) if len(candidates) == 1 else name
+
+
 def _load(code):
     d = os.path.join(GAMES, str(code))
     cfg = json.load(open(os.path.join(d, "config.json"), encoding="utf-8"))
@@ -204,7 +223,7 @@ def _platform_markets(mk, lh, la, is_cup):
 def predict(code, A, B, hcap=0.0, total=2.5, lang="zh", odds_1x2=None):
     cfg, snap = _load(code)
     teams = snap["teams"]
-    a, b = _find(teams, A), _find(teams, B)
+    a, b = _find(teams, _source_name(code, A, teams)), _find(teams, _source_name(code, B, teams))
     if not a or not b:
         return {"error": f"未找到:{A if not a else B}", "missing": A if not a else B}
     rho = cfg.get("rho", -0.06)
@@ -237,6 +256,6 @@ def predict(code, A, B, hcap=0.0, total=2.5, lang="zh", odds_1x2=None):
 
 def list_teams(code, kw):
     _, snap = _load(code)
-    kw = kw.lower()
+    kw = _source_name(code, kw, snap["teams"]).lower()
     hits = [(t, v) for t, v in snap["teams"].items() if kw in t.lower()]
     return sorted(hits, key=lambda x: -x[1]["gp"])

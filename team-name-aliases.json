@@ -1,0 +1,86 @@
+{
+  "253": {
+    "Austin FC": "Austin",
+    "Charlotte FC": "Charlotte",
+    "Chicago Fire FC": "Chicago Fire",
+    "Houston Dynamo FC": "Houston Dynamo",
+    "Inter Miami CF": "Inter Miami",
+    "LA Galaxy": "Los Angeles Galaxy",
+    "LAFC": "Los Angeles FC",
+    "Red Bull New York": "New York Red Bulls",
+    "San Diego FC": "San Diego",
+    "Seattle Sounders FC": "Seattle Sounders",
+    "St. Louis CITY SC": "St. Louis City"
+  },
+  "307": {
+    "Al Ahli": "Al-Ahli Jeddah",
+    "Al Faisaly": "Al-Faisaly FC",
+    "Al Hazem": "Al-Hazm",
+    "Al Hilal": "Al-Hilal Saudi FC",
+    "Al Ittihad": "Al-Ittihad FC",
+    "Al Khaleej": "Al Khaleej Saihat",
+    "Al Qadsiah": "Al-Qadisiyah FC",
+    "Al Taawoun": "Al Taawon",
+    "Neom SC": "NEOM"
+  },
+  "169": {
+    "Chengdu Rongcheng": "Chengdu Better City",
+    "Dalian Yingbo": "Dalian Zhixing",
+    "Henan": "Henan Jianye",
+    "Liaoning Tieren": "Shenyang Urban",
+    "Qingdao Hainiu": "Qingdao Jonoon",
+    "Qingdao West Coast": "Qingdao Youth Island",
+    "SHANGHAI SHENHUA FC": "Shanghai Shenhua",
+    "Shandong Taishan": "Shandong Luneng",
+    "Shanghai Port FC": "SHANGHAI SIPG",
+    "Shenzhen Xinpengcheng": "Sichuan Jiuniu",
+    "Tianjin Jinmen Tiger": "Tianjin Teda",
+    "Zhejiang Professional FC": "Hangzhou Greentown"
+  },
+  "98": {
+    "JEF United Ichihara-Chiba": "JEF United Chiba",
+    "Kashima Antlers": "Kashima",
+    "Tokyo Verdy 1969": "Tokyo Verdy",
+    "Urawa Red Diamonds": "Urawa"
+  },
+  "71": {
+    "Athletico-PR": "Atletico Paranaense",
+    "Chapecoense": "Chapecoense-sc",
+    "Red Bull Bragantino": "Bragantino",
+    "Vasco da Gama": "Vasco DA Gama"
+  },
+  "128": {
+    "Argentinos Juniors": "Argentinos JRS",
+    "Central Córdoba (Santiago del Estero)": "Central Cordoba de Santiago",
+    "Estudiantes de La Plata": "Estudiantes L.P.",
+    "Gimnasia (Mendoza)": "Gimnasia M.",
+    "Gimnasia La Plata": "Gimnasia L.P.",
+    "Independiente Rivadavia": "Independ. Rivadavia"
+  },
+  "94": {
+    "Académico de Viseu": "Academico Viseu",
+    "Braga": "SC Braga",
+    "C.D. Nacional": "Nacional",
+    "FC Famalicao": "Famalicao",
+    "Vitória de Guimaraes": "Guimaraes"
+  },
+  "88": {
+    "Ajax Amsterdam": "Ajax",
+    "FC Groningen": "Groningen",
+    "FC Twente": "Twente",
+    "FC Utrecht": "Utrecht",
+    "Feyenoord Rotterdam": "Feyenoord",
+    "SC Cambuur": "Cambuur"
+  },
+  "203": {
+    "Amed SFK": "Amed",
+    "Caykur Rizespor": "Rizespor",
+    "Erzurum BB": "Erzurumspor FK",
+    "Genclerbirligi": "Gençlerbirliği S.K.",
+    "Istanbul Basaksehir": "Başakşehir",
+    "Kasimpasa": "Kasımpaşa"
+  },
+  "179": {
+    "Dundee United": "Dundee Utd"
+  }
+}
