@@ -1,6 +1,6 @@
 {
- "mu": 0.24039,
- "hfa": 0.5446,
+ "mu": 0.23898,
+ "hfa": 0.54024,
  "teams": {
   "Antigua GFC": {
    "atk": 0.34331,
@@ -227,12 +227,12 @@
    "gp": 4
   },
   "UPNFM": {
-   "atk": 0.03499,
-   "dfn": 0.1608,
+   "atk": -0.02651,
+   "dfn": 0.16467,
    "w": 2,
    "d": 1,
-   "l": 0,
-   "gp": 3
+   "l": 1,
+   "gp": 4
   },
   "CD Choloma": {
    "atk": 0.03332,
@@ -275,48 +275,48 @@
    "gp": 4
   },
   "FC Motagua": {
-   "atk": -0.01709,
-   "dfn": 0.10219,
-   "w": 2,
-   "d": 0,
-   "l": 1,
-   "gp": 3
-  },
-  "Club Deportivo Olimpia": {
-   "atk": 0.04212,
-   "dfn": 0.10161,
+   "atk": -0.02439,
+   "dfn": 0.13594,
    "w": 3,
    "d": 0,
+   "l": 1,
+   "gp": 4
+  },
+  "Club Deportivo Olimpia": {
+   "atk": 0.03825,
+   "dfn": 0.16311,
+   "w": 4,
+   "d": 0,
    "l": 0,
-   "gp": 3
+   "gp": 4
   },
   "CA Independiente Siguatepeque": {
-   "atk": -0.09885,
-   "dfn": -0.09936,
+   "atk": -0.09549,
+   "dfn": -0.11785,
    "w": 0,
-   "d": 1,
+   "d": 2,
    "l": 2,
-   "gp": 3
+   "gp": 4
   },
   "Juticalpa FC": {
-   "atk": -0.02078,
-   "dfn": -0.03949,
+   "atk": -0.05453,
+   "dfn": -0.03219,
    "w": 1,
    "d": 0,
-   "l": 2,
-   "gp": 3
+   "l": 3,
+   "gp": 4
   },
   "Club Deportivo Marathón": {
-   "atk": -0.01502,
-   "dfn": 0.05058,
+   "atk": 0.00347,
+   "dfn": 0.04722,
    "w": 1,
-   "d": 1,
+   "d": 2,
    "l": 1,
-   "gp": 3
+   "gp": 4
   }
  },
- "last_date": "2026-10-24",
- "updated_from": 21,
+ "last_date": "2026-10-25",
+ "updated_from": 24,
  "espn_team_names": {
   "7243": "Platense",
   "18809": "UPNFM",
@@ -332,8 +332,8 @@
   "7249": "Club Deportivo Marathón"
  },
  "applied_on_last_date": [
-  "401926747",
-  "401926748",
-  "401926749"
+  "401926727",
+  "401926745",
+  "401926746"
  ]
 }

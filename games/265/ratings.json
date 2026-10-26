@@ -1,14 +1,14 @@
 {
- "mu": 0.26801,
- "hfa": 0.27589,
+ "mu": 0.26739,
+ "hfa": 0.27722,
  "teams": {
   "Coquimbo Unido": {
-   "atk": 0.2245,
-   "dfn": 0.3594,
+   "atk": 0.20223,
+   "dfn": 0.33149,
    "w": 78,
    "d": 46,
-   "l": 65,
-   "gp": 189
+   "l": 66,
+   "gp": 190
   },
   "U. Catolica": {
    "atk": 0.29472,
@@ -19,20 +19,20 @@
    "gp": 221
   },
   "Union La Calera": {
-   "atk": -0.3694,
-   "dfn": 0.0967,
-   "w": 78,
+   "atk": -0.31519,
+   "dfn": 0.10231,
+   "w": 79,
    "d": 62,
    "l": 82,
-   "gp": 222
+   "gp": 223
   },
   "Palestino": {
-   "atk": 0.20975,
-   "dfn": 0.17875,
+   "atk": 0.18551,
+   "dfn": 0.19922,
    "w": 93,
-   "d": 58,
+   "d": 59,
    "l": 70,
-   "gp": 221
+   "gp": 222
   },
   "Deportes Iquique": {
    "atk": 0.00609,
@@ -91,20 +91,20 @@
    "gp": 211
   },
   "Colo Colo": {
-   "atk": 0.42994,
-   "dfn": 0.1678,
+   "atk": 0.40947,
+   "dfn": 0.19204,
    "w": 113,
-   "d": 55,
+   "d": 56,
    "l": 52,
-   "gp": 220
+   "gp": 221
   },
   "Universidad de Concepcion": {
-   "atk": -0.39872,
-   "dfn": 0.01602,
+   "atk": -0.43667,
+   "dfn": 0.02505,
    "w": 15,
    "d": 25,
-   "l": 30,
-   "gp": 70
+   "l": 31,
+   "gp": 71
   },
   "Everton de Vina": {
    "atk": 0.05928,
@@ -155,12 +155,12 @@
    "gp": 32
   },
   "Nublense": {
-   "atk": -0.1172,
-   "dfn": -0.06273,
-   "w": 56,
+   "atk": -0.08929,
+   "dfn": -0.04046,
+   "w": 57,
    "d": 48,
    "l": 59,
-   "gp": 163
+   "gp": 164
   },
   "Magallanes": {
    "atk": -0.00335,
@@ -187,12 +187,12 @@
    "gp": 30
   },
   "Deportes Limache": {
-   "atk": 0.01089,
-   "dfn": -0.08593,
-   "w": 11,
+   "atk": 0.00186,
+   "dfn": -0.04798,
+   "w": 12,
    "d": 8,
    "l": 23,
-   "gp": 42
+   "gp": 43
   },
   "Concepción": {
    "atk": -0.00154,
@@ -233,10 +233,18 @@
    "d": 1,
    "l": 0,
    "gp": 1
+  },
+  "Universidad Católica": {
+   "atk": -0.00561,
+   "dfn": -0.05421,
+   "w": 0,
+   "d": 0,
+   "l": 1,
+   "gp": 1
   }
  },
- "last_date": "2026-10-24",
- "updated_from": 11,
+ "last_date": "2026-10-25",
+ "updated_from": 15,
  "espn_team_names": {
   "5362": "Universidad de Concepcion",
   "4134": "Huachipato",
@@ -252,10 +260,13 @@
   "4422": "Palestino",
   "4139": "Universidad de Chile",
   "7427": "Nublense",
-  "4138": "Audax Italiano"
+  "4138": "Audax Italiano",
+  "885": "Universidad Católica"
  },
  "applied_on_last_date": [
-  "401850673",
-  "401850674"
+  "401850669",
+  "401850670",
+  "401850672",
+  "401850675"
  ]
 }
