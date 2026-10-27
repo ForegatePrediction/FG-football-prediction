@@ -1,85 +1,85 @@
 {
- "checked_at": "2026-10-26T14:23:31.928853+00:00",
- "checked_through": "2026-10-25",
+ "checked_at": "2026-10-27T13:21:37.074709+00:00",
+ "checked_through": "2026-10-26",
  "competitions": {
   "242": {
-   "latest_source_match": "2026-10-25",
+   "latest_source_match": "2026-10-26",
    "name": "Liga Pro",
    "source": "espn",
    "slug": "ecu.1",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 6
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
+   "source_matches_in_batch": 4
   },
   "72": {
-   "latest_source_match": "2026-10-24",
+   "latest_source_match": "2026-10-26",
    "name": "Brazil Serie B",
    "source": "espn",
    "slug": "bra.2",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 6
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
+   "source_matches_in_batch": 2
   },
   "10": {
    "latest_source_match": "2026-10-07",
    "name": "Friendlies",
    "source": "espn",
    "slug": "fifa.friendly",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-07",
    "source_matches_in_batch": 0
   },
   "265": {
-   "latest_source_match": "2026-10-25",
+   "latest_source_match": "2026-10-26",
    "name": "Chile Primera",
    "source": "espn",
    "slug": "chi.1",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 6
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
+   "source_matches_in_batch": 5
   },
   "5": {
    "latest_source_match": "2026-10-06",
    "name": "UEFA Nations League",
    "source": "espn",
    "slug": "uefa.nations",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-07",
    "source_matches_in_batch": 0
   },
   "71": {
-   "latest_source_match": "2026-10-25",
+   "latest_source_match": "2026-10-26",
    "name": "Serie A",
    "source": "espn",
    "slug": "bra.1",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 7
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
+   "source_matches_in_batch": 3
   },
   "239": {
-   "latest_source_match": "2026-10-25",
+   "latest_source_match": "2026-10-26",
    "name": "Colombia Primera A",
    "source": "espn",
    "slug": "col.1",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
    "source_matches_in_batch": 6
   },
   "129": {
-   "latest_source_match": "2026-10-25",
+   "latest_source_match": "2026-10-26",
    "name": "Primera Nacional",
    "source": "espn",
    "slug": "arg.2",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 16
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
+   "source_matches_in_batch": 13
   },
   "32": {
    "latest_source_match": "2026-03-31",
    "name": "World Cup - Qualification Europe",
    "source": "espn",
    "slug": "fifa.worldq.uefa",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-07",
    "source_matches_in_batch": 0
   },
@@ -88,52 +88,52 @@
    "name": "Primera División - Apertura",
    "source": "espn",
    "slug": "uru.1",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 7
+   "source_matches_in_batch": 4
   },
   "299": {
    "latest_source_match": "2026-10-25",
    "name": "Primera División",
    "source": "espn",
    "slug": "ven.1",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 4
+   "source_matches_in_batch": 2
   },
   "141": {
-   "latest_source_match": "2026-10-25",
+   "latest_source_match": "2026-10-26",
    "name": "Segunda División",
    "source": "espn",
    "slug": "esp.2",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 9
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
+   "source_matches_in_batch": 5
   },
   "253": {
-   "latest_source_match": "2026-10-25",
+   "latest_source_match": "2026-10-26",
    "name": "Major League Soccer",
    "source": "espn",
    "slug": "usa.1",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 14
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
+   "source_matches_in_batch": 8
   },
   "344": {
-   "latest_source_match": "2026-10-25",
+   "latest_source_match": "2026-10-26",
    "name": "Bolivia LFPB",
    "source": "espn",
    "slug": "bol.1",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 6
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
+   "source_matches_in_batch": 4
   },
   "38": {
    "latest_source_match": "2025-06-25",
    "name": "UEFA U21 Championship",
    "source": "espn",
    "slug": "uefa.euro_u21",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-07",
    "source_matches_in_batch": 0
   },
@@ -142,35 +142,35 @@
    "name": "Peru Liga 1",
    "source": "espn",
    "slug": "per.1",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 7
+   "source_matches_in_batch": 5
   },
   "169": {
    "latest_source_match": "2026-10-24",
    "name": "Super League",
    "source": "espn",
    "slug": "chn.1",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 8
+   "source_matches_in_batch": 0
   },
   "98": {
    "latest_source_match": "2026-10-25",
    "name": "J1 League",
    "source": "espn",
    "slug": "jpn.1",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 10
+   "source_matches_in_batch": 5
   },
   "15": {
    "latest_source_match": "2025-07-13",
    "name": "FIFA Club World Cup",
    "source": "espn",
    "slug": "fifa.cwc",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
    "source_matches_in_batch": 0
   },
   "22": {
@@ -178,7 +178,7 @@
    "name": "CONCACAF Gold Cup",
    "source": "espn",
    "slug": "concacaf.gold",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-07",
    "source_matches_in_batch": 0
   },
@@ -187,62 +187,62 @@
    "name": "Serie B (Italy)",
    "source": "espn",
    "slug": "ita.2",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 9
+   "source_matches_in_batch": 2
   },
   "103": {
    "latest_source_match": "2026-10-25",
    "name": "Eliteserien",
    "source": "espn",
    "slug": "nor.1",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 8
+   "source_matches_in_batch": 6
   },
   "113": {
    "latest_source_match": "2026-10-25",
    "name": "Allsvenskan",
    "source": "espn",
    "slug": "swe.1",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 6
+   "source_matches_in_batch": 2
   },
   "667": {
    "latest_source_match": "2026-10-16",
    "name": "Friendlies Clubs",
    "source": "espn",
    "slug": "club.friendly",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
    "source_matches_in_batch": 0
   },
   "128": {
-   "latest_source_match": "2026-10-25",
+   "latest_source_match": "2026-10-26",
    "name": "Liga Profesional Argentina",
    "source": "espn",
    "slug": "arg.1",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 8
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
+   "source_matches_in_batch": 7
   },
   "185": {
    "latest_source_match": "2026-09-13",
    "name": "League Cup",
    "source": "espn",
    "slug": "sco.cis",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
    "source_matches_in_batch": 0
   },
   "262": {
-   "latest_source_match": "2026-10-25",
+   "latest_source_match": "2026-10-26",
    "name": "Liga MX",
    "source": "espn",
    "slug": "mex.1",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
    "source_matches_in_batch": 6
   },
   "11": {
@@ -250,53 +250,53 @@
    "name": "CONMEBOL Sudamericana",
    "source": "espn",
    "slug": "conmebol.sudamericana",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
    "source_matches_in_batch": 0
   },
   "119": {
-   "latest_source_match": "2026-10-25",
+   "latest_source_match": "2026-10-26",
    "name": "Superliga",
    "source": "espn",
    "slug": "den.1",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 4
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
+   "source_matches_in_batch": 5
   },
   "235": {
    "latest_source_match": "2026-10-25",
    "name": "Premier League",
    "source": "espn",
    "slug": "rus.1",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 7
+   "source_matches_in_batch": 3
   },
   "389": {
    "latest_source_match": "2026-10-25",
    "name": "Premier League",
    "source": "espn",
    "slug": "gua.1",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 6
+   "source_matches_in_batch": 5
   },
   "339": {
    "latest_source_match": "2026-10-25",
    "name": "Liga Nacional",
    "source": "espn",
    "slug": "hon.1",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 6
+   "source_matches_in_batch": 3
   },
   "162": {
-   "latest_source_match": "2026-10-25",
+   "latest_source_match": "2026-10-26",
    "name": "Primera División",
    "source": "espn",
    "slug": "crc.1",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
    "source_matches_in_batch": 4
   },
   "73": {
@@ -304,7 +304,7 @@
    "name": "Copa do Brasil",
    "source": "espn",
    "slug": "bra.copa_do_brazil",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-09-03",
    "source_matches_in_batch": 0
   },
@@ -313,8 +313,8 @@
    "name": "Leagues Cup",
    "source": "espn",
    "slug": "concacaf.leagues.cup",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
    "source_matches_in_batch": 0
   },
   "79": {
@@ -322,44 +322,44 @@
    "name": "2. Bundesliga",
    "source": "espn",
    "slug": "ger.2",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 7
+   "source_matches_in_batch": 3
   },
   "218": {
    "latest_source_match": "2026-10-25",
    "name": "Bundesliga",
    "source": "espn",
    "slug": "aut.1",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 5
+   "source_matches_in_batch": 2
   },
   "41": {
    "latest_source_match": "2026-10-24",
    "name": "League One",
    "source": "espn",
    "slug": "eng.3",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 12
+   "source_matches_in_batch": 0
   },
   "179": {
    "latest_source_match": "2026-10-25",
    "name": "Premiership",
    "source": "espn",
    "slug": "sco.1",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 6
+   "source_matches_in_batch": 2
   },
   "48": {
    "latest_source_match": "2026-09-17",
    "name": "League Cup",
    "source": "espn",
    "slug": "eng.league_cup",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
    "source_matches_in_batch": 0
   },
   "88": {
@@ -367,17 +367,17 @@
    "name": "Eredivisie",
    "source": "espn",
    "slug": "ned.1",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 8
+   "source_matches_in_batch": 5
   },
   "203": {
-   "latest_source_match": "2026-10-25",
+   "latest_source_match": "2026-10-26",
    "name": "Super Lig (Turkey)",
    "source": "espn",
    "slug": "tur.1",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
    "source_matches_in_batch": 5
   },
   "40": {
@@ -385,26 +385,26 @@
    "name": "Championship",
    "source": "espn",
    "slug": "eng.2",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 11
+   "source_matches_in_batch": 0
   },
   "94": {
-   "latest_source_match": "2026-10-25",
+   "latest_source_match": "2026-10-26",
    "name": "Primeira Liga",
    "source": "espn",
    "slug": "por.1",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 7
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
+   "source_matches_in_batch": 5
   },
   "62": {
-   "latest_source_match": "2026-10-24",
+   "latest_source_match": "2026-10-26",
    "name": "Ligue 2",
    "source": "espn",
    "slug": "fra.2",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-24",
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
    "source_matches_in_batch": 2
   },
   "288": {
@@ -412,7 +412,7 @@
    "name": "Premier Soccer League",
    "source": "espn",
    "slug": "rsa.1",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-18",
    "source_matches_in_batch": 0
   },
@@ -421,7 +421,7 @@
    "name": "CoppaItalia",
    "source": "espn",
    "slug": "ita.coppa_italia",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-09-15",
    "source_matches_in_batch": 0
   },
@@ -430,8 +430,8 @@
    "name": "CONMEBOL Libertadores",
    "source": "espn",
    "slug": "conmebol.libertadores",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
    "source_matches_in_batch": 0
   },
   "81": {
@@ -439,26 +439,26 @@
    "name": "DFB Pokal",
    "source": "espn",
    "slug": "ger.dfb_pokal",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
    "source_matches_in_batch": 0
   },
   "140": {
-   "latest_source_match": "2026-10-25",
+   "latest_source_match": "2026-10-26",
    "name": "La Liga",
    "source": "espn",
    "slug": "esp.1",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 8
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
+   "source_matches_in_batch": 5
   },
   "61": {
-   "latest_source_match": "2026-10-25",
+   "latest_source_match": "2026-10-26",
    "name": "Ligue 1",
    "source": "espn",
    "slug": "fra.1",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
    "source_matches_in_batch": 7
   },
   "39": {
@@ -466,44 +466,44 @@
    "name": "Premier League",
    "source": "espn",
    "slug": "eng.1",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 9
+   "source_matches_in_batch": 5
   },
   "78": {
    "latest_source_match": "2026-10-25",
    "name": "Bundesliga",
    "source": "espn",
    "slug": "ger.1",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 8
+   "source_matches_in_batch": 2
   },
   "135": {
    "latest_source_match": "2026-10-25",
    "name": "Serie A",
    "source": "espn",
    "slug": "ita.1",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 9
+   "source_matches_in_batch": 5
   },
   "307": {
    "latest_source_match": "2026-10-24",
    "name": "Pro League",
    "source": "espn",
    "slug": "ksa.1",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-24",
-   "source_matches_in_batch": 3
+   "source_matches_in_batch": 0
   },
   "2": {
    "latest_source_match": "2026-10-21",
    "name": "UEFA Champions League",
    "source": "espn",
    "slug": "uefa.champions",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
    "source_matches_in_batch": 0
   },
   "3": {
@@ -511,8 +511,8 @@
    "name": "UEFA Europa League",
    "source": "espn",
    "slug": "uefa.europa",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
    "source_matches_in_batch": 0
   },
   "143": {
@@ -520,8 +520,8 @@
    "name": "Copa del Rey",
    "source": "espn",
    "slug": "esp.copa_del_rey",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
    "source_matches_in_batch": 0
   },
   "848": {
@@ -529,8 +529,8 @@
    "name": "UEFA Europa Conference League",
    "source": "espn",
    "slug": "uefa.europa.conf",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
    "source_matches_in_batch": 0
   },
   "525": {
@@ -538,8 +538,8 @@
    "name": "UEFA Champions League Women",
    "source": "espn",
    "slug": "uefa.wchampions",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
    "source_matches_in_batch": 0
   },
   "188": {
@@ -547,17 +547,17 @@
    "name": "A-League",
    "source": "espn",
    "slug": "aus.1",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-25",
-   "source_matches_in_batch": 5
+   "source_matches_in_batch": 2
   },
   "96": {
    "latest_source_match": "2026-10-18",
    "name": "Taça de Portugal",
    "source": "espn",
    "slug": "por.taca.portugal",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
    "source_matches_in_batch": 0
   },
   "45": {
@@ -565,8 +565,8 @@
    "name": "FA Cup",
    "source": "espn",
    "slug": "eng.fa",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
    "source_matches_in_batch": 0
   },
   "66": {
@@ -574,8 +574,8 @@
    "name": "Coupe de France",
    "source": "espn",
    "slug": "fra.coupe_de_france",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
    "source_matches_in_batch": 0
   },
   "16": {
@@ -583,17 +583,17 @@
    "name": "CONCACAF Champions Cup",
    "source": "espn",
    "slug": "concacaf.champions",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-05-07",
    "source_matches_in_batch": 0
   },
   "323": {
-   "latest_source_match": "2026-10-25",
+   "latest_source_match": "2026-10-26",
    "name": "Indian Super League",
    "source": "espn",
    "slug": "ind.1",
-   "checked_through": "2026-10-25",
-   "last_rating_match": "2026-10-25",
+   "checked_through": "2026-10-26",
+   "last_rating_match": "2026-10-26",
    "source_matches_in_batch": 3
   },
   "880": {
@@ -601,7 +601,7 @@
    "name": "UEFA Women's WC Qualifiers",
    "source": "espn",
    "slug": "fifa.wworldq.uefa",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-13",
    "source_matches_in_batch": 0
   },
@@ -610,7 +610,7 @@
    "name": "World Cup - Qualification Intercontinental Play-offs",
    "source": "espn",
    "slug": "fifa.wcq.ply",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-07",
    "source_matches_in_batch": 0
   },
@@ -619,7 +619,7 @@
    "name": "World Cup",
    "source": "espn",
    "slug": "fifa.world",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-07",
    "source_matches_in_batch": 0
   },
@@ -627,7 +627,7 @@
    "name": "Euro Championship",
    "source": "espn",
    "slug": "uefa.euro",
-   "checked_through": "2026-10-25",
+   "checked_through": "2026-10-26",
    "last_rating_match": "2026-10-07",
    "source_matches_in_batch": 0
   }

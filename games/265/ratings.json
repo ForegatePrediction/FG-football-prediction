@@ -1,6 +1,6 @@
 {
- "mu": 0.26739,
- "hfa": 0.27722,
+ "mu": 0.26795,
+ "hfa": 0.2793,
  "teams": {
   "Coquimbo Unido": {
    "atk": 0.20223,
@@ -51,12 +51,12 @@
    "gp": 150
   },
   "Universidad de Chile": {
-   "atk": 0.51963,
-   "dfn": 0.39393,
-   "w": 91,
+   "atk": 0.55083,
+   "dfn": 0.39143,
+   "w": 92,
    "d": 60,
    "l": 70,
-   "gp": 221
+   "gp": 222
   },
   "Cobresal": {
    "atk": 0.00184,
@@ -203,12 +203,12 @@
    "gp": 10
   },
   "Everton CD": {
-   "atk": 0.03939,
-   "dfn": -0.02094,
+   "atk": 0.04189,
+   "dfn": -0.05214,
    "w": 1,
    "d": 0,
-   "l": 0,
-   "gp": 1
+   "l": 1,
+   "gp": 2
   },
   "La Serena": {
    "atk": 0.05809,
@@ -243,8 +243,8 @@
    "gp": 1
   }
  },
- "last_date": "2026-10-25",
- "updated_from": 15,
+ "last_date": "2026-10-26",
+ "updated_from": 16,
  "espn_team_names": {
   "5362": "Universidad de Concepcion",
   "4134": "Huachipato",
@@ -264,9 +264,6 @@
   "885": "Universidad Católica"
  },
  "applied_on_last_date": [
-  "401850669",
-  "401850670",
-  "401850672",
-  "401850675"
+  "401850671"
  ]
 }

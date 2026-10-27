@@ -1,6 +1,6 @@
 {
- "mu": 0.26165,
- "hfa": 0.26137,
+ "mu": 0.26187,
+ "hfa": 0.26483,
  "teams": {
   "Deportivo Cuenca": {
    "atk": -0.21545,
@@ -83,12 +83,12 @@
    "gp": 132
   },
   "Tecnico Universitario": {
-   "atk": -0.30557,
-   "dfn": 0.01268,
-   "w": 36,
+   "atk": -0.2537,
+   "dfn": 0.05105,
+   "w": 37,
    "d": 30,
    "l": 59,
-   "gp": 125
+   "gp": 126
   },
   "Universidad Catolica": {
    "atk": 0.27625,
@@ -195,12 +195,12 @@
    "gp": 4
   },
   "Mushuc Runa": {
-   "atk": -0.00289,
-   "dfn": -0.02239,
+   "atk": -0.04126,
+   "dfn": -0.07426,
    "w": 0,
    "d": 2,
-   "l": 1,
-   "gp": 3
+   "l": 2,
+   "gp": 4
   },
   "Liga de Quito": {
    "atk": 0.02929,
@@ -227,8 +227,8 @@
    "gp": 4
   }
  },
- "last_date": "2026-10-25",
- "updated_from": 30,
+ "last_date": "2026-10-26",
+ "updated_from": 31,
  "espn_team_names": {
   "6017": "Aucas",
   "18439": "Macara",
@@ -248,8 +248,6 @@
   "2686": "Barcelona SC"
  },
  "applied_on_last_date": [
-  "401921329",
-  "401921334",
-  "401921335"
+  "401921377"
  ]
 }
