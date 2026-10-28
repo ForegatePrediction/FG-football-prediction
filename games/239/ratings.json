@@ -1,6 +1,6 @@
 {
- "mu": 0.08799,
- "hfa": 0.3271,
+ "mu": 0.08794,
+ "hfa": 0.32523,
  "teams": {
   "Atletico Nacional": {
    "atk": 0.50334,
@@ -27,12 +27,12 @@
    "gp": 75
   },
   "Águilas Doradas": {
-   "atk": 0.06116,
-   "dfn": 0.09859,
-   "w": 95,
+   "atk": 0.08789,
+   "dfn": 0.14202,
+   "w": 96,
    "d": 98,
    "l": 95,
-   "gp": 288
+   "gp": 289
   },
   "Internacional de Bogota": {
    "atk": -0.31675,
@@ -211,12 +211,12 @@
    "gp": 45
   },
   "Atlético Bucaramanga": {
-   "atk": 0.06005,
-   "dfn": 0.05666,
+   "atk": 0.05861,
+   "dfn": 0.04128,
    "w": 3,
    "d": 3,
-   "l": 1,
-   "gp": 7
+   "l": 2,
+   "gp": 8
   },
   "Boyacá Chicó FC": {
    "atk": -0.09859,
@@ -235,20 +235,20 @@
    "gp": 6
   },
   "Independiente Santa Fe": {
-   "atk": 0.03847,
-   "dfn": 0.10105,
-   "w": 4,
+   "atk": 0.05385,
+   "dfn": 0.10249,
+   "w": 5,
    "d": 0,
    "l": 2,
-   "gp": 6
+   "gp": 7
   },
   "Cúcuta Deportivo": {
-   "atk": 0.05225,
-   "dfn": 0.04587,
+   "atk": 0.00882,
+   "dfn": 0.01914,
    "w": 4,
    "d": 0,
-   "l": 2,
-   "gp": 6
+   "l": 3,
+   "gp": 7
   },
   "Fortaleza CEIF": {
    "atk": -0.03651,
@@ -283,8 +283,8 @@
    "gp": 7
   }
  },
- "last_date": "2026-10-26",
- "updated_from": 69,
+ "last_date": "2026-10-27",
+ "updated_from": 71,
  "espn_team_names": {
   "6137": "Atlético Bucaramanga",
   "2690": "Independiente Medellin",
@@ -308,7 +308,7 @@
   "10309": "Jaguares de Córdoba"
  },
  "applied_on_last_date": [
-  "401877918",
-  "401878065"
+  "401877841",
+  "401877953"
  ]
 }
