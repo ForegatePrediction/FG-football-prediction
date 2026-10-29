@@ -1,6 +1,6 @@
 {
- "mu": 0.26795,
- "hfa": 0.2793,
+ "mu": 0.26742,
+ "hfa": 0.2779,
  "teams": {
   "Coquimbo Unido": {
    "atk": 0.20223,
@@ -227,24 +227,24 @@
    "gp": 2
   },
   "Audax Italiano": {
-   "atk": -0.02082,
-   "dfn": 0.01122,
+   "atk": -0.03137,
+   "dfn": 0.03221,
    "w": 0,
-   "d": 1,
+   "d": 2,
    "l": 0,
-   "gp": 1
+   "gp": 2
   },
   "Universidad Católica": {
-   "atk": -0.00561,
-   "dfn": -0.05421,
+   "atk": -0.0266,
+   "dfn": -0.04366,
    "w": 0,
-   "d": 0,
+   "d": 1,
    "l": 1,
-   "gp": 1
+   "gp": 2
   }
  },
- "last_date": "2026-10-26",
- "updated_from": 16,
+ "last_date": "2026-10-28",
+ "updated_from": 17,
  "espn_team_names": {
   "5362": "Universidad de Concepcion",
   "4134": "Huachipato",
@@ -264,6 +264,6 @@
   "885": "Universidad Católica"
  },
  "applied_on_last_date": [
-  "401850671"
+  "401850663"
  ]
 }
