@@ -1,6 +1,6 @@
 {
- "mu": 0.08701,
- "hfa": 0.32356,
+ "mu": 0.08783,
+ "hfa": 0.32767,
  "teams": {
   "Atletico Nacional": {
    "atk": 0.50334,
@@ -35,12 +35,12 @@
    "gp": 289
   },
   "Internacional de Bogota": {
-   "atk": -0.31675,
-   "dfn": -0.1632,
-   "w": 80,
+   "atk": -0.25497,
+   "dfn": -0.14291,
+   "w": 81,
    "d": 108,
    "l": 102,
-   "gp": 290
+   "gp": 291
   },
   "Huila": {
    "atk": -0.29694,
@@ -59,12 +59,12 @@
    "gp": 179
   },
   "Independiente Medellin": {
-   "atk": 0.26648,
-   "dfn": 0.155,
+   "atk": 0.24619,
+   "dfn": 0.09322,
    "w": 127,
    "d": 98,
-   "l": 87,
-   "gp": 312
+   "l": 88,
+   "gp": 313
   },
   "Union Magdalena": {
    "atk": -0.14846,
@@ -91,12 +91,12 @@
    "gp": 283
   },
   "America de Cali": {
-   "atk": 0.21049,
-   "dfn": 0.34621,
-   "w": 142,
+   "atk": 0.21043,
+   "dfn": 0.33855,
+   "w": 143,
    "d": 93,
    "l": 99,
-   "gp": 334
+   "gp": 335
   },
   "Deportivo Cali": {
    "atk": -0.04104,
@@ -251,12 +251,12 @@
    "gp": 7
   },
   "Fortaleza CEIF": {
-   "atk": -0.03651,
-   "dfn": -0.06834,
+   "atk": -0.02885,
+   "dfn": -0.06828,
    "w": 0,
    "d": 4,
-   "l": 2,
-   "gp": 6
+   "l": 3,
+   "gp": 7
   },
   "Atlético Junior": {
    "atk": 0.02422,
@@ -283,8 +283,8 @@
    "gp": 7
   }
  },
- "last_date": "2026-10-28",
- "updated_from": 73,
+ "last_date": "2026-10-29",
+ "updated_from": 75,
  "espn_team_names": {
   "6137": "Atlético Bucaramanga",
   "2690": "Independiente Medellin",
@@ -308,7 +308,7 @@
   "10309": "Jaguares de Córdoba"
  },
  "applied_on_last_date": [
-  "401877861",
-  "401877998"
+  "401877878",
+  "401878035"
  ]
 }
