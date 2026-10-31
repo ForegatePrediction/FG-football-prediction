@@ -1,6 +1,6 @@
 {
- "mu": 0.30003,
- "hfa": 0.24153,
+ "mu": 0.30083,
+ "hfa": 0.24619,
  "teams": {
   "Bayern Munich": {
    "atk": 0.80756,
@@ -67,12 +67,12 @@
    "gp": 274
   },
   "FSV Mainz 05": {
-   "atk": 0.18458,
-   "dfn": 0.0785,
+   "atk": 0.1626,
+   "dfn": 0.00867,
    "w": 125,
    "d": 96,
-   "l": 160,
-   "gp": 381
+   "l": 161,
+   "gp": 382
   },
   "FC Ingolstadt 04": {
    "atk": -0.23754,
@@ -275,16 +275,16 @@
    "gp": 71
   },
   "SV Elversberg": {
-   "atk": 0.05114,
-   "dfn": -0.06508,
-   "w": 3,
+   "atk": 0.12097,
+   "dfn": -0.0431,
+   "w": 4,
    "d": 2,
    "l": 4,
-   "gp": 9
+   "gp": 10
   }
  },
- "last_date": "2026-10-25",
- "updated_from": 36,
+ "last_date": "2026-10-30",
+ "updated_from": 37,
  "espn_team_names": {
   "132": "Bayern Munich",
   "598": "Union Berlin",
@@ -306,7 +306,6 @@
   "7911": "1899 Hoffenheim"
  },
  "applied_on_last_date": [
-  "401884759",
-  "401884760"
+  "401884746"
  ]
 }

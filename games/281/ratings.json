@@ -1,6 +1,6 @@
 {
- "mu": 0.2465,
- "hfa": 0.40558,
+ "mu": 0.24578,
+ "hfa": 0.40323,
  "teams": {
   "Alianza Lima": {
    "atk": 0.22685,
@@ -211,12 +211,12 @@
    "gp": 119
   },
   "Comerciantes Unidos": {
-   "atk": 0.00608,
-   "dfn": 0.00472,
+   "atk": -0.00195,
+   "dfn": 0.03993,
    "w": 20,
-   "d": 24,
+   "d": 25,
    "l": 40,
-   "gp": 84
+   "gp": 85
   },
   "Club Deportivo Los Chankas": {
    "atk": 0.00945,
@@ -259,12 +259,12 @@
    "gp": 5
   },
   "Melgar": {
-   "atk": 0.12913,
-   "dfn": 0.0154,
+   "atk": 0.09392,
+   "dfn": 0.02343,
    "w": 2,
-   "d": 2,
+   "d": 3,
    "l": 0,
-   "gp": 4
+   "gp": 5
   },
   "UTC": {
    "atk": -0.02833,
@@ -307,8 +307,8 @@
    "gp": 5
   }
  },
- "last_date": "2026-10-29",
- "updated_from": 44,
+ "last_date": "2026-10-30",
+ "updated_from": 45,
  "espn_team_names": {
   "5267": "Alianza Atletico",
   "18153": "Comerciantes Unidos",
@@ -330,8 +330,6 @@
   "22168": "Los Chankas"
  },
  "applied_on_last_date": [
-  "401886131",
-  "401886152",
-  "401886155"
+  "401886150"
  ]
 }

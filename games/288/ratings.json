@@ -1,6 +1,6 @@
 {
- "mu": 0.23421,
- "hfa": 0.16797,
+ "mu": 0.23564,
+ "hfa": 0.17197,
  "teams": {
   "Sekhukhune United": {
    "atk": -0.0869,
@@ -147,12 +147,12 @@
    "gp": 4
   },
   "Marumo Gallants": {
-   "atk": -0.32248,
-   "dfn": -0.07255,
-   "w": 12,
+   "atk": -0.26253,
+   "dfn": -0.09818,
+   "w": 13,
    "d": 23,
    "l": 31,
-   "gp": 66
+   "gp": 67
   },
   "Magesi": {
    "atk": -0.2785,
@@ -179,12 +179,12 @@
    "gp": 4
   },
   "Siwelele": {
-   "atk": -0.17082,
-   "dfn": 0.07817,
+   "atk": -0.14519,
+   "dfn": 0.01822,
    "w": 9,
    "d": 16,
-   "l": 13,
-   "gp": 38
+   "l": 14,
+   "gp": 39
   },
   "Durban City": {
    "atk": -0.25481,
@@ -243,8 +243,8 @@
    "gp": 2
   }
  },
- "last_date": "2026-10-18",
- "updated_from": 16,
+ "last_date": "2026-10-30",
+ "updated_from": 17,
  "espn_team_names": {
   "7085": "Orlando Pirates",
   "22348": "Durban City",
@@ -264,6 +264,6 @@
   "131361": "Siwelele"
  },
  "applied_on_last_date": [
-  "401902026"
+  "401902024"
  ]
 }

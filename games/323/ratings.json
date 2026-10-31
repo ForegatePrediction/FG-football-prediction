@@ -1,6 +1,6 @@
 {
- "mu": 0.27871,
- "hfa": 0.11655,
+ "mu": 0.27833,
+ "hfa": 0.11558,
  "teams": {
   "ATK": {
    "atk": 0.11401,
@@ -155,12 +155,12 @@
    "gp": 13
   },
   "Bengaluru FC": {
-   "atk": 0.05898,
-   "dfn": 0.01976,
+   "atk": 0.05058,
+   "dfn": 0.03432,
    "w": 2,
-   "d": 0,
+   "d": 1,
    "l": 0,
-   "gp": 2
+   "gp": 3
   },
   "Sporting Club Delhi": {
    "atk": -0.00427,
@@ -211,12 +211,12 @@
    "gp": 3
   },
   "NorthEast United FC": {
-   "atk": 0.02005,
-   "dfn": 0.09075,
+   "atk": 0.00549,
+   "dfn": 0.09915,
    "w": 2,
-   "d": 1,
+   "d": 2,
    "l": 0,
-   "gp": 3
+   "gp": 4
   },
   "Mohun Bagan Super Giant": {
    "atk": -0.03335,
@@ -251,8 +251,8 @@
    "gp": 2
   }
  },
- "updated_from": 939,
- "last_date": "2026-10-28",
+ "updated_from": 940,
+ "last_date": "2026-10-30",
  "espn_team_names": {
   "18851": "Bengaluru FC",
   "131703": "Sporting Club Delhi",
@@ -269,6 +269,6 @@
   "8897": "East Bengal FC"
  },
  "applied_on_last_date": [
-  "401925423"
+  "401925422"
  ]
 }

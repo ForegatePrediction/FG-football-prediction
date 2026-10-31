@@ -1,14 +1,14 @@
 {
- "mu": 0.26742,
- "hfa": 0.2779,
+ "mu": 0.26851,
+ "hfa": 0.28303,
  "teams": {
   "Coquimbo Unido": {
-   "atk": 0.20223,
-   "dfn": 0.33149,
-   "w": 78,
+   "atk": 0.17504,
+   "dfn": 0.35202,
+   "w": 79,
    "d": 46,
    "l": 66,
-   "gp": 190
+   "gp": 191
   },
   "U. Catolica": {
    "atk": 0.29472,
@@ -19,12 +19,12 @@
    "gp": 221
   },
   "Union La Calera": {
-   "atk": -0.31519,
-   "dfn": 0.10231,
+   "atk": -0.33572,
+   "dfn": 0.1295,
    "w": 79,
    "d": 62,
-   "l": 82,
-   "gp": 223
+   "l": 83,
+   "gp": 224
   },
   "Palestino": {
    "atk": 0.18551,
@@ -91,20 +91,20 @@
    "gp": 211
   },
   "Colo Colo": {
-   "atk": 0.40947,
-   "dfn": 0.19204,
-   "w": 113,
+   "atk": 0.51365,
+   "dfn": 0.18293,
+   "w": 114,
    "d": 56,
    "l": 52,
-   "gp": 221
+   "gp": 222
   },
   "Universidad de Concepcion": {
-   "atk": -0.43667,
-   "dfn": 0.02505,
+   "atk": -0.42756,
+   "dfn": -0.07913,
    "w": 15,
    "d": 25,
-   "l": 31,
-   "gp": 71
+   "l": 32,
+   "gp": 72
   },
   "Everton de Vina": {
    "atk": 0.05928,
@@ -243,8 +243,8 @@
    "gp": 2
   }
  },
- "last_date": "2026-10-28",
- "updated_from": 17,
+ "last_date": "2026-10-30",
+ "updated_from": 19,
  "espn_team_names": {
   "5362": "Universidad de Concepcion",
   "4134": "Huachipato",
@@ -264,6 +264,7 @@
   "885": "Universidad Católica"
  },
  "applied_on_last_date": [
-  "401850663"
+  "401850680",
+  "401850681"
  ]
 }

@@ -1,6 +1,6 @@
 {
- "mu": 0.29596,
- "hfa": 0.18665,
+ "mu": 0.29645,
+ "hfa": 0.18389,
  "teams": {
   "Rapid Vienna": {
    "atk": 0.44901,
@@ -99,12 +99,12 @@
    "gp": 32
   },
   "TSV Hartberg": {
-   "atk": 0.08977,
-   "dfn": 0.05989,
-   "w": 88,
+   "atk": 0.16026,
+   "dfn": 0.10123,
+   "w": 89,
    "d": 75,
    "l": 109,
-   "gp": 272
+   "gp": 273
   },
   "WSG Wattens": {
    "atk": -0.03468,
@@ -139,12 +139,12 @@
    "gp": 96
   },
   "Grazer AK": {
-   "atk": -0.1021,
-   "dfn": -0.11521,
+   "atk": -0.14344,
+   "dfn": -0.1857,
    "w": 16,
    "d": 27,
-   "l": 31,
-   "gp": 74
+   "l": 32,
+   "gp": 75
   },
   "WSG Swarovski Tirol": {
    "atk": -0.05605,
@@ -195,8 +195,8 @@
    "gp": 4
   }
  },
- "last_date": "2026-10-25",
- "updated_from": 24,
+ "last_date": "2026-10-30",
+ "updated_from": 25,
  "espn_team_names": {
   "519": "Rapid Vienna",
   "18794": "WSG Swarovski Tirol",
@@ -212,7 +212,6 @@
   "3746": "SK Sturm Graz"
  },
  "applied_on_last_date": [
-  "401881766",
-  "401881767"
+  "401881757"
  ]
 }
