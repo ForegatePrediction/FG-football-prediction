@@ -1,6 +1,6 @@
 {
- "mu": 0.26851,
- "hfa": 0.28303,
+ "mu": 0.26763,
+ "hfa": 0.28179,
  "teams": {
   "Coquimbo Unido": {
    "atk": 0.17504,
@@ -75,12 +75,12 @@
    "gp": 221
   },
   "O'Higgins": {
-   "atk": -0.10968,
-   "dfn": 0.04443,
-   "w": 76,
+   "atk": -0.12827,
+   "dfn": 0.07876,
+   "w": 77,
    "d": 60,
    "l": 85,
-   "gp": 221
+   "gp": 222
   },
   "Union Espanola": {
    "atk": 0.00185,
@@ -155,12 +155,12 @@
    "gp": 32
   },
   "Nublense": {
-   "atk": -0.08929,
-   "dfn": -0.04046,
+   "atk": -0.12362,
+   "dfn": -0.02187,
    "w": 57,
    "d": 48,
-   "l": 59,
-   "gp": 164
+   "l": 60,
+   "gp": 165
   },
   "Magallanes": {
    "atk": -0.00335,
@@ -243,8 +243,8 @@
    "gp": 2
   }
  },
- "last_date": "2026-10-30",
- "updated_from": 19,
+ "last_date": "2026-10-31",
+ "updated_from": 20,
  "espn_team_names": {
   "5362": "Universidad de Concepcion",
   "4134": "Huachipato",
@@ -264,7 +264,6 @@
   "885": "Universidad Católica"
  },
  "applied_on_last_date": [
-  "401850680",
-  "401850681"
+  "401850676"
  ]
 }

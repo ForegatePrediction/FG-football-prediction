@@ -1,6 +1,6 @@
 {
- "mu": 0.2781,
- "hfa": 0.26181,
+ "mu": 0.27876,
+ "hfa": 0.26204,
  "teams": {
   "Municipal Liberia": {
    "atk": -0.02579,
@@ -19,20 +19,20 @@
    "gp": 149
   },
   "Perez Zeledon": {
-   "atk": -0.34076,
-   "dfn": -0.15031,
+   "atk": -0.34423,
+   "dfn": -0.13811,
    "w": 29,
-   "d": 41,
+   "d": 42,
    "l": 65,
-   "gp": 135
+   "gp": 136
   },
   "Puntarenas FC": {
-   "atk": -0.08822,
-   "dfn": 0.09094,
+   "atk": -0.10042,
+   "dfn": 0.09441,
    "w": 36,
-   "d": 41,
+   "d": 42,
    "l": 57,
-   "gp": 134
+   "gp": 135
   },
   "Deportivo Saprissa": {
    "atk": 0.48725,
@@ -123,12 +123,12 @@
    "gp": 4
   },
   "Escorpiones Belén": {
-   "atk": -0.10372,
-   "dfn": -0.05991,
-   "w": 2,
+   "atk": -0.05547,
+   "dfn": -0.06678,
+   "w": 3,
    "d": 1,
    "l": 8,
-   "gp": 11
+   "gp": 12
   },
   "Saprissa": {
    "atk": 0.05811,
@@ -155,12 +155,12 @@
    "gp": 5
   },
   "Inter de San Carlos": {
-   "atk": -0.0283,
-   "dfn": -0.1561,
+   "atk": -0.02143,
+   "dfn": -0.20435,
    "w": 1,
    "d": 1,
-   "l": 3,
-   "gp": 5
+   "l": 4,
+   "gp": 6
   },
   "AD San Carlos": {
    "atk": 0.01865,
@@ -179,8 +179,8 @@
    "gp": 5
   }
  },
- "last_date": "2026-10-26",
- "updated_from": 25,
+ "last_date": "2026-10-31",
+ "updated_from": 27,
  "espn_team_names": {
   "7234": "Perez Zeledon",
   "20705": "Sporting San Jose",
@@ -194,6 +194,7 @@
   "7239": "Cartaginés"
  },
  "applied_on_last_date": [
-  "401876833"
+  "401876829",
+  "401876890"
  ]
 }

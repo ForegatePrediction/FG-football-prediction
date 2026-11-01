@@ -1,6 +1,6 @@
 {
- "mu": 0.24578,
- "hfa": 0.40323,
+ "mu": 0.24478,
+ "hfa": 0.40152,
  "teams": {
   "Alianza Lima": {
    "atk": 0.22685,
@@ -187,12 +187,12 @@
    "gp": 175
   },
   "Alianza Atletico": {
-   "atk": 0.07923,
-   "dfn": 0.16033,
-   "w": 70,
+   "atk": 0.05362,
+   "dfn": 0.19472,
+   "w": 71,
    "d": 38,
    "l": 76,
-   "gp": 184
+   "gp": 185
   },
   "ADT": {
    "atk": -0.15596,
@@ -275,12 +275,12 @@
    "gp": 5
   },
   "Juan Pablo II": {
-   "atk": 0.05125,
-   "dfn": 0.11114,
+   "atk": 0.01686,
+   "dfn": 0.13675,
    "w": 3,
    "d": 1,
-   "l": 1,
-   "gp": 5
+   "l": 2,
+   "gp": 6
   },
   "Deportivo Moquegua": {
    "atk": -0.16037,
@@ -307,8 +307,8 @@
    "gp": 5
   }
  },
- "last_date": "2026-10-30",
- "updated_from": 45,
+ "last_date": "2026-10-31",
+ "updated_from": 46,
  "espn_team_names": {
   "5267": "Alianza Atletico",
   "18153": "Comerciantes Unidos",
@@ -330,6 +330,6 @@
   "22168": "Los Chankas"
  },
  "applied_on_last_date": [
-  "401886150"
+  "401886149"
  ]
 }

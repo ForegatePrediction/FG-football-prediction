@@ -1,6 +1,6 @@
 {
- "mu": 0.30245,
- "hfa": 0.15604,
+ "mu": 0.30113,
+ "hfa": 0.15054,
  "teams": {
   "Brisbane Roar FC": {
    "atk": -0.02967,
@@ -35,12 +35,12 @@
    "gp": 83
   },
   "Wellington Phoenix": {
-   "atk": -0.14156,
-   "dfn": -0.09105,
-   "w": 99,
+   "atk": -0.08544,
+   "dfn": -0.02452,
+   "w": 100,
    "d": 64,
    "l": 108,
-   "gp": 271
+   "gp": 272
   },
   "Melbourne City": {
    "atk": -0.03735,
@@ -59,12 +59,12 @@
    "gp": 81
   },
   "Sydney FC": {
-   "atk": 0.00358,
-   "dfn": 0.46163,
+   "atk": -0.0079,
+   "dfn": 0.43097,
    "w": 58,
    "d": 15,
-   "l": 11,
-   "gp": 84
+   "l": 12,
+   "gp": 85
   },
   "Newcastle Jets FC": {
    "atk": 0.09737,
@@ -131,12 +131,12 @@
    "gp": 166
   },
   "Newcastle Jets": {
-   "atk": 0.24688,
-   "dfn": 0.03927,
+   "atk": 0.18035,
+   "dfn": -0.01685,
    "w": 59,
    "d": 45,
-   "l": 82,
-   "gp": 186
+   "l": 83,
+   "gp": 187
   },
   "Macarthur": {
    "atk": 0.09187,
@@ -155,12 +155,12 @@
    "gp": 57
   },
   "Western Sydney Wanderers FC": {
-   "atk": 0.07825,
-   "dfn": 0.02942,
+   "atk": 0.03662,
+   "dfn": 0.07603,
    "w": 1,
-   "d": 1,
+   "d": 2,
    "l": 0,
-   "gp": 2
+   "gp": 3
   },
   "Auckland FC": {
    "atk": 0.0171,
@@ -171,20 +171,20 @@
    "gp": 3
   },
   "Melbourne City FC": {
-   "atk": -0.01436,
-   "dfn": -0.01827,
-   "w": 0,
-   "d": 1,
-   "l": 1,
-   "gp": 2
-  },
-  "Macarthur FC": {
-   "atk": 0.0139,
-   "dfn": 0.05332,
+   "atk": 0.0163,
+   "dfn": -0.00679,
    "w": 1,
    "d": 1,
+   "l": 1,
+   "gp": 3
+  },
+  "Macarthur FC": {
+   "atk": -0.03271,
+   "dfn": 0.09495,
+   "w": 1,
+   "d": 2,
    "l": 0,
-   "gp": 2
+   "gp": 3
   },
   "Adelaide United FC": {
    "atk": 0.00451,
@@ -195,8 +195,8 @@
    "gp": 1
   }
  },
- "updated_from": 1561,
- "last_date": "2026-10-30",
+ "updated_from": 1564,
+ "last_date": "2026-10-31",
  "espn_team_names": {
   "5327": "Sydney FC",
   "13696": "Western Sydney Wanderers FC",
@@ -212,6 +212,8 @@
   "5321": "Adelaide United FC"
  },
  "applied_on_last_date": [
-  "401892150"
+  "401892147",
+  "401892148",
+  "401892149"
  ]
 }
