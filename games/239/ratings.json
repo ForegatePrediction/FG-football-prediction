@@ -1,6 +1,6 @@
 {
- "mu": 0.08818,
- "hfa": 0.33103,
+ "mu": 0.0881,
+ "hfa": 0.33205,
  "teams": {
   "Atletico Nacional": {
    "atk": 0.49547,
@@ -59,12 +59,12 @@
    "gp": 179
   },
   "Independiente Medellin": {
-   "atk": 0.24619,
-   "dfn": 0.09322,
-   "w": 127,
+   "atk": 0.24528,
+   "dfn": 0.09232,
+   "w": 128,
    "d": 98,
    "l": 88,
-   "gp": 313
+   "gp": 314
   },
   "Union Magdalena": {
    "atk": -0.14846,
@@ -99,12 +99,12 @@
    "gp": 335
   },
   "Deportivo Cali": {
-   "atk": -0.04104,
-   "dfn": 0.3287,
-   "w": 97,
+   "atk": -0.02489,
+   "dfn": 0.34988,
+   "w": 98,
    "d": 100,
    "l": 103,
-   "gp": 300
+   "gp": 301
   },
   "Bucaramanga": {
    "atk": -0.03224,
@@ -219,20 +219,20 @@
    "gp": 9
   },
   "Boyacá Chicó FC": {
-   "atk": -0.10782,
-   "dfn": -0.0014,
+   "atk": -0.129,
+   "dfn": -0.01755,
    "w": 2,
    "d": 2,
-   "l": 4,
-   "gp": 8
+   "l": 5,
+   "gp": 9
   },
   "Alianza FC": {
-   "atk": -0.02534,
-   "dfn": -0.04188,
+   "atk": -0.02444,
+   "dfn": -0.04097,
    "w": 3,
    "d": 1,
-   "l": 3,
-   "gp": 7
+   "l": 4,
+   "gp": 8
   },
   "Independiente Santa Fe": {
    "atk": 0.0284,
@@ -283,8 +283,8 @@
    "gp": 8
   }
  },
- "last_date": "2026-10-31",
- "updated_from": 79,
+ "last_date": "2026-11-01",
+ "updated_from": 81,
  "espn_team_names": {
   "6137": "Atlético Bucaramanga",
   "2690": "Independiente Medellin",
@@ -308,7 +308,7 @@
   "10309": "Jaguares de Córdoba"
  },
  "applied_on_last_date": [
-  "401878044",
-  "401878071"
+  "401877913",
+  "401878061"
  ]
 }

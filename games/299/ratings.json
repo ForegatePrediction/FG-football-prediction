@@ -1,6 +1,6 @@
 {
- "mu": 0.2747,
- "hfa": 0.22413,
+ "mu": 0.27496,
+ "hfa": 0.22359,
  "teams": {
   "Caracas FC": {
    "atk": -0.10454,
@@ -51,12 +51,12 @@
    "gp": 28
   },
   "Deportivo La Guaira": {
-   "atk": 0.02361,
-   "dfn": 0.29619,
+   "atk": 0.03701,
+   "dfn": 0.26192,
    "w": 61,
-   "d": 45,
+   "d": 46,
    "l": 32,
-   "gp": 138
+   "gp": 139
   },
   "Monagas SC": {
    "atk": 0.00114,
@@ -155,12 +155,12 @@
    "gp": 3
   },
   "Carabobo": {
-   "atk": 0.09531,
-   "dfn": 0.06314,
+   "atk": 0.07379,
+   "dfn": 0.07395,
    "w": 3,
-   "d": 2,
+   "d": 3,
    "l": 0,
-   "gp": 5
+   "gp": 6
   },
   "Academia Puerto Cabello": {
    "atk": -0.03064,
@@ -171,12 +171,12 @@
    "gp": 6
   },
   "Portuguesa": {
-   "atk": -0.13202,
-   "dfn": 0.08195,
+   "atk": -0.09775,
+   "dfn": 0.06855,
    "w": 0,
-   "d": 3,
+   "d": 4,
    "l": 2,
-   "gp": 5
+   "gp": 6
   },
   "Deportivo Táchira": {
    "atk": 0.18013,
@@ -187,12 +187,12 @@
    "gp": 6
   },
   "Metropolitanos": {
-   "atk": 0.09539,
-   "dfn": 0.0551,
+   "atk": 0.08458,
+   "dfn": 0.07662,
    "w": 2,
-   "d": 3,
+   "d": 4,
    "l": 0,
-   "gp": 5
+   "gp": 6
   },
   "Estudiantes de Mérida": {
    "atk": -0.0126,
@@ -211,8 +211,8 @@
    "gp": 3
   }
  },
- "last_date": "2026-10-31",
- "updated_from": 31,
+ "last_date": "2026-11-01",
+ "updated_from": 33,
  "espn_team_names": {
   "21850": "Rayo Zuliano",
   "6041": "Monagas SC",
@@ -230,7 +230,7 @@
   "5268": "Trujillanos"
  },
  "applied_on_last_date": [
-  "401930973",
-  "401930997"
+  "401930968",
+  "401930992"
  ]
 }
