@@ -1,6 +1,6 @@
 {
- "mu": 0.26238,
- "hfa": 0.18779,
+ "mu": 0.26236,
+ "hfa": 0.18473,
  "teams": {
   "Dinamo Moscow": {
    "atk": 0.25662,
@@ -163,12 +163,12 @@
    "gp": 39
   },
   "Krylia Sovetov": {
-   "atk": -0.02952,
-   "dfn": -0.05651,
+   "atk": -0.07538,
+   "dfn": -0.10096,
    "w": 19,
    "d": 21,
-   "l": 32,
-   "gp": 72
+   "l": 33,
+   "gp": 73
   },
   "Zenit": {
    "atk": 0.29822,
@@ -283,12 +283,12 @@
    "gp": 5
   },
   "Zenit St Petersburg": {
-   "atk": 0.09873,
-   "dfn": -0.00384,
-   "w": 3,
+   "atk": 0.14318,
+   "dfn": 0.04202,
+   "w": 4,
    "d": 0,
    "l": 0,
-   "gp": 3
+   "gp": 4
   },
   "FC Baltika Kaliningrad": {
    "atk": -0.06912,
@@ -315,8 +315,8 @@
    "gp": 4
   }
  },
- "last_date": "2026-11-01",
- "updated_from": 35,
+ "last_date": "2026-11-02",
+ "updated_from": 36,
  "espn_team_names": {
   "18285": "Gazovik Orenburg",
   "11336": "Krasnodar",
@@ -336,9 +336,6 @@
   "3851": "Rubin Kazan"
  },
  "applied_on_last_date": [
-  "401879818",
-  "401879819",
-  "401879820",
-  "401879821"
+  "401879822"
  ]
 }

@@ -1,6 +1,6 @@
 {
- "mu": 0.26523,
- "hfa": 0.27818,
+ "mu": 0.26373,
+ "hfa": 0.27809,
  "teams": {
   "Coquimbo Unido": {
    "atk": 0.17504,
@@ -27,12 +27,12 @@
    "gp": 224
   },
   "Palestino": {
-   "atk": 0.18551,
-   "dfn": 0.19922,
+   "atk": 0.13652,
+   "dfn": 0.21041,
    "w": 93,
    "d": 59,
-   "l": 70,
-   "gp": 222
+   "l": 71,
+   "gp": 223
   },
   "Deportes Iquique": {
    "atk": 0.00609,
@@ -187,12 +187,12 @@
    "gp": 30
   },
   "Deportes Limache": {
-   "atk": 0.00186,
-   "dfn": -0.04798,
-   "w": 12,
+   "atk": 0.01175,
+   "dfn": -0.00821,
+   "w": 13,
    "d": 8,
    "l": 23,
-   "gp": 43
+   "gp": 44
   },
   "Concepción": {
    "atk": -0.00154,
@@ -219,20 +219,20 @@
    "gp": 3
   },
   "Deportes Concepcion": {
-   "atk": -0.02744,
-   "dfn": -0.04015,
-   "w": 0,
+   "atk": -0.03863,
+   "dfn": 0.00884,
+   "w": 1,
    "d": 1,
    "l": 1,
-   "gp": 2
+   "gp": 3
   },
   "Audax Italiano": {
-   "atk": -0.03137,
-   "dfn": 0.03221,
+   "atk": -0.07114,
+   "dfn": 0.02232,
    "w": 0,
    "d": 2,
-   "l": 0,
-   "gp": 2
+   "l": 1,
+   "gp": 3
   },
   "Universidad Católica": {
    "atk": -0.03063,
@@ -243,8 +243,8 @@
    "gp": 3
   }
  },
- "last_date": "2026-11-01",
- "updated_from": 23,
+ "last_date": "2026-11-02",
+ "updated_from": 25,
  "espn_team_names": {
   "5362": "Universidad de Concepcion",
   "4134": "Huachipato",
@@ -264,8 +264,7 @@
   "885": "Universidad Católica"
  },
  "applied_on_last_date": [
-  "401850677",
-  "401850682",
-  "401850683"
+  "401850678",
+  "401850679"
  ]
 }

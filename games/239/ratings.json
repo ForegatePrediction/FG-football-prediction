@@ -1,6 +1,6 @@
 {
- "mu": 0.0881,
- "hfa": 0.33205,
+ "mu": 0.08725,
+ "hfa": 0.33049,
  "teams": {
   "Atletico Nacional": {
    "atk": 0.49547,
@@ -27,12 +27,12 @@
    "gp": 75
   },
   "Águilas Doradas": {
-   "atk": 0.08789,
-   "dfn": 0.14202,
-   "w": 96,
+   "atk": 0.06451,
+   "dfn": 0.16964,
+   "w": 97,
    "d": 98,
    "l": 95,
-   "gp": 289
+   "gp": 290
   },
   "Internacional de Bogota": {
    "atk": -0.25497,
@@ -251,12 +251,12 @@
    "gp": 7
   },
   "Fortaleza CEIF": {
-   "atk": -0.02885,
-   "dfn": -0.06828,
+   "atk": -0.05647,
+   "dfn": -0.0449,
    "w": 0,
    "d": 4,
-   "l": 3,
-   "gp": 7
+   "l": 4,
+   "gp": 8
   },
   "Atlético Junior": {
    "atk": 0.05142,
@@ -283,8 +283,8 @@
    "gp": 8
   }
  },
- "last_date": "2026-11-01",
- "updated_from": 81,
+ "last_date": "2026-11-02",
+ "updated_from": 82,
  "espn_team_names": {
   "6137": "Atlético Bucaramanga",
   "2690": "Independiente Medellin",
@@ -308,7 +308,6 @@
   "10309": "Jaguares de Córdoba"
  },
  "applied_on_last_date": [
-  "401877913",
-  "401878061"
+  "401877772"
  ]
 }
