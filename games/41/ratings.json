@@ -1,6 +1,6 @@
 {
- "mu": 0.2521,
- "hfa": 0.20938,
+ "mu": 0.25006,
+ "hfa": 0.2052,
  "teams": {
   "Bolton": {
    "atk": 0.25421,
@@ -275,12 +275,12 @@
    "gp": 371
   },
   "Luton": {
-   "atk": 0.26578,
-   "dfn": 0.08552,
+   "atk": 0.24974,
+   "dfn": 0.10944,
    "w": 55,
-   "d": 26,
+   "d": 27,
    "l": 24,
-   "gp": 105
+   "gp": 106
   },
   "Sunderland": {
    "atk": 0.17138,
@@ -427,12 +427,12 @@
    "gp": 151
   },
   "Mansfield Town": {
-   "atk": 0.10649,
-   "dfn": 0.11366,
+   "atk": 0.06298,
+   "dfn": 0.15246,
    "w": 36,
-   "d": 29,
+   "d": 30,
    "l": 39,
-   "gp": 104
+   "gp": 105
   },
   "Birmingham": {
    "atk": 0.31322,
@@ -507,12 +507,12 @@
    "gp": 13
   },
   "Wigan Athletic": {
-   "atk": -0.09057,
-   "dfn": -0.01316,
+   "atk": -0.12937,
+   "dfn": 0.03035,
    "w": 2,
-   "d": 0,
+   "d": 1,
    "l": 5,
-   "gp": 7
+   "gp": 8
   },
   "Wycombe Wanderers": {
    "atk": 0.02424,
@@ -547,12 +547,12 @@
    "gp": 7
   },
   "Huddersfield Town": {
-   "atk": 0.21433,
-   "dfn": 0.08817,
+   "atk": 0.19041,
+   "dfn": 0.10421,
    "w": 5,
-   "d": 1,
+   "d": 2,
    "l": 1,
-   "gp": 7
+   "gp": 8
   },
   "Plymouth Argyle": {
    "atk": -0.0101,
@@ -563,8 +563,8 @@
    "gp": 8
   }
  },
- "last_date": "2026-11-01",
- "updated_from": 84,
+ "last_date": "2026-11-03",
+ "updated_from": 86,
  "espn_team_names": {
   "3802": "AFC Wimbledon",
   "390": "Milton Keynes Dons",
@@ -592,6 +592,7 @@
   "307": "Plymouth Argyle"
  },
  "applied_on_last_date": [
-  "401880758"
+  "401880815",
+  "401880835"
  ]
 }
