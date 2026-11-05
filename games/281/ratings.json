@@ -1,14 +1,14 @@
 {
- "mu": 0.24476,
- "hfa": 0.40007,
+ "mu": 0.2438,
+ "hfa": 0.39766,
  "teams": {
   "Alianza Lima": {
-   "atk": 0.22685,
-   "dfn": 0.59027,
-   "w": 139,
+   "atk": 0.19071,
+   "dfn": 0.6116,
+   "w": 140,
    "d": 58,
    "l": 57,
-   "gp": 254
+   "gp": 255
   },
   "Sport Boys": {
    "atk": -0.20472,
@@ -291,12 +291,12 @@
    "gp": 6
   },
   "Cienciano del Cusco": {
-   "atk": 0.00425,
-   "dfn": 0.08106,
+   "atk": -0.01708,
+   "dfn": 0.1172,
    "w": 3,
    "d": 1,
-   "l": 2,
-   "gp": 6
+   "l": 3,
+   "gp": 7
   },
   "Los Chankas": {
    "atk": -0.11084,
@@ -307,8 +307,8 @@
    "gp": 6
   }
  },
- "last_date": "2026-11-03",
- "updated_from": 53,
+ "last_date": "2026-11-04",
+ "updated_from": 54,
  "espn_team_names": {
   "5267": "Alianza Atletico",
   "18153": "Comerciantes Unidos",
@@ -330,6 +330,6 @@
   "22168": "Los Chankas"
  },
  "applied_on_last_date": [
-  "401886128"
+  "401886148"
  ]
 }

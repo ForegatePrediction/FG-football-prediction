@@ -1,6 +1,6 @@
 {
- "mu": 0.25006,
- "hfa": 0.2052,
+ "mu": 0.24971,
+ "hfa": 0.20592,
  "teams": {
   "Bolton": {
    "atk": 0.25421,
@@ -83,12 +83,12 @@
    "gp": 361
   },
   "Oxford United": {
-   "atk": 0.19797,
-   "dfn": 0.32828,
-   "w": 152,
+   "atk": 0.20871,
+   "dfn": 0.36015,
+   "w": 153,
    "d": 95,
    "l": 129,
-   "gp": 376
+   "gp": 377
   },
   "Chesterfield": {
    "atk": -0.34814,
@@ -419,12 +419,12 @@
    "gp": 152
   },
   "Reading": {
-   "atk": 0.13857,
-   "dfn": 0.15739,
+   "atk": 0.1067,
+   "dfn": 0.14665,
    "w": 59,
    "d": 42,
-   "l": 50,
-   "gp": 151
+   "l": 51,
+   "gp": 152
   },
   "Mansfield Town": {
    "atk": 0.06298,
@@ -563,8 +563,8 @@
    "gp": 8
   }
  },
- "last_date": "2026-11-03",
- "updated_from": 86,
+ "last_date": "2026-11-04",
+ "updated_from": 87,
  "espn_team_names": {
   "3802": "AFC Wimbledon",
   "390": "Milton Keynes Dons",
@@ -592,7 +592,6 @@
   "307": "Plymouth Argyle"
  },
  "applied_on_last_date": [
-  "401880815",
-  "401880835"
+  "401880891"
  ]
 }
