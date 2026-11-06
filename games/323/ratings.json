@@ -1,6 +1,6 @@
 {
- "mu": 0.27852,
- "hfa": 0.11472,
+ "mu": 0.27933,
+ "hfa": 0.11526,
  "teams": {
   "ATK": {
    "atk": 0.11401,
@@ -195,12 +195,12 @@
    "gp": 4
   },
   "Churchill Brothers": {
-   "atk": -0.013,
-   "dfn": -0.11846,
+   "atk": -0.05274,
+   "dfn": -0.13359,
    "w": 1,
    "d": 0,
-   "l": 2,
-   "gp": 3
+   "l": 3,
+   "gp": 4
   },
   "Mumbai City FC": {
    "atk": -0.04311,
@@ -211,20 +211,20 @@
    "gp": 4
   },
   "NorthEast United FC": {
-   "atk": 0.00549,
-   "dfn": 0.09915,
-   "w": 2,
+   "atk": 0.02062,
+   "dfn": 0.13889,
+   "w": 3,
    "d": 2,
    "l": 0,
-   "gp": 4
+   "gp": 5
   },
   "Mohun Bagan Super Giant": {
-   "atk": -0.01615,
-   "dfn": 0.07544,
-   "w": 3,
+   "atk": 0.03174,
+   "dfn": 0.05004,
+   "w": 4,
    "d": 0,
    "l": 1,
-   "gp": 4
+   "gp": 5
   },
   "Punjab FC": {
    "atk": 0.03745,
@@ -235,12 +235,12 @@
    "gp": 4
   },
   "Odisha FC": {
-   "atk": -0.06008,
-   "dfn": 0.03489,
+   "atk": -0.03468,
+   "dfn": -0.013,
    "w": 0,
    "d": 2,
-   "l": 1,
-   "gp": 3
+   "l": 2,
+   "gp": 4
   },
   "East Bengal FC": {
    "atk": 0.1891,
@@ -251,8 +251,8 @@
    "gp": 2
   }
  },
- "updated_from": 944,
- "last_date": "2026-11-01",
+ "updated_from": 946,
+ "last_date": "2026-11-05",
  "espn_team_names": {
   "18851": "Bengaluru FC",
   "131703": "Sporting Club Delhi",
@@ -269,7 +269,7 @@
   "8897": "East Bengal FC"
  },
  "applied_on_last_date": [
-  "401925418",
-  "401925419"
+  "401925416",
+  "401925417"
  ]
 }

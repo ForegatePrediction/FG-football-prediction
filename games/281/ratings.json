@@ -1,6 +1,6 @@
 {
- "mu": 0.2438,
- "hfa": 0.39766,
+ "mu": 0.24444,
+ "hfa": 0.39734,
  "teams": {
   "Alianza Lima": {
    "atk": 0.19071,
@@ -11,12 +11,12 @@
    "gp": 255
   },
   "Sport Boys": {
-   "atk": -0.20472,
-   "dfn": 0.23421,
+   "atk": -0.16171,
+   "dfn": 0.23897,
    "w": 74,
-   "d": 58,
+   "d": 59,
    "l": 111,
-   "gp": 243
+   "gp": 244
   },
   "Carlos A. Mannucci": {
    "atk": -0.19675,
@@ -107,12 +107,12 @@
    "gp": 104
   },
   "Universitario": {
-   "atk": 0.36226,
-   "dfn": 0.60781,
+   "atk": 0.3575,
+   "dfn": 0.5648,
    "w": 139,
-   "d": 64,
+   "d": 65,
    "l": 46,
-   "gp": 249
+   "gp": 250
   },
   "Molinos El Pirata": {
    "atk": -0.3326,
@@ -307,8 +307,8 @@
    "gp": 6
   }
  },
- "last_date": "2026-11-04",
- "updated_from": 54,
+ "last_date": "2026-11-05",
+ "updated_from": 55,
  "espn_team_names": {
   "5267": "Alianza Atletico",
   "18153": "Comerciantes Unidos",
@@ -330,6 +330,6 @@
   "22168": "Los Chankas"
  },
  "applied_on_last_date": [
-  "401886148"
+  "401886151"
  ]
 }
