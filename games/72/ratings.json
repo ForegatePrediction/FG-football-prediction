@@ -1,6 +1,6 @@
 {
- "mu": 0.02655,
- "hfa": 0.33972,
+ "mu": 0.02771,
+ "hfa": 0.3429,
  "teams": {
   "Brasil DE Pelotas": {
    "atk": -0.49484,
@@ -19,12 +19,12 @@
    "gp": 38
   },
   "Operario-PR": {
-   "atk": -0.05545,
-   "dfn": -0.14951,
-   "w": 86,
+   "atk": -0.00772,
+   "dfn": -0.17152,
+   "w": 87,
    "d": 72,
    "l": 96,
-   "gp": 254
+   "gp": 255
   },
   "America Mineiro": {
    "atk": -0.25091,
@@ -403,12 +403,12 @@
    "gp": 27
   },
   "Sport": {
-   "atk": 0.06016,
-   "dfn": -0.03217,
+   "atk": 0.08217,
+   "dfn": -0.0799,
    "w": 4,
    "d": 2,
-   "l": 2,
-   "gp": 8
+   "l": 3,
+   "gp": 9
   },
   "Athletic": {
    "atk": -0.0428,
@@ -435,8 +435,8 @@
    "gp": 8
   }
  },
- "last_date": "2026-11-05",
- "updated_from": 81,
+ "last_date": "2026-11-06",
+ "updated_from": 82,
  "espn_team_names": {
   "9973": "Vila Nova",
   "6154": "America Mineiro",
@@ -460,6 +460,6 @@
   "18187": "Operario-PR"
  },
  "applied_on_last_date": [
-  "401860431"
+  "401860425"
  ]
 }

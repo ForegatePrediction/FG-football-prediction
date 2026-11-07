@@ -1,6 +1,6 @@
 {
- "mu": 0.24444,
- "hfa": 0.39734,
+ "mu": 0.24469,
+ "hfa": 0.40042,
  "teams": {
   "Alianza Lima": {
    "atk": 0.19071,
@@ -147,12 +147,12 @@
    "gp": 159
   },
   "Atletico Grau": {
-   "atk": -0.16902,
-   "dfn": 0.19794,
-   "w": 57,
+   "atk": -0.12289,
+   "dfn": 0.22937,
+   "w": 58,
    "d": 61,
    "l": 68,
-   "gp": 186
+   "gp": 187
   },
   "Cienciano": {
    "atk": 0.26752,
@@ -251,12 +251,12 @@
    "gp": 9
   },
   "Cusco FC": {
-   "atk": 1e-05,
-   "dfn": 0.09278,
+   "atk": -0.03142,
+   "dfn": 0.04665,
    "w": 3,
    "d": 0,
-   "l": 3,
-   "gp": 6
+   "l": 4,
+   "gp": 7
   },
   "Melgar": {
    "atk": 0.05601,
@@ -307,8 +307,8 @@
    "gp": 6
   }
  },
- "last_date": "2026-11-05",
- "updated_from": 55,
+ "last_date": "2026-11-06",
+ "updated_from": 56,
  "espn_team_names": {
   "5267": "Alianza Atletico",
   "18153": "Comerciantes Unidos",
@@ -330,6 +330,6 @@
   "22168": "Los Chankas"
  },
  "applied_on_last_date": [
-  "401886151"
+  "401886145"
  ]
 }

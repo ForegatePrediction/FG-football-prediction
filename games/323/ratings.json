@@ -1,6 +1,6 @@
 {
- "mu": 0.27933,
- "hfa": 0.11526,
+ "mu": 0.27944,
+ "hfa": 0.11443,
  "teams": {
   "ATK": {
    "atk": 0.11401,
@@ -155,12 +155,12 @@
    "gp": 13
   },
   "Bengaluru FC": {
-   "atk": 0.05058,
-   "dfn": 0.03432,
-   "w": 2,
+   "atk": 0.06987,
+   "dfn": 0.04676,
+   "w": 3,
    "d": 1,
    "l": 0,
-   "gp": 3
+   "gp": 4
   },
   "Sporting Club Delhi": {
    "atk": 0.04811,
@@ -171,12 +171,12 @@
    "gp": 4
   },
   "FC GOA": {
-   "atk": -0.01334,
-   "dfn": 0.02461,
+   "atk": -0.02578,
+   "dfn": 0.00532,
    "w": 1,
    "d": 2,
-   "l": 0,
-   "gp": 3
+   "l": 1,
+   "gp": 4
   },
   "Chennaiyin FC": {
    "atk": -0.1272,
@@ -251,8 +251,8 @@
    "gp": 2
   }
  },
- "updated_from": 946,
- "last_date": "2026-11-05",
+ "updated_from": 947,
+ "last_date": "2026-11-06",
  "espn_team_names": {
   "18851": "Bengaluru FC",
   "131703": "Sporting Club Delhi",
@@ -269,7 +269,6 @@
   "8897": "East Bengal FC"
  },
  "applied_on_last_date": [
-  "401925416",
-  "401925417"
+  "401925415"
  ]
 }

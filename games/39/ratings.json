@@ -1,6 +1,6 @@
 {
- "mu": 0.26574,
- "hfa": 0.1577,
+ "mu": 0.26653,
+ "hfa": 0.16067,
  "teams": {
   "Arsenal": {
    "atk": 0.37102,
@@ -147,12 +147,12 @@
    "gp": 541
   },
   "Everton": {
-   "atk": -0.02659,
-   "dfn": 0.33266,
-   "w": 194,
+   "atk": 0.01802,
+   "dfn": 0.33001,
+   "w": 195,
    "d": 152,
    "l": 195,
-   "gp": 541
+   "gp": 542
   },
   "Manchester United": {
    "atk": 0.23546,
@@ -299,16 +299,16 @@
    "gp": 47
   },
   "Coventry": {
-   "atk": -0.02549,
-   "dfn": -0.01714,
+   "atk": -0.02284,
+   "dfn": -0.06175,
    "w": 3,
    "d": 0,
-   "l": 6,
-   "gp": 9
+   "l": 7,
+   "gp": 10
   }
  },
- "last_date": "2026-11-02",
- "updated_from": 50,
+ "last_date": "2026-11-06",
+ "updated_from": 51,
  "espn_team_names": {
   "337": "Brentford",
   "363": "Chelsea",
@@ -332,6 +332,6 @@
   "360": "Manchester United"
  },
  "applied_on_last_date": [
-  "401878762"
+  "401879242"
  ]
 }

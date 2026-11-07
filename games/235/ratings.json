@@ -1,6 +1,6 @@
 {
- "mu": 0.26236,
- "hfa": 0.18473,
+ "mu": 0.26123,
+ "hfa": 0.18052,
  "teams": {
   "Dinamo Moscow": {
    "atk": 0.25662,
@@ -35,12 +35,12 @@
    "gp": 30
   },
   "Lokomotiv Moscow": {
-   "atk": 0.26067,
-   "dfn": -0.00967,
+   "atk": 0.1975,
+   "dfn": -0.00495,
    "w": 15,
    "d": 12,
-   "l": 7,
-   "gp": 34
+   "l": 8,
+   "gp": 35
   },
   "Rubin": {
    "atk": -0.19499,
@@ -307,16 +307,16 @@
    "gp": 4
   },
   "Rubin Kazan": {
-   "atk": -0.12584,
-   "dfn": -0.03687,
-   "w": 1,
+   "atk": -0.13056,
+   "dfn": 0.0263,
+   "w": 2,
    "d": 0,
    "l": 3,
-   "gp": 4
+   "gp": 5
   }
  },
- "last_date": "2026-11-02",
- "updated_from": 36,
+ "last_date": "2026-11-06",
+ "updated_from": 37,
  "espn_team_names": {
   "18285": "Gazovik Orenburg",
   "11336": "Krasnodar",
@@ -336,6 +336,6 @@
   "3851": "Rubin Kazan"
  },
  "applied_on_last_date": [
-  "401879822"
+  "401879812"
  ]
 }

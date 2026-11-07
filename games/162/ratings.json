@@ -1,6 +1,6 @@
 {
- "mu": 0.27652,
- "hfa": 0.25698,
+ "mu": 0.27619,
+ "hfa": 0.25408,
  "teams": {
   "Municipal Liberia": {
    "atk": -0.02579,
@@ -131,20 +131,20 @@
    "gp": 13
   },
   "Saprissa": {
-   "atk": 0.0072,
-   "dfn": 0.12706,
-   "w": 2,
+   "atk": 0.0307,
+   "dfn": 0.17054,
+   "w": 3,
    "d": 1,
    "l": 3,
-   "gp": 6
+   "gp": 7
   },
   "Herediano": {
-   "atk": -0.03545,
-   "dfn": 0.08771,
+   "atk": -0.07893,
+   "dfn": 0.06421,
    "w": 2,
    "d": 1,
-   "l": 3,
-   "gp": 6
+   "l": 4,
+   "gp": 7
   },
   "Alajuelense": {
    "atk": 0.10769,
@@ -179,8 +179,8 @@
    "gp": 7
   }
  },
- "last_date": "2026-11-05",
- "updated_from": 34,
+ "last_date": "2026-11-06",
+ "updated_from": 35,
  "espn_team_names": {
   "7234": "Perez Zeledon",
   "20705": "Sporting San Jose",
@@ -194,8 +194,6 @@
   "7239": "Cartaginés"
  },
  "applied_on_last_date": [
-  "401876825",
-  "401876826",
-  "401876889"
+  "401876827"
  ]
 }

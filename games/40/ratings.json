@@ -1,6 +1,6 @@
 {
- "mu": 0.2538,
- "hfa": 0.24538,
+ "mu": 0.25423,
+ "hfa": 0.2483,
  "teams": {
   "Fulham": {
    "atk": 0.44955,
@@ -451,12 +451,12 @@
    "gp": 7
   },
   "Derby County": {
-   "atk": -0.12839,
-   "dfn": -0.1508,
-   "w": 0,
+   "atk": -0.0846,
+   "dfn": -0.13293,
+   "w": 1,
    "d": 3,
    "l": 4,
-   "gp": 7
+   "gp": 8
   },
   "Birmingham City": {
    "atk": 0.16292,
@@ -467,16 +467,16 @@
    "gp": 7
   },
   "Bolton Wanderers": {
-   "atk": 0.06278,
-   "dfn": -0.06111,
+   "atk": 0.04491,
+   "dfn": -0.1049,
    "w": 3,
    "d": 1,
-   "l": 3,
-   "gp": 7
+   "l": 4,
+   "gp": 8
   }
  },
- "last_date": "2026-11-04",
- "updated_from": 85,
+ "last_date": "2026-11-06",
+ "updated_from": 86,
  "espn_team_names": {
   "333": "Bristol City",
   "395": "Watford",
@@ -504,8 +504,6 @@
   "358": "Bolton Wanderers"
  },
  "applied_on_last_date": [
-  "401880173",
-  "401880175",
-  "401880176"
+  "401880167"
  ]
 }
