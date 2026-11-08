@@ -1,6 +1,6 @@
 {
- "mu": 0.30179,
- "hfa": 0.15448,
+ "mu": 0.30023,
+ "hfa": 0.15222,
  "teams": {
   "Brisbane Roar FC": {
    "atk": -0.02967,
@@ -19,12 +19,12 @@
    "gp": 279
   },
   "Perth Glory FC": {
-   "atk": 0.2253,
-   "dfn": 0.262,
-   "w": 40,
+   "atk": 0.2252,
+   "dfn": 0.26933,
+   "w": 41,
    "d": 17,
    "l": 29,
-   "gp": 86
+   "gp": 87
   },
   "Central Coast Mariners FC": {
    "atk": -0.2363,
@@ -35,12 +35,12 @@
    "gp": 85
   },
   "Wellington Phoenix": {
-   "atk": -0.08544,
-   "dfn": -0.02452,
+   "atk": -0.12547,
+   "dfn": 0.02484,
    "w": 100,
-   "d": 64,
+   "d": 65,
    "l": 108,
-   "gp": 272
+   "gp": 273
   },
   "Melbourne City": {
    "atk": -0.03735,
@@ -131,12 +131,12 @@
    "gp": 166
   },
   "Newcastle Jets": {
-   "atk": 0.18035,
-   "dfn": -0.01685,
+   "atk": 0.17302,
+   "dfn": -0.01675,
    "w": 59,
    "d": 45,
-   "l": 83,
-   "gp": 187
+   "l": 84,
+   "gp": 188
   },
   "Macarthur": {
    "atk": 0.09187,
@@ -155,28 +155,28 @@
    "gp": 57
   },
   "Western Sydney Wanderers FC": {
-   "atk": 0.03662,
-   "dfn": 0.07603,
+   "atk": 0.02431,
+   "dfn": 0.06042,
    "w": 1,
    "d": 2,
-   "l": 0,
-   "gp": 3
+   "l": 1,
+   "gp": 4
   },
   "Auckland FC": {
-   "atk": 0.0171,
-   "dfn": -0.07197,
+   "atk": -0.03226,
+   "dfn": -0.03194,
    "w": 1,
-   "d": 1,
+   "d": 2,
    "l": 1,
-   "gp": 3
+   "gp": 4
   },
   "Melbourne City FC": {
-   "atk": 0.0163,
-   "dfn": -0.00679,
-   "w": 1,
+   "atk": 0.03191,
+   "dfn": 0.00552,
+   "w": 2,
    "d": 1,
    "l": 1,
-   "gp": 3
+   "gp": 4
   },
   "Macarthur FC": {
    "atk": -0.03271,
@@ -195,8 +195,8 @@
    "gp": 2
   }
  },
- "updated_from": 1567,
- "last_date": "2026-11-06",
+ "updated_from": 1570,
+ "last_date": "2026-11-07",
  "espn_team_names": {
   "5327": "Sydney FC",
   "13696": "Western Sydney Wanderers FC",
@@ -212,6 +212,8 @@
   "5321": "Adelaide United FC"
  },
  "applied_on_last_date": [
-  "401892144"
+  "401892141",
+  "401892142",
+  "401892143"
  ]
 }
