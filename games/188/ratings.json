@@ -1,22 +1,22 @@
 {
- "mu": 0.30023,
- "hfa": 0.15222,
+ "mu": 0.30048,
+ "hfa": 0.15059,
  "teams": {
   "Brisbane Roar FC": {
-   "atk": -0.02967,
-   "dfn": -0.51236,
-   "w": 26,
+   "atk": -0.00543,
+   "dfn": -0.46616,
+   "w": 27,
    "d": 21,
    "l": 38,
-   "gp": 85
+   "gp": 86
   },
   "Melbourne Victory": {
-   "atk": 0.01828,
-   "dfn": 0.17698,
+   "atk": 0.03374,
+   "dfn": 0.15528,
    "w": 114,
-   "d": 65,
+   "d": 66,
    "l": 100,
-   "gp": 279
+   "gp": 280
   },
   "Perth Glory FC": {
    "atk": 0.2252,
@@ -179,24 +179,24 @@
    "gp": 4
   },
   "Macarthur FC": {
-   "atk": -0.03271,
-   "dfn": 0.09495,
+   "atk": -0.07891,
+   "dfn": 0.07071,
    "w": 1,
    "d": 2,
-   "l": 0,
-   "gp": 3
+   "l": 1,
+   "gp": 4
   },
   "Adelaide United FC": {
-   "atk": -0.02783,
-   "dfn": -0.07707,
+   "atk": -0.00613,
+   "dfn": -0.09253,
    "w": 0,
-   "d": 0,
+   "d": 1,
    "l": 2,
-   "gp": 2
+   "gp": 3
   }
  },
- "updated_from": 1570,
- "last_date": "2026-11-07",
+ "updated_from": 1572,
+ "last_date": "2026-11-08",
  "espn_team_names": {
   "5327": "Sydney FC",
   "13696": "Western Sydney Wanderers FC",
@@ -212,8 +212,7 @@
   "5321": "Adelaide United FC"
  },
  "applied_on_last_date": [
-  "401892141",
-  "401892142",
-  "401892143"
+  "401892139",
+  "401892140"
  ]
 }
