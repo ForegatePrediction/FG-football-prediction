@@ -1,6 +1,6 @@
 {
- "mu": 0.08995,
- "hfa": 0.33509,
+ "mu": 0.08914,
+ "hfa": 0.33151,
  "teams": {
   "Atletico Nacional": {
    "atk": 0.514,
@@ -91,20 +91,20 @@
    "gp": 283
   },
   "America de Cali": {
-   "atk": 0.18074,
-   "dfn": 0.37834,
+   "atk": 0.14202,
+   "dfn": 0.40028,
    "w": 143,
-   "d": 94,
+   "d": 95,
    "l": 99,
-   "gp": 336
+   "gp": 337
   },
   "Deportivo Cali": {
-   "atk": -0.02489,
-   "dfn": 0.34988,
+   "atk": -0.04683,
+   "dfn": 0.3886,
    "w": 98,
-   "d": 100,
+   "d": 101,
    "l": 103,
-   "gp": 301
+   "gp": 302
   },
   "Bucaramanga": {
    "atk": -0.03224,
@@ -227,12 +227,12 @@
    "gp": 10
   },
   "Alianza FC": {
-   "atk": -0.02444,
-   "dfn": -0.04097,
+   "atk": -0.03946,
+   "dfn": -0.06823,
    "w": 3,
    "d": 1,
-   "l": 4,
-   "gp": 8
+   "l": 5,
+   "gp": 9
   },
   "Independiente Santa Fe": {
    "atk": 0.10404,
@@ -267,12 +267,12 @@
    "gp": 10
   },
   "Llaneros FC": {
-   "atk": -0.04364,
-   "dfn": -0.00537,
-   "w": 3,
+   "atk": -0.01638,
+   "dfn": 0.00965,
+   "w": 4,
    "d": 0,
    "l": 5,
-   "gp": 8
+   "gp": 9
   },
   "Jaguares de Córdoba": {
    "atk": -0.10429,
@@ -283,8 +283,8 @@
    "gp": 10
   }
  },
- "last_date": "2026-11-08",
- "updated_from": 94,
+ "last_date": "2026-11-09",
+ "updated_from": 96,
  "espn_team_names": {
   "6137": "Atlético Bucaramanga",
   "2690": "Independiente Medellin",
@@ -308,8 +308,7 @@
   "10309": "Jaguares de Córdoba"
  },
  "applied_on_last_date": [
-  "401877958",
-  "401878067",
-  "401878070"
+  "401877908",
+  "401878031"
  ]
 }

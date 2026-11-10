@@ -1,6 +1,6 @@
 {
- "mu": 0.26951,
- "hfa": 0.25223,
+ "mu": 0.26925,
+ "hfa": 0.25322,
  "teams": {
   "FC Astana": {
    "atk": 0.42973,
@@ -171,20 +171,20 @@
    "gp": 10
   },
   "CD Malacateco": {
-   "atk": -0.15509,
-   "dfn": 0.08537,
+   "atk": -0.18582,
+   "dfn": 0.07049,
    "w": 3,
    "d": 2,
-   "l": 5,
-   "gp": 10
+   "l": 6,
+   "gp": 11
   },
   "Antigua GFC": {
-   "atk": -0.0283,
-   "dfn": 0.0905,
-   "w": 5,
+   "atk": -0.01342,
+   "dfn": 0.12123,
+   "w": 6,
    "d": 2,
    "l": 4,
-   "gp": 11
+   "gp": 12
   },
   "Suchitepequez": {
    "atk": -0.08472,
@@ -259,8 +259,8 @@
    "gp": 10
   }
  },
- "last_date": "2026-11-08",
- "updated_from": 61,
+ "last_date": "2026-11-09",
+ "updated_from": 62,
  "espn_team_names": {
   "7258": "Municipal",
   "7870": "CD Malacateco",
@@ -276,7 +276,6 @@
   "20036": "Deportivo Mixco"
  },
  "applied_on_last_date": [
-  "401879603",
-  "401879606"
+  "401879604"
  ]
 }
