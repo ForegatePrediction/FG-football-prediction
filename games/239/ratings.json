@@ -1,6 +1,6 @@
 {
- "mu": 0.08914,
- "hfa": 0.33151,
+ "mu": 0.08884,
+ "hfa": 0.33247,
  "teams": {
   "Atletico Nacional": {
    "atk": 0.514,
@@ -243,12 +243,12 @@
    "gp": 10
   },
   "Cúcuta Deportivo": {
-   "atk": -0.0024,
-   "dfn": 0.05219,
+   "atk": -0.03497,
+   "dfn": 0.03784,
    "w": 5,
    "d": 0,
-   "l": 3,
-   "gp": 8
+   "l": 4,
+   "gp": 9
   },
   "Fortaleza CEIF": {
    "atk": -0.09563,
@@ -259,12 +259,12 @@
    "gp": 9
   },
   "Atlético Junior": {
-   "atk": 0.05142,
-   "dfn": 0.00464,
-   "w": 3,
+   "atk": 0.06577,
+   "dfn": 0.03721,
+   "w": 4,
    "d": 4,
    "l": 3,
-   "gp": 10
+   "gp": 11
   },
   "Llaneros FC": {
    "atk": -0.01638,
@@ -283,8 +283,8 @@
    "gp": 10
   }
  },
- "last_date": "2026-11-09",
- "updated_from": 96,
+ "last_date": "2026-11-10",
+ "updated_from": 97,
  "espn_team_names": {
   "6137": "Atlético Bucaramanga",
   "2690": "Independiente Medellin",
@@ -308,7 +308,6 @@
   "10309": "Jaguares de Córdoba"
  },
  "applied_on_last_date": [
-  "401877908",
-  "401878031"
+  "401877901"
  ]
 }
