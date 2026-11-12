@@ -1,6 +1,6 @@
 {
- "mu": 0.19304,
- "hfa": 0.2388,
+ "mu": 0.19247,
+ "hfa": 0.23922,
  "teams": {
   "United Arab Emirates": {
    "atk": 0.01759,
@@ -515,12 +515,12 @@
    "gp": 43
   },
   "Vietnam": {
-   "atk": -0.15689,
-   "dfn": -0.06196,
-   "w": 8,
+   "atk": -0.15055,
+   "dfn": -0.02125,
+   "w": 9,
    "d": 2,
    "l": 6,
-   "gp": 16
+   "gp": 17
   },
   "Guinea": {
    "atk": -0.02092,
@@ -1467,12 +1467,12 @@
    "gp": 2
   },
   "Chinese Taipei": {
-   "atk": 0.05029,
-   "dfn": -0.3066,
+   "atk": 0.00958,
+   "dfn": -0.31294,
    "w": 3,
    "d": 2,
-   "l": 3,
-   "gp": 8
+   "l": 4,
+   "gp": 9
   },
   "Saint Martin": {
    "atk": -0.10088,
@@ -4387,8 +4387,8 @@
    "gp": 1
   }
  },
- "updated_from": 3071,
- "last_date": "2026-10-07",
+ "updated_from": 3072,
+ "last_date": "2026-11-11",
  "espn_team_names": {
   "205": "Brazil",
   "477": "Croatia",
@@ -4557,10 +4557,11 @@
   "6725": "Namibia",
   "656": "Cameroon",
   "2851": "Rwanda",
-  "8937": "Niger"
+  "8937": "Niger",
+  "7349": "Vietnam",
+  "14561": "Chinese Taipei"
  },
  "applied_on_last_date": [
-  "401903298",
-  "401905188"
+  "401930244"
  ]
 }

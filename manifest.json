@@ -3,8 +3,8 @@
   "engine": "football",
   "channel": "github",
   "kind": "refresh",
-  "generation": "20261111T152507Z-5940e81fff84",
-  "created_at": "2026-11-11T15:25:07.078300+00:00",
+  "generation": "20261112T160233Z-647b4d77f8d7",
+  "created_at": "2026-11-12T16:02:33.685426+00:00",
   "code_revision": "3844199f12c5cb6a04416b64d1b030ff47dc93bf",
   "files": {
     "games/103/ratings.json": {
@@ -572,12 +572,12 @@
       "semantic_sha256": "332997b4a44f844bc9f33a65a1f344ce63fa2d2acb2362e472b066dd55aee98e"
     },
     "games/72/ratings.json": {
-      "sha256": "40b88dac755410569d5adbcf8c76c69ae4928b49c1bd2b388e4d18cf18ad6314",
-      "bytes": 6575,
+      "sha256": "04d1a41751caaab983759c05ee6448bbdf6c224ff9924d691c367de3be39de10",
+      "bytes": 6532,
       "teams": 54,
-      "matches": 90,
-      "latest_match": "2026-11-08",
-      "semantic_sha256": "3261541f2e286de928b6c3ce637bb65a9942e6f6183a1878b4333893797395ce"
+      "matches": 91,
+      "latest_match": "2026-11-11",
+      "semantic_sha256": "12094258a8c1b0d05561ade1eb32b03158f44482f7064a336bb5095d46a99e0e"
     },
     "games/73/ratings.json": {
       "sha256": "48133c3c026ac26cd15509a2dbe495829481ece46d3eb6c64088a332601e4e1b",
@@ -664,23 +664,23 @@
       "semantic_sha256": "4b2f9c0004a13e13960d972faeadd058d2f6f56c15e9139d1002f165754a983c"
     },
     "games/_clubpool/ratings.json": {
-      "sha256": "02a449eb1b50a72687ef12b566b982c0b01c6b4092b26374f8fd9d6504f9a1ab",
-      "bytes": 524644,
-      "teams": 4352,
-      "matches": 126216,
-      "latest_match": "2026-11-10",
-      "semantic_sha256": "d6f5fc17cb3d97db8e7b1dfdecab530e5e7ada61247028b2edf50894e6f6fe6e"
+      "sha256": "d2de26362b62c43ed5a996c40e155aa33548b18aa2188d712995c84007612d89",
+      "bytes": 524800,
+      "teams": 4354,
+      "matches": 126221,
+      "latest_match": "2026-11-11",
+      "semantic_sha256": "c3ebdfacb2cad43607e5157f889596ce0b11873876e9a28c4d864196c965f3f1"
     },
     "games/_natpool/ratings.json": {
-      "sha256": "fbdf67915b2250f972e0485de15c24d9b2485770db75d89d5169e2105d9bb8d2",
-      "bytes": 62666,
+      "sha256": "93234924bb8596dddbf721c0a70ecb38958ac96ac585c542cc62ef784a1418b4",
+      "bytes": 62703,
       "teams": 548,
-      "matches": 3071,
-      "latest_match": "2026-10-07",
-      "semantic_sha256": "0d202397c51189bb8917447300fefa754f88f2c7914b204a68a0bc979cd63e9b"
+      "matches": 3072,
+      "latest_match": "2026-11-11",
+      "semantic_sha256": "7aaf4808cfc5113646301adf94ce847e1de58d83b6c90acf122b599be9c60f28"
     },
     "refresh-state.json": {
-      "sha256": "ef7fa28965d70b7df105f6296c149af921bb934e753e2ca93a87ae1efa5e8abd",
+      "sha256": "b4d09d55d6b48496a764904c326e5055bece7f55a7d3f5d95a541b33547d8b43",
       "bytes": 16608
     }
   }
