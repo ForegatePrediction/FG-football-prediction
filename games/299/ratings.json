@@ -1,6 +1,6 @@
 {
- "mu": 0.27436,
- "hfa": 0.21155,
+ "mu": 0.2734,
+ "hfa": 0.20804,
  "teams": {
   "Caracas FC": {
    "atk": -0.09554,
@@ -59,12 +59,12 @@
    "gp": 141
   },
   "Monagas SC": {
-   "atk": -0.08638,
-   "dfn": -0.05398,
-   "w": 40,
+   "atk": -0.09168,
+   "dfn": -0.00139,
+   "w": 41,
    "d": 27,
    "l": 56,
-   "gp": 123
+   "gp": 124
   },
   "Deportivo Tachira FC": {
    "atk": 0.17858,
@@ -163,12 +163,12 @@
    "gp": 8
   },
   "Academia Puerto Cabello": {
-   "atk": 0.02135,
-   "dfn": 0.02539,
+   "atk": -0.03124,
+   "dfn": 0.03069,
    "w": 4,
    "d": 1,
-   "l": 3,
-   "gp": 8
+   "l": 4,
+   "gp": 9
   },
   "Portuguesa": {
    "atk": -0.11272,
@@ -211,8 +211,8 @@
    "gp": 3
   }
  },
- "last_date": "2026-11-08",
- "updated_from": 41,
+ "last_date": "2026-11-12",
+ "updated_from": 42,
  "espn_team_names": {
   "21850": "Rayo Zuliano",
   "6041": "Monagas SC",
@@ -230,7 +230,6 @@
   "5268": "Trujillanos"
  },
  "applied_on_last_date": [
-  "401930965",
-  "401930991"
+  "401930994"
  ]
 }

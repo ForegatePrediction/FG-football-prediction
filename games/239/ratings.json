@@ -1,6 +1,6 @@
 {
- "mu": 0.08884,
- "hfa": 0.33247,
+ "mu": 0.08815,
+ "hfa": 0.33007,
  "teams": {
   "Atletico Nacional": {
    "atk": 0.514,
@@ -123,12 +123,12 @@
    "gp": 313
   },
   "Deportivo Pasto": {
-   "atk": -0.20001,
-   "dfn": -0.01681,
+   "atk": -0.23607,
+   "dfn": -0.0112,
    "w": 98,
    "d": 90,
-   "l": 113,
-   "gp": 301
+   "l": 114,
+   "gp": 302
   },
   "Envigado": {
    "atk": -0.34785,
@@ -259,12 +259,12 @@
    "gp": 9
   },
   "Atlético Junior": {
-   "atk": 0.06577,
-   "dfn": 0.03721,
-   "w": 4,
+   "atk": 0.06016,
+   "dfn": 0.07327,
+   "w": 5,
    "d": 4,
    "l": 3,
-   "gp": 11
+   "gp": 12
   },
   "Llaneros FC": {
    "atk": -0.01638,
@@ -283,8 +283,8 @@
    "gp": 10
   }
  },
- "last_date": "2026-11-10",
- "updated_from": 97,
+ "last_date": "2026-11-12",
+ "updated_from": 98,
  "espn_team_names": {
   "6137": "Atlético Bucaramanga",
   "2690": "Independiente Medellin",
@@ -308,6 +308,6 @@
   "10309": "Jaguares de Córdoba"
  },
  "applied_on_last_date": [
-  "401877901"
+  "401878034"
  ]
 }
