@@ -1,6 +1,6 @@
 {
- "mu": 0.26373,
- "hfa": 0.1571,
+ "mu": 0.26454,
+ "hfa": 0.15884,
  "teams": {
   "Cerro Largo": {
    "atk": -0.26536,
@@ -35,12 +35,12 @@
    "gp": 101
   },
   "Racing Montevideo": {
-   "atk": -0.01975,
-   "dfn": 0.34901,
+   "atk": 0.00293,
+   "dfn": 0.32284,
    "w": 38,
-   "d": 32,
+   "d": 33,
    "l": 31,
-   "gp": 101
+   "gp": 102
   },
   "Boston River": {
    "atk": -0.20038,
@@ -211,16 +211,16 @@
    "gp": 7
   },
   "Montevideo City Torque": {
-   "atk": 0.04836,
-   "dfn": 0.02562,
+   "atk": 0.07453,
+   "dfn": 0.00294,
    "w": 4,
-   "d": 1,
+   "d": 2,
    "l": 3,
-   "gp": 8
+   "gp": 9
   }
  },
- "last_date": "2026-11-12",
- "updated_from": 58,
+ "last_date": "2026-11-13",
+ "updated_from": 59,
  "espn_team_names": {
   "9999": "Boston River",
   "6866": "Progreso",
@@ -240,6 +240,6 @@
   "19002": "Montevideo City Torque"
  },
  "applied_on_last_date": [
-  "401933238"
+  "401933237"
  ]
 }
