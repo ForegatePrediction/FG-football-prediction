@@ -1,6 +1,6 @@
 {
- "mu": 0.24081,
- "hfa": 0.39095,
+ "mu": 0.24326,
+ "hfa": 0.39538,
  "teams": {
   "Alianza Lima": {
    "atk": 0.17775,
@@ -11,12 +11,12 @@
    "gp": 256
   },
   "Sport Boys": {
-   "atk": -0.21094,
-   "dfn": 0.26885,
+   "atk": -0.14933,
+   "dfn": 0.2211,
    "w": 74,
-   "d": 60,
+   "d": 61,
    "l": 111,
-   "gp": 245
+   "gp": 246
   },
   "Carlos A. Mannucci": {
    "atk": -0.19675,
@@ -203,20 +203,20 @@
    "gp": 158
   },
   "Deportivo Garcilaso": {
-   "atk": 0.19636,
-   "dfn": 0.32707,
+   "atk": 0.21548,
+   "dfn": 0.30833,
    "w": 47,
-   "d": 32,
+   "d": 33,
    "l": 42,
-   "gp": 121
+   "gp": 122
   },
   "Comerciantes Unidos": {
-   "atk": -0.02052,
-   "dfn": 0.08504,
+   "atk": 0.02723,
+   "dfn": 0.02343,
    "w": 20,
-   "d": 27,
+   "d": 28,
    "l": 40,
-   "gp": 87
+   "gp": 88
   },
   "Club Deportivo Los Chankas": {
    "atk": 0.00945,
@@ -275,12 +275,12 @@
    "gp": 7
   },
   "Juan Pablo II": {
-   "atk": 0.00906,
-   "dfn": 0.12948,
+   "atk": 0.0278,
+   "dfn": 0.11036,
    "w": 3,
-   "d": 1,
+   "d": 2,
    "l": 3,
-   "gp": 7
+   "gp": 8
   },
   "Deportivo Moquegua": {
    "atk": -0.16542,
@@ -307,8 +307,8 @@
    "gp": 7
   }
  },
- "last_date": "2026-11-09",
- "updated_from": 64,
+ "last_date": "2026-11-15",
+ "updated_from": 66,
  "espn_team_names": {
   "5267": "Alianza Atletico",
   "18153": "Comerciantes Unidos",
@@ -330,6 +330,7 @@
   "22168": "Los Chankas"
  },
  "applied_on_last_date": [
-  "401886140"
+  "401886113",
+  "401886137"
  ]
 }
