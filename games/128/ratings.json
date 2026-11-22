@@ -1,6 +1,6 @@
 {
- "mu": 0.21202,
- "hfa": 0.26488,
+ "mu": 0.21179,
+ "hfa": 0.26181,
  "teams": {
   "Sarmiento Junin": {
    "atk": -0.21063,
@@ -91,12 +91,12 @@
    "gp": 316
   },
   "Defensa Y Justicia": {
-   "atk": 0.01571,
-   "dfn": 0.06236,
+   "atk": -0.02213,
+   "dfn": 0.0657,
    "w": 125,
    "d": 93,
-   "l": 92,
-   "gp": 310
+   "l": 93,
+   "gp": 311
   },
   "San Lorenzo": {
    "atk": -0.37961,
@@ -123,12 +123,12 @@
    "gp": 202
   },
   "Independiente": {
-   "atk": 0.02268,
-   "dfn": 0.27222,
-   "w": 118,
+   "atk": 0.05831,
+   "dfn": 0.28041,
+   "w": 119,
    "d": 104,
    "l": 93,
-   "gp": 315
+   "gp": 316
   },
   "Lanus": {
    "atk": -0.08009,
@@ -243,12 +243,12 @@
    "gp": 195
   },
   "Argentinos JRS": {
-   "atk": 0.04002,
-   "dfn": 0.44181,
+   "atk": 0.03183,
+   "dfn": 0.40618,
    "w": 117,
    "d": 76,
-   "l": 90,
-   "gp": 283
+   "l": 91,
+   "gp": 284
   },
   "Chacarita Juniors": {
    "atk": -0.19409,
@@ -283,12 +283,12 @@
    "gp": 197
   },
   "Barracas Central": {
-   "atk": -0.04397,
-   "dfn": 0.26049,
-   "w": 50,
+   "atk": -0.04731,
+   "dfn": 0.29833,
+   "w": 51,
    "d": 55,
    "l": 51,
-   "gp": 156
+   "gp": 157
   },
   "Instituto Cordoba": {
    "atk": 0.1268,
@@ -331,8 +331,8 @@
    "gp": 31
   }
  },
- "last_date": "2026-11-08",
- "updated_from": 105,
+ "last_date": "2026-11-21",
+ "updated_from": 107,
  "espn_team_names": {
   "11989": "Central Cordoba de Santiago",
   "8950": "Defensa Y Justicia",
@@ -366,7 +366,7 @@
   "8": "Estudiantes L.P."
  },
  "applied_on_last_date": [
-  "401841664",
-  "401841668"
+  "401933755",
+  "401933758"
  ]
 }

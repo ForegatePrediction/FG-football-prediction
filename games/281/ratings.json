@@ -1,14 +1,14 @@
 {
- "mu": 0.24636,
- "hfa": 0.40255,
+ "mu": 0.24711,
+ "hfa": 0.40685,
  "teams": {
   "Alianza Lima": {
-   "atk": 0.17775,
-   "dfn": 0.60933,
-   "w": 140,
+   "atk": 0.24224,
+   "dfn": 0.62899,
+   "w": 141,
    "d": 59,
    "l": 57,
-   "gp": 256
+   "gp": 257
   },
   "Sport Boys": {
    "atk": -0.14933,
@@ -235,12 +235,12 @@
    "gp": 47
   },
   "FC Cajamarca": {
-   "atk": -0.05966,
-   "dfn": -0.22083,
+   "atk": -0.07932,
+   "dfn": -0.28532,
    "w": 4,
    "d": 4,
-   "l": 9,
-   "gp": 17
+   "l": 10,
+   "gp": 18
   },
   "UCV Moquegua": {
    "atk": -0.11833,
@@ -307,8 +307,8 @@
    "gp": 8
   }
  },
- "last_date": "2026-11-18",
- "updated_from": 70,
+ "last_date": "2026-11-21",
+ "updated_from": 71,
  "espn_team_names": {
   "5267": "Alianza Atletico",
   "18153": "Comerciantes Unidos",
@@ -330,6 +330,6 @@
   "22168": "Los Chankas"
  },
  "applied_on_last_date": [
-  "401886138"
+  "401886135"
  ]
 }

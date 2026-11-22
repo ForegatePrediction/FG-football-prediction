@@ -1,14 +1,14 @@
 {
- "mu": 0.26181,
- "hfa": 0.25742,
+ "mu": 0.26113,
+ "hfa": 0.2571,
  "teams": {
   "Deportivo Cuenca": {
-   "atk": -0.1986,
-   "dfn": 0.2207,
+   "atk": -0.2294,
+   "dfn": 0.19186,
    "w": 46,
    "d": 34,
-   "l": 54,
-   "gp": 134
+   "l": 55,
+   "gp": 135
   },
   "LDU de Quito": {
    "atk": 0.00518,
@@ -75,20 +75,20 @@
    "gp": 30
   },
   "Barcelona SC": {
-   "atk": -0.01937,
-   "dfn": 0.3654,
-   "w": 64,
+   "atk": -0.02473,
+   "dfn": 0.3991,
+   "w": 65,
    "d": 37,
    "l": 33,
-   "gp": 134
+   "gp": 135
   },
   "Tecnico Universitario": {
-   "atk": -0.26059,
-   "dfn": 0.03688,
-   "w": 37,
+   "atk": -0.23175,
+   "dfn": 0.06768,
+   "w": 38,
    "d": 31,
    "l": 60,
-   "gp": 128
+   "gp": 129
   },
   "Universidad Catolica": {
    "atk": 0.27625,
@@ -211,12 +211,12 @@
    "gp": 6
   },
   "Universidad Católica (Quito)": {
-   "atk": -0.03951,
-   "dfn": 0.07796,
+   "atk": -0.07321,
+   "dfn": 0.08332,
    "w": 0,
    "d": 3,
-   "l": 3,
-   "gp": 6
+   "l": 4,
+   "gp": 7
   },
   "Orense": {
    "atk": -0.03648,
@@ -227,8 +227,8 @@
    "gp": 6
   }
  },
- "last_date": "2026-11-20",
- "updated_from": 48,
+ "last_date": "2026-11-21",
+ "updated_from": 50,
  "espn_team_names": {
   "6017": "Aucas",
   "18439": "Macara",
@@ -248,6 +248,7 @@
   "2686": "Barcelona SC"
  },
  "applied_on_last_date": [
-  "401921320"
+  "401921326",
+  "401921364"
  ]
 }
