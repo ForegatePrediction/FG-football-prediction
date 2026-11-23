@@ -1,6 +1,6 @@
 {
- "mu": 0.29811,
- "hfa": 0.15049,
+ "mu": 0.29836,
+ "hfa": 0.14992,
  "teams": {
   "Brisbane Roar FC": {
    "atk": -0.0362,
@@ -35,12 +35,12 @@
    "gp": 86
   },
   "Wellington Phoenix": {
-   "atk": -0.12547,
-   "dfn": 0.02484,
+   "atk": -0.13408,
+   "dfn": 0.00128,
    "w": 100,
    "d": 65,
-   "l": 108,
-   "gp": 273
+   "l": 109,
+   "gp": 274
   },
   "Melbourne City": {
    "atk": -0.03735,
@@ -179,12 +179,12 @@
    "gp": 4
   },
   "Macarthur FC": {
-   "atk": -0.07891,
-   "dfn": 0.07071,
-   "w": 1,
+   "atk": -0.05535,
+   "dfn": 0.07932,
+   "w": 2,
    "d": 2,
    "l": 1,
-   "gp": 4
+   "gp": 5
   },
   "Adelaide United FC": {
    "atk": 0.01596,
@@ -195,8 +195,8 @@
    "gp": 4
   }
  },
- "updated_from": 1576,
- "last_date": "2026-11-21",
+ "updated_from": 1577,
+ "last_date": "2026-11-22",
  "espn_team_names": {
   "5327": "Sydney FC",
   "13696": "Western Sydney Wanderers FC",
@@ -212,8 +212,6 @@
   "5321": "Adelaide United FC"
  },
  "applied_on_last_date": [
-  "401892135",
-  "401892136",
-  "401892137"
+  "401892134"
  ]
 }

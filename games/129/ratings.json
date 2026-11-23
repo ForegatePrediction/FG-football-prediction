@@ -1,6 +1,6 @@
 {
- "mu": 0.14258,
- "hfa": 0.35865,
+ "mu": 0.1417,
+ "hfa": 0.35825,
  "teams": {
   "All Boys": {
    "atk": -0.46983,
@@ -211,12 +211,12 @@
    "gp": 146
   },
   "Deportivo Madryn": {
-   "atk": 0.19003,
-   "dfn": 0.36339,
+   "atk": 0.14352,
+   "dfn": 0.36942,
    "w": 62,
    "d": 52,
-   "l": 36,
-   "gp": 150
+   "l": 37,
+   "gp": 151
   },
   "Chacarita Juniors": {
    "atk": -0.23907,
@@ -435,12 +435,12 @@
    "gp": 8
   },
   "Gimnasia y Esgrima (Jujuy)": {
-   "atk": 0.0453,
-   "dfn": -0.1059,
-   "w": 2,
+   "atk": 0.03927,
+   "dfn": -0.05939,
+   "w": 3,
    "d": 3,
    "l": 3,
-   "gp": 8
+   "gp": 9
   },
   "Güemes": {
    "atk": -0.08,
@@ -459,8 +459,8 @@
    "gp": 7
   }
  },
- "last_date": "2026-11-21",
- "updated_from": 135,
+ "last_date": "2026-11-22",
+ "updated_from": 136,
  "espn_team_names": {
   "10145": "Acassuso",
   "11990": "Mitre (Santiago del Estero)",
@@ -500,7 +500,6 @@
   "10374": "Patronato"
  },
  "applied_on_last_date": [
-  "401933197",
-  "401933215"
+  "401933196"
  ]
 }
