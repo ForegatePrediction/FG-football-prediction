@@ -1,6 +1,6 @@
 {
- "mu": 0.21343,
- "hfa": 0.26721,
+ "mu": 0.21384,
+ "hfa": 0.26861,
  "teams": {
   "Sarmiento Junin": {
    "atk": -0.21063,
@@ -59,12 +59,12 @@
    "gp": 281
   },
   "Huracan": {
-   "atk": -0.20615,
-   "dfn": 0.34647,
+   "atk": -0.20252,
+   "dfn": 0.32542,
    "w": 108,
    "d": 104,
-   "l": 101,
-   "gp": 313
+   "l": 102,
+   "gp": 314
   },
   "Racing Club": {
    "atk": -0.03119,
@@ -291,12 +291,12 @@
    "gp": 157
   },
   "Instituto Cordoba": {
-   "atk": 0.1268,
-   "dfn": 0.13636,
-   "w": 41,
+   "atk": 0.14785,
+   "dfn": 0.13273,
+   "w": 42,
    "d": 31,
    "l": 46,
-   "gp": 118
+   "gp": 119
   },
   "Deportivo Riestra": {
    "atk": -0.42437,
@@ -331,8 +331,8 @@
    "gp": 31
   }
  },
- "last_date": "2026-11-22",
- "updated_from": 109,
+ "last_date": "2026-11-23",
+ "updated_from": 110,
  "espn_team_names": {
   "11989": "Central Cordoba de Santiago",
   "8950": "Defensa Y Justicia",
@@ -366,7 +366,6 @@
   "8": "Estudiantes L.P."
  },
  "applied_on_last_date": [
-  "401933759",
-  "401933761"
+  "401933762"
  ]
 }

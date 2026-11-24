@@ -1,6 +1,6 @@
 {
- "mu": 0.26677,
- "hfa": 0.25914,
+ "mu": 0.26701,
+ "hfa": 0.2606,
  "teams": {
   "FC Astana": {
    "atk": 0.42973,
@@ -211,20 +211,20 @@
    "gp": 12
   },
   "Aurora FC": {
-   "atk": -0.0095,
-   "dfn": 0.05316,
+   "atk": -0.01688,
+   "dfn": 0.03123,
    "w": 5,
    "d": 1,
-   "l": 4,
-   "gp": 10
-  },
-  "Marquense": {
-   "atk": -0.23442,
-   "dfn": 0.0372,
-   "w": 3,
-   "d": 3,
    "l": 5,
    "gp": 11
+  },
+  "Marquense": {
+   "atk": -0.21249,
+   "dfn": 0.04458,
+   "w": 4,
+   "d": 3,
+   "l": 5,
+   "gp": 12
   },
   "Deportivo San Pedro": {
    "atk": -0.12767,
@@ -259,8 +259,8 @@
    "gp": 12
   }
  },
- "last_date": "2026-11-22",
- "updated_from": 73,
+ "last_date": "2026-11-23",
+ "updated_from": 74,
  "espn_team_names": {
   "7258": "Municipal",
   "7870": "CD Malacateco",
@@ -276,8 +276,6 @@
   "20036": "Deportivo Mixco"
  },
  "applied_on_last_date": [
-  "401879615",
-  "401879616",
-  "401879642"
+  "401879614"
  ]
 }
