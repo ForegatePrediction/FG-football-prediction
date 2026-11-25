@@ -1,6 +1,6 @@
 {
- "mu": 0.29872,
- "hfa": 0.25543,
+ "mu": 0.29984,
+ "hfa": 0.25831,
  "teams": {
   "Nashville SC": {
    "atk": 0.1084,
@@ -43,12 +43,12 @@
    "gp": 137
   },
   "St. Louis City": {
-   "atk": 0.09757,
-   "dfn": 0.07835,
-   "w": 48,
+   "atk": 0.1408,
+   "dfn": 0.05435,
+   "w": 49,
    "d": 34,
    "l": 55,
-   "gp": 137
+   "gp": 138
   },
   "Charlotte": {
    "atk": 0.22995,
@@ -211,12 +211,12 @@
    "gp": 138
   },
   "Los Angeles FC": {
-   "atk": -0.03808,
-   "dfn": 0.20766,
+   "atk": -0.01408,
+   "dfn": 0.16443,
    "w": 70,
    "d": 37,
-   "l": 39,
-   "gp": 146
+   "l": 40,
+   "gp": 147
   },
   "Chicago Fire": {
    "atk": 0.20614,
@@ -243,8 +243,8 @@
    "gp": 72
   }
  },
- "last_date": "2026-11-23",
- "updated_from": 145,
+ "last_date": "2026-11-24",
+ "updated_from": 146,
  "espn_team_names": {
   "17606": "New York City FC",
   "190": "New York Red Bulls",
@@ -278,6 +278,6 @@
   "22529": "San Diego"
  },
  "applied_on_last_date": [
-  "401933729"
+  "401933728"
  ]
 }

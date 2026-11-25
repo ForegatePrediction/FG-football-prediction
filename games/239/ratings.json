@@ -1,6 +1,6 @@
 {
- "mu": 0.0827,
- "hfa": 0.31562,
+ "mu": 0.08399,
+ "hfa": 0.32052,
  "teams": {
   "Atletico Nacional": {
    "atk": 0.44512,
@@ -139,12 +139,12 @@
    "gp": 265
   },
   "Millonarios": {
-   "atk": 0.1407,
-   "dfn": 0.3677,
-   "w": 160,
+   "atk": 0.21416,
+   "dfn": 0.3639,
+   "w": 161,
    "d": 94,
    "l": 83,
-   "gp": 337
+   "gp": 338
   },
   "Junior": {
    "atk": 0.21018,
@@ -211,12 +211,12 @@
    "gp": 45
   },
   "Atlético Bucaramanga": {
-   "atk": 0.14943,
-   "dfn": 0.10001,
+   "atk": 0.15323,
+   "dfn": 0.02655,
    "w": 6,
    "d": 5,
-   "l": 2,
-   "gp": 13
+   "l": 3,
+   "gp": 14
   },
   "Boyacá Chicó FC": {
    "atk": -0.14394,
@@ -283,8 +283,8 @@
    "gp": 11
   }
  },
- "last_date": "2026-11-22",
- "updated_from": 111,
+ "last_date": "2026-11-24",
+ "updated_from": 112,
  "espn_team_names": {
   "6137": "Atlético Bucaramanga",
   "2690": "Independiente Medellin",
@@ -308,6 +308,6 @@
   "10309": "Jaguares de Córdoba"
  },
  "applied_on_last_date": [
-  "401934689"
+  "401934688"
  ]
 }
