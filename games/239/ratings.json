@@ -1,6 +1,6 @@
 {
- "mu": 0.08399,
- "hfa": 0.32052,
+ "mu": 0.08502,
+ "hfa": 0.32566,
  "teams": {
   "Atletico Nacional": {
    "atk": 0.44512,
@@ -11,12 +11,12 @@
    "gp": 342
   },
   "Once Caldas": {
-   "atk": -0.0934,
-   "dfn": 0.31768,
+   "atk": -0.11783,
+   "dfn": 0.26358,
    "w": 96,
    "d": 102,
-   "l": 97,
-   "gp": 295
+   "l": 98,
+   "gp": 296
   },
   "Cucuta": {
    "atk": -0.1445,
@@ -91,20 +91,20 @@
    "gp": 283
   },
   "America de Cali": {
-   "atk": 0.18532,
-   "dfn": 0.3984,
-   "w": 144,
+   "atk": 0.20834,
+   "dfn": 0.38923,
+   "w": 145,
    "d": 96,
    "l": 99,
-   "gp": 339
+   "gp": 340
   },
   "Deportivo Cali": {
-   "atk": -0.05033,
-   "dfn": 0.38055,
+   "atk": -0.04116,
+   "dfn": 0.35753,
    "w": 98,
    "d": 103,
-   "l": 103,
-   "gp": 304
+   "l": 104,
+   "gp": 305
   },
   "Bucaramanga": {
    "atk": -0.03224,
@@ -235,12 +235,12 @@
    "gp": 10
   },
   "Independiente Santa Fe": {
-   "atk": 0.09053,
-   "dfn": 0.19651,
-   "w": 7,
+   "atk": 0.14463,
+   "dfn": 0.22094,
+   "w": 8,
    "d": 0,
    "l": 5,
-   "gp": 12
+   "gp": 13
   },
   "Cúcuta Deportivo": {
    "atk": -0.02687,
@@ -283,8 +283,8 @@
    "gp": 11
   }
  },
- "last_date": "2026-11-24",
- "updated_from": 112,
+ "last_date": "2026-11-25",
+ "updated_from": 114,
  "espn_team_names": {
   "6137": "Atlético Bucaramanga",
   "2690": "Independiente Medellin",
@@ -308,6 +308,7 @@
   "10309": "Jaguares de Córdoba"
  },
  "applied_on_last_date": [
-  "401934688"
+  "401934687",
+  "401934706"
  ]
 }

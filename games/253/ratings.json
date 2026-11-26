@@ -1,6 +1,6 @@
 {
- "mu": 0.29984,
- "hfa": 0.25831,
+ "mu": 0.30007,
+ "hfa": 0.25942,
  "teams": {
   "Nashville SC": {
    "atk": 0.1084,
@@ -27,12 +27,12 @@
    "gp": 142
   },
   "San Jose Earthquakes": {
-   "atk": 0.02184,
-   "dfn": -0.0829,
-   "w": 41,
+   "atk": 0.03852,
+   "dfn": -0.07989,
+   "w": 42,
    "d": 35,
    "l": 60,
-   "gp": 136
+   "gp": 137
   },
   "Austin": {
    "atk": -0.27141,
@@ -91,12 +91,12 @@
    "gp": 146
   },
   "Houston Dynamo": {
-   "atk": -0.28723,
-   "dfn": 0.21261,
+   "atk": -0.29024,
+   "dfn": 0.19593,
    "w": 54,
    "d": 37,
-   "l": 48,
-   "gp": 139
+   "l": 49,
+   "gp": 140
   },
   "FC Dallas": {
    "atk": 0.11958,
@@ -243,8 +243,8 @@
    "gp": 72
   }
  },
- "last_date": "2026-11-24",
- "updated_from": 146,
+ "last_date": "2026-11-25",
+ "updated_from": 147,
  "espn_team_names": {
   "17606": "New York City FC",
   "190": "New York Red Bulls",
@@ -278,6 +278,6 @@
   "22529": "San Diego"
  },
  "applied_on_last_date": [
-  "401933728"
+  "401933738"
  ]
 }
