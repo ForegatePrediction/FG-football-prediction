@@ -1,6 +1,6 @@
 {
- "mu": 0.21384,
- "hfa": 0.26861,
+ "mu": 0.2135,
+ "hfa": 0.26879,
  "teams": {
   "Sarmiento Junin": {
    "atk": -0.21063,
@@ -139,12 +139,12 @@
    "gp": 313
   },
   "Boca Juniors": {
-   "atk": 0.27654,
-   "dfn": 0.57386,
-   "w": 173,
+   "atk": 0.27926,
+   "dfn": 0.59689,
+   "w": 174,
    "d": 84,
    "l": 61,
-   "gp": 318
+   "gp": 319
   },
   "Quilmes": {
    "atk": -0.43364,
@@ -307,12 +307,12 @@
    "gp": 89
   },
   "Independ. Rivadavia": {
-   "atk": 0.09568,
-   "dfn": 0.11216,
+   "atk": 0.07265,
+   "dfn": 0.10944,
    "w": 35,
    "d": 30,
-   "l": 26,
-   "gp": 91
+   "l": 27,
+   "gp": 92
   },
   "Gimnasia M.": {
    "atk": -0.10062,
@@ -331,8 +331,8 @@
    "gp": 31
   }
  },
- "last_date": "2026-11-23",
- "updated_from": 110,
+ "last_date": "2026-11-26",
+ "updated_from": 111,
  "espn_team_names": {
   "11989": "Central Cordoba de Santiago",
   "8950": "Defensa Y Justicia",
@@ -366,6 +366,6 @@
   "8": "Estudiantes L.P."
  },
  "applied_on_last_date": [
-  "401933762"
+  "401933757"
  ]
 }

@@ -1,6 +1,6 @@
 {
- "mu": 0.25121,
- "hfa": 0.21011,
+ "mu": 0.2522,
+ "hfa": 0.21129,
  "teams": {
   "Bolton": {
    "atk": 0.25421,
@@ -531,12 +531,12 @@
    "gp": 8
   },
   "Doncaster Rovers": {
-   "atk": -0.00395,
-   "dfn": -0.09587,
+   "atk": 0.01374,
+   "dfn": -0.1374,
    "w": 3,
    "d": 1,
-   "l": 4,
-   "gp": 8
+   "l": 5,
+   "gp": 9
   },
   "Bradford City": {
    "atk": -0.08416,
@@ -547,12 +547,12 @@
    "gp": 9
   },
   "Huddersfield Town": {
-   "atk": 0.13266,
-   "dfn": 0.11355,
-   "w": 5,
+   "atk": 0.17419,
+   "dfn": 0.09586,
+   "w": 6,
    "d": 2,
    "l": 2,
-   "gp": 9
+   "gp": 10
   },
   "Plymouth Argyle": {
    "atk": -0.08625,
@@ -563,8 +563,8 @@
    "gp": 10
   }
  },
- "last_date": "2026-11-24",
- "updated_from": 108,
+ "last_date": "2026-11-26",
+ "updated_from": 109,
  "espn_team_names": {
   "3802": "AFC Wimbledon",
   "390": "Milton Keynes Dons",
@@ -592,9 +592,6 @@
   "307": "Plymouth Argyle"
  },
  "applied_on_last_date": [
-  "401880823",
-  "401880824",
-  "401880829",
-  "401880838"
+  "401880728"
  ]
 }

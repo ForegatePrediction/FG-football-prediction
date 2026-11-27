@@ -1,14 +1,14 @@
 {
- "mu": 0.08502,
- "hfa": 0.32566,
+ "mu": 0.08553,
+ "hfa": 0.32782,
  "teams": {
   "Atletico Nacional": {
-   "atk": 0.44512,
-   "dfn": 0.29078,
-   "w": 160,
+   "atk": 0.47753,
+   "dfn": 0.2926,
+   "w": 161,
    "d": 104,
    "l": 78,
-   "gp": 342
+   "gp": 343
   },
   "Once Caldas": {
    "atk": -0.11783,
@@ -59,12 +59,12 @@
    "gp": 179
   },
   "Independiente Medellin": {
-   "atk": 0.26475,
-   "dfn": 0.20369,
+   "atk": 0.26293,
+   "dfn": 0.17128,
    "w": 131,
    "d": 98,
-   "l": 88,
-   "gp": 317
+   "l": 89,
+   "gp": 318
   },
   "Union Magdalena": {
    "atk": -0.14846,
@@ -283,8 +283,8 @@
    "gp": 11
   }
  },
- "last_date": "2026-11-25",
- "updated_from": 114,
+ "last_date": "2026-11-26",
+ "updated_from": 115,
  "espn_team_names": {
   "6137": "Atlético Bucaramanga",
   "2690": "Independiente Medellin",
@@ -308,7 +308,6 @@
   "10309": "Jaguares de Córdoba"
  },
  "applied_on_last_date": [
-  "401934687",
-  "401934706"
+  "401934705"
  ]
 }
