@@ -1,6 +1,6 @@
 {
- "mu": 0.29455,
- "hfa": 0.23626,
+ "mu": 0.29592,
+ "hfa": 0.23815,
  "teams": {
   "Bayern Munich": {
    "atk": 0.68782,
@@ -43,12 +43,12 @@
    "gp": 384
   },
   "Borussia Monchengladbach": {
-   "atk": 0.04499,
-   "dfn": -0.1052,
+   "atk": 0.09862,
+   "dfn": -0.13351,
    "w": 122,
-   "d": 76,
+   "d": 77,
    "l": 115,
-   "gp": 313
+   "gp": 314
   },
   "FC Augsburg": {
    "atk": 0.16864,
@@ -99,12 +99,12 @@
    "gp": 102
   },
   "Werder Bremen": {
-   "atk": 0.08494,
-   "dfn": 0.1469,
+   "atk": 0.11325,
+   "dfn": 0.09327,
    "w": 110,
-   "d": 91,
+   "d": 92,
    "l": 151,
-   "gp": 352
+   "gp": 353
   },
   "FC Schalke 04": {
    "atk": -0.43111,
@@ -283,8 +283,8 @@
    "gp": 12
   }
  },
- "last_date": "2026-11-22",
- "updated_from": 63,
+ "last_date": "2026-11-27",
+ "updated_from": 64,
  "espn_team_names": {
   "132": "Bayern Munich",
   "598": "Union Berlin",
@@ -306,7 +306,6 @@
   "7911": "1899 Hoffenheim"
  },
  "applied_on_last_date": [
-  "401884730",
-  "401884733"
+  "401884720"
  ]
 }

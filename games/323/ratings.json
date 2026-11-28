@@ -1,6 +1,6 @@
 {
- "mu": 0.28043,
- "hfa": 0.11461,
+ "mu": 0.27955,
+ "hfa": 0.11194,
  "teams": {
   "ATK": {
    "atk": 0.11401,
@@ -131,12 +131,12 @@
    "gp": 37
   },
   "Inter Kashi": {
-   "atk": -0.25213,
-   "dfn": -0.13836,
+   "atk": -0.29221,
+   "dfn": -0.12554,
    "w": 3,
    "d": 5,
-   "l": 10,
-   "gp": 18
+   "l": 11,
+   "gp": 19
   },
   "SC Delhi": {
    "atk": -0.12216,
@@ -195,12 +195,12 @@
    "gp": 4
   },
   "Churchill Brothers": {
-   "atk": -0.063,
-   "dfn": -0.14672,
-   "w": 1,
+   "atk": -0.07582,
+   "dfn": -0.10664,
+   "w": 2,
    "d": 0,
    "l": 4,
-   "gp": 5
+   "gp": 6
   },
   "Mumbai City FC": {
    "atk": -0.07948,
@@ -251,8 +251,8 @@
    "gp": 4
   }
  },
- "updated_from": 955,
- "last_date": "2026-11-24",
+ "updated_from": 956,
+ "last_date": "2026-11-27",
  "espn_team_names": {
   "18851": "Bengaluru FC",
   "131703": "Sporting Club Delhi",
@@ -269,6 +269,6 @@
   "8897": "East Bengal FC"
  },
  "applied_on_last_date": [
-  "401925407"
+  "401925406"
  ]
 }

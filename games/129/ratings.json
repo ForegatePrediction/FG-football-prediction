@@ -1,6 +1,6 @@
 {
- "mu": 0.14083,
- "hfa": 0.35661,
+ "mu": 0.14029,
+ "hfa": 0.35393,
  "teams": {
   "All Boys": {
    "atk": -0.46983,
@@ -203,12 +203,12 @@
    "gp": 141
   },
   "Atlanta": {
-   "atk": -0.0952,
-   "dfn": 0.28102,
+   "atk": -0.13537,
+   "dfn": 0.27295,
    "w": 55,
    "d": 43,
-   "l": 48,
-   "gp": 146
+   "l": 49,
+   "gp": 147
   },
   "Deportivo Madryn": {
    "atk": 0.14352,
@@ -379,12 +379,12 @@
    "gp": 29
   },
   "Ciudad de Bolívar": {
-   "atk": -0.17315,
-   "dfn": 0.11027,
-   "w": 13,
+   "atk": -0.16508,
+   "dfn": 0.15044,
+   "w": 14,
    "d": 10,
    "l": 12,
-   "gp": 35
+   "gp": 36
   },
   "Midland": {
    "atk": 0.03454,
@@ -459,8 +459,8 @@
    "gp": 7
   }
  },
- "last_date": "2026-11-23",
- "updated_from": 137,
+ "last_date": "2026-11-27",
+ "updated_from": 138,
  "espn_team_names": {
   "10145": "Acassuso",
   "11990": "Mitre (Santiago del Estero)",
@@ -500,6 +500,6 @@
   "10374": "Patronato"
  },
  "applied_on_last_date": [
-  "401933216"
+  "401933218"
  ]
 }

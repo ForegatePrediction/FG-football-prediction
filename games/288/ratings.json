@@ -1,6 +1,6 @@
 {
- "mu": 0.23597,
- "hfa": 0.17626,
+ "mu": 0.23539,
+ "hfa": 0.1757,
  "teams": {
   "Sekhukhune United": {
    "atk": -0.0869,
@@ -51,12 +51,12 @@
    "gp": 98
   },
   "Stellenbosch": {
-   "atk": -0.13874,
-   "dfn": 0.27406,
-   "w": 38,
+   "atk": -0.14714,
+   "dfn": 0.30031,
+   "w": 39,
    "d": 31,
    "l": 28,
-   "gp": 97
+   "gp": 98
   },
   "Orlando Pirates": {
    "atk": 0.564,
@@ -235,16 +235,16 @@
    "gp": 4
   },
   "TS Galaxy FC": {
-   "atk": -0.09528,
-   "dfn": 0.02671,
+   "atk": -0.12153,
+   "dfn": 0.03511,
    "w": 0,
    "d": 1,
-   "l": 2,
-   "gp": 3
+   "l": 3,
+   "gp": 4
   }
  },
- "last_date": "2026-11-24",
- "updated_from": 26,
+ "last_date": "2026-11-27",
+ "updated_from": 27,
  "espn_team_names": {
   "7085": "Orlando Pirates",
   "22348": "Durban City",
@@ -264,7 +264,6 @@
   "131361": "Siwelele"
  },
  "applied_on_last_date": [
-  "401902004",
-  "401902008"
+  "401902007"
  ]
 }
